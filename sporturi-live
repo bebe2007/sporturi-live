@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Evenimente Live</title>
+
+<style>
+body {
+    margin: 0;
+    background: #080808;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.event {
+    background: #151515;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 14px;
+    display: grid;
+    grid-template-columns: 90px 1fr auto;
+    gap: 18px;
+    align-items: center;
+}
+
+.time {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00d084;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.meta {
+    margin-top: 6px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.btn {
+    background: #e50914;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    border-radius: 999px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.loading,
+.error {
+    text-align: center;
+    padding: 40px;
+    color: #bbb;
+}
+
+@media(max-width:700px) {
+    .event {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Evenimente Live</h1>
+    <div class="subtitle">Orele sunt afișate automat după ora României.</div>
+
+    <div id="events" class="loading">Se încarcă evenimentele...</div>
+</div>
+
+<script>
+const EVENTS_URL = "https://streamtpday1.xyz/eventos.json";
+
+const translations = {
+    "Fútbol": "Fotbal",
+    "Other": "Altele",
+    "pronto": "În curând",
+    "en vivo": "Live",
+    "finalizado": "Finalizat"
+};
+
+function translate(text) {
+    return translations[text] || text || "Necunoscut";
+}
+
+function cleanTitle(title) {
+    return title
+        .replace("Copa Mundial de la FIFA", "Cupa Mondială FIFA")
+        .replace("Primera División", "Prima Divizie")
+        .replace("EE. UU.", "SUA")
+        .replace("Cánada", "Canada")
+        .replace("Fútbol", "Fotbal");
+}
+
+function colombiaTimeToRomania(time) {
+    const [hour, minute] = time.split(":").map(Number);
+
+    const now = new Date();
+
+    const colombiaDate = new Date(Date.UTC(
+        now.getUTCFullYear(),
+        now.getUTCMonth(),
+        now.getUTCDate(),
+        hour + 5,
+        minute
+    ));
+
+    return colombiaDate.toLocaleTimeString("ro-RO", {
+        timeZone: "Europe/Bucharest",
+        hour: "2-digit",
+        minute: "2-digit"
+    });
+}
+
+async function loadEvents() {
+    const box = document.getElementById("events");
+
+    try {
+        const response = await fetch(EVENTS_URL, { cache: "no-store" });
+
+        if (!response.ok) {
+            throw new Error("Nu s-a putut încărca lista de evenimente.");
+        }
+
+        const events = await response.json();
+
+        if (!Array.isArray(events) || events.length === 0) {
+            box.innerHTML = "<div class='error'>Nu există evenimente disponibile momentan.</div>";
+            return;
+        }
+
+        box.className = "";
+
+        box.innerHTML = events.map(event => {
+            const localTime = colombiaTimeToRomania(event.time);
+            const title = cleanTitle(event.title);
+            const category = translate(event.category);
+            const status = translate(event.status);
+
+            return `
+                <div class="event">
+                    <div class="time">${localTime}</div>
+
+                    <div>
+                        <div class="title">${title}</div>
+                        <div class="meta">
+                            Categorie: ${category} • Status: ${status}
+                        </div>
+                    </div>
+
+                    <a class="btn" href="${event.link}" target="_blank" rel="noopener noreferrer">
+                        Deschide
+                    </a>
+                </div>
+            `;
+        }).join("");
+
+    } catch (error) {
+        box.innerHTML = "<div class='error'>Evenimentele nu au putut fi încărcate.</div>";
+    }
+}
+
+loadEvents();
+</script>
+
+</body>
+</html>
