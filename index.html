@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ro">
 <head>
 <meta charset="UTF-8">
@@ -12,14 +12,16 @@
 }
 
 :root {
-    --bg: #07090f;
-    --card: #111522;
-    --card2: #151a2a;
-    --border: rgba(255,255,255,.10);
-    --text: #ffffff;
-    --muted: #9aa4b7;
-    --accent: #24e0a4;
-    --danger: #ff3b45;
+    --bg: #f4f7fb;
+    --panel: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --blue: #007bff;
+    --blue-dark: #0056b3;
+    --green: #28a745;
+    --green-dark: #218838;
+    --shadow: 0 18px 45px rgba(15, 23, 42, .10);
 }
 
 html,
@@ -27,239 +29,267 @@ body {
     margin: 0;
     min-height: 100%;
     background:
-        radial-gradient(circle at top left, rgba(36,224,164,.16), transparent 30%),
-        radial-gradient(circle at top right, rgba(255,59,69,.14), transparent 28%),
+        radial-gradient(circle at top left, rgba(0,123,255,.10), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(40,167,69,.10), transparent 28%),
         var(--bg);
     color: var(--text);
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    padding: 24px 12px 60px;
+    padding: 24px 12px 70px;
 }
 
 .page {
-    max-width: 980px;
+    width: min(1180px, 100%);
     margin: 0 auto;
 }
 
 .header {
-    margin-bottom: 26px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
     margin: 0;
-    font-size: clamp(32px, 6vw, 58px);
-    letter-spacing: -2px;
+    font-size: clamp(28px, 4vw, 46px);
+    letter-spacing: -1px;
 }
 
 .header p {
-    margin: 10px 0 0;
+    margin: 8px 0 0;
     color: var(--muted);
     font-size: 16px;
 }
 
-.events {
-    display: grid;
-    gap: 14px;
-}
-
-.card {
-    background: linear-gradient(145deg, var(--card), var(--card2));
-    border: 1px solid var(--border);
-    border-radius: 22px;
+.table-container {
+    width: 100%;
+    background: var(--panel);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--line);
     overflow: hidden;
-    box-shadow: 0 18px 45px rgba(0,0,0,.30);
 }
 
-.card-main {
+.table-head,
+.event-row {
     display: grid;
-    grid-template-columns: 150px 1fr 120px;
-    gap: 18px;
+    grid-template-columns: 70px 140px 110px 1.25fr 2fr 120px;
     align-items: center;
-    padding: 18px;
-    cursor: pointer;
 }
 
-.competition {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--muted);
+.table-head {
+    background: #f9fafb;
+    border-bottom: 1px solid var(--line);
+    color: #374151;
     font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
+.th,
+.td {
+    padding: 16px;
+}
+
+.event-row {
+    cursor: pointer;
+    background: #ffffff;
+    border-bottom: 1px solid var(--line);
+    transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+
+.event-row:hover {
+    background: var(--blue);
+    color: #ffffff;
+}
+
+.event-row:hover .muted,
+.event-row:hover .competition-name {
+    color: rgba(255,255,255,.88);
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.date {
     font-weight: 800;
-    margin-bottom: 10px;
 }
 
-.competition img {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-}
-
-.teams {
-    display: flex;
+.time {
+    display: inline-flex;
     align-items: center;
-    gap: 14px;
+    justify-content: center;
+    min-width: 74px;
+    padding: 8px 10px;
+    border-radius: 999px;
+    background: rgba(0,123,255,.10);
+    color: var(--blue);
+    font-weight: 900;
 }
 
-.team {
+.event-row:hover .time {
+    background: rgba(255,255,255,.20);
+    color: #fff;
+}
+
+.logo-line,
+.teams-line {
     display: flex;
     align-items: center;
     gap: 9px;
     min-width: 0;
 }
 
-.team img {
-    width: 42px;
-    height: 42px;
+.logo {
+    width: 24px;
+    height: 24px;
     object-fit: contain;
-    background: rgba(255,255,255,.07);
-    border-radius: 12px;
-    padding: 5px;
+    flex: 0 0 auto;
 }
 
-.team span {
-    font-size: 18px;
-    font-weight: 900;
-    white-space: nowrap;
+.flag-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    background: rgba(0,0,0,.03);
+    border-radius: 8px;
+    padding: 2px;
+    flex: 0 0 auto;
+}
+
+.competition-name,
+.event-title {
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 800;
 }
 
-.vs {
+.event-title {
+    color: inherit;
+}
+
+.muted {
     color: var(--muted);
-    font-size: 12px;
-    font-weight: 900;
+    font-size: 13px;
+    margin-top: 3px;
 }
 
-.title {
-    margin-top: 10px;
-    color: #dfe5ef;
-    font-size: 14px;
-    line-height: 1.45;
-}
-
-.time-box {
-    text-align: center;
-}
-
-.time {
-    font-size: 30px;
-    font-weight: 950;
-    letter-spacing: -1px;
-}
-
-.status {
-    display: inline-block;
-    margin-top: 7px;
-    padding: 6px 10px;
+.live-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    color: #fff;
     border-radius: 999px;
-    background: rgba(36,224,164,.12);
-    color: var(--accent);
-    border: 1px solid rgba(36,224,164,.22);
-    font-size: 12px;
+    padding: 8px 12px;
+    font-size: 13px;
     font-weight: 900;
+    white-space: nowrap;
 }
 
-.action {
-    text-align: right;
-}
-
-.open-btn {
-    border: 0;
-    border-radius: 999px;
-    padding: 11px 15px;
-    color: #06100c;
-    background: var(--accent);
-    font-weight: 950;
-    cursor: pointer;
-}
-
-.sources {
+.links-row {
     display: none;
-    padding: 0 18px 18px;
+    background: #eef4f9;
+    border-bottom: 1px solid var(--line);
 }
 
-.card.active .sources {
+.links-row.active {
     display: block;
 }
 
-.sources-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.links-inner {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    border-top: 1px solid var(--border);
-    padding-top: 14px;
 }
 
 .source-btn {
-    border: 1px solid rgba(255,255,255,.10);
-    background: rgba(255,255,255,.06);
-    color: #fff;
-    border-radius: 14px;
-    padding: 12px;
-    font-weight: 900;
+    border: 0;
     cursor: pointer;
-    text-align: center;
+    padding: 9px 14px;
+    border-radius: 8px;
+    background: var(--blue);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 14px;
+    transition: background .2s ease, transform .2s ease;
 }
 
 .source-btn:hover {
-    background: rgba(36,224,164,.14);
-    border-color: rgba(36,224,164,.30);
+    background: var(--blue-dark);
+    transform: translateY(-1px);
+}
+
+.loading,
+.error {
+    padding: 40px 16px;
+    text-align: center;
+    color: var(--muted);
 }
 
 .modal {
     position: fixed;
     inset: 0;
-    z-index: 9999;
+    z-index: 99999;
     display: none;
-    background: rgba(0,0,0,.78);
-    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+    background: rgba(17,24,39,.74);
     padding: 16px;
 }
 
 .modal.active {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .modal-box {
-    width: min(860px, 100%);
-    background: #07090f;
-    border: 1px solid rgba(255,255,255,.14);
-    border-radius: 20px;
+    width: min(760px, 100%);
+    background: #ffffff;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 35px 100px rgba(0,0,0,.65);
+    box-shadow: 0 30px 90px rgba(0,0,0,.35);
 }
 
 .modal-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     padding: 12px 14px;
-    background: #101522;
-    border-bottom: 1px solid rgba(255,255,255,.10);
+    background: #f9fafb;
+    border-bottom: 1px solid var(--line);
 }
 
 .modal-title {
     font-size: 14px;
     font-weight: 900;
-    white-space: nowrap;
+    color: var(--text);
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .close-btn {
     border: 0;
-    border-radius: 999px;
-    background: #fff;
-    color: #000;
+    background: var(--green);
+    color: #fff;
+    border-radius: 8px;
     padding: 8px 12px;
     font-weight: 900;
     cursor: pointer;
+}
+
+.close-btn:hover {
+    background: var(--green-dark);
 }
 
 .player {
@@ -275,38 +305,71 @@ body {
     display: block;
 }
 
-.loading,
-.error {
-    color: var(--muted);
-    text-align: center;
-    padding: 40px 15px;
+@media (max-width: 900px) {
+    .table-head {
+        display: none;
+    }
+
+    .event-row {
+        grid-template-columns: 46px 1fr auto;
+        grid-template-areas:
+            "icon event live"
+            "icon info info";
+        gap: 8px;
+        padding: 14px;
+    }
+
+    .event-row .td {
+        padding: 0;
+    }
+
+    .td-icon {
+        grid-area: icon;
+    }
+
+    .td-date,
+    .td-time,
+    .td-competition {
+        display: none;
+    }
+
+    .td-event {
+        grid-area: event;
+    }
+
+    .td-live {
+        grid-area: live;
+    }
+
+    .event-title {
+        white-space: normal;
+        line-height: 1.35;
+    }
+
+    .mobile-info {
+        display: block;
+        grid-area: info;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .event-row:hover .mobile-info {
+        color: rgba(255,255,255,.88);
+    }
+
+    .links-inner {
+        padding: 14px;
+    }
+
+    .source-btn {
+        width: 100%;
+    }
 }
 
-@media(max-width: 760px) {
-    .card-main {
-        grid-template-columns: 1fr;
-        gap: 14px;
-    }
-
-    .time-box,
-    .action {
-        text-align: left;
-    }
-
-    .teams {
-        flex-wrap: wrap;
-    }
-
-    .sources-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .open-btn {
-        width: 100%;
-    }
-
-    .modal-box {
-        width: 100%;
+@media (min-width: 901px) {
+    .mobile-info {
+        display: none;
     }
 }
 </style>
@@ -315,23 +378,35 @@ body {
 <body>
 
 <div class="page">
+
     <header class="header">
         <h1>Sporturi Live</h1>
-        <p>Alege un eveniment, vezi sursele disponibile și deschide playerul într-o fereastră modernă.</p>
+        <p>Evenimente sportive afișate din fișierul <strong>eventos.json</strong>. Apasă pe un eveniment pentru a vedea sursele video.</p>
     </header>
 
-    <main id="events" class="events">
-        <div class="loading">Se încarcă evenimentele...</div>
-    </main>
+    <section class="table-container">
+        <div class="table-head">
+            <div class="th">#</div>
+            <div class="th">Dată</div>
+            <div class="th">Ora</div>
+            <div class="th">Competiție</div>
+            <div class="th">Eveniment</div>
+            <div class="th">Live</div>
+        </div>
+
+        <div id="events">
+            <div class="loading">Se încarcă evenimentele...</div>
+        </div>
+    </section>
+
 </div>
 
 <div class="modal" id="videoModal">
     <div class="modal-box">
         <div class="modal-top">
             <div class="modal-title" id="modalTitle">Player video</div>
-            <button class="close-btn" onclick="closeModal()">Închide ✕</button>
+            <button class="close-btn" type="button" onclick="closeModal()">Închide ✕</button>
         </div>
-
         <div class="player" id="modalPlayer"></div>
     </div>
 </div>
@@ -339,12 +414,14 @@ body {
 <script>
 const EVENTS_URL = "eventos.json";
 
-const eventsContainer = document.getElementById("events");
+const eventsBox = document.getElementById("events");
 const modal = document.getElementById("videoModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalPlayer = document.getElementById("modalPlayer");
 
-function txt(value, fallback = "") {
+let activeLinks = null;
+
+function text(value, fallback = "") {
     return value === undefined || value === null || value === "" ? fallback : String(value);
 }
 
@@ -356,12 +433,12 @@ function attr(value) {
         .replaceAll(">", "&gt;");
 }
 
-function img(src, alt) {
+function img(src, alt, className = "logo") {
     if (!src) return "";
-    return `<img src="${attr(src)}" alt="${attr(alt)}" loading="lazy" onerror="this.style.display='none'">`;
+    return `<img class="${className}" src="${attr(src)}" alt="${attr(alt)}" loading="lazy" onerror="this.style.display='none'">`;
 }
 
-function streams(event) {
+function getStreams(event) {
     if (Array.isArray(event.streams) && event.streams.length) return event.streams;
 
     if (event.link) {
@@ -374,88 +451,103 @@ function streams(event) {
     return [];
 }
 
-function renderEvent(event) {
-    const title = txt(event.title, "Eveniment fără titlu");
-    const competition = txt(event.competition || event.category, "Competiție");
-    const competitionLogo = txt(event.competition_logo);
+function renderEvent(event, index) {
+    const eventId = `event-${index}`;
 
-    const team1 = txt(event.team1 || event.home_team || event.homeTeam, "Echipa 1");
-    const team2 = txt(event.team2 || event.away_team || event.awayTeam, "Echipa 2");
+    const sportIcon = text(event.icon, "⚽");
+    const date = text(event.date, "12 iunie 2026");
+    const time = text(event.time, "--:--");
 
-    const team1Logo = txt(event.team1_logo || event.home_logo || event.homeLogo);
-    const team2Logo = txt(event.team2_logo || event.away_logo || event.awayLogo);
+    const competition = text(event.competition || event.category, "Competiție");
+    const competitionLogo = text(event.competition_logo);
 
-    const time = txt(event.time, "--:--");
-    const status = txt(event.status, "Status");
-    const list = streams(event);
+    const title = text(event.title, "Eveniment fără titlu");
 
-    const sourceButtons = list.map((source, index) => {
-        const name = txt(source.name, `Sursa ${index + 1}`);
-        const url = txt(source.url || source.link, "#");
+    const team1 = text(event.team1 || event.home_team || event.homeTeam, "");
+    const team2 = text(event.team2 || event.away_team || event.awayTeam, "");
+
+    const team1Logo = text(event.team1_logo || event.home_logo || event.homeLogo);
+    const team2Logo = text(event.team2_logo || event.away_logo || event.awayLogo);
+
+    const status = text(event.status, "Live");
+    const language = text(event.language, "");
+
+    const streams = getStreams(event);
+
+    const sourceButtons = streams.map((source, i) => {
+        const name = text(source.name, `Sursa ${i + 1}`);
+        const url = text(source.url || source.link, "#");
 
         return `
-            <button class="source-btn" onclick="openModal('${attr(url)}', '${attr(title)} — ${attr(name)}')">
+            <button class="source-btn" type="button" onclick="openModal('${attr(url)}', '${attr(title)} — ${attr(name)}')">
                 ${name}
             </button>
         `;
     }).join("");
 
+    const teamsHtml = team1 || team2 ? `
+        <div class="teams-line">
+            ${img(team1Logo, team1, "flag-logo")}
+            <span>${team1}</span>
+            <strong>vs</strong>
+            <span>${team2}</span>
+            ${img(team2Logo, team2, "flag-logo")}
+        </div>
+    ` : title;
+
     return `
-        <article class="card">
-            <div class="card-main" onclick="toggleCard(this.parentElement)">
-                <div>
-                    <div class="competition">
-                        ${img(competitionLogo, competition)}
-                        <span>${competition}</span>
-                    </div>
+        <div class="event-row" onclick="toggleLinks('${eventId}')">
+            <div class="td td-icon icon">${sportIcon}</div>
 
-                    <div class="teams">
-                        <div class="team">
-                            ${img(team1Logo, team1)}
-                            <span>${team1}</span>
-                        </div>
+            <div class="td td-date date">${date}</div>
 
-                        <div class="vs">VS</div>
+            <div class="td td-time">
+                <span class="time">${time}</span>
+            </div>
 
-                        <div class="team">
-                            ${img(team2Logo, team2)}
-                            <span>${team2}</span>
-                        </div>
-                    </div>
-
-                    <div class="title">${title}</div>
-                </div>
-
-                <div class="time-box">
-                    <div class="time">${time}</div>
-                    <div class="status">${status}</div>
-                </div>
-
-                <div class="action">
-                    <button class="open-btn" type="button">Surse video</button>
+            <div class="td td-competition">
+                <div class="logo-line">
+                    ${img(competitionLogo, competition)}
+                    <span class="competition-name">${competition}</span>
                 </div>
             </div>
 
-            <div class="sources">
-                <div class="sources-grid">
-                    ${sourceButtons || "<div class='error'>Nu există surse video.</div>"}
+            <div class="td td-event">
+                <div class="event-title">${teamsHtml}</div>
+                <div class="muted">${title}${language ? " • " + language : ""}</div>
+                <div class="mobile-info">
+                    ${date} • ${time} • ${competition}
                 </div>
             </div>
-        </article>
+
+            <div class="td td-live">
+                <span class="live-pill">${status}</span>
+            </div>
+        </div>
+
+        <div class="links-row" id="${eventId}">
+            <div class="links-inner">
+                ${sourceButtons || "<span class='muted'>Nu există surse video disponibile.</span>"}
+            </div>
+        </div>
     `;
 }
 
-function toggleCard(card) {
-    document.querySelectorAll(".card").forEach(item => {
-        if (item !== card) item.classList.remove("active");
-    });
+function toggleLinks(id) {
+    const current = document.getElementById(id);
 
-    card.classList.toggle("active");
+    if (activeLinks && activeLinks !== current) {
+        activeLinks.classList.remove("active");
+    }
+
+    current.classList.toggle("active");
+    activeLinks = current.classList.contains("active") ? current : null;
 }
 
 function openModal(url, title) {
-    modalTitle.textContent = title;
+    event.stopPropagation();
 
+    modalTitle.textContent = title;
     modalPlayer.innerHTML = `
         <iframe
             src="${url}"
@@ -494,17 +586,17 @@ async function loadEvents() {
         const events = await response.json();
 
         if (!Array.isArray(events) || !events.length) {
-            eventsContainer.innerHTML = `<div class="error">Nu există evenimente disponibile.</div>`;
+            eventsBox.innerHTML = `<div class="error">Nu există evenimente disponibile.</div>`;
             return;
         }
 
-        eventsContainer.innerHTML = events.map(renderEvent).join("");
+        eventsBox.innerHTML = events.map(renderEvent).join("");
 
     } catch {
-        eventsContainer.innerHTML = `
+        eventsBox.innerHTML = `
             <div class="error">
                 Evenimentele nu au putut fi încărcate.<br>
-                Verifică fișierul <strong>eventos.json</strong>.
+                Verifică dacă fișierul <strong>eventos.json</strong> există lângă <strong>index.html</strong>.
             </div>
         `;
     }
@@ -514,4 +606,4 @@ loadEvents();
 </script>
 
 </body>
-</html>  
+</html>
