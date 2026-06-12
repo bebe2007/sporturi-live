@@ -7,32 +7,34 @@
 <title>Sporturi Live</title>
 
 <style>
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 :root {
     --bg: #030712;
-    --panel: rgba(8, 13, 26, .78);
-    --panel-soft: rgba(15, 23, 42, .64);
-    --line: rgba(255,255,255,.10);
+    --card: rgba(10, 15, 28, .88);
+    --line: rgba(255,255,255,.11);
     --text: #f8fafc;
     --muted: #94a3b8;
     --green: #00e18a;
     --blue: #1687ff;
+    --red: #ef4444;
+    --yellow: #fbbf24;
 }
 
-html,
-body {
+html, body {
     margin: 0;
     min-height: 100%;
     color: var(--text);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background:
-        radial-gradient(circle at 12% 8%, rgba(0,225,138,.20), transparent 28%),
-        radial-gradient(circle at 88% 10%, rgba(22,135,255,.24), transparent 30%),
-        radial-gradient(circle at 50% 100%, rgba(0,225,138,.10), transparent 38%),
+        linear-gradient(180deg, rgba(3,7,18,.40), rgba(3,7,18,.96)),
+        radial-gradient(circle at 80% 10%, rgba(22,135,255,.26), transparent 28%),
+        radial-gradient(circle at 10% 15%, rgba(0,225,138,.20), transparent 26%),
         #030712;
+}
+
+body {
+    padding: 28px 14px 60px;
 }
 
 body::before {
@@ -40,53 +42,41 @@ body::before {
     position: fixed;
     inset: 0;
     background:
-        linear-gradient(180deg, rgba(3,7,18,.28), rgba(3,7,18,.92)),
+        linear-gradient(180deg, rgba(3,7,18,.10), rgba(3,7,18,.92)),
         url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1800&q=80") center top / cover no-repeat;
-    opacity: .28;
-    z-index: -2;
-}
-
-body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background:
-        radial-gradient(circle at top, rgba(255,255,255,.05), transparent 38%),
-        linear-gradient(180deg, transparent, #030712 82%);
+    opacity: .32;
     z-index: -1;
 }
 
-body {
-    padding: 24px 12px 48px;
-}
-
 .page {
-    width: min(1050px, 100%);
+    width: min(1180px, 100%);
     margin: 0 auto;
 }
 
 .topbar {
     display: flex;
     justify-content: space-between;
+    gap: 14px;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 38px;
+    margin-bottom: 42px;
 }
 
-.brand,
-.top-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    background: rgba(15,23,42,.64);
+.brand, .top-pill {
+    background: rgba(15,23,42,.72);
     border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 10px 14px;
-    backdrop-filter: blur(16px);
-    font-weight: 900;
+    backdrop-filter: blur(18px);
+    border-radius: 15px;
 }
 
-.brand span:last-child {
+.brand {
+    padding: 13px 18px;
+    font-weight: 950;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.brand .live {
     color: var(--green);
 }
 
@@ -96,173 +86,246 @@ body {
 }
 
 .top-pill {
+    padding: 12px 14px;
     color: #cbd5e1;
-    font-size: 14px;
-}
-
-.dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--green);
-    box-shadow: 0 0 18px var(--green);
+    font-weight: 750;
 }
 
 .hero {
-    margin-bottom: 30px;
-    padding-left: 22px;
-    border-left: 4px solid var(--green);
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 28px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 118px;
+    border-radius: 999px;
+    background: var(--green);
+    box-shadow: 0 0 32px rgba(0,225,138,.75);
 }
 
 .hero h1 {
     margin: 0;
-    font-size: clamp(40px, 6vw, 66px);
+    font-size: clamp(46px, 7vw, 78px);
+    letter-spacing: -4px;
     line-height: .95;
-    letter-spacing: -3px;
 }
 
 .hero p {
-    margin: 12px 0 0;
-    max-width: 720px;
+    margin: 15px 0 0;
+    max-width: 760px;
     color: #cbd5e1;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.45;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 190px 190px;
+    gap: 12px;
+    margin: 28px 0;
+}
+
+.control {
+    width: 100%;
+    border: 1px solid var(--line);
+    background: rgba(15,23,42,.72);
+    color: #fff;
+    border-radius: 15px;
+    padding: 14px 15px;
+    outline: none;
+    backdrop-filter: blur(18px);
+    font-weight: 800;
+}
+
+.control::placeholder {
+    color: #94a3b8;
 }
 
 .events {
     display: grid;
-    gap: 14px;
+    gap: 22px;
 }
 
 .event-card {
+    position: relative;
     overflow: hidden;
-    border-radius: 20px;
-    background:
-        linear-gradient(135deg, rgba(15,23,42,.82), rgba(2,6,23,.76));
-    border: 1px solid rgba(255,255,255,.10);
-    box-shadow: 0 18px 45px rgba(0,0,0,.30);
-    backdrop-filter: blur(18px);
+    border-radius: 24px;
+    background: linear-gradient(145deg, rgba(15,23,42,.94), rgba(2,6,23,.90));
+    border: 1px solid rgba(255,255,255,.12);
+    box-shadow: 0 28px 80px rgba(0,0,0,.44);
+}
+
+.event-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    background: var(--blue);
+    box-shadow: 0 0 30px rgba(22,135,255,.70);
+}
+
+.event-card.is-live::before {
+    background: var(--green);
+    box-shadow: 0 0 30px rgba(0,225,138,.90);
+    animation: pulseLine 1.4s infinite;
+}
+
+.event-card.is-ended {
+    opacity: .72;
+}
+
+@keyframes pulseLine {
+    0%, 100% { opacity: .7; }
+    50% { opacity: 1; }
 }
 
 .event-main {
     display: grid;
-    grid-template-columns: 135px 100px 1fr 38px;
-    gap: 16px;
+    grid-template-columns: 165px 135px 1fr 140px;
+    gap: 22px;
     align-items: center;
-    padding: 18px 20px;
+    padding: 28px 26px;
     cursor: pointer;
 }
 
-.event-card:hover {
-    border-color: rgba(0,225,138,.34);
+.date-box, .time-box {
+    min-height: 96px;
+    border-radius: 20px;
+    background: rgba(255,255,255,.045);
+    border: 1px solid rgba(255,255,255,.09);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 14px;
 }
 
-.date-box,
-.time-box {
-    background: transparent;
-    border: 0;
-    padding: 0;
+.date-icon, .time-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    background: rgba(0,225,138,.13);
+    color: var(--green);
+    font-size: 23px;
+    margin-bottom: 8px;
 }
 
-.date-icon,
 .time-icon {
-    display: inline;
-    background: transparent;
-    width: auto;
-    height: auto;
-    margin: 0 6px 0 0;
-    color: inherit;
-    font-size: 18px;
+    background: rgba(22,135,255,.13);
+    color: var(--blue);
 }
 
-.date-text,
-.time-text {
-    display: inline-flex;
-    align-items: center;
-    color: #dbeafe;
-    font-weight: 900;
-    font-size: 15px;
-    white-space: nowrap;
+.date-text {
+    color: var(--green);
+    font-weight: 950;
 }
 
 .time-text {
     color: var(--green);
-    font-size: 17px;
-}
-
-.match-wrap {
-    min-width: 0;
+    font-size: 21px;
+    font-weight: 950;
 }
 
 .match {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 13px;
+    justify-content: center;
+    gap: 24px;
     min-width: 0;
 }
 
 .team {
     display: flex;
     align-items: center;
-    gap: 9px;
+    gap: 14px;
     min-width: 0;
 }
 
-.team-logo,
-.competition-logo {
-    background: transparent;
-    border: 0;
-    padding: 0;
-    object-fit: contain;
-    flex: 0 0 auto;
-}
-
 .team-logo {
-    width: 34px;
-    height: 34px;
-    border-radius: 0;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 14px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.10);
+    padding: 5px;
 }
 
 .team-name {
-    font-size: clamp(20px, 2.5vw, 28px);
+    font-size: clamp(26px, 3vw, 36px);
     font-weight: 950;
-    letter-spacing: -.6px;
+    letter-spacing: -1px;
     white-space: nowrap;
 }
 
 .vs {
     color: #94a3b8;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 950;
     text-transform: uppercase;
 }
 
 .competition {
-    margin-top: 6px;
+    margin-top: 12px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 7px;
-    color: var(--muted);
-    font-size: 14px;
-    font-weight: 750;
+    gap: 9px;
+    color: #cbd5e1;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .competition-logo {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.state-box {
+    display: grid;
+    gap: 10px;
+    justify-items: end;
+}
+
+.state-pill {
+    padding: 9px 13px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 950;
+    background: rgba(22,135,255,.13);
+    color: #8bc6ff;
+    border: 1px solid rgba(22,135,255,.26);
+}
+
+.is-live .state-pill {
+    background: rgba(0,225,138,.13);
+    color: #8fffd4;
+    border-color: rgba(0,225,138,.32);
+}
+
+.is-ended .state-pill {
+    background: rgba(148,163,184,.12);
+    color: #cbd5e1;
+    border-color: rgba(148,163,184,.22);
 }
 
 .arrow {
-    width: 38px;
-    height: 38px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
     background: rgba(255,255,255,.055);
-    border: 1px solid rgba(255,255,255,.08);
     color: var(--green);
     display: grid;
     place-items: center;
-    font-size: 22px;
+    font-size: 26px;
     transition: .2s;
 }
 
@@ -272,11 +335,11 @@ body {
 
 .sources-panel {
     display: none;
-    margin: 0 18px 18px;
-    padding: 15px;
-    border-radius: 16px;
-    background: rgba(2,6,23,.46);
-    border: 1px solid rgba(255,255,255,.09);
+    margin: 0 24px 24px;
+    padding: 22px;
+    border-radius: 20px;
+    background: rgba(2,6,23,.45);
+    border: 1px solid rgba(255,255,255,.10);
 }
 
 .event-card.active .sources-panel {
@@ -284,52 +347,69 @@ body {
 }
 
 .sources-title {
-    color: #e2e8f0;
-    font-size: 14px;
-    font-weight: 900;
-    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 950;
+    margin-bottom: 16px;
 }
 
 .sources {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 9px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
 }
 
 .source-btn {
-    min-height: 44px;
-    border: 1px solid rgba(255,255,255,.11);
+    min-height: 58px;
+    border: 1px solid rgba(255,255,255,.12);
     background: rgba(255,255,255,.055);
     color: #fff;
-    border-radius: 12px;
-    padding: 10px 12px;
-    font-size: 14px;
+    border-radius: 13px;
+    padding: 12px 14px;
     font-weight: 850;
     cursor: pointer;
     text-align: left;
     transition: .18s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .source-btn:hover {
-    background: rgba(0,225,138,.14);
-    border-color: rgba(0,225,138,.38);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    background: rgba(0,225,138,.13);
+    border-color: rgba(0,225,138,.36);
+}
+
+.source-logo {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+.loading, .error {
+    padding: 40px;
+    text-align: center;
+    color: #cbd5e1;
+    background: rgba(15,23,42,.58);
+    border-radius: 20px;
 }
 
 .features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 26px;
-    border: 1px solid rgba(255,255,255,.09);
-    border-radius: 18px;
+    margin-top: 36px;
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 20px;
     overflow: hidden;
-    background: rgba(15,23,42,.48);
-    backdrop-filter: blur(16px);
+    background: rgba(15,23,42,.58);
+    backdrop-filter: blur(18px);
 }
 
 .feature {
-    padding: 16px;
-    border-right: 1px solid rgba(255,255,255,.07);
+    padding: 20px;
+    border-right: 1px solid rgba(255,255,255,.08);
 }
 
 .feature:last-child {
@@ -337,38 +417,33 @@ body {
 }
 
 .feature-icon {
-    background: transparent;
+    width: 46px;
+    height: 46px;
+    border-radius: 13px;
+    display: grid;
+    place-items: center;
+    background: rgba(0,225,138,.13);
     color: var(--green);
-    font-size: 24px;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .feature strong {
     display: block;
-    margin-bottom: 4px;
-    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .feature span {
     color: var(--muted);
-    font-size: 13px;
-    line-height: 1.35;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .footer {
-    margin-top: 22px;
+    margin-top: 26px;
     text-align: center;
     color: #64748b;
-    font-size: 13px;
-}
-
-.loading,
-.error {
-    padding: 34px;
-    text-align: center;
-    color: #cbd5e1;
-    background: rgba(15,23,42,.58);
-    border-radius: 18px;
+    font-size: 14px;
 }
 
 .modal {
@@ -388,12 +463,12 @@ body {
 }
 
 .modal-box {
-    width: min(760px, 100%);
-    background: rgba(15,23,42,.97);
-    border: 1px solid rgba(255,255,255,.15);
-    border-radius: 18px;
+    width: min(860px, 100%);
+    background: rgba(15,23,42,.96);
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 34px 90px rgba(0,0,0,.68);
+    box-shadow: 0 40px 120px rgba(0,0,0,.72);
 }
 
 .modal-top {
@@ -401,15 +476,15 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 14px;
-    padding: 12px 14px;
+    padding: 14px 16px;
     background: rgba(255,255,255,.055);
     border-bottom: 1px solid rgba(255,255,255,.10);
 }
 
 .modal-title {
     color: #fff;
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 15px;
+    font-weight: 950;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -419,7 +494,7 @@ body {
     border: 0;
     background: transparent;
     color: #cbd5e1;
-    font-size: 26px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -436,18 +511,43 @@ body {
     display: block;
 }
 
-@media(max-width: 860px) {
+.modal-sources {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 12px;
+    background: rgba(2,6,23,.55);
+    border-top: 1px solid rgba(255,255,255,.10);
+}
+
+.modal-source-btn {
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.055);
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px 11px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.modal-source-btn.active {
+    background: rgba(0,225,138,.16);
+    border-color: rgba(0,225,138,.42);
+    color: #8fffd4;
+}
+
+@media(max-width: 1050px) {
     .event-main {
         grid-template-columns: 1fr;
-        gap: 10px;
+        text-align: center;
+    }
+
+    .state-box {
+        justify-items: center;
     }
 
     .match {
         flex-wrap: wrap;
-    }
-
-    .arrow {
-        margin-left: auto;
     }
 
     .sources {
@@ -457,38 +557,45 @@ body {
     .features {
         grid-template-columns: 1fr 1fr;
     }
+
+    .controls {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media(max-width: 560px) {
     body {
-        padding: 18px 10px 40px;
+        padding: 18px 10px 44px;
     }
 
     .topbar {
         align-items: flex-start;
         flex-direction: column;
-        margin-bottom: 30px;
-    }
-
-    .top-pills {
-        flex-wrap: wrap;
     }
 
     .hero {
-        padding-left: 16px;
+        padding-left: 18px;
+    }
+
+    .hero::before {
+        height: 92px;
     }
 
     .event-main {
-        padding: 16px;
+        padding: 22px 18px;
+    }
+
+    .team {
+        justify-content: center;
     }
 
     .team-name {
-        font-size: 23px;
+        font-size: 28px;
     }
 
     .team-logo {
-        width: 30px;
-        height: 30px;
+        width: 54px;
+        height: 54px;
     }
 
     .sources {
@@ -501,11 +608,7 @@ body {
 
     .feature {
         border-right: 0;
-        border-bottom: 1px solid rgba(255,255,255,.07);
-    }
-
-    .feature:last-child {
-        border-bottom: 0;
+        border-bottom: 1px solid rgba(255,255,255,.08);
     }
 }
 </style>
@@ -516,21 +619,29 @@ body {
 <div class="page">
 
     <div class="topbar">
-        <div class="brand">
-            <span>📡</span>
-            <span>SPORTURI</span>
-            <span>LIVE</span>
-        </div>
-
+        <div class="brand">☊ <span>SPORTURI</span> <span class="live">LIVE</span></div>
         <div class="top-pills">
-            <div class="top-pill"><span class="dot"></span><span id="clock">--:--</span></div>
+            <div class="top-pill">● <span id="clock">--:--</span></div>
             <div class="top-pill">📅 <span id="today">--</span></div>
         </div>
     </div>
 
     <section class="hero">
         <h1>Sporturi Live</h1>
-        <p>Apasă pe un eveniment pentru a vedea sursele video disponibile.</p>
+        <p>Evenimente live, surse multiple și player rapid. Alege evenimentul și deschide transmisiunea.</p>
+    </section>
+
+    <section class="controls">
+        <input class="control" id="searchInput" placeholder="Caută eveniment, echipă sau competiție...">
+        <select class="control" id="categoryFilter">
+            <option value="all">Toate sporturile</option>
+        </select>
+        <select class="control" id="statusFilter">
+            <option value="all">Toate statusurile</option>
+            <option value="live">Live acum</option>
+            <option value="soon">Urmează</option>
+            <option value="ended">Terminate</option>
+        </select>
     </section>
 
     <main id="events" class="events">
@@ -538,29 +649,13 @@ body {
     </main>
 
     <section class="features">
-        <div class="feature">
-            <div class="feature-icon">📡</div>
-            <strong>Transmisiuni live</strong>
-            <span>Urmărește evenimentele în timp real.</span>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">▶</div>
-            <strong>Multiple surse</strong>
-            <span>Alege din mai multe surse video.</span>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">💻</div>
-            <strong>Compatibil oriunde</strong>
-            <span>Funcționează pe orice dispozitiv.</span>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">🛡️</div>
-            <strong>Rapid și curat</strong>
-            <span>Interfață fină, simplă și modernă.</span>
-        </div>
+        <div class="feature"><div class="feature-icon">☊</div><strong>Transmisiuni live</strong><span>Urmărește evenimentele în timp real.</span></div>
+        <div class="feature"><div class="feature-icon">▶</div><strong>Multiple surse</strong><span>Alege rapid sursa video dorită.</span></div>
+        <div class="feature"><div class="feature-icon">▣</div><strong>Compatibil oriunde</strong><span>Funcționează pe telefon, tabletă și desktop.</span></div>
+        <div class="feature"><div class="feature-icon">⬟</div><strong>Rapid și curat</strong><span>Design modern, fără elemente inutile.</span></div>
     </section>
 
-    <div class="footer">© 2026 Sporturi Live. Toate drepturile rezervate.</div>
+    <div class="footer">© 2026 Sporturi Live.</div>
 
 </div>
 
@@ -571,6 +666,7 @@ body {
             <button class="close-btn" type="button" onclick="closeModal()">×</button>
         </div>
         <div class="player" id="modalPlayer"></div>
+        <div class="modal-sources" id="modalSources"></div>
     </div>
 </div>
 
@@ -581,7 +677,9 @@ const eventsBox = document.getElementById("events");
 const modal = document.getElementById("videoModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalPlayer = document.getElementById("modalPlayer");
+const modalSources = document.getElementById("modalSources");
 
+let allEvents = [];
 let activeCard = null;
 
 function text(value, fallback = "") {
@@ -607,93 +705,125 @@ function getStreams(event) {
     return [];
 }
 
+function getEventState(event) {
+    const raw = text(event.status).toLowerCase();
+
+    if (raw.includes("live") || raw.includes("direct")) return "live";
+    if (raw.includes("terminat") || raw.includes("final")) return "ended";
+    if (raw.includes("curând") || raw.includes("pronto") || raw.includes("soon")) return "soon";
+
+    return "soon";
+}
+
+function getStateLabel(state) {
+    if (state === "live") return "Live acum";
+    if (state === "ended") return "Terminat";
+    return "Urmează";
+}
+
 function renderEvent(event) {
     const date = text(event.date, "12 iunie 2026");
     const time = text(event.time, "--:--");
-
     const competition = text(event.competition || event.category, "Competiție");
     const competitionLogo = text(event.competition_logo);
-
     const title = text(event.title, "Eveniment fără titlu");
 
     const team1 = text(event.team1 || event.home_team || event.homeTeam, "");
     const team2 = text(event.team2 || event.away_team || event.awayTeam, "");
-
     const team1Logo = text(event.team1_logo || event.home_logo || event.homeLogo);
     const team2Logo = text(event.team2_logo || event.away_logo || event.awayLogo);
 
     const streams = getStreams(event);
+    const state = getEventState(event);
 
     const eventTitle = team1 || team2
         ? `
-            <div class="team">
-                ${img(team1Logo, team1, "team-logo")}
-                <span class="team-name">${team1}</span>
-            </div>
+            <div class="team">${img(team1Logo, team1, "team-logo")}<span class="team-name">${team1}</span></div>
             <span class="vs">vs</span>
-            <div class="team">
-                <span class="team-name">${team2}</span>
-                ${img(team2Logo, team2, "team-logo")}
-            </div>
+            <div class="team"><span class="team-name">${team2}</span>${img(team2Logo, team2, "team-logo")}</div>
           `
         : `<span class="team-name">${title}</span>`;
 
     const buttons = streams.map((source, i) => {
         const name = text(source.name, `Sursa ${i + 1}`);
         const url = text(source.url || source.link, "#");
+        const logo = text(source.logo, "");
 
         return `
-            <button class="source-btn" type="button" onclick="openModal(event, '${attr(url)}', '${attr(title)} • ${attr(name)}')">
-                ${name}
+            <button class="source-btn" type="button" onclick="openModal(event, '${attr(title)}', ${JSON.stringify(streams).replaceAll('"', '&quot;')}, ${i})">
+                ${img(logo, name, "source-logo")}
+                <span>${name}</span>
             </button>
         `;
     }).join("");
 
     return `
-        <article class="event-card">
+        <article class="event-card is-${state}">
             <div class="event-main" onclick="toggleCard(this.parentElement)">
                 <div class="date-box">
-                    <span class="date-text"><span class="date-icon">📅</span>${date}</span>
+                    <div class="date-icon">📅</div>
+                    <div class="date-text">${date}</div>
                 </div>
 
                 <div class="time-box">
-                    <span class="time-text"><span class="time-icon">⏰</span>${time}</span>
+                    <div class="time-icon">◷</div>
+                    <div class="time-text">${time}</div>
                 </div>
 
-                <div class="match-wrap">
+                <div>
                     <div class="match">${eventTitle}</div>
-                    <div class="competition">
-                        ${img(competitionLogo, competition, "competition-logo")}
-                        <span>${competition}</span>
-                    </div>
+                    <div class="competition">${img(competitionLogo, competition, "competition-logo")}<span>${competition}</span></div>
                 </div>
 
-                <div class="arrow">⌄</div>
+                <div class="state-box">
+                    <div class="state-pill">${getStateLabel(state)}</div>
+                    <div class="arrow">⌄</div>
+                </div>
             </div>
 
             <div class="sources-panel">
-                <div class="sources-title">Surse video disponibile</div>
-                <div class="sources">
-                    ${buttons || "<span class='error'>Nu există surse video.</span>"}
-                </div>
+                <div class="sources-title">▻ Surse video disponibile</div>
+                <div class="sources">${buttons || "<span class='error'>Nu există surse video.</span>"}</div>
             </div>
         </article>
     `;
 }
 
 function toggleCard(card) {
-    if (activeCard && activeCard !== card) {
-        activeCard.classList.remove("active");
-    }
-
+    if (activeCard && activeCard !== card) activeCard.classList.remove("active");
     card.classList.toggle("active");
     activeCard = card.classList.contains("active") ? card : null;
 }
 
-function openModal(e, url, title) {
+function renderEvents() {
+    const q = document.getElementById("searchInput").value.toLowerCase();
+    const category = document.getElementById("categoryFilter").value;
+    const status = document.getElementById("statusFilter").value;
+
+    const filtered = allEvents.filter(event => {
+        const haystack = JSON.stringify(event).toLowerCase();
+        const eventCategory = text(event.category || event.competition, "");
+        const state = getEventState(event);
+
+        return haystack.includes(q)
+            && (category === "all" || eventCategory === category)
+            && (status === "all" || state === status);
+    });
+
+    eventsBox.innerHTML = filtered.length
+        ? filtered.map(renderEvent).join("")
+        : `<div class="error">Nu există evenimente pentru filtrul selectat.</div>`;
+}
+
+function openModal(e, title, streams, activeIndex = 0) {
     e.stopPropagation();
 
-    modalTitle.textContent = title;
+    const current = streams[activeIndex];
+    const name = text(current.name, "Sursa video");
+    const url = text(current.url || current.link, "#");
+
+    modalTitle.textContent = `${title} • ${name}`;
+
     modalPlayer.innerHTML = `
         <iframe
             src="${url}"
@@ -705,21 +835,54 @@ function openModal(e, url, title) {
         </iframe>
     `;
 
+    modalSources.innerHTML = streams.map((source, i) => {
+        const sourceName = text(source.name, `Sursa ${i + 1}`);
+        return `
+            <button class="modal-source-btn ${i === activeIndex ? "active" : ""}" onclick='switchSource(${JSON.stringify(streams).replaceAll("'", "&#39;")}, ${i}, "${attr(title)}")'>
+                ${sourceName}
+            </button>
+        `;
+    }).join("");
+
     modal.classList.add("active");
     document.body.style.overflow = "hidden";
+}
+
+function switchSource(streams, index, title) {
+    const source = streams[index];
+    const name = text(source.name, `Sursa ${index + 1}`);
+    const url = text(source.url || source.link, "#");
+
+    modalTitle.textContent = `${title} • ${name}`;
+
+    modalPlayer.innerHTML = `
+        <iframe
+            src="${url}"
+            allowfullscreen
+            webkitallowfullscreen
+            mozallowfullscreen
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            referrerpolicy="no-referrer">
+        </iframe>
+    `;
+
+    document.querySelectorAll(".modal-source-btn").forEach((btn, i) => {
+        btn.classList.toggle("active", i === index);
+    });
 }
 
 function closeModal() {
     modal.classList.remove("active");
     modalPlayer.innerHTML = "";
+    modalSources.innerHTML = "";
     document.body.style.overflow = "";
 }
 
-modal.addEventListener("click", function(e) {
+modal.addEventListener("click", e => {
     if (e.target === modal) closeModal();
 });
 
-document.addEventListener("keydown", function(e) {
+document.addEventListener("keydown", e => {
     if (e.key === "Escape") closeModal();
 });
 
@@ -738,19 +901,36 @@ function updateTopbar() {
     });
 }
 
+function buildFilters() {
+    const categories = [...new Set(allEvents.map(e => text(e.category || e.competition)).filter(Boolean))];
+    const select = document.getElementById("categoryFilter");
+
+    categories.forEach(category => {
+        const opt = document.createElement("option");
+        opt.value = category;
+        opt.textContent = category;
+        select.appendChild(opt);
+    });
+
+    document.getElementById("searchInput").addEventListener("input", renderEvents);
+    document.getElementById("categoryFilter").addEventListener("change", renderEvents);
+    document.getElementById("statusFilter").addEventListener("change", renderEvents);
+}
+
 async function loadEvents() {
     try {
         const response = await fetch(EVENTS_URL, { cache: "no-store" });
         if (!response.ok) throw new Error();
 
-        const events = await response.json();
+        allEvents = await response.json();
 
-        if (!Array.isArray(events) || !events.length) {
+        if (!Array.isArray(allEvents) || !allEvents.length) {
             eventsBox.innerHTML = `<div class="error">Nu există evenimente disponibile.</div>`;
             return;
         }
 
-        eventsBox.innerHTML = events.map(renderEvent).join("");
+        buildFilters();
+        renderEvents();
 
     } catch {
         eventsBox.innerHTML = `
