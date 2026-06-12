@@ -3,38 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sporturi Live Premium</title>
 
-<title>Sporturi Live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
-* { box-sizing: border-box; }
-
-:root {
-    --bg: #030712;
-    --card: rgba(10, 15, 28, .88);
-    --line: rgba(255,255,255,.11);
-    --text: #f8fafc;
-    --muted: #94a3b8;
-    --green: #00e18a;
-    --blue: #1687ff;
-    --red: #ef4444;
-    --yellow: #fbbf24;
+* {
+    box-sizing: border-box;
 }
 
-html, body {
+:root {
+    --bg: #020617;
+    --card: rgba(15, 23, 42, .72);
+    --card-strong: rgba(15, 23, 42, .92);
+    --line: rgba(255,255,255,.12);
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --green: #00ff9c;
+    --blue: #38bdf8;
+    --violet: #8b5cf6;
+    --red: #ef4444;
+    --gold: #facc15;
+}
+
+html,
+body {
     margin: 0;
     min-height: 100%;
+    font-family: Inter, Arial, sans-serif;
     color: var(--text);
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background:
-        linear-gradient(180deg, rgba(3,7,18,.40), rgba(3,7,18,.96)),
-        radial-gradient(circle at 80% 10%, rgba(22,135,255,.26), transparent 28%),
-        radial-gradient(circle at 10% 15%, rgba(0,225,138,.20), transparent 26%),
-        #030712;
+    background: var(--bg);
 }
 
 body {
-    padding: 28px 14px 60px;
+    padding: 28px 14px 70px;
+    overflow-x: hidden;
 }
 
 body::before {
@@ -42,10 +47,34 @@ body::before {
     position: fixed;
     inset: 0;
     background:
-        linear-gradient(180deg, rgba(3,7,18,.10), rgba(3,7,18,.92)),
-        url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1800&q=80") center top / cover no-repeat;
-    opacity: .32;
+        linear-gradient(180deg, rgba(2,6,23,.22), #020617 78%),
+        url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=2200&q=90") center top / cover no-repeat;
+    opacity: .35;
+    z-index: -3;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(circle at 16% 10%, rgba(0,255,156,.28), transparent 28%),
+        radial-gradient(circle at 84% 14%, rgba(56,189,248,.30), transparent 30%),
+        radial-gradient(circle at 48% 92%, rgba(139,92,246,.22), transparent 34%),
+        linear-gradient(180deg, transparent, #020617 74%);
+    z-index: -2;
+}
+
+.bg-grid {
+    position: fixed;
+    inset: 0;
     z-index: -1;
+    background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 54px 54px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,.7), transparent 80%);
+    pointer-events: none;
 }
 
 .page {
@@ -53,94 +82,127 @@ body::before {
     margin: 0 auto;
 }
 
-.topbar {
+.nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 14px;
-    align-items: center;
-    margin-bottom: 42px;
+    margin-bottom: 52px;
 }
 
-.brand, .top-pill {
-    background: rgba(15,23,42,.72);
-    border: 1px solid var(--line);
-    backdrop-filter: blur(18px);
-    border-radius: 15px;
-}
-
-.brand {
-    padding: 13px 18px;
-    font-weight: 950;
+.logo {
     display: flex;
-    gap: 10px;
     align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    background: rgba(15,23,42,.62);
+    backdrop-filter: blur(22px);
+    box-shadow: 0 18px 50px rgba(0,0,0,.22);
+    font-weight: 900;
 }
 
-.brand .live {
+.logo-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 13px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, var(--green), var(--blue));
+    color: #020617;
+    font-weight: 900;
+    box-shadow: 0 0 34px rgba(0,255,156,.42);
+}
+
+.logo-live {
     color: var(--green);
 }
 
-.top-pills {
+.nav-info {
     display: flex;
-    gap: 8px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
-.top-pill {
+.nav-pill {
     padding: 12px 14px;
-    color: #cbd5e1;
-    font-weight: 750;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: rgba(15,23,42,.62);
+    backdrop-filter: blur(22px);
+    color: #dbeafe;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 .hero {
     position: relative;
-    padding-left: 28px;
-    margin-bottom: 28px;
+    margin-bottom: 34px;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    width: 5px;
-    height: 118px;
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 14px;
     border-radius: 999px;
+    background: rgba(0,255,156,.10);
+    border: 1px solid rgba(0,255,156,.28);
+    color: #b6ffe4;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.live-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
     background: var(--green);
-    box-shadow: 0 0 32px rgba(0,225,138,.75);
+    box-shadow: 0 0 18px var(--green);
 }
 
 .hero h1 {
     margin: 0;
-    font-size: clamp(46px, 7vw, 78px);
-    letter-spacing: -4px;
-    line-height: .95;
+    max-width: 900px;
+    font-size: clamp(46px, 8vw, 92px);
+    line-height: .88;
+    letter-spacing: -5px;
+    font-weight: 900;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #fff, #9effd7 45%, #7dd3fc);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .hero p {
-    margin: 15px 0 0;
     max-width: 760px;
+    margin: 20px 0 0;
     color: #cbd5e1;
-    font-size: 20px;
-    line-height: 1.45;
+    font-size: clamp(17px, 2vw, 22px);
+    line-height: 1.55;
 }
 
 .controls {
     display: grid;
     grid-template-columns: 1fr 190px 190px;
     gap: 12px;
-    margin: 28px 0;
+    margin: 34px 0 28px;
 }
 
 .control {
-    width: 100%;
     border: 1px solid var(--line);
-    background: rgba(15,23,42,.72);
-    color: #fff;
-    border-radius: 15px;
-    padding: 14px 15px;
+    background: rgba(15,23,42,.70);
+    backdrop-filter: blur(22px);
+    color: white;
+    border-radius: 18px;
+    padding: 15px 16px;
     outline: none;
-    backdrop-filter: blur(18px);
     font-weight: 800;
+    box-shadow: 0 18px 48px rgba(0,0,0,.18);
 }
 
 .control::placeholder {
@@ -149,196 +211,253 @@ body::before {
 
 .events {
     display: grid;
-    gap: 22px;
+    gap: 24px;
 }
 
 .event-card {
     position: relative;
     overflow: hidden;
-    border-radius: 24px;
-    background: linear-gradient(145deg, rgba(15,23,42,.94), rgba(2,6,23,.90));
-    border: 1px solid rgba(255,255,255,.12);
-    box-shadow: 0 28px 80px rgba(0,0,0,.44);
+    border-radius: 32px;
+    background:
+        linear-gradient(145deg, rgba(255,255,255,.16), rgba(255,255,255,.04)) border-box;
+    padding: 1px;
+    box-shadow: 0 34px 90px rgba(0,0,0,.42);
 }
 
-.event-card::before {
+.event-shell {
+    position: relative;
+    overflow: hidden;
+    border-radius: 31px;
+    background:
+        linear-gradient(145deg, rgba(15,23,42,.94), rgba(2,6,23,.86));
+    backdrop-filter: blur(26px);
+}
+
+.event-shell::before {
     content: "";
     position: absolute;
-    inset: 0 auto 0 0;
-    width: 4px;
-    background: var(--blue);
-    box-shadow: 0 0 30px rgba(22,135,255,.70);
+    width: 280px;
+    height: 280px;
+    right: -80px;
+    top: -110px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,255,156,.22), transparent 68%);
 }
 
-.event-card.is-live::before {
-    background: var(--green);
-    box-shadow: 0 0 30px rgba(0,225,138,.90);
-    animation: pulseLine 1.4s infinite;
-}
-
-.event-card.is-ended {
-    opacity: .72;
-}
-
-@keyframes pulseLine {
-    0%, 100% { opacity: .7; }
-    50% { opacity: 1; }
+.event-shell::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: -120px;
+    bottom: -150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(56,189,248,.18), transparent 70%);
 }
 
 .event-main {
+    position: relative;
+    z-index: 2;
     display: grid;
-    grid-template-columns: 165px 135px 1fr 140px;
+    grid-template-columns: 170px 140px 1fr 128px;
     gap: 22px;
     align-items: center;
-    padding: 28px 26px;
+    padding: 30px;
     cursor: pointer;
 }
 
-.date-box, .time-box {
-    min-height: 96px;
-    border-radius: 20px;
-    background: rgba(255,255,255,.045);
-    border: 1px solid rgba(255,255,255,.09);
+.date-box,
+.time-box {
+    min-height: 112px;
+    border-radius: 26px;
+    background: rgba(255,255,255,.055);
+    border: 1px solid rgba(255,255,255,.10);
     display: grid;
     place-items: center;
     text-align: center;
-    padding: 14px;
+    padding: 16px;
 }
 
-.date-icon, .time-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 14px;
+.box-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 17px;
     display: grid;
     place-items: center;
-    background: rgba(0,225,138,.13);
-    color: var(--green);
+    margin-bottom: 10px;
     font-size: 23px;
-    margin-bottom: 8px;
 }
 
-.time-icon {
-    background: rgba(22,135,255,.13);
+.date-box .box-icon {
+    background: rgba(0,255,156,.13);
+    color: var(--green);
+}
+
+.time-box .box-icon {
+    background: rgba(56,189,248,.13);
     color: var(--blue);
 }
 
+.date-text,
+.time-text {
+    font-weight: 900;
+}
+
 .date-text {
-    color: var(--green);
-    font-weight: 950;
+    color: #b6ffe4;
+    font-size: 14px;
 }
 
 .time-text {
-    color: var(--green);
-    font-size: 21px;
-    font-weight: 950;
+    color: #7dd3fc;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+
+.match-area {
+    min-width: 0;
 }
 
 .match {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 26px;
     min-width: 0;
 }
 
 .team {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 15px;
     min-width: 0;
 }
 
+.team.right {
+    flex-direction: row-reverse;
+}
+
+.team-logo-wrap {
+    position: relative;
+    width: 82px;
+    height: 82px;
+    flex: 0 0 auto;
+}
+
+.team-logo-wrap::before {
+    content: "";
+    position: absolute;
+    inset: -14px;
+    border-radius: 28px;
+    background: var(--halo, rgba(0,255,156,.20));
+    filter: blur(18px);
+    opacity: .9;
+}
+
 .team-logo {
-    width: 64px;
-    height: 64px;
+    position: relative;
+    z-index: 2;
+    width: 82px;
+    height: 82px;
     object-fit: contain;
-    border-radius: 14px;
-    background: rgba(255,255,255,.08);
-    border: 1px solid rgba(255,255,255,.10);
-    padding: 5px;
+    border-radius: 24px;
+    background: rgba(255,255,255,.10);
+    border: 1px solid rgba(255,255,255,.14);
+    padding: 9px;
 }
 
 .team-name {
-    font-size: clamp(26px, 3vw, 36px);
-    font-weight: 950;
-    letter-spacing: -1px;
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 900;
+    letter-spacing: -2px;
     white-space: nowrap;
 }
 
 .vs {
-    color: #94a3b8;
-    font-size: 18px;
-    font-weight: 950;
-    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    min-width: 52px;
+    height: 52px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.12);
+    color: #cbd5e1;
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .competition {
-    margin-top: 12px;
+    margin-top: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9px;
+    gap: 10px;
     color: #cbd5e1;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .competition-logo {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     object-fit: contain;
 }
 
-.state-box {
+.action-area {
     display: grid;
-    gap: 10px;
+    gap: 12px;
     justify-items: end;
 }
 
 .state-pill {
-    padding: 9px 13px;
+    padding: 10px 14px;
     border-radius: 999px;
+    font-weight: 900;
     font-size: 13px;
-    font-weight: 950;
-    background: rgba(22,135,255,.13);
-    color: #8bc6ff;
-    border: 1px solid rgba(22,135,255,.26);
+    background: rgba(56,189,248,.12);
+    border: 1px solid rgba(56,189,248,.30);
+    color: #a5e8ff;
 }
 
-.is-live .state-pill {
-    background: rgba(0,225,138,.13);
-    color: #8fffd4;
-    border-color: rgba(0,225,138,.32);
+.event-card.is-live .state-pill {
+    background: rgba(0,255,156,.13);
+    border-color: rgba(0,255,156,.34);
+    color: #a7ffd9;
+    box-shadow: 0 0 34px rgba(0,255,156,.18);
 }
 
-.is-ended .state-pill {
+.event-card.is-ended .state-pill {
     background: rgba(148,163,184,.12);
+    border-color: rgba(148,163,184,.24);
     color: #cbd5e1;
-    border-color: rgba(148,163,184,.22);
 }
 
-.arrow {
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    background: rgba(255,255,255,.055);
+.expand-btn {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.06);
     color: var(--green);
+    border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 26px;
-    transition: .2s;
+    transition: .22s;
 }
 
-.event-card.active .arrow {
+.event-card.active .expand-btn {
     transform: rotate(180deg);
+    background: rgba(0,255,156,.12);
 }
 
 .sources-panel {
+    position: relative;
+    z-index: 3;
     display: none;
-    margin: 0 24px 24px;
-    padding: 22px;
-    border-radius: 20px;
-    background: rgba(2,6,23,.45);
+    margin: 0 30px 30px;
+    border-radius: 26px;
+    padding: 24px;
+    background: rgba(2,6,23,.56);
     border: 1px solid rgba(255,255,255,.10);
 }
 
@@ -346,69 +465,73 @@ body::before {
     display: block;
 }
 
+.sources-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
 .sources-title {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 950;
-    margin-bottom: 16px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.sources-count {
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 800;
 }
 
 .sources {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 12px;
 }
 
 .source-btn {
-    min-height: 58px;
     border: 1px solid rgba(255,255,255,.12);
-    background: rgba(255,255,255,.055);
+    background: rgba(255,255,255,.06);
     color: #fff;
-    border-radius: 13px;
-    padding: 12px 14px;
-    font-weight: 850;
-    cursor: pointer;
-    text-align: left;
-    transition: .18s ease;
+    border-radius: 18px;
+    min-height: 64px;
+    padding: 13px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+    text-align: left;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .2s;
 }
 
 .source-btn:hover {
     transform: translateY(-2px);
-    background: rgba(0,225,138,.13);
-    border-color: rgba(0,225,138,.36);
+    background: rgba(0,255,156,.12);
+    border-color: rgba(0,255,156,.35);
 }
 
 .source-logo {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
-    border-radius: 7px;
-}
-
-.loading, .error {
-    padding: 40px;
-    text-align: center;
-    color: #cbd5e1;
-    background: rgba(15,23,42,.58);
-    border-radius: 20px;
+    border-radius: 8px;
 }
 
 .features {
+    margin-top: 36px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 36px;
     border: 1px solid rgba(255,255,255,.10);
-    border-radius: 20px;
+    border-radius: 26px;
     overflow: hidden;
     background: rgba(15,23,42,.58);
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(22px);
 }
 
 .feature {
-    padding: 20px;
+    padding: 22px;
     border-right: 1px solid rgba(255,255,255,.08);
 }
 
@@ -419,30 +542,40 @@ body::before {
 .feature-icon {
     width: 46px;
     height: 46px;
-    border-radius: 13px;
+    border-radius: 16px;
     display: grid;
     place-items: center;
-    background: rgba(0,225,138,.13);
+    background: rgba(0,255,156,.12);
     color: var(--green);
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 21px;
+    margin-bottom: 12px;
 }
 
 .feature strong {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .feature span {
     color: var(--muted);
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.45;
+}
+
+.loading,
+.error {
+    padding: 42px;
+    text-align: center;
+    color: #cbd5e1;
+    background: rgba(15,23,42,.68);
+    border: 1px solid var(--line);
+    border-radius: 24px;
 }
 
 .footer {
-    margin-top: 26px;
-    text-align: center;
     color: #64748b;
+    text-align: center;
+    margin-top: 30px;
     font-size: 14px;
 }
 
@@ -453,8 +586,8 @@ body::before {
     display: none;
     align-items: center;
     justify-content: center;
-    background: rgba(0,0,0,.72);
-    backdrop-filter: blur(12px);
+    background: rgba(0,0,0,.74);
+    backdrop-filter: blur(14px);
     padding: 16px;
 }
 
@@ -464,37 +597,39 @@ body::before {
 
 .modal-box {
     width: min(860px, 100%);
+    overflow: hidden;
+    border-radius: 28px;
     background: rgba(15,23,42,.96);
     border: 1px solid rgba(255,255,255,.16);
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 40px 120px rgba(0,0,0,.72);
+    box-shadow: 0 50px 130px rgba(0,0,0,.72);
 }
 
 .modal-top {
     display: flex;
     justify-content: space-between;
+    gap: 12px;
     align-items: center;
-    gap: 14px;
-    padding: 14px 16px;
+    padding: 16px 18px;
     background: rgba(255,255,255,.055);
     border-bottom: 1px solid rgba(255,255,255,.10);
 }
 
 .modal-title {
-    color: #fff;
     font-size: 15px;
-    font-weight: 950;
-    white-space: nowrap;
+    font-weight: 900;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 .close-btn {
     border: 0;
-    background: transparent;
-    color: #cbd5e1;
-    font-size: 30px;
+    background: rgba(255,255,255,.08);
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 26px;
     cursor: pointer;
 }
 
@@ -513,41 +648,41 @@ body::before {
 
 .modal-sources {
     display: flex;
-    gap: 8px;
+    gap: 9px;
     flex-wrap: wrap;
-    padding: 12px;
-    background: rgba(2,6,23,.55);
+    padding: 14px;
+    background: rgba(2,6,23,.56);
     border-top: 1px solid rgba(255,255,255,.10);
 }
 
 .modal-source-btn {
     border: 1px solid rgba(255,255,255,.12);
-    background: rgba(255,255,255,.055);
+    background: rgba(255,255,255,.06);
     color: #fff;
-    border-radius: 10px;
-    padding: 9px 11px;
-    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 12px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .modal-source-btn.active {
-    background: rgba(0,225,138,.16);
-    border-color: rgba(0,225,138,.42);
-    color: #8fffd4;
+    color: #a7ffd9;
+    background: rgba(0,255,156,.13);
+    border-color: rgba(0,255,156,.40);
 }
 
-@media(max-width: 1050px) {
+@media(max-width: 1080px) {
     .event-main {
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-    .state-box {
-        justify-items: center;
-    }
-
     .match {
         flex-wrap: wrap;
+    }
+
+    .action-area {
+        justify-items: center;
     }
 
     .sources {
@@ -563,39 +698,50 @@ body::before {
     }
 }
 
-@media(max-width: 560px) {
+@media(max-width: 620px) {
     body {
-        padding: 18px 10px 44px;
+        padding: 18px 10px 48px;
     }
 
-    .topbar {
+    .nav {
         align-items: flex-start;
         flex-direction: column;
+        margin-bottom: 34px;
     }
 
-    .hero {
-        padding-left: 18px;
-    }
-
-    .hero::before {
-        height: 92px;
+    .hero h1 {
+        letter-spacing: -3px;
     }
 
     .event-main {
         padding: 22px 18px;
     }
 
-    .team {
+    .date-box,
+    .time-box {
+        min-height: auto;
+    }
+
+    .team,
+    .team.right {
         justify-content: center;
+        flex-direction: column;
     }
 
     .team-name {
-        font-size: 28px;
+        font-size: 30px;
+        white-space: normal;
     }
 
+    .team-logo-wrap,
     .team-logo {
-        width: 54px;
-        height: 54px;
+        width: 68px;
+        height: 68px;
+    }
+
+    .sources-panel {
+        margin: 0 14px 18px;
+        padding: 16px;
     }
 
     .sources {
@@ -610,29 +756,41 @@ body::before {
         border-right: 0;
         border-bottom: 1px solid rgba(255,255,255,.08);
     }
+
+    .feature:last-child {
+        border-bottom: 0;
+    }
 }
 </style>
 </head>
 
 <body>
 
+<div class="bg-grid"></div>
+
 <div class="page">
 
-    <div class="topbar">
-        <div class="brand">☊ <span>SPORTURI</span> <span class="live">LIVE</span></div>
-        <div class="top-pills">
-            <div class="top-pill">● <span id="clock">--:--</span></div>
-            <div class="top-pill">📅 <span id="today">--</span></div>
+    <nav class="nav">
+        <div class="logo">
+            <div class="logo-mark">▶</div>
+            <div>SPORTURI <span class="logo-live">LIVE</span></div>
         </div>
-    </div>
+
+        <div class="nav-info">
+            <div class="nav-pill">🟢 Online</div>
+            <div class="nav-pill">🕒 <span id="clock">--:--</span></div>
+            <div class="nav-pill">📅 <span id="today">--</span></div>
+        </div>
+    </nav>
 
     <section class="hero">
-        <h1>Sporturi Live</h1>
-        <p>Evenimente live, surse multiple și player rapid. Alege evenimentul și deschide transmisiunea.</p>
+        <div class="hero-badge"><span class="live-dot"></span> Evenimente live premium</div>
+        <h1>Urmărește <span class="gradient-text">sportul live</span> într-o interfață modernă.</h1>
+        <p>Selectează evenimentul, alege sursa video și deschide playerul direct în pagină.</p>
     </section>
 
     <section class="controls">
-        <input class="control" id="searchInput" placeholder="Caută eveniment, echipă sau competiție...">
+        <input class="control" id="searchInput" placeholder="Caută echipă, competiție sau eveniment...">
         <select class="control" id="categoryFilter">
             <option value="all">Toate sporturile</option>
         </select>
@@ -649,10 +807,10 @@ body::before {
     </main>
 
     <section class="features">
-        <div class="feature"><div class="feature-icon">☊</div><strong>Transmisiuni live</strong><span>Urmărește evenimentele în timp real.</span></div>
-        <div class="feature"><div class="feature-icon">▶</div><strong>Multiple surse</strong><span>Alege rapid sursa video dorită.</span></div>
-        <div class="feature"><div class="feature-icon">▣</div><strong>Compatibil oriunde</strong><span>Funcționează pe telefon, tabletă și desktop.</span></div>
-        <div class="feature"><div class="feature-icon">⬟</div><strong>Rapid și curat</strong><span>Design modern, fără elemente inutile.</span></div>
+        <div class="feature"><div class="feature-icon">⚡</div><strong>Rapid</strong><span>Evenimentele se încarcă direct din eventos.json.</span></div>
+        <div class="feature"><div class="feature-icon">▶</div><strong>Player integrat</strong><span>Sursele video se deschid în modal premium.</span></div>
+        <div class="feature"><div class="feature-icon">📱</div><strong>Responsive</strong><span>Aspect optimizat pentru mobil, tabletă și desktop.</span></div>
+        <div class="feature"><div class="feature-icon">✨</div><strong>Premium UI</strong><span>Carduri moderne cu transparență, glow și blur.</span></div>
     </section>
 
     <div class="footer">© 2026 Sporturi Live.</div>
@@ -710,8 +868,6 @@ function getEventState(event) {
 
     if (raw.includes("live") || raw.includes("direct")) return "live";
     if (raw.includes("terminat") || raw.includes("final")) return "ended";
-    if (raw.includes("curând") || raw.includes("pronto") || raw.includes("soon")) return "soon";
-
     return "soon";
 }
 
@@ -738,19 +894,25 @@ function renderEvent(event) {
 
     const eventTitle = team1 || team2
         ? `
-            <div class="team">${img(team1Logo, team1, "team-logo")}<span class="team-name">${team1}</span></div>
-            <span class="vs">vs</span>
-            <div class="team"><span class="team-name">${team2}</span>${img(team2Logo, team2, "team-logo")}</div>
+            <div class="team">
+                <div class="team-logo-wrap">${img(team1Logo, team1, "team-logo")}</div>
+                <span class="team-name">${team1}</span>
+            </div>
+            <div class="vs">VS</div>
+            <div class="team right">
+                <div class="team-logo-wrap" style="--halo: rgba(56,189,248,.20)">${img(team2Logo, team2, "team-logo")}</div>
+                <span class="team-name">${team2}</span>
+            </div>
           `
         : `<span class="team-name">${title}</span>`;
 
     const buttons = streams.map((source, i) => {
         const name = text(source.name, `Sursa ${i + 1}`);
-        const url = text(source.url || source.link, "#");
         const logo = text(source.logo, "");
+        const streamsJson = encodeURIComponent(JSON.stringify(streams));
 
         return `
-            <button class="source-btn" type="button" onclick="openModal(event, '${attr(title)}', ${JSON.stringify(streams).replaceAll('"', '&quot;')}, ${i})">
+            <button class="source-btn" type="button" onclick="openModal(event, '${attr(title)}', '${streamsJson}', ${i})">
                 ${img(logo, name, "source-logo")}
                 <span>${name}</span>
             </button>
@@ -759,31 +921,44 @@ function renderEvent(event) {
 
     return `
         <article class="event-card is-${state}">
-            <div class="event-main" onclick="toggleCard(this.parentElement)">
-                <div class="date-box">
-                    <div class="date-icon">📅</div>
-                    <div class="date-text">${date}</div>
+            <div class="event-shell">
+                <div class="event-main" onclick="toggleCard(this.closest('.event-card'))">
+
+                    <div class="date-box">
+                        <div class="box-icon">📅</div>
+                        <div class="date-text">${date}</div>
+                    </div>
+
+                    <div class="time-box">
+                        <div class="box-icon">⏰</div>
+                        <div class="time-text">${time}</div>
+                    </div>
+
+                    <div class="match-area">
+                        <div class="match">${eventTitle}</div>
+                        <div class="competition">
+                            ${img(competitionLogo, competition, "competition-logo")}
+                            <span>${competition}</span>
+                        </div>
+                    </div>
+
+                    <div class="action-area">
+                        <div class="state-pill">${getStateLabel(state)}</div>
+                        <div class="expand-btn">⌄</div>
+                    </div>
+
                 </div>
 
-                <div class="time-box">
-                    <div class="time-icon">◷</div>
-                    <div class="time-text">${time}</div>
-                </div>
+                <div class="sources-panel">
+                    <div class="sources-head">
+                        <div class="sources-title">Surse video disponibile</div>
+                        <div class="sources-count">${streams.length} surse</div>
+                    </div>
 
-                <div>
-                    <div class="match">${eventTitle}</div>
-                    <div class="competition">${img(competitionLogo, competition, "competition-logo")}<span>${competition}</span></div>
+                    <div class="sources">
+                        ${buttons || "<span class='error'>Nu există surse video.</span>"}
+                    </div>
                 </div>
-
-                <div class="state-box">
-                    <div class="state-pill">${getStateLabel(state)}</div>
-                    <div class="arrow">⌄</div>
-                </div>
-            </div>
-
-            <div class="sources-panel">
-                <div class="sources-title">▻ Surse video disponibile</div>
-                <div class="sources">${buttons || "<span class='error'>Nu există surse video.</span>"}</div>
             </div>
         </article>
     `;
@@ -801,9 +976,9 @@ function renderEvents() {
     const status = document.getElementById("statusFilter").value;
 
     const filtered = allEvents.filter(event => {
-        const haystack = JSON.stringify(event).toLowerCase();
         const eventCategory = text(event.category || event.competition, "");
         const state = getEventState(event);
+        const haystack = JSON.stringify(event).toLowerCase();
 
         return haystack.includes(q)
             && (category === "all" || eventCategory === category)
@@ -815,31 +990,17 @@ function renderEvents() {
         : `<div class="error">Nu există evenimente pentru filtrul selectat.</div>`;
 }
 
-function openModal(e, title, streams, activeIndex = 0) {
+function openModal(e, title, encodedStreams, activeIndex = 0) {
     e.stopPropagation();
 
-    const current = streams[activeIndex];
-    const name = text(current.name, "Sursa video");
-    const url = text(current.url || current.link, "#");
-
-    modalTitle.textContent = `${title} • ${name}`;
-
-    modalPlayer.innerHTML = `
-        <iframe
-            src="${url}"
-            allowfullscreen
-            webkitallowfullscreen
-            mozallowfullscreen
-            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            referrerpolicy="no-referrer">
-        </iframe>
-    `;
+    const streams = JSON.parse(decodeURIComponent(encodedStreams));
+    switchSource(streams, activeIndex, title);
 
     modalSources.innerHTML = streams.map((source, i) => {
-        const sourceName = text(source.name, `Sursa ${i + 1}`);
+        const name = text(source.name, `Sursa ${i + 1}`);
         return `
-            <button class="modal-source-btn ${i === activeIndex ? "active" : ""}" onclick='switchSource(${JSON.stringify(streams).replaceAll("'", "&#39;")}, ${i}, "${attr(title)}")'>
-                ${sourceName}
+            <button class="modal-source-btn ${i === activeIndex ? "active" : ""}" onclick='switchSource(${JSON.stringify(streams)}, ${i}, "${attr(title)}")'>
+                ${name}
             </button>
         `;
     }).join("");
@@ -857,7 +1018,7 @@ function switchSource(streams, index, title) {
 
     modalPlayer.innerHTML = `
         <iframe
-            src="${url}"
+            src="${attr(url)}"
             allowfullscreen
             webkitallowfullscreen
             mozallowfullscreen
@@ -902,14 +1063,14 @@ function updateTopbar() {
 }
 
 function buildFilters() {
-    const categories = [...new Set(allEvents.map(e => text(e.category || e.competition)).filter(Boolean))];
     const select = document.getElementById("categoryFilter");
+    const categories = [...new Set(allEvents.map(e => text(e.category || e.competition)).filter(Boolean))];
 
     categories.forEach(category => {
-        const opt = document.createElement("option");
-        opt.value = category;
-        opt.textContent = category;
-        select.appendChild(opt);
+        const option = document.createElement("option");
+        option.value = category;
+        option.textContent = category;
+        select.appendChild(option);
     });
 
     document.getElementById("searchInput").addEventListener("input", renderEvents);
