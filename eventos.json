@@ -1,24 +1,87 @@
 [
   {
-    "title": "FCSB vs CFR Cluj",
-    "competition": "SuperLiga România",
-    "competition_logo": "https://assets.football-logos.cc/logos/albania/256x256/albania-national-team.89856a7e.png",
-    "team1": "FCSB",
-    "team1_logo": "https://assets.football-logos.cc/logos/albania/256x256/albania-national-team.89856a7e.png",
-    "team2": "CFR Cluj",
-    "team2_logo": "https://assets.football-logos.cc/logos/albania/256x256/albania-national-team.89856a7e.png",
+    "title": "Cupa Mondială FIFA 2026: Canada vs Bosnia",
+    "competition": "Cupa Mondială FIFA 2026",
+    "competition_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/FIFA_World_Cup_2026_Logo.svg",
+    "team1": "Canada",
+    "team1_logo": "https://flagcdn.com/w320/ca.png",
+    "team2": "Bosnia",
+    "team2_logo": "https://flagcdn.com/w320/ba.png",
+    "time": "14:00",
+    "category": "Fotbal",
+    "status": "În curând",
+    "language": "",
+    "streams": [
+      {
+        "name": "DSports",
+        "url": "https://sudamericaplay2.com/canal_8112/cza_dsports.html"
+      },
+      {
+        "name": "Telemundo",
+        "url": "https://sudamericaplay2.com/canal_8112/74telemundo.html"
+      },
+      {
+        "name": "TVLA 1 ES",
+        "url": "https://sudamericaplay2.com/canal_8112/tvla1es.html"
+      },
+      {
+        "name": "W Sports",
+        "url": "https://sudamericaplay2.com/canal_41/45wsprts.php"
+      },
+      {
+        "name": "TSN 4 Canada",
+        "url": "https://sudamericaplay2.com/canal_8112/tsn4ca.html"
+      },
+      {
+        "name": "DSports Stream",
+        "url": "https://streamtpday1.xyz/global1.php?stream=dsports"
+      },
+      {
+        "name": "Disney 1",
+        "url": "https://streamtpday1.xyz/global1.php?stream=disney1"
+      }
+    ]
+  },
+  {
+    "title": "Cupa Mondială FIFA 2026: SUA vs Paraguay",
+    "competition": "Cupa Mondială FIFA 2026",
+    "competition_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/FIFA_World_Cup_2026_Logo.svg",
+    "team1": "SUA",
+    "team1_logo": "https://flagcdn.com/w320/us.png",
+    "team2": "Paraguay",
+    "team2_logo": "https://flagcdn.com/w320/py.png",
     "time": "21:00",
     "category": "Fotbal",
     "status": "În curând",
-    "language": "Română",
+    "language": "",
     "streams": [
       {
-        "name": "Sursa 1",
-        "url": "https://exemplu.ro/player1"
+        "name": "TUDN MX",
+        "url": "https://sudamericaplay2.com/canal_8112/tudnmx.html"
       },
       {
-        "name": "Sursa 2",
-        "url": "https://exemplu.ro/player2"
+        "name": "TyC Sports",
+        "url": "https://sudamericaplay2.com/canal_8112/541tyc.html"
+      },
+      {
+        "name": "DSports",
+        "url": "https://sudamericaplay2.com/canal_8112/cza_dsports.html"
+      },
+      {
+        "name": "Canal Five",
+        "url": "https://sudamericaplay2.com/canal_8112/21canalfive.html"
+      },
+      {
+        "name": "Telemundo",
+        "url": "https://sudamericaplay2.com/canal_8112/74telemundo.html"
+      },
+      {
+        "name": "TSN 4 Canada",
+        "url": "https://sudamericaplay2.com/canal_8112/tsn4ca.html"
+      },
+      {
+        "name": "Disney 1",
+        "url": "https://streamtpday1.xyz/global1.php?stream=disney1"
       }
     ]
   }
