@@ -1,87 +1,1949 @@
 [
   {
-    "title": "Cupa Mondială FIFA 2026: Canada vs Bosnia",
-    "competition": "Cupa Mondială FIFA 2026",
-    "competition_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/FIFA_World_Cup_2026_Logo.svg",
-    "team1": "Canada",
-    "team1_logo": "https://flagcdn.com/w320/ca.png",
-    "team2": "Bosnia",
-    "team2_logo": "https://flagcdn.com/w320/ba.png",
-    "time": "22:00",
-    "category": "Fotbal",
-    "status": "În curând",
-    "language": "",
+    "id": "match_001",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "11 Iunie 2026",
+    "day": "Joi",
+    "time": "",
+    "status": "finished",
+    "team1": "Mexic",
+    "team1_logo": "https://flagcdn.com/w160/mx.png",
+    "team2": "Africa de Sud",
+    "team2_logo": "https://flagcdn.com/w160/za.png",
     "streams": [
       {
-        "name": "DSports",
-        "url": "https://sudamericaplay2.com/canal_8112/cza_dsports.html"
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "Telemundo",
-        "url": "https://sudamericaplay2.com/canal_8112/74telemundo.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ],
+    "score": "2-0"
+  },
+  {
+    "id": "match_002",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "12 Iunie 2026",
+    "day": "Vineri",
+    "time": "",
+    "status": "finished",
+    "team1": "Coreea de Sud",
+    "team1_logo": "https://flagcdn.com/w160/kr.png",
+    "team2": "Cehia",
+    "team2_logo": "https://flagcdn.com/w160/cz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "TVLA 1 ES",
-        "url": "https://sudamericaplay2.com/canal_8112/tvla1es.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ],
+    "score": "2-1"
+  },
+  {
+    "id": "match_003",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "12 Iunie 2026",
+    "day": "Vineri",
+    "time": "",
+    "status": "finished",
+    "team1": "Canada",
+    "team1_logo": "https://flagcdn.com/w160/ca.png",
+    "team2": "Bosnia",
+    "team2_logo": "https://flagcdn.com/w160/ba.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "W Sports",
-        "url": "https://sudamericaplay2.com/canal_41/45wsprts.php"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ],
+    "score": "1-1"
+  },
+  {
+    "id": "match_004",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "13 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "",
+    "status": "finished",
+    "team1": "SUA",
+    "team1_logo": "https://flagcdn.com/w160/us.png",
+    "team2": "Paraguay",
+    "team2_logo": "https://flagcdn.com/w160/py.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "TSN 4 Canada",
-        "url": "https://sudamericaplay2.com/canal_8112/tsn4ca.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ],
+    "score": "4-1"
+  },
+  {
+    "id": "match_005",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "13 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Qatar",
+    "team1_logo": "https://flagcdn.com/w160/qa.png",
+    "team2": "Elveția",
+    "team2_logo": "https://flagcdn.com/w160/ch.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "DSports Stream",
-        "url": "https://streamtpday1.xyz/global1.php?stream=dsports"
-      },
-      {
-        "name": "Disney 1",
-        "url": "https://streamtpday1.xyz/global1.php?stream=disney1"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
       }
     ]
   },
   {
-    "title": "Cupa Mondială FIFA 2026: SUA vs Paraguay",
-    "competition": "Cupa Mondială FIFA 2026",
-    "competition_logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/FIFA_World_Cup_2026_Logo.svg",
-    "team1": "SUA",
-    "team1_logo": "https://flagcdn.com/w320/us.png",
-    "team2": "Paraguay",
-    "team2_logo": "https://flagcdn.com/w320/py.png",
-    "time": "05:00",
-    "category": "Fotbal",
-    "status": "În curând",
-    "language": "",
+    "id": "match_006",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "14 Iunie 2026",
+    "day": "Duminică",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Brazilia",
+    "team1_logo": "https://flagcdn.com/w160/br.png",
+    "team2": "Maroc",
+    "team2_logo": "https://flagcdn.com/w160/ma.png",
     "streams": [
       {
-        "name": "TUDN MX",
-        "url": "https://sudamericaplay2.com/canal_8112/tudnmx.html"
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "TyC Sports",
-        "url": "https://sudamericaplay2.com/canal_8112/541tyc.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_007",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "14 Iunie 2026",
+    "day": "Duminică",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Haiti",
+    "team1_logo": "https://flagcdn.com/w160/ht.png",
+    "team2": "Scoția",
+    "team2_logo": "https://flagcdn.com/w160/gb-sct.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "DSports",
-        "url": "https://sudamericaplay2.com/canal_8112/cza_dsports.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_008",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "14 Iunie 2026",
+    "day": "Duminică",
+    "time": "07:00",
+    "status": "upcoming",
+    "team1": "Australia",
+    "team1_logo": "https://flagcdn.com/w160/au.png",
+    "team2": "Turcia",
+    "team2_logo": "https://flagcdn.com/w160/tr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "Canal Five",
-        "url": "https://sudamericaplay2.com/canal_8112/21canalfive.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_009",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "14 Iunie 2026",
+    "day": "Duminică",
+    "time": "20:00",
+    "status": "upcoming",
+    "team1": "Germania",
+    "team1_logo": "https://flagcdn.com/w160/de.png",
+    "team2": "Curaçao",
+    "team2_logo": "https://flagcdn.com/w160/cw.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "Telemundo",
-        "url": "https://sudamericaplay2.com/canal_8112/74telemundo.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_010",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "14 Iunie 2026",
+    "day": "Duminică",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Olanda",
+    "team1_logo": "https://flagcdn.com/w160/nl.png",
+    "team2": "Japonia",
+    "team2_logo": "https://flagcdn.com/w160/jp.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "TSN 4 Canada",
-        "url": "https://sudamericaplay2.com/canal_8112/tsn4ca.html"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_011",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "15 Iunie 2026",
+    "day": "Luni",
+    "time": "02:00",
+    "status": "upcoming",
+    "team1": "Coasta de Fildeș",
+    "team1_logo": "https://flagcdn.com/w160/ci.png",
+    "team2": "Ecuador",
+    "team2_logo": "https://flagcdn.com/w160/ec.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
       },
       {
-        "name": "Disney 1",
-        "url": "https://streamtpday1.xyz/global1.php?stream=disney1"
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_012",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "15 Iunie 2026",
+    "day": "Luni",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Suedia",
+    "team1_logo": "https://flagcdn.com/w160/se.png",
+    "team2": "Tunisia",
+    "team2_logo": "https://flagcdn.com/w160/tn.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_013",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "15 Iunie 2026",
+    "day": "Luni",
+    "time": "19:00",
+    "status": "upcoming",
+    "team1": "Spania",
+    "team1_logo": "https://flagcdn.com/w160/es.png",
+    "team2": "Capul Verde",
+    "team2_logo": "https://flagcdn.com/w160/cv.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_014",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "15 Iunie 2026",
+    "day": "Luni",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Belgia",
+    "team1_logo": "https://flagcdn.com/w160/be.png",
+    "team2": "Egipt",
+    "team2_logo": "https://flagcdn.com/w160/eg.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_015",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "16 Iunie 2026",
+    "day": "Marți",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Arabia Saudită",
+    "team1_logo": "https://flagcdn.com/w160/sa.png",
+    "team2": "Uruguay",
+    "team2_logo": "https://flagcdn.com/w160/uy.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_016",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "16 Iunie 2026",
+    "day": "Marți",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Iran",
+    "team1_logo": "https://flagcdn.com/w160/ir.png",
+    "team2": "Noua Zeelandă",
+    "team2_logo": "https://flagcdn.com/w160/nz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_017",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "16 Iunie 2026",
+    "day": "Marți",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Franța",
+    "team1_logo": "https://flagcdn.com/w160/fr.png",
+    "team2": "Senegal",
+    "team2_logo": "https://flagcdn.com/w160/sn.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_018",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "17 Iunie 2026",
+    "day": "Miercuri",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Irak",
+    "team1_logo": "https://flagcdn.com/w160/iq.png",
+    "team2": "Norvegia",
+    "team2_logo": "https://flagcdn.com/w160/no.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_019",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "17 Iunie 2026",
+    "day": "Miercuri",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Argentina",
+    "team1_logo": "https://flagcdn.com/w160/ar.png",
+    "team2": "Algeria",
+    "team2_logo": "https://flagcdn.com/w160/dz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_020",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "17 Iunie 2026",
+    "day": "Miercuri",
+    "time": "07:00",
+    "status": "upcoming",
+    "team1": "Austria",
+    "team1_logo": "https://flagcdn.com/w160/at.png",
+    "team2": "Iordania",
+    "team2_logo": "https://flagcdn.com/w160/jo.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_021",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "17 Iunie 2026",
+    "day": "Miercuri",
+    "time": "20:00",
+    "status": "upcoming",
+    "team1": "Portugalia",
+    "team1_logo": "https://flagcdn.com/w160/pt.png",
+    "team2": "DR Congo",
+    "team2_logo": "https://flagcdn.com/w160/cd.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_022",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "17 Iunie 2026",
+    "day": "Miercuri",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Anglia",
+    "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
+    "team2": "Croația",
+    "team2_logo": "https://flagcdn.com/w160/hr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_023",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "18 Iunie 2026",
+    "day": "Joi",
+    "time": "02:00",
+    "status": "upcoming",
+    "team1": "Ghana",
+    "team1_logo": "https://flagcdn.com/w160/gh.png",
+    "team2": "Panama",
+    "team2_logo": "https://flagcdn.com/w160/pa.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_024",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "18 Iunie 2026",
+    "day": "Joi",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Uzbekistan",
+    "team1_logo": "https://flagcdn.com/w160/uz.png",
+    "team2": "Columbia",
+    "team2_logo": "https://flagcdn.com/w160/co.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_025",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "18 Iunie 2026",
+    "day": "Joi",
+    "time": "19:00",
+    "status": "upcoming",
+    "team1": "Cehia",
+    "team1_logo": "https://flagcdn.com/w160/cz.png",
+    "team2": "Africa de Sud",
+    "team2_logo": "https://flagcdn.com/w160/za.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_026",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "18 Iunie 2026",
+    "day": "Joi",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Elveția",
+    "team1_logo": "https://flagcdn.com/w160/ch.png",
+    "team2": "Bosnia",
+    "team2_logo": "https://flagcdn.com/w160/ba.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_027",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "19 Iunie 2026",
+    "day": "Vineri",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Canada",
+    "team1_logo": "https://flagcdn.com/w160/ca.png",
+    "team2": "Qatar",
+    "team2_logo": "https://flagcdn.com/w160/qa.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_028",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "19 Iunie 2026",
+    "day": "Vineri",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Mexic",
+    "team1_logo": "https://flagcdn.com/w160/mx.png",
+    "team2": "Coreea de Sud",
+    "team2_logo": "https://flagcdn.com/w160/kr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_029",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "19 Iunie 2026",
+    "day": "Vineri",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "SUA",
+    "team1_logo": "https://flagcdn.com/w160/us.png",
+    "team2": "Australia",
+    "team2_logo": "https://flagcdn.com/w160/au.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_030",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "20 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Scoția",
+    "team1_logo": "https://flagcdn.com/w160/gb-sct.png",
+    "team2": "Maroc",
+    "team2_logo": "https://flagcdn.com/w160/ma.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_031",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "20 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Brazilia",
+    "team1_logo": "https://flagcdn.com/w160/br.png",
+    "team2": "Haiti",
+    "team2_logo": "https://flagcdn.com/w160/ht.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_032",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "20 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "07:00",
+    "status": "upcoming",
+    "team1": "Turcia",
+    "team1_logo": "https://flagcdn.com/w160/tr.png",
+    "team2": "Paraguay",
+    "team2_logo": "https://flagcdn.com/w160/py.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_033",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "20 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "20:00",
+    "status": "upcoming",
+    "team1": "Olanda",
+    "team1_logo": "https://flagcdn.com/w160/nl.png",
+    "team2": "Suedia",
+    "team2_logo": "https://flagcdn.com/w160/se.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_034",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "20 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Germania",
+    "team1_logo": "https://flagcdn.com/w160/de.png",
+    "team2": "Coasta de Fildeș",
+    "team2_logo": "https://flagcdn.com/w160/ci.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_035",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "21 Iunie 2026",
+    "day": "Duminică",
+    "time": "03:00",
+    "status": "upcoming",
+    "team1": "Ecuador",
+    "team1_logo": "https://flagcdn.com/w160/ec.png",
+    "team2": "Curaçao",
+    "team2_logo": "https://flagcdn.com/w160/cw.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_036",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "21 Iunie 2026",
+    "day": "Duminică",
+    "time": "07:00",
+    "status": "upcoming",
+    "team1": "Tunisia",
+    "team1_logo": "https://flagcdn.com/w160/tn.png",
+    "team2": "Japonia",
+    "team2_logo": "https://flagcdn.com/w160/jp.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_037",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "21 Iunie 2026",
+    "day": "Duminică",
+    "time": "19:00",
+    "status": "upcoming",
+    "team1": "Spania",
+    "team1_logo": "https://flagcdn.com/w160/es.png",
+    "team2": "Arabia Saudită",
+    "team2_logo": "https://flagcdn.com/w160/sa.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_038",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "21 Iunie 2026",
+    "day": "Duminică",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Belgia",
+    "team1_logo": "https://flagcdn.com/w160/be.png",
+    "team2": "Iran",
+    "team2_logo": "https://flagcdn.com/w160/ir.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_039",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "22 Iunie 2026",
+    "day": "Luni",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Uruguay",
+    "team1_logo": "https://flagcdn.com/w160/uy.png",
+    "team2": "Capul Verde",
+    "team2_logo": "https://flagcdn.com/w160/cv.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_040",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "22 Iunie 2026",
+    "day": "Luni",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Noua Zeelandă",
+    "team1_logo": "https://flagcdn.com/w160/nz.png",
+    "team2": "Egipt",
+    "team2_logo": "https://flagcdn.com/w160/eg.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_041",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "22 Iunie 2026",
+    "day": "Luni",
+    "time": "20:00",
+    "status": "upcoming",
+    "team1": "Argentina",
+    "team1_logo": "https://flagcdn.com/w160/ar.png",
+    "team2": "Austria",
+    "team2_logo": "https://flagcdn.com/w160/at.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_042",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "23 Iunie 2026",
+    "day": "Marți",
+    "time": "00:00",
+    "status": "upcoming",
+    "team1": "Franța",
+    "team1_logo": "https://flagcdn.com/w160/fr.png",
+    "team2": "Irak",
+    "team2_logo": "https://flagcdn.com/w160/iq.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_043",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "23 Iunie 2026",
+    "day": "Marți",
+    "time": "03:00",
+    "status": "upcoming",
+    "team1": "Norvegia",
+    "team1_logo": "https://flagcdn.com/w160/no.png",
+    "team2": "Senegal",
+    "team2_logo": "https://flagcdn.com/w160/sn.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_044",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "23 Iunie 2026",
+    "day": "Marți",
+    "time": "06:00",
+    "status": "upcoming",
+    "team1": "Iordania",
+    "team1_logo": "https://flagcdn.com/w160/jo.png",
+    "team2": "Algeria",
+    "team2_logo": "https://flagcdn.com/w160/dz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_045",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "23 Iunie 2026",
+    "day": "Marți",
+    "time": "20:00",
+    "status": "upcoming",
+    "team1": "Portugalia",
+    "team1_logo": "https://flagcdn.com/w160/pt.png",
+    "team2": "Uzbekistan",
+    "team2_logo": "https://flagcdn.com/w160/uz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_046",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "23 Iunie 2026",
+    "day": "Marți",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Anglia",
+    "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
+    "team2": "Ghana",
+    "team2_logo": "https://flagcdn.com/w160/gh.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_047",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "24 Iunie 2026",
+    "day": "Miercuri",
+    "time": "02:00",
+    "status": "upcoming",
+    "team1": "Panama",
+    "team1_logo": "https://flagcdn.com/w160/pa.png",
+    "team2": "Croația",
+    "team2_logo": "https://flagcdn.com/w160/hr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_048",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "24 Iunie 2026",
+    "day": "Miercuri",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Columbia",
+    "team1_logo": "https://flagcdn.com/w160/co.png",
+    "team2": "DR Congo",
+    "team2_logo": "https://flagcdn.com/w160/cd.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_049",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "24 Iunie 2026",
+    "day": "Miercuri",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Elveția",
+    "team1_logo": "https://flagcdn.com/w160/ch.png",
+    "team2": "Canada",
+    "team2_logo": "https://flagcdn.com/w160/ca.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_050",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa B",
+    "date": "24 Iunie 2026",
+    "day": "Miercuri",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Bosnia",
+    "team1_logo": "https://flagcdn.com/w160/ba.png",
+    "team2": "Qatar",
+    "team2_logo": "https://flagcdn.com/w160/qa.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_051",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Maroc",
+    "team1_logo": "https://flagcdn.com/w160/ma.png",
+    "team2": "Haiti",
+    "team2_logo": "https://flagcdn.com/w160/ht.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_052",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa C",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "01:00",
+    "status": "upcoming",
+    "team1": "Scoția",
+    "team1_logo": "https://flagcdn.com/w160/gb-sct.png",
+    "team2": "Brazilia",
+    "team2_logo": "https://flagcdn.com/w160/br.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_053",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Cehia",
+    "team1_logo": "https://flagcdn.com/w160/cz.png",
+    "team2": "Mexic",
+    "team2_logo": "https://flagcdn.com/w160/mx.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_054",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa A",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "04:00",
+    "status": "upcoming",
+    "team1": "Africa de Sud",
+    "team1_logo": "https://flagcdn.com/w160/za.png",
+    "team2": "Coreea de Sud",
+    "team2_logo": "https://flagcdn.com/w160/kr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_055",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Curaçao",
+    "team1_logo": "https://flagcdn.com/w160/cw.png",
+    "team2": "Coasta de Fildeș",
+    "team2_logo": "https://flagcdn.com/w160/ci.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_056",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa E",
+    "date": "25 Iunie 2026",
+    "day": "Joi",
+    "time": "23:00",
+    "status": "upcoming",
+    "team1": "Ecuador",
+    "team1_logo": "https://flagcdn.com/w160/ec.png",
+    "team2": "Germania",
+    "team2_logo": "https://flagcdn.com/w160/de.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_057",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "02:00",
+    "status": "upcoming",
+    "team1": "Japonia",
+    "team1_logo": "https://flagcdn.com/w160/jp.png",
+    "team2": "Suedia",
+    "team2_logo": "https://flagcdn.com/w160/se.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_058",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa F",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "02:00",
+    "status": "upcoming",
+    "team1": "Tunisia",
+    "team1_logo": "https://flagcdn.com/w160/tn.png",
+    "team2": "Olanda",
+    "team2_logo": "https://flagcdn.com/w160/nl.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_059",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Turcia",
+    "team1_logo": "https://flagcdn.com/w160/tr.png",
+    "team2": "SUA",
+    "team2_logo": "https://flagcdn.com/w160/us.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_060",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa D",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Paraguay",
+    "team1_logo": "https://flagcdn.com/w160/py.png",
+    "team2": "Australia",
+    "team2_logo": "https://flagcdn.com/w160/au.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_061",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Norvegia",
+    "team1_logo": "https://flagcdn.com/w160/no.png",
+    "team2": "Franța",
+    "team2_logo": "https://flagcdn.com/w160/fr.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_062",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa I",
+    "date": "26 Iunie 2026",
+    "day": "Vineri",
+    "time": "22:00",
+    "status": "upcoming",
+    "team1": "Senegal",
+    "team1_logo": "https://flagcdn.com/w160/sn.png",
+    "team2": "Irak",
+    "team2_logo": "https://flagcdn.com/w160/iq.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_063",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "27 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "03:00",
+    "status": "upcoming",
+    "team1": "Capul Verde",
+    "team1_logo": "https://flagcdn.com/w160/cv.png",
+    "team2": "Arabia Saudită",
+    "team2_logo": "https://flagcdn.com/w160/sa.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_064",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa H",
+    "date": "27 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "03:00",
+    "status": "upcoming",
+    "team1": "Uruguay",
+    "team1_logo": "https://flagcdn.com/w160/uy.png",
+    "team2": "Spania",
+    "team2_logo": "https://flagcdn.com/w160/es.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_065",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "27 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "06:00",
+    "status": "upcoming",
+    "team1": "Noua Zeelandă",
+    "team1_logo": "https://flagcdn.com/w160/nz.png",
+    "team2": "Belgia",
+    "team2_logo": "https://flagcdn.com/w160/be.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_066",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa G",
+    "date": "27 Iunie 2026",
+    "day": "Sâmbătă",
+    "time": "06:00",
+    "status": "upcoming",
+    "team1": "Egipt",
+    "team1_logo": "https://flagcdn.com/w160/eg.png",
+    "team2": "Iran",
+    "team2_logo": "https://flagcdn.com/w160/ir.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_067",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "00:00",
+    "status": "upcoming",
+    "team1": "Panama",
+    "team1_logo": "https://flagcdn.com/w160/pa.png",
+    "team2": "Anglia",
+    "team2_logo": "https://flagcdn.com/w160/gb-eng.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_068",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa L",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "00:00",
+    "status": "upcoming",
+    "team1": "Croația",
+    "team1_logo": "https://flagcdn.com/w160/hr.png",
+    "team2": "Ghana",
+    "team2_logo": "https://flagcdn.com/w160/gh.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_069",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "02:30",
+    "status": "upcoming",
+    "team1": "Columbia",
+    "team1_logo": "https://flagcdn.com/w160/co.png",
+    "team2": "Portugalia",
+    "team2_logo": "https://flagcdn.com/w160/pt.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_070",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa K",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "02:30",
+    "status": "upcoming",
+    "team1": "DR Congo",
+    "team1_logo": "https://flagcdn.com/w160/cd.png",
+    "team2": "Uzbekistan",
+    "team2_logo": "https://flagcdn.com/w160/uz.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_071",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Algeria",
+    "team1_logo": "https://flagcdn.com/w160/dz.png",
+    "team2": "Austria",
+    "team2_logo": "https://flagcdn.com/w160/at.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      }
+    ]
+  },
+  {
+    "id": "match_072",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Grupa J",
+    "date": "28 Iunie 2026",
+    "day": "Duminică",
+    "time": "05:00",
+    "status": "upcoming",
+    "team1": "Iordania",
+    "team1_logo": "https://flagcdn.com/w160/jo.png",
+    "team2": "Argentina",
+    "team2_logo": "https://flagcdn.com/w160/ar.png",
+    "streams": [
+      {
+        "name": "Antena 1 (Sursă 1)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "name": "Antena 1 (Sursă 2)",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/romania/antena-1-ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
       }
     ]
   }
