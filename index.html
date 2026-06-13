@@ -14,23 +14,23 @@
   --bg:#070a12;
   --bg2:#0b1020;
   --card:#101728;
-  --card2:#0d1424;
   --ink:#f8fafc;
-  --text:#dbe4f0;
   --muted:#8fa0b8;
+  --soft:#b9c7da;
   --line:rgba(255,255,255,.10);
   --line2:rgba(255,255,255,.16);
   --blue:#3b82f6;
   --cyan:#22d3ee;
   --green:#22c55e;
-  --amber:#f59e0b;
-  --red:#ef4444;
   --shadow:0 24px 80px rgba(0,0,0,.38);
-  --radius:26px;
 }
 
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+
+html{
+  scroll-behavior:smooth;
+}
+
 body{
   margin:0;
   min-height:100vh;
@@ -56,8 +56,13 @@ body:before{
   z-index:-1;
 }
 
-button,input,select{font:inherit}
-button{cursor:pointer}
+button,input,select{
+  font:inherit;
+}
+
+button{
+  cursor:pointer;
+}
 
 .app{
   width:min(1180px,100%);
@@ -271,8 +276,14 @@ button{cursor:pointer}
   font-weight:800;
 }
 
-.field::placeholder{color:#75869f}
-.field option{color:#07101f}
+.field::placeholder{
+  color:#75869f;
+}
+
+.field option{
+  color:#07101f;
+}
+
 .reset{
   border:0;
   background:linear-gradient(135deg,#60a5fa,#22d3ee);
@@ -319,25 +330,26 @@ button{cursor:pointer}
 
 .board{
   display:grid;
-  gap:14px;
+  gap:12px;
 }
 
 .match-card{
   position:relative;
   overflow:hidden;
   display:grid;
-  grid-template-columns:160px minmax(0,1fr) 158px;
+  grid-template-columns:150px minmax(0,1fr);
   align-items:center;
   gap:18px;
-  min-height:156px;
-  padding:18px;
+  min-height:118px;
+  padding:14px 16px;
   border:1px solid var(--line);
-  border-radius:var(--radius);
+  border-radius:22px;
   background:
     linear-gradient(135deg,rgba(16,23,40,.96),rgba(9,14,27,.94)),
     radial-gradient(circle at 92% 20%,rgba(59,130,246,.14),transparent 34%);
-  box-shadow:0 16px 44px rgba(0,0,0,.30);
+  box-shadow:0 14px 36px rgba(0,0,0,.28);
   transition:transform .18s ease,border-color .18s ease,background .18s ease;
+  cursor:pointer;
 }
 
 .match-card:hover{
@@ -345,10 +357,15 @@ button{cursor:pointer}
   border-color:rgba(96,165,250,.38);
 }
 
+.match-card.no-stream{
+  cursor:not-allowed;
+  opacity:.72;
+}
+
 .time-panel{
-  min-height:120px;
-  border-radius:22px;
-  padding:16px;
+  min-height:88px;
+  border-radius:18px;
+  padding:14px;
   display:grid;
   align-content:center;
   justify-items:start;
@@ -357,67 +374,38 @@ button{cursor:pointer}
 }
 
 .time{
-  font-size:40px;
+  font-size:42px;
   line-height:1;
   letter-spacing:-1.5px;
   font-weight:900;
 }
 
-.date{
-  margin-top:9px;
-  color:#a8b7cc;
-  font-size:12px;
-  line-height:1.35;
-  font-weight:800;
-}
-
-.status{
-  display:inline-flex;
-  align-items:center;
-  gap:7px;
-  margin-top:14px;
-  height:30px;
-  padding:0 10px;
-  border-radius:999px;
-  font-size:11px;
-  font-weight:900;
-}
-
-.status.live{
-  background:rgba(34,197,94,.12);
-  border:1px solid rgba(34,197,94,.26);
-  color:#bbf7d0;
-}
-
-.status.soon{
-  background:rgba(59,130,246,.13);
-  border:1px solid rgba(59,130,246,.25);
-  color:#bfdbfe;
-}
-
 .main-info{
   min-width:0;
+  display:grid;
+  gap:10px;
 }
 
-.meta{
+.center-meta{
   display:flex;
   align-items:center;
-  gap:10px;
+  justify-content:center;
+  gap:8px;
   min-width:0;
   color:#aebbd0;
   font-size:12px;
-  font-weight:800;
-  margin-bottom:18px;
+  font-weight:900;
+  text-align:center;
 }
 
-.meta img{
-  width:24px;
-  height:24px;
+.center-meta img{
+  width:22px;
+  height:22px;
   object-fit:contain;
   flex:0 0 auto;
 }
 
-.meta span{
+.center-meta span{
   min-width:0;
   overflow:hidden;
   text-overflow:ellipsis;
@@ -426,15 +414,15 @@ button{cursor:pointer}
 
 .teams{
   display:grid;
-  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr);
   align-items:center;
-  gap:18px;
+  gap:14px;
 }
 
 .team{
   display:flex;
   align-items:center;
-  gap:13px;
+  gap:11px;
   min-width:0;
 }
 
@@ -447,9 +435,9 @@ button{cursor:pointer}
 }
 
 .team-logo{
-  width:58px;
-  height:58px;
-  flex:0 0 58px;
+  width:48px;
+  height:48px;
+  flex:0 0 48px;
   display:grid;
   place-items:center;
 }
@@ -461,29 +449,37 @@ button{cursor:pointer}
 }
 
 .placeholder-logo{
-  width:58px;
-  height:58px;
-  border-radius:18px;
+  width:48px;
+  height:48px;
+  border-radius:15px;
   display:grid;
   place-items:center;
   background:rgba(255,255,255,.06);
   border:1px solid var(--line);
   font-weight:900;
+  font-size:13px;
 }
 
 .team-name{
   min-width:0;
-  font-size:20px;
+  font-size:18px;
   font-weight:900;
-  letter-spacing:-.6px;
+  letter-spacing:-.45px;
   overflow:hidden;
   text-overflow:ellipsis;
   white-space:nowrap;
 }
 
+.vs-block{
+  display:grid;
+  justify-items:center;
+  gap:7px;
+  min-width:0;
+}
+
 .vs{
-  width:46px;
-  height:46px;
+  width:42px;
+  height:42px;
   border-radius:50%;
   display:grid;
   place-items:center;
@@ -494,37 +490,18 @@ button{cursor:pointer}
   font-weight:900;
 }
 
-.action-panel{
-  display:grid;
-  gap:10px;
-  justify-items:stretch;
-}
-
-.watch{
-  height:50px;
-  border:0;
-  border-radius:17px;
-  background:linear-gradient(135deg,#22c55e,#67e8f9);
-  color:#021014;
-  font-weight:1000;
-  letter-spacing:.2px;
-}
-
-.watch:disabled{
-  opacity:.45;
-  cursor:not-allowed;
-}
-
-.source-count{
+.match-date{
+  max-width:190px;
   color:#93a4bc;
-  font-size:12px;
+  font-size:11px;
+  line-height:1.25;
   font-weight:800;
   text-align:center;
 }
 
 .empty,.loading,.error{
   border:1px solid var(--line);
-  border-radius:var(--radius);
+  border-radius:22px;
   padding:34px;
   text-align:center;
   background:rgba(255,255,255,.045);
@@ -556,7 +533,9 @@ button{cursor:pointer}
   backdrop-filter:blur(18px);
 }
 
-.modal.active{display:flex}
+.modal.active{
+  display:flex;
+}
 
 .modalbox{
   width:min(860px,96vw);
@@ -655,34 +634,27 @@ button{cursor:pointer}
   }
 
   .match-card{
-    grid-template-columns:1fr;
-    gap:14px;
-  }
-
-  .time-panel{
-    min-height:auto;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    grid-template-columns:120px minmax(0,1fr);
     gap:12px;
   }
 
-  .date{
-    margin-top:4px;
+  .time-panel{
+    min-height:82px;
+    padding:12px;
   }
 
-  .status{
-    margin-top:0;
-    flex:0 0 auto;
+  .time{
+    font-size:34px;
   }
 
-  .action-panel{
-    grid-template-columns:1fr auto;
-    align-items:center;
+  .team-name{
+    font-size:16px;
   }
 
-  .source-count{
-    text-align:right;
+  .team-logo,
+  .placeholder-logo{
+    width:42px;
+    height:42px;
   }
 }
 
@@ -726,26 +698,29 @@ button{cursor:pointer}
   }
 
   .match-card{
+    grid-template-columns:1fr;
     padding:14px;
     border-radius:22px;
   }
 
   .time-panel{
-    align-items:flex-start;
-    flex-direction:column;
+    min-height:auto;
+    align-content:center;
+    justify-items:center;
   }
 
   .teams{
     grid-template-columns:1fr;
-    gap:12px;
+    gap:10px;
   }
 
+  .team,
   .team.away{
-    justify-content:flex-start;
+    justify-content:center;
   }
 
   .team.away .team-name{
-    text-align:left;
+    text-align:center;
     order:2;
   }
 
@@ -753,21 +728,18 @@ button{cursor:pointer}
     order:1;
   }
 
-  .vs{
-    display:none;
+  .vs-block{
+    order:2;
   }
 
   .team-name{
     white-space:normal;
-    font-size:19px;
-  }
-
-  .action-panel{
-    grid-template-columns:1fr;
-  }
-
-  .source-count{
     text-align:center;
+    font-size:18px;
+  }
+
+  .center-meta span{
+    white-space:normal;
   }
 }
 </style>
@@ -798,7 +770,7 @@ button{cursor:pointer}
       <h1>Toate meciurile într-o interfață <span>premium</span>.</h1>
       <p>
         Vezi rapid ce se joacă acum și ce urmează. Evenimentele încheiate sunt ascunse automat,
-        iar fiecare meci este afișat pe un card clar, aerisit și ușor de urmărit.
+        iar player-ul se deschide direct prin click pe cardul meciului.
       </p>
     </div>
 
@@ -820,12 +792,15 @@ button{cursor:pointer}
 
   <section class="toolbar">
     <input class="field" id="search" placeholder="Caută echipă, competiție sau sport...">
+
     <select class="field" id="sport">
       <option value="all">Toate sporturile</option>
     </select>
+
     <select class="field" id="competition">
       <option value="all">Toate competițiile</option>
     </select>
+
     <button class="reset" id="reset" type="button">Reset</button>
   </section>
 
@@ -835,6 +810,7 @@ button{cursor:pointer}
       <button class="tab" type="button" data-status="live">Live</button>
       <button class="tab" type="button" data-status="soon">Urmează</button>
     </div>
+
     <div class="result-info" id="resultInfo">Se încarcă...</div>
   </section>
 
@@ -853,6 +829,7 @@ button{cursor:pointer}
       <div class="modal-title" id="modalTitle">Player</div>
       <button class="close" id="close" type="button">×</button>
     </div>
+
     <div class="player" id="player"></div>
     <div class="sources" id="sources"></div>
   </div>
@@ -899,11 +876,14 @@ function getTitle(event){
   const away = normalize(event.team2 || event.away_team || event.awayTeam || event.away);
 
   if(home && away) return `${home} vs ${away}`;
+
   return normalize(event.title || "Eveniment");
 }
 
 function getStreams(event){
-  if(Array.isArray(event.streams) && event.streams.length) return event.streams;
+  if(Array.isArray(event.streams) && event.streams.length){
+    return event.streams;
+  }
 
   if(event.link || event.url){
     return [{
@@ -948,14 +928,14 @@ function isVisibleEvent(event){
   return getStatus(event) !== "ended";
 }
 
-function statusLabel(status){
-  if(status === "live") return "LIVE";
-  return "URMEAZĂ";
-}
-
 function initials(name){
   const words = normalize(name).split(/\s+/).filter(Boolean);
-  return words.slice(0,2).map(word => word[0]).join("").toUpperCase() || "?";
+
+  return words
+    .slice(0,2)
+    .map(word => word[0])
+    .join("")
+    .toUpperCase() || "?";
 }
 
 function logoHTML(src,name){
@@ -971,16 +951,15 @@ function logoHTML(src,name){
 }
 
 function matchCard(event, index){
-  const status = getStatus(event);
-
   const home = normalize(event.team1 || event.home_team || event.homeTeam || event.home);
   const away = normalize(event.team2 || event.away_team || event.awayTeam || event.away);
+
   const homeLogo = normalize(event.team1_logo || event.home_logo || event.homeLogo || event.home_badge);
   const awayLogo = normalize(event.team2_logo || event.away_logo || event.awayLogo || event.away_badge);
 
   const competitionLogo = normalize(event.competition_logo || event.league_logo || event.competitionLogo);
   const competition = getCompetition(event);
-  const sport = getSport(event);
+
   const streams = getStreams(event);
 
   const date = normalize(event.date || "Dată indisponibilă");
@@ -988,6 +967,7 @@ function matchCard(event, index){
   const time = normalize(event.time || "--:--");
 
   const title = getTitle(event);
+  const dateText = day ? `${day}, ${date}` : date;
 
   const teamsHTML = home && away ? `
     <div class="teams">
@@ -996,7 +976,10 @@ function matchCard(event, index){
         <div class="team-name" title="${escapeHTML(home)}">${escapeHTML(home)}</div>
       </div>
 
-      <div class="vs">VS</div>
+      <div class="vs-block">
+        <div class="vs">VS</div>
+        <div class="match-date">${escapeHTML(dateText)}</div>
+      </div>
 
       <div class="team away">
         <div class="team-name" title="${escapeHTML(away)}">${escapeHTML(away)}</div>
@@ -1009,35 +992,33 @@ function matchCard(event, index){
         <div class="team-logo">${logoHTML(normalize(event.logo),title)}</div>
         <div class="team-name">${escapeHTML(title)}</div>
       </div>
+
+      <div class="vs-block">
+        <div class="vs">VS</div>
+        <div class="match-date">${escapeHTML(dateText)}</div>
+      </div>
     </div>
   `;
 
   return `
-    <article class="match-card">
+    <article
+      class="match-card ${streams.length ? "" : "no-stream"}"
+      onclick="openMatch(${index})"
+      role="button"
+      tabindex="0"
+      onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openMatch(${index})}"
+    >
       <div class="time-panel">
-        <div>
-          <div class="time">${escapeHTML(time)}</div>
-          <div class="date">${escapeHTML(day ? `${day}, ${date}` : date)}</div>
-        </div>
-        <div class="status ${status}">
-          ${status === "live" ? '<span class="live-dot"></span>' : ""}
-          ${statusLabel(status)}
-        </div>
+        <div class="time">${escapeHTML(time)}</div>
       </div>
 
       <div class="main-info">
-        <div class="meta">
+        <div class="center-meta">
           ${competitionLogo ? `<img src="${escapeHTML(competitionLogo)}" alt="${escapeHTML(competition)}" loading="lazy" onerror="this.style.display='none'">` : ""}
-          <span>${escapeHTML(competition)} · ${escapeHTML(sport)}</span>
+          <span>${escapeHTML(competition)}</span>
         </div>
-        ${teamsHTML}
-      </div>
 
-      <div class="action-panel">
-        <button class="watch" type="button" ${streams.length ? "" : "disabled"} onclick="openMatch(${index})">
-          ${streams.length ? "Vezi surse" : "Fără surse"}
-        </button>
-        <div class="source-count">${streams.length} ${streams.length === 1 ? "sursă disponibilă" : "surse disponibile"}</div>
+        ${teamsHTML}
       </div>
     </article>
   `;
@@ -1086,10 +1067,11 @@ function render(){
   const list = filteredEvents();
   const visible = list.slice(0, shown);
 
-  const liveCount = events.filter(event => isVisibleEvent(event) && getStatus(event) === "live").length;
-  const soonCount = events.filter(event => isVisibleEvent(event) && getStatus(event) === "soon").length;
+  const allVisibleEvents = events.filter(isVisibleEvent);
+  const liveCount = allVisibleEvents.filter(event => getStatus(event) === "live").length;
+  const soonCount = allVisibleEvents.filter(event => getStatus(event) === "soon").length;
 
-  $("visibleCount").textContent = events.filter(isVisibleEvent).length;
+  $("visibleCount").textContent = allVisibleEvents.length;
   $("liveCount").textContent = liveCount;
   $("soonCount").textContent = soonCount;
 
@@ -1110,11 +1092,17 @@ function buildFilters(){
   const competitions = [...new Set(events.filter(isVisibleEvent).map(getCompetition).filter(Boolean))].sort();
 
   for(const sport of sports){
-    $("sport").insertAdjacentHTML("beforeend", `<option value="${escapeHTML(sport)}">${escapeHTML(sport)}</option>`);
+    $("sport").insertAdjacentHTML(
+      "beforeend",
+      `<option value="${escapeHTML(sport)}">${escapeHTML(sport)}</option>`
+    );
   }
 
   for(const competition of competitions){
-    $("competition").insertAdjacentHTML("beforeend", `<option value="${escapeHTML(competition)}">${escapeHTML(competition)}</option>`);
+    $("competition").insertAdjacentHTML(
+      "beforeend",
+      `<option value="${escapeHTML(competition)}">${escapeHTML(competition)}</option>`
+    );
   }
 
   $("search").addEventListener("input", () => {
@@ -1137,12 +1125,18 @@ function openMatch(index){
   const event = events[index];
   const streams = getStreams(event);
 
-  if(!streams.length) return;
+  if(!streams.length){
+    return;
+  }
 
   modalTitle.textContent = getTitle(event);
 
   sourcesBox.innerHTML = streams.map((source,sourceIndex) => `
-    <button class="source-btn ${sourceIndex === 0 ? "active" : ""}" type="button" onclick="setSource(${index},${sourceIndex})">
+    <button
+      class="source-btn ${sourceIndex === 0 ? "active" : ""}"
+      type="button"
+      onclick="setSource(${index},${sourceIndex})"
+    >
       ${escapeHTML(source.name || `Sursa ${sourceIndex + 1}`)}
     </button>
   `).join("");
@@ -1157,7 +1151,9 @@ function setSource(index,sourceIndex){
   const streams = getStreams(event);
   const source = streams[sourceIndex];
 
-  if(!source) return;
+  if(!source){
+    return;
+  }
 
   const url = normalize(source.url || source.link || "#");
 
@@ -1265,11 +1261,15 @@ more.addEventListener("click", () => {
 $("close").addEventListener("click", closeModal);
 
 modal.addEventListener("click", event => {
-  if(event.target === modal) closeModal();
+  if(event.target === modal){
+    closeModal();
+  }
 });
 
 document.addEventListener("keydown", event => {
-  if(event.key === "Escape") closeModal();
+  if(event.key === "Escape"){
+    closeModal();
+  }
 });
 
 loadEvents();
