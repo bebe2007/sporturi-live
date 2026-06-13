@@ -1,1112 +1,140 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sporturi Live Premium</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    --bg: #020617;
-    --card: rgba(15, 23, 42, .72);
-    --card-strong: rgba(15, 23, 42, .92);
-    --line: rgba(255,255,255,.12);
-    --text: #f8fafc;
-    --muted: #94a3b8;
-    --green: #00ff9c;
-    --blue: #38bdf8;
-    --violet: #8b5cf6;
-    --red: #ef4444;
-    --gold: #facc15;
-}
-
-html,
-body {
-    margin: 0;
-    min-height: 100%;
-    font-family: Inter, Arial, sans-serif;
-    color: var(--text);
-    background: var(--bg);
-}
-
-body {
-    padding: 28px 14px 70px;
-    overflow-x: hidden;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background:
-        linear-gradient(180deg, rgba(2,6,23,.22), #020617 78%),
-        url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=2200&q=90") center top / cover no-repeat;
-    opacity: .35;
-    z-index: -3;
-}
-
-body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background:
-        radial-gradient(circle at 16% 10%, rgba(0,255,156,.28), transparent 28%),
-        radial-gradient(circle at 84% 14%, rgba(56,189,248,.30), transparent 30%),
-        radial-gradient(circle at 48% 92%, rgba(139,92,246,.22), transparent 34%),
-        linear-gradient(180deg, transparent, #020617 74%);
-    z-index: -2;
-}
-
-.bg-grid {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    background-image:
-        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
-    background-size: 54px 54px;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,.7), transparent 80%);
-    pointer-events: none;
-}
-
-.page {
-    width: min(1180px, 100%);
-    margin: 0 auto;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 14px;
-    margin-bottom: 52px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 16px;
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    background: rgba(15,23,42,.62);
-    backdrop-filter: blur(22px);
-    box-shadow: 0 18px 50px rgba(0,0,0,.22);
-    font-weight: 900;
-}
-
-.logo-mark {
-    width: 38px;
-    height: 38px;
-    border-radius: 13px;
-    display: grid;
-    place-items: center;
-    background: linear-gradient(135deg, var(--green), var(--blue));
-    color: #020617;
-    font-weight: 900;
-    box-shadow: 0 0 34px rgba(0,255,156,.42);
-}
-
-.logo-live {
-    color: var(--green);
-}
-
-.nav-info {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.nav-pill {
-    padding: 12px 14px;
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    background: rgba(15,23,42,.62);
-    backdrop-filter: blur(22px);
-    color: #dbeafe;
-    font-size: 14px;
-    font-weight: 800;
-}
-
-.hero {
-    position: relative;
-    margin-bottom: 34px;
-}
-
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    padding: 10px 14px;
-    border-radius: 999px;
-    background: rgba(0,255,156,.10);
-    border: 1px solid rgba(0,255,156,.28);
-    color: #b6ffe4;
-    font-weight: 800;
-    margin-bottom: 18px;
-}
-
-.live-dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--green);
-    box-shadow: 0 0 18px var(--green);
-}
-
-.hero h1 {
-    margin: 0;
-    max-width: 900px;
-    font-size: clamp(46px, 8vw, 92px);
-    line-height: .88;
-    letter-spacing: -5px;
-    font-weight: 900;
-}
-
-.gradient-text {
-    background: linear-gradient(135deg, #fff, #9effd7 45%, #7dd3fc);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.hero p {
-    max-width: 760px;
-    margin: 20px 0 0;
-    color: #cbd5e1;
-    font-size: clamp(17px, 2vw, 22px);
-    line-height: 1.55;
-}
-
-.controls {
-    display: grid;
-    grid-template-columns: 1fr 190px 190px;
-    gap: 12px;
-    margin: 34px 0 28px;
-}
-
-.control {
-    border: 1px solid var(--line);
-    background: rgba(15,23,42,.70);
-    backdrop-filter: blur(22px);
-    color: white;
-    border-radius: 18px;
-    padding: 15px 16px;
-    outline: none;
-    font-weight: 800;
-    box-shadow: 0 18px 48px rgba(0,0,0,.18);
-}
-
-.control::placeholder {
-    color: #94a3b8;
-}
-
-.events {
-    display: grid;
-    gap: 24px;
-}
-
-.event-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 32px;
-    background:
-        linear-gradient(145deg, rgba(255,255,255,.16), rgba(255,255,255,.04)) border-box;
-    padding: 1px;
-    box-shadow: 0 34px 90px rgba(0,0,0,.42);
-}
-
-.event-shell {
-    position: relative;
-    overflow: hidden;
-    border-radius: 31px;
-    background:
-        linear-gradient(145deg, rgba(15,23,42,.94), rgba(2,6,23,.86));
-    backdrop-filter: blur(26px);
-}
-
-.event-shell::before {
-    content: "";
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    right: -80px;
-    top: -110px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,255,156,.22), transparent 68%);
-}
-
-.event-shell::after {
-    content: "";
-    position: absolute;
-    width: 320px;
-    height: 320px;
-    left: -120px;
-    bottom: -150px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(56,189,248,.18), transparent 70%);
-}
-
-.event-main {
-    position: relative;
-    z-index: 2;
-    display: grid;
-    grid-template-columns: 170px 140px 1fr 128px;
-    gap: 22px;
-    align-items: center;
-    padding: 30px;
-    cursor: pointer;
-}
-
-.date-box,
-.time-box {
-    min-height: 112px;
-    border-radius: 26px;
-    background: rgba(255,255,255,.055);
-    border: 1px solid rgba(255,255,255,.10);
-    display: grid;
-    place-items: center;
-    text-align: center;
-    padding: 16px;
-}
-
-.box-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 17px;
-    display: grid;
-    place-items: center;
-    margin-bottom: 10px;
-    font-size: 23px;
-}
-
-.date-box .box-icon {
-    background: rgba(0,255,156,.13);
-    color: var(--green);
-}
-
-.time-box .box-icon {
-    background: rgba(56,189,248,.13);
-    color: var(--blue);
-}
-
-.date-text,
-.time-text {
-    font-weight: 900;
-}
-
-.date-text {
-    color: #b6ffe4;
-    font-size: 14px;
-}
-
-.time-text {
-    color: #7dd3fc;
-    font-size: 25px;
-    letter-spacing: -1px;
-}
-
-.match-area {
-    min-width: 0;
-}
-
-.match {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
-    min-width: 0;
-}
-
-.team {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 0;
-}
-
-.team.right {
-    flex-direction: row-reverse;
-}
-
-.team-logo-wrap {
-    position: relative;
-    width: 82px;
-    height: 82px;
-    flex: 0 0 auto;
-}
-
-.team-logo-wrap::before {
-    content: "";
-    position: absolute;
-    inset: -14px;
-    border-radius: 28px;
-    background: var(--halo, rgba(0,255,156,.20));
-    filter: blur(18px);
-    opacity: .9;
-}
-
-.team-logo {
-    position: relative;
-    z-index: 2;
-    width: 82px;
-    height: 82px;
-    object-fit: contain;
-    border-radius: 24px;
-    background: rgba(255,255,255,.10);
-    border: 1px solid rgba(255,255,255,.14);
-    padding: 9px;
-}
-
-.team-name {
-    font-size: clamp(28px, 3.5vw, 44px);
-    font-weight: 900;
-    letter-spacing: -2px;
-    white-space: nowrap;
-}
-
-.vs {
-    display: grid;
-    place-items: center;
-    min-width: 52px;
-    height: 52px;
-    border-radius: 999px;
-    background: rgba(255,255,255,.08);
-    border: 1px solid rgba(255,255,255,.12);
-    color: #cbd5e1;
-    font-size: 14px;
-    font-weight: 900;
-}
-
-.competition {
-    margin-top: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #cbd5e1;
-    font-size: 16px;
-    font-weight: 800;
-}
-
-.competition-logo {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-}
-
-.action-area {
-    display: grid;
-    gap: 12px;
-    justify-items: end;
-}
-
-.state-pill {
-    padding: 10px 14px;
-    border-radius: 999px;
-    font-weight: 900;
-    font-size: 13px;
-    background: rgba(56,189,248,.12);
-    border: 1px solid rgba(56,189,248,.30);
-    color: #a5e8ff;
-}
-
-.event-card.is-live .state-pill {
-    background: rgba(0,255,156,.13);
-    border-color: rgba(0,255,156,.34);
-    color: #a7ffd9;
-    box-shadow: 0 0 34px rgba(0,255,156,.18);
-}
-
-.event-card.is-ended .state-pill {
-    background: rgba(148,163,184,.12);
-    border-color: rgba(148,163,184,.24);
-    color: #cbd5e1;
-}
-
-.expand-btn {
-    width: 52px;
-    height: 52px;
-    border: 1px solid rgba(255,255,255,.12);
-    background: rgba(255,255,255,.06);
-    color: var(--green);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 26px;
-    transition: .22s;
-}
-
-.event-card.active .expand-btn {
-    transform: rotate(180deg);
-    background: rgba(0,255,156,.12);
-}
-
-.sources-panel {
-    position: relative;
-    z-index: 3;
-    display: none;
-    margin: 0 30px 30px;
-    border-radius: 26px;
-    padding: 24px;
-    background: rgba(2,6,23,.56);
-    border: 1px solid rgba(255,255,255,.10);
-}
-
-.event-card.active .sources-panel {
-    display: block;
-}
-
-.sources-head {
-    display: flex;
-    justify-content: space-between;
-    gap: 14px;
-    align-items: center;
-    margin-bottom: 18px;
-}
-
-.sources-title {
-    font-weight: 900;
-    font-size: 16px;
-}
-
-.sources-count {
-    color: var(--muted);
-    font-size: 13px;
-    font-weight: 800;
-}
-
-.sources {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-}
-
-.source-btn {
-    border: 1px solid rgba(255,255,255,.12);
-    background: rgba(255,255,255,.06);
-    color: #fff;
-    border-radius: 18px;
-    min-height: 64px;
-    padding: 13px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-align: left;
-    font-weight: 900;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.source-btn:hover {
-    transform: translateY(-2px);
-    background: rgba(0,255,156,.12);
-    border-color: rgba(0,255,156,.35);
-}
-
-.source-logo {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    border-radius: 8px;
-}
-
-.features {
-    margin-top: 36px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border: 1px solid rgba(255,255,255,.10);
-    border-radius: 26px;
-    overflow: hidden;
-    background: rgba(15,23,42,.58);
-    backdrop-filter: blur(22px);
-}
-
-.feature {
-    padding: 22px;
-    border-right: 1px solid rgba(255,255,255,.08);
-}
-
-.feature:last-child {
-    border-right: 0;
-}
-
-.feature-icon {
-    width: 46px;
-    height: 46px;
-    border-radius: 16px;
-    display: grid;
-    place-items: center;
-    background: rgba(0,255,156,.12);
-    color: var(--green);
-    font-size: 21px;
-    margin-bottom: 12px;
-}
-
-.feature strong {
-    display: block;
-    margin-bottom: 6px;
-}
-
-.feature span {
-    color: var(--muted);
-    font-size: 14px;
-    line-height: 1.45;
-}
-
-.loading,
-.error {
-    padding: 42px;
-    text-align: center;
-    color: #cbd5e1;
-    background: rgba(15,23,42,.68);
-    border: 1px solid var(--line);
-    border-radius: 24px;
-}
-
-.footer {
-    color: #64748b;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
-}
-
-.modal {
-    position: fixed;
-    inset: 0;
-    z-index: 99999;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0,0,0,.74);
-    backdrop-filter: blur(14px);
-    padding: 16px;
-}
-
-.modal.active {
-    display: flex;
-}
-
-.modal-box {
-    width: min(860px, 100%);
-    overflow: hidden;
-    border-radius: 28px;
-    background: rgba(15,23,42,.96);
-    border: 1px solid rgba(255,255,255,.16);
-    box-shadow: 0 50px 130px rgba(0,0,0,.72);
-}
-
-.modal-top {
-    display: flex;
-    justify-content: space-between;
-    gap: 12px;
-    align-items: center;
-    padding: 16px 18px;
-    background: rgba(255,255,255,.055);
-    border-bottom: 1px solid rgba(255,255,255,.10);
-}
-
-.modal-title {
-    font-size: 15px;
-    font-weight: 900;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.close-btn {
-    border: 0;
-    background: rgba(255,255,255,.08);
-    color: #fff;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    font-size: 26px;
-    cursor: pointer;
-}
-
-.player {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: #000;
-}
-
-.player iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
-}
-
-.modal-sources {
-    display: flex;
-    gap: 9px;
-    flex-wrap: wrap;
-    padding: 14px;
-    background: rgba(2,6,23,.56);
-    border-top: 1px solid rgba(255,255,255,.10);
-}
-
-.modal-source-btn {
-    border: 1px solid rgba(255,255,255,.12);
-    background: rgba(255,255,255,.06);
-    color: #fff;
-    border-radius: 12px;
-    padding: 10px 12px;
-    font-weight: 800;
-    cursor: pointer;
-}
-
-.modal-source-btn.active {
-    color: #a7ffd9;
-    background: rgba(0,255,156,.13);
-    border-color: rgba(0,255,156,.40);
-}
-
-@media(max-width: 1080px) {
-    .event-main {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .match {
-        flex-wrap: wrap;
-    }
-
-    .action-area {
-        justify-items: center;
-    }
-
-    .sources {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .features {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .controls {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media(max-width: 620px) {
-    body {
-        padding: 18px 10px 48px;
-    }
-
-    .nav {
-        align-items: flex-start;
-        flex-direction: column;
-        margin-bottom: 34px;
-    }
-
-    .hero h1 {
-        letter-spacing: -3px;
-    }
-
-    .event-main {
-        padding: 22px 18px;
-    }
-
-    .date-box,
-    .time-box {
-        min-height: auto;
-    }
-
-    .team,
-    .team.right {
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .team-name {
-        font-size: 30px;
-        white-space: normal;
-    }
-
-    .team-logo-wrap,
-    .team-logo {
-        width: 68px;
-        height: 68px;
-    }
-
-    .sources-panel {
-        margin: 0 14px 18px;
-        padding: 16px;
-    }
-
-    .sources {
-        grid-template-columns: 1fr;
-    }
-
-    .features {
-        grid-template-columns: 1fr;
-    }
-
-    .feature {
-        border-right: 0;
-        border-bottom: 1px solid rgba(255,255,255,.08);
-    }
-
-    .feature:last-child {
-        border-bottom: 0;
-    }
-}
+:root{
+  --bg:#050812;
+  --panel:rgba(12,18,32,.78);
+  --panel2:rgba(17,25,43,.92);
+  --line:rgba(255,255,255,.10);
+  --line2:rgba(255,255,255,.16);
+  --text:#f8fafc;
+  --muted:#94a3b8;
+  --soft:#cbd5e1;
+  --green:#22f59a;
+  --blue:#38bdf8;
+  --red:#fb3f5c;
+  --gold:#facc15;
+  --radius:22px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
+body{padding:22px 12px 60px;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:linear-gradient(180deg,rgba(5,8,18,.45),#050812 78%),url("https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=2200&q=88") center top/cover no-repeat;opacity:.45}
+body:after{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 16% 8%,rgba(34,245,154,.22),transparent 28%),radial-gradient(circle at 82% 16%,rgba(56,189,248,.20),transparent 30%),linear-gradient(180deg,transparent,#050812 72%)}
+.bg-grid{position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.75),transparent 84%)}
+.page{width:min(1260px,100%);margin:auto}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px}
+.brand{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:18px;border:1px solid var(--line);background:rgba(10,16,30,.62);backdrop-filter:blur(22px);box-shadow:0 18px 54px rgba(0,0,0,.28);font-weight:900;letter-spacing:-.4px}
+.brand-mark{width:38px;height:38px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--green),var(--blue));color:#020617;box-shadow:0 0 28px rgba(34,245,154,.34)}
+.brand span{color:var(--green)}
+.top-meta{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:11px 13px;border-radius:999px;border:1px solid var(--line);background:rgba(10,16,30,.62);backdrop-filter:blur(20px);font-weight:800;color:#dbeafe;font-size:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
+.hero{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end;margin-bottom:24px}.hero h1{margin:0;font-size:clamp(34px,6vw,72px);line-height:.92;letter-spacing:-4px;font-weight:900}.hero p{margin:14px 0 0;max-width:760px;color:#cbd5e1;font-size:clamp(15px,1.8vw,19px);line-height:1.55}.gradient{background:linear-gradient(135deg,#fff,#a7ffd9 48%,#7dd3fc);-webkit-background-clip:text;color:transparent}.stats{display:grid;grid-template-columns:repeat(3,110px);gap:10px}.stat{border:1px solid var(--line);background:rgba(10,16,30,.62);border-radius:18px;padding:14px;text-align:center;backdrop-filter:blur(20px)}.stat strong{font-size:24px;display:block}.stat span{font-size:12px;color:var(--muted);font-weight:800}
+.controls{position:sticky;top:8px;z-index:30;display:grid;grid-template-columns:1fr 180px 180px 160px;gap:10px;margin:24px 0 18px;padding:10px;border:1px solid var(--line);border-radius:24px;background:rgba(5,8,18,.72);backdrop-filter:blur(26px);box-shadow:0 20px 70px rgba(0,0,0,.32)}
+.control{min-width:0;border:1px solid var(--line);background:rgba(255,255,255,.055);color:#fff;border-radius:16px;padding:13px 14px;outline:0;font-weight:800}.control::placeholder{color:#94a3b8}.control option{color:#020617}.btn{border:0;background:linear-gradient(135deg,var(--green),var(--blue));color:#020617;border-radius:16px;padding:13px 14px;font-weight:900;cursor:pointer}
+.tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}.tab{border:1px solid var(--line);background:rgba(10,16,30,.60);color:#dbeafe;border-radius:999px;padding:10px 13px;font-weight:900;cursor:pointer}.tab.active{background:rgba(34,245,154,.13);border-color:rgba(34,245,154,.38);color:#b6ffe4}
+.group{margin-bottom:18px}.group-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 10px}.group-title{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:900;letter-spacing:.2px}.group-count{color:var(--muted);font-weight:900;font-size:13px}.events{display:grid;gap:9px}
+.event-row{position:relative;display:grid;grid-template-columns:92px 1fr 120px;gap:12px;align-items:center;min-height:96px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(17,25,43,.86),rgba(9,14,27,.82));border-radius:22px;padding:12px 14px;box-shadow:0 16px 44px rgba(0,0,0,.20);overflow:hidden}.event-row:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:rgba(148,163,184,.55)}.event-row.live:before{background:var(--green);box-shadow:0 0 18px var(--green)}.event-row.soon:before{background:var(--blue)}.event-row.ended{opacity:.72}.event-row.ended:before{background:#64748b}.event-time{display:grid;gap:5px;text-align:center}.time{font-size:25px;font-weight:900;letter-spacing:-1.2px}.date{font-size:12px;color:var(--muted);font-weight:900;text-transform:uppercase}.status{justify-self:center;width:max-content;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:900;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#dbeafe}.status.live{background:rgba(34,245,154,.12);border-color:rgba(34,245,154,.35);color:#a7ffd9}.status.soon{background:rgba(56,189,248,.12);border-color:rgba(56,189,248,.35);color:#bae6fd}
+.match-block{min-width:0}.competition{display:flex;align-items:center;gap:8px;color:#cbd5e1;font-weight:900;font-size:12px;margin-bottom:8px;min-width:0}.competition img{width:22px;height:22px;object-fit:contain}.competition span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:12px;align-items:center}.team{display:flex;align-items:center;gap:10px;min-width:0}.team.away{justify-content:flex-end}.team.away .team-name{text-align:right}.logo-wrap{width:46px;height:46px;flex:0 0 46px;border-radius:16px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;padding:6px}.team-logo{max-width:100%;max-height:100%;object-fit:contain}.placeholder-logo{width:100%;height:100%;border-radius:12px;background:linear-gradient(135deg,rgba(34,245,154,.22),rgba(56,189,248,.16));display:grid;place-items:center;font-size:13px;font-weight:900;color:#e2e8f0}.team-name{font-size:17px;font-weight:900;letter-spacing:-.5px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.vs{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);font-size:11px;font-weight:900;color:#94a3b8}.actions{display:grid;gap:8px;justify-items:end}.source-open{border:1px solid rgba(34,245,154,.34);background:rgba(34,245,154,.11);color:#b6ffe4;border-radius:14px;padding:10px 12px;font-weight:900;cursor:pointer;width:100%}.source-open:hover{background:rgba(34,245,154,.17)}.source-mini{color:var(--muted);font-size:12px;font-weight:800}.empty,.loading,.error{padding:32px;text-align:center;color:#cbd5e1;background:rgba(10,16,30,.68);border:1px solid var(--line);border-radius:22px}.load-more{display:block;margin:18px auto 0;min-width:220px;border:1px solid var(--line2);background:rgba(255,255,255,.07);color:#fff;border-radius:16px;padding:13px 18px;font-weight:900;cursor:pointer}.load-more:hover{background:rgba(255,255,255,.11)}
+.modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.76);backdrop-filter:blur(16px)}.modal.active{display:flex}.modal-box{width:min(980px,100%);border-radius:26px;overflow:hidden;background:rgba(10,16,30,.97);border:1px solid rgba(255,255,255,.15);box-shadow:0 60px 140px rgba(0,0,0,.75)}.modal-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.055)}.modal-title{font-weight:900;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.close{width:42px;height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:26px;cursor:pointer}.player{width:100%;aspect-ratio:16/9;background:#000}.player iframe{width:100%;height:100%;border:0;display:block}.modal-sources{display:flex;gap:9px;flex-wrap:wrap;padding:14px;background:rgba(2,6,23,.48);border-top:1px solid rgba(255,255,255,.10)}.modal-source{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#fff;border-radius:13px;padding:10px 12px;font-weight:900;cursor:pointer}.modal-source.active{color:#a7ffd9;background:rgba(34,245,154,.13);border-color:rgba(34,245,154,.38)}
+.footer{margin-top:28px;text-align:center;color:#64748b;font-size:13px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}.controls{grid-template-columns:1fr 1fr}.event-row{grid-template-columns:78px 1fr}.actions{grid-column:1/-1;grid-template-columns:1fr auto;align-items:center;justify-items:stretch}.source-mini{justify-self:end}.teams{gap:8px}.team-name{font-size:15px}.logo-wrap{width:40px;height:40px;flex-basis:40px}.vs{width:32px;height:32px}}
+@media(max-width:560px){body{padding:14px 8px 45px}.topbar{align-items:flex-start;flex-direction:column}.hero h1{letter-spacing:-2px}.stats{display:none}.controls{position:relative;top:auto;grid-template-columns:1fr;padding:8px;border-radius:20px}.event-row{grid-template-columns:1fr;min-height:auto;padding:13px}.event-time{grid-template-columns:auto auto 1fr;align-items:center;text-align:left}.status{justify-self:end}.teams{grid-template-columns:1fr;gap:8px}.team.away{justify-content:flex-start}.team.away .team-name{text-align:left}.vs{display:none}.source-open{width:auto}.actions{grid-template-columns:1fr auto}.competition{margin-top:2px}.team-name{white-space:normal}}
 </style>
 </head>
-
 <body>
-
 <div class="bg-grid"></div>
-
 <div class="page">
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">▶</div><div>SPORTURI <span>LIVE</span></div></div>
+    <div class="top-meta"><div class="pill"><i class="dot"></i> Online</div><div class="pill">🕒 <span id="clock">--:--</span></div><div class="pill">📅 <span id="today">--</span></div></div>
+  </header>
 
-    <nav class="nav">
-        <div class="logo">
-            <div class="logo-mark">▶</div>
-            <div>SPORTURI <span class="logo-live">LIVE</span></div>
-        </div>
+  <section class="hero">
+    <div><h1>Evenimente live într-o <span class="gradient">interfață premium</span>.</h1><p>Listă compactă, rapidă și optimizată pentru sute de evenimente pe zi. Caută, filtrează și deschide sursele video instant.</p></div>
+    <div class="stats"><div class="stat"><strong id="totalCount">0</strong><span>Total</span></div><div class="stat"><strong id="liveCount">0</strong><span>Live</span></div><div class="stat"><strong id="soonCount">0</strong><span>Urmează</span></div></div>
+  </section>
 
-        <div class="nav-info">
-            <div class="nav-pill">🟢 Online</div>
-            <div class="nav-pill">🕒 <span id="clock">--:--</span></div>
-            <div class="nav-pill">📅 <span id="today">--</span></div>
-        </div>
-    </nav>
+  <section class="controls">
+    <input class="control" id="searchInput" placeholder="Caută echipă, competiție, sport...">
+    <select class="control" id="sportFilter"><option value="all">Toate sporturile</option></select>
+    <select class="control" id="competitionFilter"><option value="all">Toate competițiile</option></select>
+    <button class="btn" id="resetBtn" type="button">Reset</button>
+  </section>
 
-    <section class="hero">
-        <div class="hero-badge"><span class="live-dot"></span> Evenimente live premium</div>
-        <h1>Urmărește <span class="gradient-text">sportul live</span> într-o interfață modernă.</h1>
-        <p>Selectează evenimentul, alege sursa video și deschide playerul direct în pagină.</p>
-    </section>
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-status="all">Toate</button>
+    <button class="tab" data-status="live">Live</button>
+    <button class="tab" data-status="soon">Urmează</button>
+    <button class="tab" data-status="ended">Terminate</button>
+  </nav>
 
-    <section class="controls">
-        <input class="control" id="searchInput" placeholder="Caută echipă, competiție sau eveniment...">
-        <select class="control" id="categoryFilter">
-            <option value="all">Toate sporturile</option>
-        </select>
-        <select class="control" id="statusFilter">
-            <option value="all">Toate statusurile</option>
-            <option value="live">Live acum</option>
-            <option value="soon">Urmează</option>
-            <option value="ended">Terminate</option>
-        </select>
-    </section>
-
-    <main id="events" class="events">
-        <div class="loading">Se încarcă evenimentele...</div>
-    </main>
-
-    <section class="features">
-        <div class="feature"><div class="feature-icon">⚡</div><strong>Rapid</strong><span>Evenimentele se încarcă direct din eventos.json.</span></div>
-        <div class="feature"><div class="feature-icon">▶</div><strong>Player integrat</strong><span>Sursele video se deschid în modal premium.</span></div>
-        <div class="feature"><div class="feature-icon">📱</div><strong>Responsive</strong><span>Aspect optimizat pentru mobil, tabletă și desktop.</span></div>
-        <div class="feature"><div class="feature-icon">✨</div><strong>Premium UI</strong><span>Carduri moderne cu transparență, glow și blur.</span></div>
-    </section>
-
-    <div class="footer">© 2026 Sporturi Live.</div>
-
+  <main id="events"><div class="loading">Se încarcă evenimentele...</div></main>
+  <button class="load-more" id="loadMore" type="button" style="display:none">Încarcă mai multe</button>
+  <div class="footer">© 2026 Sporturi Live. Interfață optimizată pentru 200+ evenimente/zi.</div>
 </div>
 
-<div class="modal" id="videoModal">
-    <div class="modal-box">
-        <div class="modal-top">
-            <div class="modal-title" id="modalTitle">Player video</div>
-            <button class="close-btn" type="button" onclick="closeModal()">×</button>
-        </div>
-        <div class="player" id="modalPlayer"></div>
-        <div class="modal-sources" id="modalSources"></div>
-    </div>
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <div class="modal-top"><div class="modal-title" id="modalTitle">Player video</div><button class="close" type="button" id="closeModal">×</button></div>
+    <div class="player" id="player"></div>
+    <div class="modal-sources" id="modalSources"></div>
+  </div>
 </div>
 
 <script>
 const EVENTS_URL = "eventos.json";
-
-const eventsBox = document.getElementById("events");
-const modal = document.getElementById("videoModal");
-const modalTitle = document.getElementById("modalTitle");
-const modalPlayer = document.getElementById("modalPlayer");
-const modalSources = document.getElementById("modalSources");
-
+const PAGE_SIZE = 45;
+const FALLBACK_LOGO = "";
 let allEvents = [];
-let activeCard = null;
+let visibleCount = PAGE_SIZE;
+let activeStatus = "all";
 
-function text(value, fallback = "") {
-    return value === undefined || value === null || value === "" ? fallback : String(value);
+const el = id => document.getElementById(id);
+const eventsEl = el("events"), loadMoreBtn = el("loadMore"), modal = el("modal"), player = el("player"), modalTitle = el("modalTitle"), modalSources = el("modalSources");
+function clean(v,f=""){return v===undefined||v===null||v===""?f:String(v)}
+function esc(v){return clean(v).replaceAll("&","&amp;").replaceAll('"',"&quot;").replaceAll("<","&lt;").replaceAll(">","&gt;")}
+function stateOf(e){const s=clean(e.status).toLowerCase(); if(s.includes("live")||s.includes("direct")) return "live"; if(s.includes("terminat")||s.includes("final")||s.includes("ended")) return "ended"; return "soon"}
+function stateLabel(s){return s==="live"?"● LIVE":s==="ended"?"Final":"Urmează"}
+function streamsOf(e){if(Array.isArray(e.streams)&&e.streams.length)return e.streams; if(e.link||e.url)return[{name:e.channel||e.source||"Sursa 1",url:e.link||e.url,logo:e.source_logo||""}]; return []}
+function initials(name){return clean(name,"?").split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("").toUpperCase()||"?"}
+function logo(src,name){return src?`<img class="team-logo" src="${esc(src)}" alt="${esc(name)}" loading="lazy" onerror="this.replaceWith(makePlaceholder('${esc(initials(name))}'))">`:`<div class="placeholder-logo">${esc(initials(name))}</div>`}
+function makePlaceholder(t){const d=document.createElement("div");d.className="placeholder-logo";d.textContent=t;return d}
+function compLogo(src,name){return src?`<img src="${esc(src)}" alt="${esc(name)}" loading="lazy" onerror="this.style.display='none'">`:""}
+function eventTitle(e){const h=clean(e.team1||e.home_team||e.homeTeam); const a=clean(e.team2||e.away_team||e.awayTeam); return h&&a?`${h} vs ${a}`:clean(e.title,"Eveniment")}
+function eventDate(e){return clean(e.date,"Astăzi")}
+function eventTime(e){return clean(e.time,"--:--")}
+function normalizeSport(e){return clean(e.sport||e.category,"Sport")}
+function normalizeCompetition(e){return clean(e.competition||e.league||e.category,"Competiție")}
+
+function renderRow(e,index){
+  const st=stateOf(e), streams=streamsOf(e), sport=normalizeSport(e), comp=normalizeCompetition(e);
+  const h=clean(e.team1||e.home_team||e.homeTeam||e.home,""), a=clean(e.team2||e.away_team||e.awayTeam||e.away,"");
+  const hLogo=clean(e.team1_logo||e.home_logo||e.homeLogo||e.home_badge,"");
+  const aLogo=clean(e.team2_logo||e.away_logo||e.awayLogo||e.away_badge,"");
+  const cLogo=clean(e.competition_logo||e.league_logo||e.competitionLogo,"");
+  const title=eventTitle(e);
+  const teams = h&&a ? `<div class="teams"><div class="team home"><div class="logo-wrap">${logo(hLogo,h)}</div><div class="team-name" title="${esc(h)}">${esc(h)}</div></div><div class="vs">VS</div><div class="team away"><div class="team-name" title="${esc(a)}">${esc(a)}</div><div class="logo-wrap">${logo(aLogo,a)}</div></div></div>` : `<div class="teams"><div class="team home"><div class="logo-wrap">${logo(clean(e.logo),title)}</div><div class="team-name" title="${esc(title)}">${esc(title)}</div></div></div>`;
+  return `<article class="event-row ${st}"><div class="event-time"><div class="time">${esc(eventTime(e))}</div><div class="date">${esc(eventDate(e))}</div><div class="status ${st}">${stateLabel(st)}</div></div><div class="match-block"><div class="competition">${compLogo(cLogo,comp)}<span>${esc(comp)} · ${esc(sport)}</span></div>${teams}</div><div class="actions"><button class="source-open" type="button" onclick="openEvent(${index})">Surse (${streams.length})</button><div class="source-mini">${streams.length ? "Player integrat" : "Fără surse"}</div></div></article>`;
 }
-
-function attr(value) {
-    return String(value || "")
-        .replaceAll("&", "&amp;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;");
-}
-
-function img(src, alt, cls) {
-    if (!src) return "";
-    return `<img class="${cls}" src="${attr(src)}" alt="${attr(alt)}" loading="lazy" onerror="this.style.display='none'">`;
-}
-
-function getStreams(event) {
-    if (Array.isArray(event.streams) && event.streams.length) return event.streams;
-    if (event.link) return [{ name: event.channel || event.source || "Sursa video", url: event.link }];
-    return [];
-}
-
-function getEventState(event) {
-    const raw = text(event.status).toLowerCase();
-
-    if (raw.includes("live") || raw.includes("direct")) return "live";
-    if (raw.includes("terminat") || raw.includes("final")) return "ended";
-    return "soon";
-}
-
-function getStateLabel(state) {
-    if (state === "live") return "Live acum";
-    if (state === "ended") return "Terminat";
-    return "Urmează";
-}
-
-function renderEvent(event) {
-    const date = text(event.date, "12 iunie 2026");
-    const time = text(event.time, "--:--");
-    const competition = text(event.competition || event.category, "Competiție");
-    const competitionLogo = text(event.competition_logo);
-    const title = text(event.title, "Eveniment fără titlu");
-
-    const team1 = text(event.team1 || event.home_team || event.homeTeam, "");
-    const team2 = text(event.team2 || event.away_team || event.awayTeam, "");
-    const team1Logo = text(event.team1_logo || event.home_logo || event.homeLogo);
-    const team2Logo = text(event.team2_logo || event.away_logo || event.awayLogo);
-
-    const streams = getStreams(event);
-    const state = getEventState(event);
-
-    const eventTitle = team1 || team2
-        ? `
-            <div class="team">
-                <div class="team-logo-wrap">${img(team1Logo, team1, "team-logo")}</div>
-                <span class="team-name">${team1}</span>
-            </div>
-            <div class="vs">VS</div>
-            <div class="team right">
-                <div class="team-logo-wrap" style="--halo: rgba(56,189,248,.20)">${img(team2Logo, team2, "team-logo")}</div>
-                <span class="team-name">${team2}</span>
-            </div>
-          `
-        : `<span class="team-name">${title}</span>`;
-
-    const buttons = streams.map((source, i) => {
-        const name = text(source.name, `Sursa ${i + 1}`);
-        const logo = text(source.logo, "");
-        const streamsJson = encodeURIComponent(JSON.stringify(streams));
-
-        return `
-            <button class="source-btn" type="button" onclick="openModal(event, '${attr(title)}', '${streamsJson}', ${i})">
-                ${img(logo, name, "source-logo")}
-                <span>${name}</span>
-            </button>
-        `;
-    }).join("");
-
-    return `
-        <article class="event-card is-${state}">
-            <div class="event-shell">
-                <div class="event-main" onclick="toggleCard(this.closest('.event-card'))">
-
-                    <div class="date-box">
-                        <div class="box-icon">📅</div>
-                        <div class="date-text">${date}</div>
-                    </div>
-
-                    <div class="time-box">
-                        <div class="box-icon">⏰</div>
-                        <div class="time-text">${time}</div>
-                    </div>
-
-                    <div class="match-area">
-                        <div class="match">${eventTitle}</div>
-                        <div class="competition">
-                            ${img(competitionLogo, competition, "competition-logo")}
-                            <span>${competition}</span>
-                        </div>
-                    </div>
-
-                    <div class="action-area">
-                        <div class="state-pill">${getStateLabel(state)}</div>
-                        <div class="expand-btn">⌄</div>
-                    </div>
-
-                </div>
-
-                <div class="sources-panel">
-                    <div class="sources-head">
-                        <div class="sources-title">Surse video disponibile</div>
-                        <div class="sources-count">${streams.length} surse</div>
-                    </div>
-
-                    <div class="sources">
-                        ${buttons || "<span class='error'>Nu există surse video.</span>"}
-                    </div>
-                </div>
-            </div>
-        </article>
-    `;
-}
-
-function toggleCard(card) {
-    if (activeCard && activeCard !== card) activeCard.classList.remove("active");
-    card.classList.toggle("active");
-    activeCard = card.classList.contains("active") ? card : null;
-}
-
-function renderEvents() {
-    const q = document.getElementById("searchInput").value.toLowerCase();
-    const category = document.getElementById("categoryFilter").value;
-    const status = document.getElementById("statusFilter").value;
-
-    const filtered = allEvents.filter(event => {
-        const eventCategory = text(event.category || event.competition, "");
-        const state = getEventState(event);
-        const haystack = JSON.stringify(event).toLowerCase();
-
-        return haystack.includes(q)
-            && (category === "all" || eventCategory === category)
-            && (status === "all" || state === status);
-    });
-
-    eventsBox.innerHTML = filtered.length
-        ? filtered.map(renderEvent).join("")
-        : `<div class="error">Nu există evenimente pentru filtrul selectat.</div>`;
-}
-
-function openModal(e, title, encodedStreams, activeIndex = 0) {
-    e.stopPropagation();
-
-    const streams = JSON.parse(decodeURIComponent(encodedStreams));
-    switchSource(streams, activeIndex, title);
-
-    modalSources.innerHTML = streams.map((source, i) => {
-        const name = text(source.name, `Sursa ${i + 1}`);
-        return `
-            <button class="modal-source-btn ${i === activeIndex ? "active" : ""}" onclick='switchSource(${JSON.stringify(streams)}, ${i}, "${attr(title)}")'>
-                ${name}
-            </button>
-        `;
-    }).join("");
-
-    modal.classList.add("active");
-    document.body.style.overflow = "hidden";
-}
-
-function switchSource(streams, index, title) {
-    const source = streams[index];
-    const name = text(source.name, `Sursa ${index + 1}`);
-    const url = text(source.url || source.link, "#");
-
-    modalTitle.textContent = `${title} • ${name}`;
-
-    modalPlayer.innerHTML = `
-        <iframe
-            src="${attr(url)}"
-            allowfullscreen
-            webkitallowfullscreen
-            mozallowfullscreen
-            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            referrerpolicy="no-referrer">
-        </iframe>
-    `;
-
-    document.querySelectorAll(".modal-source-btn").forEach((btn, i) => {
-        btn.classList.toggle("active", i === index);
-    });
-}
-
-function closeModal() {
-    modal.classList.remove("active");
-    modalPlayer.innerHTML = "";
-    modalSources.innerHTML = "";
-    document.body.style.overflow = "";
-}
-
-modal.addEventListener("click", e => {
-    if (e.target === modal) closeModal();
-});
-
-document.addEventListener("keydown", e => {
-    if (e.key === "Escape") closeModal();
-});
-
-function updateTopbar() {
-    const now = new Date();
-
-    document.getElementById("clock").textContent = now.toLocaleTimeString("ro-RO", {
-        hour: "2-digit",
-        minute: "2-digit"
-    });
-
-    document.getElementById("today").textContent = now.toLocaleDateString("ro-RO", {
-        day: "2-digit",
-        month: "long",
-        year: "numeric"
-    });
-}
-
-function buildFilters() {
-    const select = document.getElementById("categoryFilter");
-    const categories = [...new Set(allEvents.map(e => text(e.category || e.competition)).filter(Boolean))];
-
-    categories.forEach(category => {
-        const option = document.createElement("option");
-        option.value = category;
-        option.textContent = category;
-        select.appendChild(option);
-    });
-
-    document.getElementById("searchInput").addEventListener("input", renderEvents);
-    document.getElementById("categoryFilter").addEventListener("change", renderEvents);
-    document.getElementById("statusFilter").addEventListener("change", renderEvents);
-}
-
-async function loadEvents() {
-    try {
-        const response = await fetch(EVENTS_URL, { cache: "no-store" });
-        if (!response.ok) throw new Error();
-
-        allEvents = await response.json();
-
-        if (!Array.isArray(allEvents) || !allEvents.length) {
-            eventsBox.innerHTML = `<div class="error">Nu există evenimente disponibile.</div>`;
-            return;
-        }
-
-        buildFilters();
-        renderEvents();
-
-    } catch {
-        eventsBox.innerHTML = `
-            <div class="error">
-                Evenimentele nu au putut fi încărcate.<br>
-                Verifică fișierul <strong>eventos.json</strong>.
-            </div>
-        `;
-    }
-}
-
-updateTopbar();
-setInterval(updateTopbar, 30000);
-loadEvents();
+function filteredEvents(){const q=el("searchInput").value.toLowerCase().trim(), sport=el("sportFilter").value, comp=el("competitionFilter").value;return allEvents.map((e,i)=>({...e,__i:i})).filter(e=>{const st=stateOf(e);const hay=JSON.stringify(e).toLowerCase();return (!q||hay.includes(q))&&(activeStatus==="all"||st===activeStatus)&&(sport==="all"||normalizeSport(e)===sport)&&(comp==="all"||normalizeCompetition(e)===comp)})}
+function groupEvents(list){const groups=[];const live=list.filter(e=>stateOf(e)==="live"), soon=list.filter(e=>stateOf(e)==="soon"), ended=list.filter(e=>stateOf(e)==="ended");if(activeStatus==="all"){if(live.length)groups.push(["Live acum",live]);if(soon.length)groups.push(["Urmează azi",soon]);if(ended.length)groups.push(["Terminate",ended]);}else{groups.push([activeStatus==="live"?"Live acum":activeStatus==="soon"?"Urmează":"Terminate",list])}return groups}
+function render(){const list=filteredEvents();const slice=list.slice(0,visibleCount);const groups=groupEvents(slice);el("totalCount").textContent=allEvents.length;el("liveCount").textContent=allEvents.filter(e=>stateOf(e)==="live").length;el("soonCount").textContent=allEvents.filter(e=>stateOf(e)==="soon").length;if(!list.length){eventsEl.innerHTML='<div class="empty">Nu există evenimente pentru filtrul selectat.</div>';loadMoreBtn.style.display="none";return}eventsEl.innerHTML=groups.map(([title,items])=>`<section class="group"><div class="group-head"><div class="group-title">${esc(title)}</div><div class="group-count">${items.length} afișate</div></div><div class="events">${items.map(e=>renderRow(e,e.__i)).join("")}</div></section>`).join("");loadMoreBtn.style.display=list.length>visibleCount?"block":"none";}
+function buildFilters(){const sports=[...new Set(allEvents.map(normalizeSport).filter(Boolean))].sort();const comps=[...new Set(allEvents.map(normalizeCompetition).filter(Boolean))].sort();for(const s of sports){el("sportFilter").insertAdjacentHTML("beforeend",`<option value="${esc(s)}">${esc(s)}</option>`)}for(const c of comps){el("competitionFilter").insertAdjacentHTML("beforeend",`<option value="${esc(c)}">${esc(c)}</option>`)}["searchInput","sportFilter","competitionFilter"].forEach(id=>el(id).addEventListener(id==="searchInput"?"input":"change",()=>{visibleCount=PAGE_SIZE;render()}));}
+function openEvent(index){const e=allEvents[index], streams=streamsOf(e), title=eventTitle(e); if(!streams.length){alert("Nu există surse video pentru acest eveniment.");return} modalTitle.textContent=title; modalSources.innerHTML=streams.map((s,i)=>`<button class="modal-source ${i===0?"active":""}" type="button" onclick="switchSource(${index},${i})">${esc(clean(s.name,`Sursa ${i+1}`))}</button>`).join(""); modal.classList.add("active"); document.body.style.overflow="hidden"; switchSource(index,0)}
+function switchSource(index,i){const e=allEvents[index], streams=streamsOf(e), s=streams[i], url=clean(s.url||s.link,"#");player.innerHTML=`<iframe src="${esc(url)}" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay; fullscreen; encrypted-media; picture-in-picture" referrerpolicy="no-referrer"></iframe>`;document.querySelectorAll(".modal-source").forEach((b,k)=>b.classList.toggle("active",k===i))}
+function closeModal(){modal.classList.remove("active");player.innerHTML="";modalSources.innerHTML="";document.body.style.overflow=""}
+el("closeModal").addEventListener("click",closeModal);modal.addEventListener("click",e=>{if(e.target===modal)closeModal()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});loadMoreBtn.addEventListener("click",()=>{visibleCount+=PAGE_SIZE;render()});el("resetBtn").addEventListener("click",()=>{el("searchInput").value="";el("sportFilter").value="all";el("competitionFilter").value="all";activeStatus="all";visibleCount=PAGE_SIZE;document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.status==="all"));render()});document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{activeStatus=t.dataset.status;visibleCount=PAGE_SIZE;document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));t.classList.add("active");render()}));
+function topbar(){const n=new Date();el("clock").textContent=n.toLocaleTimeString("ro-RO",{hour:"2-digit",minute:"2-digit"});el("today").textContent=n.toLocaleDateString("ro-RO",{day:"2-digit",month:"long",year:"numeric"})}
+async function load(){topbar();setInterval(topbar,30000);try{const r=await fetch(EVENTS_URL,{cache:"no-store"});if(!r.ok)throw new Error("fetch");allEvents=await r.json();if(!Array.isArray(allEvents))throw new Error("json");buildFilters();render()}catch(err){eventsEl.innerHTML='<div class="error">Evenimentele nu au putut fi încărcate. Verifică fișierul <strong>eventos.json</strong> în același folder cu index.html.</div>'}}
+load();
 </script>
-
 </body>
 </html>
