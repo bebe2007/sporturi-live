@@ -1,117 +1,88 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="theme-color" content="#000000" />
-  <title>ITV-1</title>
-  <link rel="icon" href="https://raw.githubusercontent.com/bebe2007/bebe2007.github.io/refs/heads/main/logo.png" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      touch-action: manipulation;
-      font-family: Arial, sans-serif;
-    }
-    #player {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: 1;
-    }
-    .loading {
-      position: fixed;
-      top: 40vh;
-      width: 100%;
-      text-align: center;
-      color: white;
-      font-size: 18px;
-      z-index: 2;
-    }
-    .sound-tip {
-      position: absolute;
-      top: 10px;
-      right: 12px;
-      color: white;
-      background: rgba(0, 0, 0, 0.6);
-      padding: 4px 10px;
-      border-radius: 4px;
-      font-size: 13px;
-      z-index: 9999;
-    }
-    .watermark-text {
-      position: fixed;
-      bottom: 12px;
-      right: 14px;
-      color: white;
-      font-size: 14px;
-      opacity: 0.3;
-      z-index: 9999;
-      pointer-events: none;
-      user-select: none;
-    }
-    .player-wrapper, .player, .media-control, .clappr-core {
-      width: 100% !important;
-      height: 100% !important;
-    }
-  </style>
+<meta charset="utf-8">
+<title>ITV-1</title>
+
+<script src="//cdn.bitmovin.com/player/web/8/bitmovinplayer.js"></script>
+
+<style>
+html,body{
+    margin:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    overflow:hidden;
+}
+
+#playerdiv{
+    width:100%;
+    height:100vh;
+}
+</style>
 </head>
+
 <body>
-  <div class="loading" id="loading">🔄 Se încarcă streamul...</div>
-  <div id="player"></div>
-  <div class="watermark-text">Bratu Marian</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
+<div id="playerdiv"></div>
 
-  <script>
-    document.addEventListener('contextmenu', e => e.preventDefault());
+<script>
+function override(url){
 
-    const player = new Clappr.Player({
-      source: "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/dash/enc/slc1dkcymj/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-      mimeType: "application/dash+xml",
-      autoPlay: true,
-      muted: true,
-      plugins: [DashShakaPlayback],
-      shakaConfiguration: {
-        drm: {
-          clearKeys: {
-            'ec533d484c550a892ff162e4a5f4dbc3': 'b6c1c527303bc577b85eb849cbab75d2'
-          }
-        }
-      },
-      watermark: "https://raw.githubusercontent.com/bebe2007/bebe2007.github.io/refs/heads/main/logo.png",
-      position: "top-left",
-      watermarkLink: "https://google.ro/",
-      width: "100%",
-      height: "100%",
-      parentId: "#player",
-      events: {
-        onReady: function () {
-          document.getElementById('loading').style.display = 'none';
+    if (url.indexOf("licensing.bitmovin.com/licensing") > -1)
+        return "data:text/plain;charset=utf-8;base64,eyJzdGF0dXMiOiJncmFudGVkIiwibWVzc2FnZSI6Ik9LIn0=";
 
-          setTimeout(() => {
-            const logo = document.querySelector('.watermark[data-watermark]');
-            if (logo) logo.style.opacity = '0.5';
-          }, 500);
+    if (url.indexOf("licensing.bitmovin.com/impression") > -1)
+        return "data:text/plain;charset=utf-8;base64,eyJzdGF0dXMiOiJncmFudGVkIiwibWVzc2FnZSI6Ik9LIn0=";
 
-          const tip = document.createElement("div");
-          tip.className = "sound-tip";
-          tip.textContent = "🔊 Fă clic pentru sunet";
-          document.querySelector("#player .player")?.appendChild(tip);
-          setTimeout(() => tip.remove(), 3000);
-        }
-      }
-    });
-  </script>
+    return url;
+}
+
+var opens = XMLHttpRequest.prototype.open;
+
+XMLHttpRequest.prototype.open = function () {
+    arguments[1] = override(arguments[1]);
+    return opens.apply(this, arguments);
+};
+
+var config = {
+    key: "11d3698c-efdf-42f1-8769-54663995de2b",
+
+    tweaks: {
+        XHR_TIMEOUT: 10000
+    },
+
+    style: {
+        width: "100%",
+        height: "100vh"
+    },
+
+    playback: {
+        autoplay: true,
+        muted: true
+    }
+};
+
+var source = {
+    dash: "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/dash/enc/slc1dkcymj/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+
+    drm: {
+        clearkey: [{
+            key: "ec533d484c550a892ff162e4a5f4dbc3",
+            kid: "b6c1c527303bc577b85eb849cbab75d2"
+        }]
+    }
+};
+
+var player = new bitmovin.player.Player(
+    document.getElementById("playerdiv"),
+    config
+);
+
+player.load(source).then(function () {
+    player.play();
+});
+</script>
+
 </body>
 </html>
