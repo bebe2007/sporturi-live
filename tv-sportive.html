@@ -1,57 +1,102 @@
-```html
 <!DOCTYPE html>
 <html lang="ro">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Canale TV Live</title>
+<title>Canale TV Sportive</title>
 
 <style>
-*{
-  box-sizing:border-box;
-}
+*{box-sizing:border-box}
 
 body{
   margin:0;
   min-height:100vh;
-  background:#0f172a;
   font-family:Arial,sans-serif;
-  color:white;
-  padding:24px;
+  color:#fff;
+  background:
+    radial-gradient(circle at top left,rgba(56,189,248,.25),transparent 35%),
+    radial-gradient(circle at top right,rgba(34,197,94,.20),transparent 35%),
+    linear-gradient(135deg,#050914,#0f172a);
 }
 
-h1{
-  text-align:center;
-  margin:0 0 28px;
-  font-size:30px;
+.page{
+  width:min(1450px,calc(100% - 28px));
+  margin:auto;
+  padding:24px 0 50px;
+}
+
+.header{
+  padding:24px;
+  margin-bottom:20px;
+  border-radius:24px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  backdrop-filter:blur(18px);
+  box-shadow:0 20px 70px rgba(0,0,0,.35);
+}
+
+.header h1{
+  margin:0;
+  font-size:clamp(30px,5vw,58px);
+  letter-spacing:-.05em;
+}
+
+.header p{
+  color:#aebbd0;
+  margin:10px 0 0;
+  font-size:16px;
+}
+
+.controls{
+  display:grid;
+  grid-template-columns:1fr 190px;
+  gap:12px;
+  margin-bottom:20px;
+}
+
+input,select{
+  height:48px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:999px;
+  background:rgba(0,0,0,.28);
+  color:white;
+  padding:0 18px;
+  outline:none;
+  font-size:15px;
+}
+
+select option{
+  color:#111827;
 }
 
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
   gap:16px;
-  max-width:1400px;
-  margin:0 auto;
 }
 
 .card{
-  background:#1e293b;
+  min-height:170px;
   border:1px solid rgba(255,255,255,.12);
-  border-radius:16px;
+  border-radius:20px;
   padding:16px 12px;
-  text-align:center;
+  background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.045));
+  backdrop-filter:blur(14px);
   cursor:pointer;
+  text-align:center;
   transition:.25s;
+  position:relative;
+  overflow:hidden;
 }
 
 .card:hover{
-  transform:translateY(-5px);
-  background:#334155;
-  box-shadow:0 10px 25px rgba(0,0,0,.35);
+  transform:translateY(-6px);
+  background:rgba(56,189,248,.16);
+  box-shadow:0 16px 40px rgba(0,0,0,.35);
 }
 
 .logo-box{
-  height:80px;
+  height:85px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -60,26 +105,125 @@ h1{
 
 .logo-box img{
   max-width:130px;
-  max-height:70px;
+  max-height:72px;
   object-fit:contain;
 }
 
 .name{
   font-size:14px;
-  font-weight:bold;
+  font-weight:800;
   line-height:1.35;
 }
 
-.id{
-  margin-top:5px;
-  font-size:11px;
+.channel-id{
+  margin-top:6px;
+  font-size:10px;
   color:#94a3b8;
   word-break:break-word;
 }
 
-@media(max-width:600px){
-  body{
-    padding:14px;
+.badge{
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size:10px;
+  padding:4px 7px;
+  border-radius:999px;
+  background:rgba(34,197,94,.18);
+  color:#bbf7d0;
+  border:1px solid rgba(34,197,94,.3);
+}
+
+.status{
+  padding:22px;
+  text-align:center;
+  color:#aebbd0;
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:99999;
+  background:rgba(0,0,0,.88);
+  backdrop-filter:blur(8px);
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+}
+
+.modal.active{
+  display:flex;
+}
+
+.modal-content{
+  width:min(1050px,96vw);
+  height:min(78vh,720px);
+  background:#000;
+  border-radius:20px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 30px 120px rgba(0,0,0,.8);
+}
+
+.modal-header{
+  height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:0 14px;
+  background:linear-gradient(90deg,#06111f,#101827);
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+
+.modal-title{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:14px;
+  font-weight:800;
+  min-width:0;
+}
+
+.modal-title img{
+  width:42px;
+  height:26px;
+  object-fit:contain;
+}
+
+.modal-title span{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.close{
+  width:34px;
+  height:34px;
+  border:0;
+  border-radius:10px;
+  background:rgba(255,255,255,.12);
+  color:white;
+  font-size:24px;
+  cursor:pointer;
+}
+
+.close:hover{
+  background:#ef4444;
+}
+
+iframe{
+  width:100%;
+  height:calc(100% - 48px);
+  border:0;
+  background:#000;
+}
+
+@media(max-width:700px){
+  .controls{
+    grid-template-columns:1fr;
   }
 
   .grid{
@@ -88,6 +232,7 @@ h1{
   }
 
   .card{
+    min-height:145px;
     padding:12px 8px;
   }
 
@@ -104,8 +249,9 @@ h1{
     font-size:12px;
   }
 
-  .id{
-    font-size:10px;
+  .modal-content{
+    width:98vw;
+    height:72vh;
   }
 }
 </style>
@@ -113,233 +259,266 @@ h1{
 
 <body>
 
-<h1>📺 Canale TV Live</h1>
+<main class="page">
+  <section class="header">
+    <h1>📺 Canale TV Sportive</h1>
+    <p>Lista este citită automat din <strong>channels.html</strong>. Click pe canal pentru deschidere în player modal.</p>
+  </section>
 
-<div class="grid" id="channelsGrid"></div>
+  <section class="controls">
+    <input type="search" id="searchInput" placeholder="Caută canal..." />
+    <select id="countryFilter">
+      <option value="all">Toate țările</option>
+    </select>
+  </section>
+
+  <div id="status" class="status">Se încarcă lista canalelor...</div>
+  <section class="grid" id="grid"></section>
+</main>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="modal-title">
+        <img id="modalLogo" src="" alt="">
+        <span id="modalTitle">Canal Live</span>
+      </div>
+      <button class="close" id="closeBtn">&times;</button>
+    </div>
+
+    <iframe
+      id="playerFrame"
+      src=""
+      allowfullscreen
+      allow="autoplay; fullscreen; encrypted-media; picture-in-picture">
+    </iframe>
+  </div>
+</div>
 
 <script>
+const CHANNELS_FILE = "channels.html";
+const PLAYER_FILE = "channels.html";
 const logoBase = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/";
-const playerPage = "channels.html";
 
-const channels = [
-  {
-    id:"fox-sport-1-usa",
-    name:"FOX Sports 1 USA",
-    logo:logoBase+"united-states/fox-sports-1-us.png"
-  },
-  {
-    id:"fox-sport-2-usa",
-    name:"FOX Sports 2 USA",
-    logo:logoBase+"united-states/fox-sports-2-us.png"
-  },
-  {
-    id:"fox-network-usa",
-    name:"FOX Network USA",
-    logo:logoBase+"united-states/fox-us.png"
-  },
-  {
-    id:"world-cup-tv",
-    name:"World Cup TV",
-    logo:logoBase+"philippines/world-cup-tv-ph.png"
-  },
-  {
-    id:"laligatv",
-    name:"LaLiga TV",
-    logo:logoBase+"united-kingdom/laliga-tv-uk.png"
-  },
-  {
-    id:"maxsport1-croatia",
-    name:"MAX Sport 1 Croatia",
-    logo:logoBase+"croatia/max-sport-1-hr.png"
-  },
-  {
-    id:"maxsport2-croatia",
-    name:"MAX Sport 2 Croatia",
-    logo:logoBase+"croatia/max-sport-2-hr.png"
-  },
-  {
-    id:"primasport1",
-    name:"Prima Sport 1",
-    logo:logoBase+"romania/prima-sport-1-ro.png"
-  },
-  {
-    id:"primasport2",
-    name:"Prima Sport 2",
-    logo:logoBase+"romania/prima-sport-2-ro.png"
-  },
-  {
-    id:"primasport3",
-    name:"Prima Sport 3",
-    logo:logoBase+"romania/prima-sport-3-ro.png"
-  },
-  {
-    id:"primasport4",
-    name:"Prima Sport 4",
-    logo:logoBase+"romania/prima-sport-4-ro.png"
-  },
-  {
-    id:"primasport5",
-    name:"Prima Sport 5",
-    logo:logoBase+"romania/prima-sport-5-ro.png"
-  },
-  {
-    id:"premier-sports-1-uk",
-    name:"Premier Sports 1 UK",
-    logo:logoBase+"united-kingdom/premier-sports-1-uk.png"
-  },
-  {
-    id:"premier-sports-2-uk",
-    name:"Premier Sports 2 UK",
-    logo:logoBase+"united-kingdom/premier-sports-2-uk.png"
-  },
-  {
-    id:"universo",
-    name:"NBC Universo",
-    logo:logoBase+"united-states/nbc-universo-us.png"
-  },
-  {
-    id:"telemundo",
-    name:"Telemundo",
-    logo:logoBase+"united-states/telemundo-us.png"
-  },
-  {
-    id:"tve",
-    name:"TVE",
-    logo:logoBase+"spain/tve-es.png"
-  },
-  {
-    id:"sport-1-cehia",
-    name:"Sport 1 Cehia",
-    logo:logoBase+"czechia/sport-1-cz.png"
-  },
-  {
-    id:"sport-2-cehia",
-    name:"Sport 2 Cehia",
-    logo:logoBase+"czechia/sport-2-cz.png"
-  },
-  {
-    id:"tnt-sport-1-uk",
-    name:"TNT Sports 1 UK",
-    logo:logoBase+"united-kingdom/tnt-sports-1-uk.png"
-  },
-  {
-    id:"tnt-sport-2-uk",
-    name:"TNT Sports 2 UK",
-    logo:logoBase+"united-kingdom/tnt-sports-2-uk.png"
-  },
-  {
-    id:"tnt-sport-3-uk",
-    name:"TNT Sports 3 UK",
-    logo:logoBase+"united-kingdom/tnt-sports-3-uk.png"
-  },
-  {
-    id:"tnt-sport-4-uk",
-    name:"TNT Sports 4 UK",
-    logo:logoBase+"united-kingdom/tnt-sports-4-uk.png"
-  },
-  {
-    id:"itv-1-uk",
-    name:"ITV 1 UK",
-    logo:logoBase+"united-kingdom/itv-1-uk.png"
-  },
-  {
-    id:"nova-sport-1_cehia",
-    name:"Nova Sport 1 Cehia",
-    logo:logoBase+"czechia/nova-sport-1-cz.png"
-  },
-  {
-    id:"nova-sport-2_cehia",
-    name:"Nova Sport 2 Cehia",
-    logo:logoBase+"czechia/nova-sport-2-cz.png"
-  },
-  {
-    id:"match_premier",
-    name:"Match Premier",
-    logo:logoBase+"russia/match-premier-ru.png"
-  },
-  {
-    id:"match_football1",
-    name:"Match Football 1",
-    logo:logoBase+"russia/match-football-1-ru.png"
-  },
-  {
-    id:"match_football2",
-    name:"Match Football 2",
-    logo:logoBase+"russia/match-football-2-ru.png"
-  },
-  {
-    id:"match_football3",
-    name:"Match Football 3",
-    logo:logoBase+"russia/match-football-3-ru.png"
-  },
-  {
-    id:"match_arena",
-    name:"Match Arena",
-    logo:logoBase+"russia/match-arena-ru.png"
-  },
-  {
-    id:"match",
-    name:"Match TV",
-    logo:logoBase+"russia/match-tv-ru.png"
-  },
-  {
-    id:"TSN-1",
-    name:"TSN 1 Canada",
-    logo:logoBase+"canada/tsn-1-ca.png"
-  },
-  {
-    id:"TSN-3",
-    name:"TSN 3 Canada",
-    logo:logoBase+"canada/tsn-3-ca.png"
-  },
-  {
-    id:"fancode",
-    name:"FanCode",
-    logo:logoBase+"india/fancode-in.png"
-  },
-  {
-    id:"sky-sport-f1-uk",
-    name:"Sky Sport F1 UK",
-    logo:logoBase+"united-kingdom/sky-sports-f1-uk.png"
-  },
-  {
-    id:"spor-tv-brazilia",
-    name:"SporTV Brazilia",
-    logo:logoBase+"brazil/sportv-br.png"
-  },
-  {
-    id:"default",
-    name:"Default Channel",
-    logo:"https://via.placeholder.com/300x160/1e293b/ffffff?text=TV"
+const logoMap = {
+  "fox-sport-1-usa": ["FOX Sports 1 USA", "SUA", logoBase+"united-states/fox-sports-1-us.png"],
+  "fox-sport-2-usa": ["FOX Sports 2 USA", "SUA", logoBase+"united-states/fox-sports-2-us.png"],
+  "fox-network-usa": ["FOX Network USA", "SUA", logoBase+"united-states/fox-us.png"],
+  "world-cup-tv": ["World Cup TV", "Filipine", logoBase+"philippines/world-cup-tv-ph.png"],
+  "laligatv": ["LaLiga TV", "UK", logoBase+"united-kingdom/laliga-tv-uk.png"],
+
+  "maxsport1-croatia": ["MAX Sport 1", "Croația", logoBase+"croatia/max-sport-1-hr.png"],
+  "maxsport2-croatia": ["MAX Sport 2", "Croația", logoBase+"croatia/max-sport-2-hr.png"],
+
+  "primasport1": ["Prima Sport 1", "România", logoBase+"romania/prima-sport-1-ro.png"],
+  "primasport2": ["Prima Sport 2", "România", logoBase+"romania/prima-sport-2-ro.png"],
+  "primasport3": ["Prima Sport 3", "România", logoBase+"romania/prima-sport-3-ro.png"],
+  "primasport4": ["Prima Sport 4", "România", logoBase+"romania/prima-sport-4-ro.png"],
+  "primasport5": ["Prima Sport 5", "România", logoBase+"romania/prima-sport-5-ro.png"],
+
+  "premier-sports-1-uk": ["Premier Sports 1", "UK", logoBase+"united-kingdom/premier-sports-1-uk.png"],
+  "premier-sports-2-uk": ["Premier Sports 2", "UK", logoBase+"united-kingdom/premier-sports-2-uk.png"],
+
+  "universo": ["NBC Universo", "SUA", logoBase+"united-states/nbc-universo-us.png"],
+  "telemundo": ["Telemundo", "SUA", logoBase+"united-states/telemundo-us.png"],
+  "tve": ["TVE", "Spania", logoBase+"spain/tve-es.png"],
+
+  "sport-1-cehia": ["Sport 1", "Cehia", logoBase+"czechia/sport-1-cz.png"],
+  "sport-2-cehia": ["Sport 2", "Cehia", logoBase+"czechia/sport-2-cz.png"],
+
+  "tnt-sport-1-uk": ["TNT Sports 1", "UK", logoBase+"united-kingdom/tnt-sports-1-uk.png"],
+  "tnt-sport-2-uk": ["TNT Sports 2", "UK", logoBase+"united-kingdom/tnt-sports-2-uk.png"],
+  "tnt-sport-3-uk": ["TNT Sports 3", "UK", logoBase+"united-kingdom/tnt-sports-3-uk.png"],
+  "tnt-sport-4-uk": ["TNT Sports 4", "UK", logoBase+"united-kingdom/tnt-sports-4-uk.png"],
+
+  "itv-1-uk": ["ITV 1", "UK", logoBase+"united-kingdom/itv-1-uk.png"],
+
+  "nova-sport-1_cehia": ["Nova Sport 1", "Cehia", logoBase+"czechia/nova-sport-1-cz.png"],
+  "nova-sport-2_cehia": ["Nova Sport 2", "Cehia", logoBase+"czechia/nova-sport-2-cz.png"],
+
+  "match_premier": ["Match Premier", "Rusia", logoBase+"russia/match-premier-ru.png"],
+  "match_football1": ["Match Football 1", "Rusia", logoBase+"russia/match-football-1-ru.png"],
+  "match_football2": ["Match Football 2", "Rusia", logoBase+"russia/match-football-2-ru.png"],
+  "match_football3": ["Match Football 3", "Rusia", logoBase+"russia/match-football-3-ru.png"],
+  "match_arena": ["Match Arena", "Rusia", logoBase+"russia/match-arena-ru.png"],
+  "match": ["Match TV", "Rusia", logoBase+"russia/match-tv-ru.png"],
+
+  "TSN-1": ["TSN 1", "Canada", logoBase+"canada/tsn-1-ca.png"],
+  "TSN-3": ["TSN 3", "Canada", logoBase+"canada/tsn-3-ca.png"],
+
+  "fancode": ["FanCode", "India", logoBase+"india/fancode-in.png"],
+  "sky-sport-f1-uk": ["Sky Sports F1", "UK", logoBase+"united-kingdom/sky-sports-f1-uk.png"],
+  "spor-tv-brazilia": ["SporTV", "Brazilia", logoBase+"brazil/sportv-br.png"],
+  "default": ["Default Channel", "Generic", "https://via.placeholder.com/300x160/1e293b/ffffff?text=TV"]
+};
+
+let allChannels = [];
+
+const grid = document.getElementById("grid");
+const statusBox = document.getElementById("status");
+const searchInput = document.getElementById("searchInput");
+const countryFilter = document.getElementById("countryFilter");
+
+const modal = document.getElementById("modal");
+const playerFrame = document.getElementById("playerFrame");
+const closeBtn = document.getElementById("closeBtn");
+const modalLogo = document.getElementById("modalLogo");
+const modalTitle = document.getElementById("modalTitle");
+
+function niceName(id){
+  return id
+    .replaceAll("_"," ")
+    .replaceAll("-"," ")
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function getChannelData(id){
+  const mapped = logoMap[id];
+
+  if(mapped){
+    return {
+      id,
+      name:mapped[0],
+      country:mapped[1],
+      logo:mapped[2]
+    };
   }
-];
 
-const grid = document.getElementById("channelsGrid");
+  return {
+    id,
+    name:niceName(id),
+    country:"Necunoscut",
+    logo:"https://via.placeholder.com/300x160/1e293b/ffffff?text=TV"
+  };
+}
 
-channels.forEach(channel => {
-  const card = document.createElement("div");
-  card.className = "card";
+async function loadChannels(){
+  try{
+    const response = await fetch(CHANNELS_FILE, {cache:"no-store"});
 
-  card.innerHTML = `
-    <div class="logo-box">
-      <img
-        src="${channel.logo}"
-        alt="${channel.name}"
-        loading="lazy"
-        onerror="this.src='https://via.placeholder.com/300x160/1e293b/ffffff?text=TV'">
-    </div>
-    <div class="name">${channel.name}</div>
-    <div class="id">${channel.id}</div>
+    if(!response.ok){
+      throw new Error("Nu pot citi channels.html");
+    }
+
+    const html = await response.text();
+
+    const match = html.match(/var\s+ConfiguracionCanales\s*=\s*{([\s\S]*?)};\s*\/\/\s*CITIRE ID DIN URL PARAMETERS/);
+
+    if(!match){
+      throw new Error("Nu am găsit obiectul ConfiguracionCanales în channels.html");
+    }
+
+    const content = match[1];
+    const ids = [...content.matchAll(/["']([^"']+)["']\s*:\s*{/g)]
+      .map(item => item[1])
+      .filter((id, index, arr) => arr.indexOf(id) === index);
+
+    allChannels = ids.map(getChannelData);
+
+    populateFilter();
+    renderChannels(allChannels);
+
+    statusBox.style.display = "none";
+  }catch(error){
+    console.error(error);
+    statusBox.innerHTML = "Eroare: verifică dacă <strong>channels.html</strong> este în același folder cu această pagină.";
+  }
+}
+
+function populateFilter(){
+  const countries = [...new Set(allChannels.map(c => c.country))].sort();
+
+  countryFilter.innerHTML = `
+    <option value="all">Toate țările</option>
+    ${countries.map(country => `<option value="${country}">${country}</option>`).join("")}
   `;
+}
 
-  card.addEventListener("click", () => {
-    window.open(playerPage + "?id=" + encodeURIComponent(channel.id), "_blank");
+function renderChannels(channels){
+  grid.innerHTML = "";
+
+  if(!channels.length){
+    statusBox.style.display = "block";
+    statusBox.textContent = "Nu există canale pentru filtrul selectat.";
+    return;
+  }
+
+  statusBox.style.display = "none";
+
+  channels.forEach(channel => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <div class="badge">${channel.country}</div>
+      <div class="logo-box">
+        <img
+          src="${channel.logo}"
+          alt="${channel.name}"
+          loading="lazy"
+          onerror="this.src='https://via.placeholder.com/300x160/1e293b/ffffff?text=TV'">
+      </div>
+      <div class="name">${channel.name}</div>
+      <div class="channel-id">${channel.id}</div>
+    `;
+
+    card.addEventListener("click", () => openModal(channel));
+    grid.appendChild(card);
+  });
+}
+
+function applyFilters(){
+  const query = searchInput.value.toLowerCase().trim();
+  const country = countryFilter.value;
+
+  const filtered = allChannels.filter(channel => {
+    const matchesSearch =
+      channel.name.toLowerCase().includes(query) ||
+      channel.id.toLowerCase().includes(query) ||
+      channel.country.toLowerCase().includes(query);
+
+    const matchesCountry = country === "all" || channel.country === country;
+
+    return matchesSearch && matchesCountry;
   });
 
-  grid.appendChild(card);
+  renderChannels(filtered);
+}
+
+function openModal(channel){
+  modalTitle.textContent = channel.name;
+  modalLogo.src = channel.logo;
+  playerFrame.src = PLAYER_FILE + "?id=" + encodeURIComponent(channel.id);
+
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closeModal(){
+  modal.classList.remove("active");
+  playerFrame.src = "";
+  document.body.style.overflow = "";
+}
+
+closeBtn.addEventListener("click", closeModal);
+
+modal.addEventListener("click", event => {
+  if(event.target === modal){
+    closeModal();
+  }
 });
+
+document.addEventListener("keydown", event => {
+  if(event.key === "Escape"){
+    closeModal();
+  }
+});
+
+searchInput.addEventListener("input", applyFilters);
+countryFilter.addEventListener("change", applyFilters);
+
+loadChannels();
 </script>
 
 </body>
 </html>
-```
