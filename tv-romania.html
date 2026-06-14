@@ -3,161 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#020617">
-<meta name="description" content="Hub premium pentru canale TV românești live, cu favorite, căutare rapidă, player fullscreen și interfață compatibilă cu toate dispozitivele.">
-<title>TV România Live | Hub Canale TV Online</title>
-
+<meta name="theme-color" content="#050507">
+<title>TV România Live | Stream Hub</title>
+<meta name="description" content="Hub TV online cu design modern tip streaming, categorii, căutare, favorite, ultimele accesate și player modal fullscreen.">
 <style>
 :root{
-  --bg:#020617;
-  --bg-soft:#07111f;
-  --panel:rgba(15,23,42,.74);
-  --panel-strong:rgba(15,23,42,.92);
-  --card:rgba(15,23,42,.86);
-  --card-2:#0b1220;
-  --line:rgba(255,255,255,.10);
-  --line-2:rgba(255,255,255,.18);
-  --text:#f8fafc;
-  --muted:#94a3b8;
-  --muted-2:#cbd5e1;
-  --cyan:#00d4ff;
-  --blue:#2563eb;
-  --purple:#7c3aed;
-  --pink:#ec4899;
-  --green:#22c55e;
-  --yellow:#facc15;
-  --danger:#ef4444;
-  --radius:24px;
-  --shadow:0 24px 80px rgba(0,0,0,.38);
-  --safe-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#050507;--bg2:#0a0d12;--panel:rgba(18,20,27,.74);--panel2:rgba(24,27,36,.92);--line:rgba(255,255,255,.11);--line2:rgba(255,255,255,.2);
+  --text:#fff;--muted:#a7acb8;--red:#e50914;--red2:#ff3640;--cyan:#00d4ff;--green:#22c55e;--yellow:#facc15;--radius:18px;--safe-bottom:env(safe-area-inset-bottom,0px)
 }
-
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{
-  margin:0;
-  min-height:100svh;
-  color:var(--text);
-  font-family:Inter,'Segoe UI',system-ui,-apple-system,Arial,sans-serif;
-  background:
-    radial-gradient(circle at 10% 5%,rgba(0,212,255,.22),transparent 30%),
-    radial-gradient(circle at 90% 0%,rgba(124,58,237,.28),transparent 34%),
-    radial-gradient(circle at 55% 100%,rgba(236,72,153,.16),transparent 35%),
-    linear-gradient(145deg,#020617,#07111f 48%,#020617);
-  overflow-x:hidden;
-}
-body::before{
-  content:"";
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-  z-index:-2;
-  background:
-    linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
-  background-size:48px 48px;
-  mask-image:linear-gradient(to bottom,black,transparent 88%);
-}
-body::after{
-  content:"";
-  position:fixed;
-  width:540px;
-  height:540px;
-  left:-190px;
-  top:130px;
-  z-index:-1;
-  pointer-events:none;
-  border-radius:999px;
-  background:radial-gradient(circle,rgba(0,212,255,.18),transparent 66%);
-  filter:blur(12px);
-  animation:floatGlow 13s ease-in-out infinite alternate;
-}
-@keyframes floatGlow{to{transform:translate(90px,80px) scale(1.22)}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
-a{color:inherit;text-decoration:none}
-button,input{font:inherit}
-button{touch-action:manipulation}
-.wrap{width:min(1440px,100%);margin:auto;padding:18px}
-
-/* HERO */
-.hero{min-height:420px;position:relative;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid var(--line)}
-.hero::before{
-  content:"";position:absolute;inset:0;
-  background:
-    linear-gradient(90deg,rgba(2,6,23,.97),rgba(2,6,23,.68),rgba(2,6,23,.93)),
-    url("https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&w=1800&q=80");
-  background-size:cover;background-position:center;opacity:.86;transform:scale(1.04)
-}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--bg),transparent 46%)}
-.hero-inner{position:relative;z-index:2;width:min(1440px,100%);margin:auto;padding:34px 18px 54px}
-.logo{display:inline-flex;align-items:center;gap:12px;padding:12px 18px;border:1px solid var(--line-2);border-radius:22px;background:linear-gradient(135deg,rgba(255,255,255,.15),rgba(255,255,255,.045));backdrop-filter:blur(18px);box-shadow:var(--shadow)}
-.logo-icon{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));display:grid;place-items:center;box-shadow:0 0 35px rgba(0,212,255,.42)}
-.logo-icon svg{width:30px;height:30px}.logo-text strong{display:block;font-size:24px;line-height:1}.logo-text span{display:block;margin-top:4px;color:var(--cyan);font-size:12px;text-transform:uppercase;letter-spacing:2.5px}
-.hero h1{max-width:920px;margin:28px 0 14px;font-size:clamp(34px,6vw,72px);line-height:1.02;letter-spacing:-1.8px}.hero h1 span{background:linear-gradient(90deg,var(--cyan),#fff,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p{max-width:780px;margin:0 0 24px;color:#d6e4f5;font-size:18px;line-height:1.62}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
-.hero-btn{border:1px solid var(--line-2);padding:13px 18px;border-radius:999px;background:rgba(15,23,42,.72);backdrop-filter:blur(12px);color:#fff;cursor:pointer;transition:.25s}.hero-btn.primary{background:linear-gradient(135deg,var(--blue),var(--purple));border-color:transparent;box-shadow:0 18px 45px rgba(37,99,235,.28)}.hero-btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(0,0,0,.28)}
-
-/* TOPBAR */
-.topbar{position:sticky;top:0;z-index:50;background:rgba(2,6,23,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
-.controls{display:grid;grid-template-columns:1fr auto auto auto;gap:12px;align-items:center}.search-wrap{position:relative}.search{width:100%;border:1px solid var(--line);background:rgba(15,23,42,.84);color:white;padding:15px 48px 15px 18px;border-radius:17px;font-size:16px;outline:none}.search:focus{border-color:rgba(0,212,255,.7);box-shadow:0 0 0 4px rgba(0,212,255,.12)}.clear-search{position:absolute;right:8px;top:50%;transform:translateY(-50%);display:none;width:34px;height:34px;border:0;border-radius:12px;color:white;background:rgba(255,255,255,.08);cursor:pointer}.clear-search.show{display:block}.pill-info,.view-btn,.favorites-toggle{white-space:nowrap;color:#dbeafe;background:rgba(37,99,235,.20);border:1px solid rgba(96,165,250,.25);padding:13px 16px;border-radius:17px}.view-btn,.favorites-toggle{cursor:pointer}.view-btn.active,.favorites-toggle.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff;border-color:transparent}.categories{display:flex;gap:10px;overflow:auto;padding-top:14px;scrollbar-width:none}.categories::-webkit-scrollbar{display:none}.cat{border:1px solid var(--line);background:rgba(15,23,42,.74);color:#dbeafe;padding:10px 16px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:.25s}.cat:hover,.cat.active{background:linear-gradient(135deg,var(--blue),var(--purple));color:#fff;border-color:transparent;box-shadow:0 8px 28px rgba(37,99,235,.34)}
-
-/* LAYOUT */
-.app{display:grid;grid-template-columns:250px 1fr;gap:20px;align-items:start}.sidebar{position:sticky;top:126px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;backdrop-filter:blur(16px);box-shadow:0 18px 60px rgba(0,0,0,.22)}.sidebar h3{margin:6px 8px 12px;font-size:15px;color:#e0f2fe}.side-cat{display:flex;justify-content:space-between;align-items:center;width:100%;border:0;text-align:left;color:#dbeafe;background:transparent;padding:11px 12px;border-radius:14px;cursor:pointer;transition:.2s}.side-cat:hover,.side-cat.active{background:linear-gradient(135deg,rgba(37,99,235,.35),rgba(124,58,237,.25))}.side-cat small{color:#94a3b8}
-
-.block-head,.section-head{display:flex;justify-content:space-between;align-items:end;gap:14px;margin-bottom:15px}.block-head h2,.section-head h2{margin:0;font-size:clamp(22px,3vw,28px);letter-spacing:-.4px}.block-head p,.section-head span{margin:5px 0 0;color:var(--muted)}.recommended{margin:4px 0 32px}.carousel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(220px,260px);gap:16px;overflow:auto;padding-bottom:8px;scroll-snap-type:x mandatory;scrollbar-width:thin}.featured-card{min-height:174px;border-radius:26px;background:linear-gradient(135deg,rgba(0,212,255,.15),rgba(124,58,237,.14)),rgba(15,23,42,.82);border:1px solid var(--line);padding:16px;cursor:pointer;position:relative;overflow:hidden;scroll-snap-align:start;transition:.25s}.featured-card:hover{transform:translateY(-5px);border-color:rgba(0,212,255,.45)}.featured-logo{width:112px;height:74px;background:#fff;border-radius:18px;display:grid;place-items:center;padding:10px}.featured-logo img{max-width:100%;max-height:100%;object-fit:contain}.featured-card h3{margin:14px 0 6px;font-size:17px}.featured-card span{color:#bfdbfe;font-size:13px}
-.section{margin:30px 0 48px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:18px}.grid.compact{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}.grid.list{grid-template-columns:1fr}.card{position:relative;min-height:238px;border-radius:26px;overflow:hidden;background:var(--card);border:1px solid var(--line);cursor:pointer;transition:.28s ease;box-shadow:0 14px 45px rgba(0,0,0,.28)}.grid.compact .card{min-height:205px}.grid.list .card{min-height:auto}.card::before{content:"";position:absolute;inset:-2px;background:linear-gradient(135deg,transparent,var(--cyan),var(--purple),transparent);opacity:0;transition:.28s}.card:hover{transform:translateY(-7px) scale(1.015);box-shadow:0 25px 70px rgba(0,0,0,.46)}.card:hover::before{opacity:.62}.card-inner{position:absolute;inset:1px;border-radius:25px;background:radial-gradient(circle at top,rgba(0,212,255,.08),transparent 48%),linear-gradient(180deg,#111827,#06101f);padding:14px;display:flex;flex-direction:column}.grid.list .card-inner{position:relative;inset:auto;display:grid;grid-template-columns:96px 1fr auto;align-items:center;gap:14px}.poster{height:128px;border-radius:20px;background:radial-gradient(circle at top,rgba(0,212,255,.16),transparent 55%),#fff;display:grid;place-items:center;padding:14px;overflow:hidden;position:relative}.grid.compact .poster{height:100px}.grid.list .poster{height:66px;border-radius:16px}.poster img{max-width:100%;max-height:100%;object-fit:contain;transition:.3s}.card:hover .poster img{transform:scale(1.08)}.hover-play{position:absolute;inset:0;display:grid;place-items:center;background:rgba(2,6,23,.45);opacity:0;transition:.25s}.card:hover .hover-play{opacity:1}.play-big{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;box-shadow:0 0 32px rgba(0,212,255,.45)}.card h3{margin:13px 0 7px;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.grid.list .card h3{margin:0 0 6px;font-size:18px}.meta{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}.grid.list .meta{justify-content:flex-start;margin:0}.badge{font-size:12px;color:#bfdbfe;background:rgba(37,99,235,.22);border:1px solid rgba(96,165,250,.22);padding:6px 9px;border-radius:999px;max-width:140px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.live-dot{display:inline-flex;align-items:center;gap:5px;color:#bbf7d0;font-size:12px}.live-dot::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green);animation:pulseLive 1.4s infinite}@keyframes pulseLive{50%{transform:scale(1.3);opacity:.65}}.favorite-btn{position:absolute;top:12px;right:12px;z-index:5;width:38px;height:38px;border-radius:14px;border:1px solid rgba(255,255,255,.22);background:rgba(2,6,23,.62);color:#fff;cursor:pointer;backdrop-filter:blur(10px)}.favorite-btn.active{color:#111827;background:linear-gradient(135deg,#fde68a,var(--yellow));border-color:transparent}.grid.list .favorite-btn{position:static;margin-right:4px}.card-actions{display:flex;align-items:center;gap:8px}.skeleton-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:18px}.skeleton{height:238px;border-radius:26px;background:linear-gradient(90deg,rgba(255,255,255,.06),rgba(255,255,255,.12),rgba(255,255,255,.06));background-size:240% 100%;animation:skeleton 1.15s infinite linear;border:1px solid var(--line)}@keyframes skeleton{to{background-position:-240% 0}}.empty{color:var(--muted);text-align:center;padding:70px 15px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
-
-/* MODAL PLAYER */
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}body{margin:0;min-height:100svh;background:var(--bg);color:var(--text);font-family:Inter,'Segoe UI',system-ui,-apple-system,Arial,sans-serif;overflow-x:hidden}body::before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 18% 8%,rgba(229,9,20,.22),transparent 32%),radial-gradient(circle at 90% 2%,rgba(0,212,255,.12),transparent 34%),linear-gradient(180deg,#050507 0%,#090b10 44%,#050507 100%)}body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(to bottom,black,transparent 75%)}
+a{color:inherit;text-decoration:none}button,input{font:inherit}button{touch-action:manipulation}.wrap{width:min(1500px,100%);margin:auto;padding-inline:clamp(14px,3vw,34px)}
+.header{position:fixed;top:0;left:0;right:0;z-index:100;background:linear-gradient(to bottom,rgba(5,5,7,.92),rgba(5,5,7,.58),transparent);transition:.25s}.header.scrolled{background:rgba(5,5,7,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;gap:24px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.2px}.brand-mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--red),var(--red2));display:grid;place-items:center;box-shadow:0 0 36px rgba(229,9,20,.36)}.brand span{font-size:20px}.menu{display:flex;gap:18px;color:#d1d5db;font-size:14px}.menu a:hover,.menu a.active{color:#fff}.nav-spacer{flex:1}.icon-btn{width:44px;height:44px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.07);color:#fff;cursor:pointer}.search-pop{position:absolute;right:clamp(14px,3vw,34px);top:84px;width:min(480px,calc(100vw - 28px));display:none}.search-pop.open{display:block}.search{width:100%;border:1px solid var(--line2);background:rgba(10,12,16,.94);color:#fff;padding:15px 48px 15px 18px;border-radius:999px;outline:none;box-shadow:0 22px 80px rgba(0,0,0,.45)}.clear-search{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;border-radius:999px;background:rgba(255,255,255,.1);color:#fff;display:none;cursor:pointer}.clear-search.show{display:block}
+.hero{position:relative;min-height:min(760px,92svh);display:flex;align-items:flex-end;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,#050507 0%,rgba(5,5,7,.86) 30%,rgba(5,5,7,.38) 62%,rgba(5,5,7,.88) 100%),linear-gradient(to top,#050507 0%,rgba(5,5,7,.1) 44%,rgba(5,5,7,.45) 100%),url('https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=2200&q=80');background-size:cover;background-position:center;transform:scale(1.03);opacity:.92}.hero-content{position:relative;z-index:2;width:min(880px,100%);padding-top:120px;padding-bottom:clamp(56px,8vw,96px)}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border-radius:999px;background:rgba(229,9,20,.18);border:1px solid rgba(229,9,20,.36);color:#fecaca;font-size:13px}.eyebrow::before{content:"";width:9px;height:9px;border-radius:999px;background:var(--red);box-shadow:0 0 18px var(--red)}.hero h1{margin:18px 0 14px;font-size:clamp(42px,7vw,92px);line-height:.96;letter-spacing:-3px}.hero p{max-width:710px;margin:0 0 24px;color:#d7d9e0;font-size:clamp(16px,2vw,20px);line-height:1.65}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{border:1px solid var(--line2);border-radius:999px;padding:13px 20px;background:rgba(255,255,255,.08);color:#fff;cursor:pointer;display:inline-flex;align-items:center;gap:9px}.btn.primary{background:#fff;color:#111;border-color:#fff;font-weight:800}.btn.red{background:linear-gradient(135deg,var(--red),var(--red2));border:0;color:#fff;font-weight:800}.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.stat{padding:10px 13px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.06);color:#d1d5db;font-size:13px}.stat strong{color:#fff}
+.main{position:relative;z-index:3;margin-top:-34px;padding-bottom:50px}.toolbar{position:sticky;top:76px;z-index:60;margin-bottom:20px;background:linear-gradient(to bottom,rgba(5,5,7,.96),rgba(5,5,7,.72));backdrop-filter:blur(14px);border-block:1px solid var(--line)}.toolbar-inner{display:flex;gap:12px;align-items:center;padding-block:14px;overflow:auto;scrollbar-width:none}.toolbar-inner::-webkit-scrollbar{display:none}.cat,.tool-btn{white-space:nowrap;border:1px solid var(--line);background:rgba(255,255,255,.06);color:#dce0e8;padding:10px 15px;border-radius:999px;cursor:pointer}.cat.active,.cat:hover,.tool-btn.active,.tool-btn:hover{background:#fff;color:#111;border-color:#fff}.tool-btn.fav.active{background:linear-gradient(135deg,#fde68a,var(--yellow));color:#111;border:0}.row{margin:30px 0 42px}.row-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:14px}.row h2{margin:0;font-size:clamp(21px,3vw,30px);letter-spacing:-.5px}.row small{color:var(--muted)}.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(250px,310px);gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;padding:4px 2px 12px;scrollbar-width:thin}.rail.compact{grid-auto-columns:minmax(190px,230px)}.card{position:relative;min-height:172px;border-radius:16px;overflow:hidden;background:#141821;border:1px solid var(--line);cursor:pointer;scroll-snap-align:start;box-shadow:0 18px 46px rgba(0,0,0,.34);transition:.25s}.rail.compact .card{min-height:132px}.card:hover{transform:translateY(-5px) scale(1.018);border-color:rgba(255,255,255,.32);box-shadow:0 26px 70px rgba(0,0,0,.5)}.thumb{position:absolute;inset:0;background:linear-gradient(135deg,#151922,#090b10)}.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.86),rgba(0,0,0,.12) 55%,rgba(0,0,0,.25))}.thumb img{width:100%;height:100%;object-fit:contain;padding:28px;background:radial-gradient(circle at 50% 28%,rgba(255,255,255,.92),rgba(255,255,255,.72) 38%,rgba(255,255,255,.03) 70%)}.card:hover .thumb img{transform:scale(1.06);transition:.25s}.card-body{position:absolute;left:13px;right:13px;bottom:12px;z-index:2}.card h3{margin:0 0 8px;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.badge{font-size:12px;color:#e5e7eb;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14);padding:5px 8px;border-radius:999px}.live{display:inline-flex;align-items:center;gap:5px;color:#bbf7d0;font-size:12px}.live::before{content:"";width:8px;height:8px;border-radius:999px;background:var(--green);box-shadow:0 0 15px var(--green);animation:pulse 1.35s infinite}@keyframes pulse{50%{opacity:.55;transform:scale(1.35)}}.play{position:absolute;left:50%;top:50%;z-index:3;transform:translate(-50%,-50%) scale(.85);width:54px;height:54px;border-radius:999px;border:0;background:rgba(255,255,255,.95);color:#111;display:grid;place-items:center;opacity:0;transition:.22s}.card:hover .play{opacity:1;transform:translate(-50%,-50%) scale(1)}.fav-btn{position:absolute;right:10px;top:10px;z-index:4;width:38px;height:38px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(0,0,0,.45);color:#fff;cursor:pointer;backdrop-filter:blur(8px)}.fav-btn.active{background:linear-gradient(135deg,#fde68a,var(--yellow));color:#111;border:0}.empty{color:var(--muted);text-align:center;padding:70px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
+/* MODAL PLAYER - păstrat în stilul versiunii tale */
 .modal{display:none;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:18px;background:rgba(0,0,0,.84);backdrop-filter:blur(12px)}.modal.active{display:flex}.modal-box{width:min(980px,96vw);background:#020617;border:1px solid rgba(255,255,255,.15);border-radius:22px;overflow:hidden;box-shadow:0 30px 120px rgba(0,0,0,.78)}.modal-box:fullscreen{width:100vw;height:100vh;border-radius:0;border:0}.modal-box:fullscreen .player-wrap{height:calc(100vh - 128px);aspect-ratio:auto}.modal-head{min-height:62px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;background:linear-gradient(90deg,#0f172a,#111827)}.modal-info{display:flex;align-items:center;gap:11px;min-width:0}.modal-logo{width:44px;height:44px;border-radius:12px;background:#fff;padding:6px;object-fit:contain}.modal-text{min-width:0}.modal-title{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.modal-cat{color:#93c5fd;font-size:12px;margin-top:2px}.close{border:0;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#ef4444,#b91c1c);color:#fff;font-size:24px;cursor:pointer;flex:0 0 auto}.player-wrap{position:relative;aspect-ratio:16/9;background:#000}.player-wrap iframe,.player-wrap video{width:100%;height:100%;border:0;background:#000;display:block}.loader{position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:12px;background:#000;color:var(--cyan);z-index:4;font-size:17px}.loader::before{content:"";width:42px;height:42px;border-radius:50%;border:4px solid rgba(0,212,255,.22);border-top-color:var(--cyan);animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.watermark{position:absolute;right:14px;bottom:12px;z-index:3;padding:7px 10px;border-radius:999px;background:rgba(0,0,0,.45);color:rgba(255,255,255,.78);font-size:12px;letter-spacing:.3px;pointer-events:none}.modal-actions{display:flex;gap:10px;padding:12px;padding-bottom:calc(12px + var(--safe-bottom));background:#07101f;border-top:1px solid var(--line)}.modal-actions button{flex:1;text-align:center;border:1px solid var(--line);border-radius:13px;background:rgba(15,23,42,.9);color:#fff;padding:12px;cursor:pointer;font-size:14px}.modal-actions button:hover{border-color:rgba(0,212,255,.45)}
-.back-top{position:fixed;right:18px;bottom:calc(18px + var(--safe-bottom));width:46px;height:46px;border-radius:50%;border:1px solid var(--line-2);color:#fff;background:linear-gradient(135deg,var(--blue),var(--purple));cursor:pointer;box-shadow:0 15px 40px rgba(0,0,0,.38);display:none;z-index:80}.back-top.show{display:block}footer{margin-top:50px;padding:36px 18px;background:rgba(2,6,23,.7);border-top:1px solid var(--line);color:var(--muted)}.footer-inner{width:min(1440px,100%);margin:auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-links{display:flex;gap:14px;flex-wrap:wrap}.footer-links a{color:#bfdbfe}
-
-@media(max-width:1050px){.app{grid-template-columns:1fr}.sidebar{display:none}.controls{grid-template-columns:1fr auto auto}.favorites-toggle{grid-column:auto}}
-@media(max-width:760px){.wrap{padding:14px}.hero{min-height:390px}.hero-inner{padding-top:24px}.logo{padding:10px 13px}.logo-icon{width:42px;height:42px}.logo-text strong{font-size:20px}.hero p{font-size:16px}.controls{grid-template-columns:1fr}.pill-info,.view-btn,.favorites-toggle{text-align:center;width:100%}.grid,.skeleton-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.card{min-height:214px;border-radius:21px}.card-inner{border-radius:20px;padding:11px}.poster{height:106px;border-radius:16px}.carousel{grid-auto-columns:minmax(190px,220px)}.modal{padding:0}.modal-box{width:100vw;min-height:100svh;border-radius:0;border:0;display:flex;flex-direction:column}.player-wrap{aspect-ratio:auto;height:calc(100svh - 136px);min-height:260px}.modal-actions{flex-direction:column}.grid.list .card-inner{grid-template-columns:76px 1fr;gap:10px}.grid.list .card-actions{grid-column:1/-1;justify-content:flex-end}.grid.list .poster{height:58px}.section-head{align-items:flex-start;flex-direction:column}}
-@media(max-width:430px){.grid,.skeleton-grid{grid-template-columns:1fr}.hero-actions .hero-btn{width:100%}.featured-card{min-height:160px}.carousel{grid-auto-columns:82vw}.modal-head{padding:8px 10px}.modal-actions button{font-size:13px}.watermark{font-size:11px}}
+.back-top{position:fixed;right:18px;bottom:calc(18px + var(--safe-bottom));width:46px;height:46px;border-radius:50%;border:1px solid var(--line2);color:#fff;background:linear-gradient(135deg,var(--red),var(--red2));cursor:pointer;box-shadow:0 15px 40px rgba(0,0,0,.38);display:none;z-index:80}.back-top.show{display:block}footer{padding:36px 18px;background:#050507;border-top:1px solid var(--line);color:var(--muted)}.footer-inner{width:min(1500px,100%);margin:auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-links{display:flex;gap:14px;flex-wrap:wrap}.footer-links a{color:#e5e7eb}
+@media(max-width:900px){.menu{display:none}.nav{height:68px}.toolbar{top:68px}.hero{min-height:680px}.hero-content{padding-top:98px}.rail{grid-auto-columns:minmax(210px,72vw)}}@media(max-width:760px){.wrap{padding-inline:14px}.hero{min-height:620px}.hero h1{letter-spacing:-1.7px}.actions .btn{width:100%;justify-content:center}.stats{display:grid;grid-template-columns:1fr 1fr}.modal{padding:0}.modal-box{width:100vw;min-height:100svh;border-radius:0;border:0;display:flex;flex-direction:column}.player-wrap{aspect-ratio:auto;height:calc(100svh - 136px);min-height:260px}.modal-actions{flex-direction:column}.rail{grid-auto-columns:78vw}.rail.compact{grid-auto-columns:62vw}.search-pop{top:74px}}@media(max-width:420px){.brand span{font-size:17px}.brand-mark{width:38px;height:38px}.stats{grid-template-columns:1fr}.rail,.rail.compact{grid-auto-columns:86vw}.modal-head{padding:8px 10px}.modal-actions button{font-size:13px}.watermark{font-size:11px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
-<header class="hero" id="top">
-  <div class="hero-inner">
-    <div class="logo" aria-label="TV România Live Hub">
-      <div class="logo-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5C4 6.1 5.1 5 6.5 5h11C18.9 5 20 6.1 20 7.5v8c0 1.4-1.1 2.5-2.5 2.5h-11C5.1 18 4 16.9 4 15.5v-8Z" stroke="white" stroke-width="2"/><path d="M10 9l5 3-5 3V9Z" fill="white"/></svg></div>
-      <div class="logo-text"><strong>TV România</strong><span>Live Hub</span></div>
-    </div>
-    <h1>Canalele tale TV <span>într-un hub premium</span></h1>
-    <p>Explorează canale românești live, organizate pe categorii, cu favorite, ultimele accesate, căutare rapidă și player fullscreen compatibil cu desktop, tabletă și mobil.</p>
-    <div class="hero-actions">
-      <button class="hero-btn primary" data-action="scroll-content">Vezi canalele</button>
-      <button class="hero-btn" data-action="focus-search">Caută rapid</button>
-    </div>
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="TV România Live"><span class="brand-mark">▶</span><span>TV România</span></a>
+    <nav class="menu" aria-label="Navigare"><a class="active" href="#top">Acasă</a><a href="#content">Live TV</a><a href="#favoritesSection">Favorite</a><a href="#recentSection">Ultimele accesate</a></nav>
+    <div class="nav-spacer"></div>
+    <button class="icon-btn" id="searchToggle" type="button" aria-label="Caută">⌕</button>
   </div>
+  <div class="search-pop" id="searchPop"><input class="search" id="search" placeholder="Caută un canal sau o categorie..."><button class="clear-search" id="clearSearch" type="button">×</button></div>
 </header>
 
-<div class="topbar">
-  <div class="wrap">
-    <div class="controls">
-      <div class="search-wrap">
-        <input class="search" id="search" placeholder="Caută un canal, categorie sau nume..." autocomplete="off" aria-label="Caută un canal">
-        <button class="clear-search" id="clearSearch" type="button" aria-label="Șterge căutarea">×</button>
-      </div>
-      <div class="pill-info" id="total">Se încarcă...</div>
-      <button class="favorites-toggle" id="favoritesToggle" type="button">⭐ Favorite</button>
-      <button class="view-btn" id="viewBtn" type="button">Carduri compacte</button>
-    </div>
-    <nav class="categories" id="categories" aria-label="Categorii"></nav>
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Live TV Hub • România</span>
+    <h1>Canale TV online într-o experiență de streaming premium.</h1>
+    <p>Layout cinematic, rânduri orizontale ca pe platformele OTT, favorite salvate local, ultimele canale accesate și playerul modal păstrat exact în zona care îți place.</p>
+    <div class="actions"><button class="btn primary" id="watchNow" type="button">▶ Vezi canalele</button><button class="btn red" id="openSearch" type="button">⌕ Caută rapid</button><button class="btn" id="favoritesToggle" type="button">★ Favorite</button></div>
+    <div class="stats"><span class="stat"><strong id="totalHero">0</strong> canale</span><span class="stat"><strong id="catHero">0</strong> categorii</span><span class="stat">Design responsive</span><span class="stat">Player modal fullscreen</span></div>
   </div>
-</div>
+</section>
 
-<div class="wrap">
-  <div class="app">
-    <aside class="sidebar"><h3>Categorii</h3><div id="sideCategories"></div></aside>
-    <main id="content">
-      <section class="recommended">
-        <div class="block-head"><div><h2>Canale recomandate</h2><p>Se încarcă lista de canale...</p></div></div>
-        <div class="skeleton-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
-      </section>
-    </main>
-  </div>
-</div>
+<main class="main" id="content">
+  <div class="toolbar"><div class="wrap toolbar-inner"><button class="tool-btn" id="viewBtn" type="button">Carduri compacte</button><span class="tool-btn" id="total">Se încarcă...</span><div id="categories" style="display:contents"></div></div></div>
+  <div class="wrap" id="rows"><div class="empty">Se încarcă lista de canale...</div></div>
+</main>
 
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
   <div class="modal-box" id="modalBox">
@@ -165,284 +56,62 @@ button{touch-action:manipulation}
       <div class="modal-info"><img class="modal-logo" id="modalLogo" alt=""><div class="modal-text"><div class="modal-title" id="modalTitle">Live TV</div><div class="modal-cat" id="modalCat">Categorie</div></div></div>
       <button class="close" id="closeBtn" type="button" aria-label="Închide playerul">×</button>
     </div>
-    <div class="player-wrap" id="playerWrap">
+    <div class="player-wrap">
       <div class="loader" id="loader">Se încarcă stream-ul...</div>
-      <iframe id="frame" title="Player TV" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-      <video id="video" controls playsinline style="display:none"></video>
+      <iframe id="frame" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      <video id="video" controls playsinline></video>
       <div class="watermark">Bratu Marian</div>
     </div>
-    <div class="modal-actions">
-      <button id="reloadBtn" type="button">🔄 Reîncarcă stream-ul</button>
-      <button id="fullscreenBtn" type="button">⛶ Full screen</button>
-    </div>
+    <div class="modal-actions"><button id="reloadBtn" type="button">🔄 Reîncarcă stream-ul</button><button id="fullscreenBtn" type="button">⛶ Full screen</button></div>
   </div>
 </div>
 
 <button class="back-top" id="backTop" type="button" aria-label="Înapoi sus">↑</button>
-
-<footer>
-  <div class="footer-inner">
-    <div>© 2026 TV România Live Hub — Conținutul aparține deținătorilor legali. Interfață optimizată pentru toate dispozitivele.</div>
-    <div class="footer-links"><a href="#top">Acasă</a><a href="#content">Categorii</a><a href="canaleromanesti.json" target="_blank" rel="noopener">JSON</a><a href="https://github.com/bebe2007/sporturi-live" target="_blank" rel="noopener">GitHub</a></div>
-  </div>
-</footer>
-
-<script defer>
-(() => {
+<footer><div class="footer-inner"><div>© 2026 TV România Live Hub — Conținutul aparține deținătorilor legali.</div><div class="footer-links"><a href="#top">Acasă</a><a href="#content">Live TV</a><a href="canaleromanesti.json" target="_blank" rel="noopener">JSON</a><a href="https://github.com/bebe2007/sporturi-live" target="_blank" rel="noopener">GitHub</a></div></div></footer>
+<script>
+(()=>{
   'use strict';
-
-  const JSON_URL = 'canaleromanesti.json';
-  const FALLBACK_LOGO = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180"><rect width="320" height="180" rx="28" fill="#0f172a"/><circle cx="160" cy="90" r="45" fill="#2563eb"/><path d="M148 66v48l40-24-40-24z" fill="white"/><text x="160" y="158" fill="#cbd5e1" font-family="Arial" font-size="20" text-anchor="middle">TV Live</text></svg>`);
-  const preferred = ['Pro TV','Antena 1','Kanal D','Tvr 1','Tvr 2','Prima TV','Digi Sport 1','Tvr Sport','Antena Stars','National TV','Realitatea Plus','Romania TV'];
-
-  const $ = selector => document.querySelector(selector);
-  const els = {
-    search: $('#search'), clearSearch: $('#clearSearch'), total: $('#total'), categories: $('#categories'), sideCategories: $('#sideCategories'), content: $('#content'),
-    viewBtn: $('#viewBtn'), favoritesToggle: $('#favoritesToggle'), modal: $('#modal'), modalBox: $('#modalBox'), modalLogo: $('#modalLogo'), modalTitle: $('#modalTitle'), modalCat: $('#modalCat'),
-    frame: $('#frame'), video: $('#video'), loader: $('#loader'), closeBtn: $('#closeBtn'), reloadBtn: $('#reloadBtn'), fullscreenBtn: $('#fullscreenBtn'), backTop: $('#backTop')
-  };
-
-  let channels = [];
-  let activeCategory = 'Toate';
-  let viewMode = localStorage.getItem('tvhub:view') || 'large';
-  let showOnlyFavorites = false;
-  let currentVideo = '';
-  let currentChannel = null;
-  let favorites = readStore('tvhub:favorites', []);
-  let recent = readStore('tvhub:recent', []);
-  let searchTimer = null;
-
-  init();
-
-  function init(){
-    bindEvents();
-    setViewButton();
-    loadChannels();
+  const JSON_URL='canaleromanesti.json';
+  const FALLBACK_LOGO='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360"><rect width="640" height="360" rx="36" fill="#111827"/><circle cx="320" cy="170" r="62" fill="#e50914"/><path d="M300 132v76l66-38-66-38z" fill="white"/><text x="320" y="300" fill="#e5e7eb" font-family="Arial" font-size="34" font-weight="700" text-anchor="middle">TV Live</text></svg>`);
+  const preferred=['Pro TV','Antena 1','Kanal D','Tvr 1','Tvr 2','Prima TV','Digi Sport 1','Tvr Sport','Antena Stars','National TV','Realitatea Plus','Romania TV'];
+  const $=s=>document.querySelector(s);
+  const els={header:$('#header'), searchToggle:$('#searchToggle'), searchPop:$('#searchPop'), search:$('#search'), clearSearch:$('#clearSearch'), watchNow:$('#watchNow'), openSearch:$('#openSearch'), favoritesToggle:$('#favoritesToggle'), viewBtn:$('#viewBtn'), categories:$('#categories'), rows:$('#rows'), total:$('#total'), totalHero:$('#totalHero'), catHero:$('#catHero'), modal:$('#modal'), modalBox:$('#modalBox'), modalLogo:$('#modalLogo'), modalTitle:$('#modalTitle'), modalCat:$('#modalCat'), loader:$('#loader'), frame:$('#frame'), video:$('#video'), closeBtn:$('#closeBtn'), reloadBtn:$('#reloadBtn'), fullscreenBtn:$('#fullscreenBtn'), backTop:$('#backTop')};
+  let channels=[],activeCategory='Toate',showOnlyFavorites=false,viewMode=localStorage.getItem('tvhub:view')||'large',favorites=readStore('tvhub:favorites',[]),recent=readStore('tvhub:recent',[]),currentVideo='';
+  bindShell(); loadChannels();
+  function bindShell(){
+    window.addEventListener('scroll',()=>{els.header.classList.toggle('scrolled',window.scrollY>30);els.backTop.classList.toggle('show',window.scrollY>600)});
+    els.searchToggle.addEventListener('click',toggleSearch); els.openSearch.addEventListener('click',()=>{openSearch();}); els.watchNow.addEventListener('click',()=>$('#content').scrollIntoView({behavior:'smooth'}));
+    els.search.addEventListener('input',debounce(()=>{els.clearSearch.classList.toggle('show',!!els.search.value);render();},120));
+    els.clearSearch.addEventListener('click',()=>{els.search.value='';els.clearSearch.classList.remove('show');render();els.search.focus();});
+    els.favoritesToggle.addEventListener('click',()=>{showOnlyFavorites=!showOnlyFavorites;els.favoritesToggle.classList.toggle('active',showOnlyFavorites);render();$('#content').scrollIntoView({behavior:'smooth'});});
+    els.viewBtn.addEventListener('click',()=>{viewMode=viewMode==='large'?'compact':'large';localStorage.setItem('tvhub:view',viewMode);setViewButton();render();}); setViewButton();
+    els.closeBtn.addEventListener('click',closePlayer); els.reloadBtn.addEventListener('click',reloadPlayer); els.fullscreenBtn.addEventListener('click',toggleFullscreen); els.backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+    els.modal.addEventListener('click',e=>{if(e.target===els.modal)closePlayer();}); document.addEventListener('keydown',e=>{if(e.key==='Escape'&&els.modal.classList.contains('active'))closePlayer();});
+    document.addEventListener('fullscreenchange',()=>{els.fullscreenBtn.textContent=document.fullscreenElement?'⛶ Ieși din full screen':'⛶ Full screen';});
   }
-
-  function bindEvents(){
-    document.addEventListener('click', event => {
-      const action = event.target.closest('[data-action]')?.dataset.action;
-      if(action === 'scroll-content') $('#content').scrollIntoView({behavior:'smooth', block:'start'});
-      if(action === 'focus-search') focusSearch();
-    });
-
-    els.search.addEventListener('input', () => {
-      clearTimeout(searchTimer);
-      els.clearSearch.classList.toggle('show', Boolean(els.search.value));
-      searchTimer = setTimeout(render, 120);
-    });
-    els.clearSearch.addEventListener('click', () => { els.search.value = ''; els.clearSearch.classList.remove('show'); render(); els.search.focus(); });
-    els.viewBtn.addEventListener('click', cycleViewMode);
-    els.favoritesToggle.addEventListener('click', () => { showOnlyFavorites = !showOnlyFavorites; els.favoritesToggle.classList.toggle('active', showOnlyFavorites); render(); });
-    els.closeBtn.addEventListener('click', closePlayer);
-    els.reloadBtn.addEventListener('click', reloadPlayer);
-    els.fullscreenBtn.addEventListener('click', toggleFullscreen);
-    els.backTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
-    els.modal.addEventListener('click', e => { if(e.target === els.modal) closePlayer(); });
-    document.addEventListener('keydown', e => { if(e.key === 'Escape' && els.modal.classList.contains('active')) closePlayer(); });
-    window.addEventListener('scroll', () => els.backTop.classList.toggle('show', window.scrollY > 600), {passive:true});
-    document.addEventListener('fullscreenchange', () => { els.fullscreenBtn.textContent = document.fullscreenElement ? '⛶ Ieși din full screen' : '⛶ Full screen'; });
-  }
-
-  async function loadChannels(){
-    try{
-      const cached = readStore('tvhub:channelsCache', null);
-      if(cached?.data?.length){ channels = normalizeChannels(cached.data); buildCategories(); render(); }
-      const res = await fetch(JSON_URL, {cache:'no-store'});
-      if(!res.ok) throw new Error('JSON indisponibil');
-      const data = await res.json();
-      const list = Array.isArray(data) ? data : (data.channels || []);
-      channels = normalizeChannels(list);
-      localStorage.setItem('tvhub:channelsCache', JSON.stringify({time:Date.now(), data:list}));
-      buildCategories(); render();
-    }catch(error){
-      if(!channels.length){
-        els.content.innerHTML = `<div class="empty">Nu s-a putut încărca fișierul JSON. Verifică dacă <strong>canaleromanesti.json</strong> există în același folder.</div>`;
-        els.total.textContent = 'Eroare JSON';
-      }
-    }
-  }
-
-  function normalizeChannels(list){
-    return list.map((c, index) => ({
-      id: c.slug || slugify(c.name || `canal-${index}`),
-      name: c.name || 'Canal TV',
-      logo: c.logo || FALLBACK_LOGO,
-      category: c.category || 'Altele',
-      video: c.video_link || c.embed_url || c.channel_url || '',
-      channelUrl: c.channel_url || c.video_link || c.embed_url || '#'
-    }));
-  }
-
-  function buildCategories(){
-    const counts = channels.reduce((acc, c) => { acc[c.category] = (acc[c.category] || 0) + 1; return acc; }, {});
-    const cats = ['Toate', ...Object.keys(counts).sort((a,b) => a.localeCompare(b, 'ro'))];
-    els.categories.innerHTML = cats.map(c => `<button class="cat${c === activeCategory ? ' active' : ''}" data-category="${attr(c)}">${html(c)}</button>`).join('');
-    els.sideCategories.innerHTML = cats.map(c => `<button class="side-cat${c === activeCategory ? ' active' : ''}" data-category="${attr(c)}"><span>${html(c)}</span><small>${c === 'Toate' ? channels.length : counts[c]}</small></button>`).join('');
-    [...els.categories.querySelectorAll('[data-category]'), ...els.sideCategories.querySelectorAll('[data-category]')].forEach(btn => btn.addEventListener('click', () => selectCategory(btn.dataset.category)));
-  }
-
-  function selectCategory(category){
-    activeCategory = category;
-    document.querySelectorAll('[data-category]').forEach(btn => btn.classList.toggle('active', btn.dataset.category === category));
-    showOnlyFavorites = false;
-    els.favoritesToggle.classList.remove('active');
-    render();
-    els.content.scrollIntoView({behavior:'smooth', block:'start'});
-  }
-
-  function render(){
-    const q = fold(els.search.value.trim());
-    let filtered = channels.filter(c => {
-      const matchesCategory = activeCategory === 'Toate' || c.category === activeCategory;
-      const searchable = fold(`${c.name} ${c.category}`);
-      const matchesSearch = !q || searchable.includes(q);
-      const matchesFavorite = !showOnlyFavorites || favorites.includes(c.id);
-      return matchesCategory && matchesSearch && matchesFavorite;
-    });
-
-    els.total.textContent = `${filtered.length} ${filtered.length === 1 ? 'canal afișat' : 'canale afișate'}`;
-    if(!filtered.length){ els.content.innerHTML = `<div class="empty">Nu există rezultate pentru selecția ta.</div>`; return; }
-
-    const grouped = groupBy(filtered, 'category');
-    let output = '';
-    if(activeCategory === 'Toate' && !q && !showOnlyFavorites){ output += recentHTML() + recommendedHTML(); }
-    output += Object.keys(grouped).sort((a,b) => a.localeCompare(b, 'ro')).map(cat => `
-      <section class="section">
-        <div class="section-head"><h2>${html(cat)}</h2><span>${grouped[cat].length} canale</span></div>
-        <div class="grid ${gridClass()}">${grouped[cat].map(cardHTML).join('')}</div>
-      </section>`).join('');
-    els.content.innerHTML = output;
-    bindCards();
-  }
-
-  function recommendedHTML(){
-    const list = [];
-    preferred.forEach(name => { const found = channels.find(c => fold(c.name) === fold(name)); if(found) list.push(found); });
-    channels.slice(0, 20).forEach(c => { if(!list.some(x => x.id === c.id)) list.push(c); });
-    return carouselSection('Canale recomandate', 'Acces rapid către cele mai importante canale.', list.slice(0,12));
-  }
-
-  function recentHTML(){
-    const items = recent.map(id => channels.find(c => c.id === id)).filter(Boolean).slice(0,10);
-    return items.length ? carouselSection('Ultimele accesate', 'Canalele deschise recent pe acest dispozitiv.', items) : '';
-  }
-
-  function carouselSection(title, subtitle, list){
-    return `<section class="recommended"><div class="block-head"><div><h2>${html(title)}</h2><p>${html(subtitle)}</p></div></div><div class="carousel">${list.map(featuredHTML).join('')}</div></section>`;
-  }
-
-  function featuredHTML(c){
-    return `<article class="featured-card" data-open="${attr(c.id)}"><div class="featured-logo"><img src="${attr(c.logo)}" alt="${attr(c.name)}" loading="lazy" onerror="this.src='${FALLBACK_LOGO}'"></div><h3>${html(c.name)}</h3><span>${html(c.category)}</span></article>`;
-  }
-
-  function cardHTML(c){
-    const fav = favorites.includes(c.id);
-    return `<article class="card" data-open="${attr(c.id)}">
-      <div class="card-inner">
-        <button class="favorite-btn${fav ? ' active' : ''}" type="button" data-favorite="${attr(c.id)}" aria-label="Adaugă sau elimină de la favorite">★</button>
-        <div class="poster"><img src="${attr(c.logo)}" alt="${attr(c.name)}" loading="lazy" onerror="this.src='${FALLBACK_LOGO}'"><div class="hover-play"><span class="play-big"><svg viewBox="0 0 24 24" width="25" height="25" fill="white"><path d="M8 5v14l11-7z"></path></svg></span></div></div>
-        <div><h3 title="${attr(c.name)}">${html(c.name)}</h3><div class="meta"><span class="badge">${html(c.category)}</span><span class="live-dot">LIVE</span></div></div>
-        <div class="card-actions"></div>
-      </div>
-    </article>`;
-  }
-
-  function bindCards(){
-    document.querySelectorAll('[data-open]').forEach(el => el.addEventListener('click', e => {
-      if(e.target.closest('[data-favorite]')) return;
-      const channel = channels.find(c => c.id === el.dataset.open);
-      if(channel) openPlayer(channel);
-    }));
-    document.querySelectorAll('[data-favorite]').forEach(btn => btn.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(btn.dataset.favorite); }));
-  }
-
-  function openPlayer(channel){
-    if(!channel.video){ alert('Nu există link video pentru acest canal.'); return; }
-    currentChannel = channel;
-    currentVideo = channel.video;
-    addRecent(channel.id);
-    els.modalTitle.textContent = channel.name;
-    els.modalCat.textContent = channel.category;
-    els.modalLogo.src = channel.logo || FALLBACK_LOGO;
-    els.loader.style.display = 'flex';
-    els.modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    setPlayerSource(currentVideo);
-    setTimeout(() => els.closeBtn.focus(), 50);
-  }
-
-  function setPlayerSource(url){
-    const isDirectVideo = /\.(m3u8|mp4|webm|ogg)(\?|#|$)/i.test(url);
-    els.frame.style.display = isDirectVideo ? 'none' : 'block';
-    els.video.style.display = isDirectVideo ? 'block' : 'none';
-    els.frame.src = '';
-    els.video.removeAttribute('src');
-    if(isDirectVideo){
-      els.video.src = url;
-      els.video.load();
-      els.video.play().catch(() => {});
-      els.loader.style.display = 'none';
-    }else{
-      els.frame.src = url;
-      els.frame.onload = () => { els.loader.style.display = 'none'; };
-      setTimeout(() => { els.loader.style.display = 'none'; }, 5500);
-    }
-  }
-
-  function closePlayer(){
-    if(document.fullscreenElement) document.exitFullscreen().catch(() => {});
-    els.frame.src = '';
-    els.video.pause();
-    els.video.removeAttribute('src');
-    els.modal.classList.remove('active');
-    els.loader.style.display = 'none';
-    document.body.style.overflow = '';
-  }
-
-  function reloadPlayer(){
-    if(!currentVideo) return;
-    els.loader.style.display = 'flex';
-    const glue = currentVideo.includes('?') ? '&' : '?';
-    setPlayerSource(`${currentVideo}${glue}reload=${Date.now()}`);
-  }
-
-  function toggleFullscreen(){
-    if(document.fullscreenElement){ document.exitFullscreen().catch(() => {}); return; }
-    const target = els.modalBox;
-    if(target.requestFullscreen) target.requestFullscreen().catch(() => {});
-  }
-
-  function toggleFavorite(id){
-    favorites = favorites.includes(id) ? favorites.filter(x => x !== id) : [id, ...favorites];
-    localStorage.setItem('tvhub:favorites', JSON.stringify(favorites));
-    render();
-  }
-
-  function addRecent(id){
-    recent = [id, ...recent.filter(x => x !== id)].slice(0, 12);
-    localStorage.setItem('tvhub:recent', JSON.stringify(recent));
-  }
-
-  function cycleViewMode(){
-    viewMode = viewMode === 'large' ? 'compact' : viewMode === 'compact' ? 'list' : 'large';
-    localStorage.setItem('tvhub:view', viewMode);
-    setViewButton();
-    render();
-  }
-  function setViewButton(){
-    els.viewBtn.textContent = viewMode === 'large' ? 'Carduri compacte' : viewMode === 'compact' ? 'Listă' : 'Carduri mari';
-    els.viewBtn.classList.toggle('active', viewMode !== 'large');
-  }
-  function gridClass(){ return viewMode === 'compact' ? 'compact' : viewMode === 'list' ? 'list' : ''; }
-  function focusSearch(){ els.search.focus(); document.querySelector('.topbar').scrollIntoView({behavior:'smooth'}); }
-  function groupBy(arr, key){ return arr.reduce((acc, item) => { (acc[item[key]] ||= []).push(item); return acc; }, {}); }
-  function readStore(key, fallback){ try{return JSON.parse(localStorage.getItem(key)) ?? fallback;}catch{return fallback;} }
-  function slugify(s){ return fold(s).replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'') || String(Date.now()); }
-  function fold(s){ return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ș/g,'s').replace(/ț/g,'t').replace(/ă/g,'a').replace(/â/g,'a').replace(/î/g,'i').replace(/\s+/g,' ').trim(); }
-  function html(s){ return String(s ?? '').replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch])); }
-  function attr(s){ return html(s); }
+  async function loadChannels(){try{const cached=readStore('tvhub:channelsCache',null);if(cached?.data){channels=normalizeChannels(cached.data);buildCategories();render();}const res=await fetch(JSON_URL,{cache:'no-store'});if(!res.ok)throw new Error('JSON indisponibil');const data=await res.json();const list=Array.isArray(data)?data:(data.channels||[]);channels=normalizeChannels(list);localStorage.setItem('tvhub:channelsCache',JSON.stringify({time:Date.now(),data:list}));buildCategories();render();}catch(e){if(!channels.length){els.rows.innerHTML='<div class="empty">Nu s-a putut încărca fișierul <strong>canaleromanesti.json</strong>. Verifică dacă există în același folder cu pagina HTML.</div>';els.total.textContent='Eroare JSON';}}}
+  function normalizeChannels(list){return list.map((c,i)=>({id:c.slug||slugify(c.name||`canal-${i}`),name:c.name||'Canal TV',logo:c.logo||FALLBACK_LOGO,category:c.category||'Altele',video:c.video_link||c.embed_url||c.channel_url||'',channelUrl:c.channel_url||c.video_link||c.embed_url||'#'}));}
+  function buildCategories(){const counts=channels.reduce((a,c)=>{a[c.category]=(a[c.category]||0)+1;return a;},{});const cats=['Toate',...Object.keys(counts).sort((a,b)=>a.localeCompare(b,'ro'))];els.categories.innerHTML=cats.map(c=>`<button class="cat${c===activeCategory?' active':''}" data-category="${attr(c)}">${html(c)}${c!=='Toate'?` · ${counts[c]}`:''}</button>`).join('');els.categories.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>selectCategory(b.dataset.category)));els.totalHero.textContent=channels.length;els.catHero.textContent=Object.keys(counts).length;}
+  function selectCategory(cat){activeCategory=cat;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b.dataset.category===cat));showOnlyFavorites=false;els.favoritesToggle.classList.remove('active');render();}
+  function render(){const q=fold(els.search.value.trim());let filtered=channels.filter(c=>{const s=fold(`${c.name} ${c.category}`);return (activeCategory==='Toate'||c.category===activeCategory)&&(!q||s.includes(q))&&(!showOnlyFavorites||favorites.includes(c.id));});els.total.textContent=`${filtered.length} ${filtered.length===1?'canal afișat':'canale afișate'}`;if(!filtered.length){els.rows.innerHTML='<div class="empty">Nu există rezultate pentru selecția ta.</div>';return;}const groups=groupBy(filtered,'category');let out='';if(activeCategory==='Toate'&&!q){out+=recentHTML();out+=favoriteHTML();out+=recommendedHTML();}out+=Object.keys(groups).sort((a,b)=>a.localeCompare(b,'ro')).map(cat=>rowHTML(cat,`${groups[cat].length} canale`,groups[cat])).join('');els.rows.innerHTML=out;bindCards();}
+  function recentHTML(){const items=recent.map(id=>channels.find(c=>c.id===id)).filter(Boolean).slice(0,12);return items.length?rowHTML('Ultimele accesate','Canale deschise recent pe acest dispozitiv.',items,'recentSection'):'';}
+  function favoriteHTML(){const items=favorites.map(id=>channels.find(c=>c.id===id)).filter(Boolean).slice(0,18);return items.length?rowHTML('Favoritele mele','Salvate local în browser.',items,'favoritesSection'):'';}
+  function recommendedHTML(){const list=[];preferred.forEach(n=>{const f=channels.find(c=>fold(c.name)===fold(n));if(f)list.push(f);});channels.slice(0,24).forEach(c=>{if(!list.some(x=>x.id===c.id))list.push(c);});return rowHTML('Recomandate acum','Acces rapid către cele mai importante canale.',list.slice(0,14));}
+  function rowHTML(title,subtitle,list,id=''){return `<section class="row" ${id?`id="${id}"`:''}><div class="row-head"><h2>${html(title)}</h2><small>${html(subtitle)}</small></div><div class="rail ${viewMode==='compact'?'compact':''}">${list.map(cardHTML).join('')}</div></section>`;}
+  function cardHTML(c){const fav=favorites.includes(c.id);return `<article class="card" data-open="${attr(c.id)}"><div class="thumb"><img src="${attr(c.logo)}" alt="${attr(c.name)}" loading="lazy" onerror="this.src='${FALLBACK_LOGO}'"></div><button class="fav-btn${fav?' active':''}" type="button" data-favorite="${attr(c.id)}" aria-label="Favorite">★</button><span class="play">▶</span><div class="card-body"><h3 title="${attr(c.name)}">${html(c.name)}</h3><div class="meta"><span class="badge">${html(c.category)}</span><span class="live">LIVE</span></div></div></article>`;}
+  function bindCards(){document.querySelectorAll('[data-open]').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('[data-favorite]'))return;const ch=channels.find(c=>c.id===el.dataset.open);if(ch)openPlayer(ch);}));document.querySelectorAll('[data-favorite]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();toggleFavorite(btn.dataset.favorite);}));}
+  function openPlayer(channel){if(!channel.video){alert('Nu există link video pentru acest canal.');return;}currentVideo=channel.video;addRecent(channel.id);els.modalTitle.textContent=channel.name;els.modalCat.textContent=channel.category;els.modalLogo.src=channel.logo||FALLBACK_LOGO;els.loader.style.display='flex';els.modal.classList.add('active');document.body.style.overflow='hidden';setPlayerSource(currentVideo);setTimeout(()=>els.closeBtn.focus(),50);}
+  function setPlayerSource(url){const direct=/\.(m3u8|mp4|webm|ogg)(\?|#|$)/i.test(url);els.frame.style.display=direct?'none':'block';els.video.style.display=direct?'block':'none';els.frame.src='';els.video.pause();els.video.removeAttribute('src');if(direct){els.video.src=url;els.video.load();els.video.play().catch(()=>{});els.loader.style.display='none';}else{els.frame.src=url;els.frame.onload=()=>{els.loader.style.display='none'};setTimeout(()=>{els.loader.style.display='none'},5500);}}
+  function closePlayer(){if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});els.frame.src='';els.video.pause();els.video.removeAttribute('src');els.modal.classList.remove('active');els.loader.style.display='none';document.body.style.overflow='';}
+  function reloadPlayer(){if(!currentVideo)return;els.loader.style.display='flex';const glue=currentVideo.includes('?')?'&':'?';setPlayerSource(`${currentVideo}${glue}reload=${Date.now()}`);}
+  function toggleFullscreen(){if(document.fullscreenElement){document.exitFullscreen().catch(()=>{});return;}if(els.modalBox.requestFullscreen)els.modalBox.requestFullscreen().catch(()=>{});}
+  function toggleFavorite(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[id,...favorites];localStorage.setItem('tvhub:favorites',JSON.stringify(favorites));render();}
+  function addRecent(id){recent=[id,...recent.filter(x=>x!==id)].slice(0,16);localStorage.setItem('tvhub:recent',JSON.stringify(recent));}
+  function toggleSearch(){els.searchPop.classList.toggle('open');if(els.searchPop.classList.contains('open'))els.search.focus();}
+  function openSearch(){els.searchPop.classList.add('open');els.search.focus();}
+  function setViewButton(){els.viewBtn.textContent=viewMode==='large'?'Carduri compacte':'Carduri mari';els.viewBtn.classList.toggle('active',viewMode!=='large');}
+  function debounce(fn,ms){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms)}}
+  function groupBy(arr,key){return arr.reduce((a,x)=>{(a[x[key]]||=[]).push(x);return a;},{});}function readStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}}function slugify(s){return fold(s).replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')||String(Date.now())}function fold(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ș/g,'s').replace(/ț/g,'t').replace(/ă/g,'a').replace(/â/g,'a').replace(/î/g,'i').replace(/\s+/g,' ').trim()}function html(s){return String(s??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]))}function attr(s){return html(s)}
 })();
 </script>
 </body>
