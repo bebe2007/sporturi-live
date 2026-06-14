@@ -66,7 +66,7 @@ var ConfiguracionCanales = {
         k2: "5466ebd70704bdeb657f0abf3c5ca4ef"
     },
 
-    "fox-sport-1-usa": {
+    "fox-sport-2-usa": {
         url: "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
         k1: "98cff9600995fa381c76fdacf3c7edae",
         k2: "09453ce820d65fbc675de3185f9e454c"
@@ -89,12 +89,19 @@ var ConfiguracionCanales = {
     k1: "2b9ba811e9c5aeafc8ae1b71cdca4d6a",
     k2: "620e51b82596475517a27aa425c52280"
 },
-        "maxsport1-croatia": {
-    url: "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/MAXSport1/default/index.mpd",
-    k1: "826f30ed40c99d1cab0cd853f1a8e1f6",
-    k2: "b8192ddc493e5cfeb17c69cbace7235b"
-},
     
+"maxsport1-croatia": {
+    url: "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/MAXSport1/default/index.mpd",
+
+    k1: "b8192ddc493e5cfeb17c69cbace7235b",
+    k2: "826f30ed40c99d1cab0cd853f1a8e1f6",
+
+    k3: "3f272075012158d6930be1345c2a68b2",
+    k4: "043eb2cceaadcfc567fa3ce75b5d9d55",
+
+    k5: "62a80b73cd3d569fbce3b3dc595f51f0",
+    k6: "0abdd3c170334b7d944b74075f2bfb95"
+},
 
 "primasport1": {
     url: "https://da-88fffe66.id.vtv-prod.vodafone.ro/wp/live.vtv-prod.vodafone.ro/5913/vxfmt=dp/manifest.mpd?device_profile=DASH_AVC_FULLHD",
@@ -287,20 +294,31 @@ var config = {
 // DACA EXISTA
 if(canal){
 
-    var source = {
+var source = {
+    dash: canal.url,
+    drm: {
+        clearkey: []
+    }
+};
 
-        dash: canal.url,
+source.drm.clearkey.push({
+    kid: canal.k1,
+    key: canal.k2
+});
 
-        drm: {
+if (canal.k3 && canal.k4) {
+    source.drm.clearkey.push({
+        kid: canal.k3,
+        key: canal.k4
+    });
+}
 
-            clearkey: [{
-
-                key: canal.k1,
-
-                kid: canal.k2
-            }]
-        }
-    };
+if (canal.k5 && canal.k6) {
+    source.drm.clearkey.push({
+        kid: canal.k5,
+        key: canal.k6
+    });
+}
 
 
     var playerContainer = document.getElementById('playerdiv');
