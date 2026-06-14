@@ -3,161 +3,436 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TV România Live</title>
+<title>TV România Live | Hub Canale Online</title>
 
 <style>
 :root{
-  --bg:#080b16;
-  --panel:#111827;
-  --panel2:#151f32;
+  --bg:#05070d;
+  --glass:rgba(12,18,32,.72);
+  --glass2:rgba(20,30,52,.82);
+  --line:rgba(255,255,255,.10);
   --text:#f8fafc;
-  --muted:#94a3b8;
+  --muted:#9ca3af;
+  --cyan:#00d4ff;
   --blue:#2563eb;
-  --line:rgba(255,255,255,.09);
+  --purple:#7c3aed;
+  --pink:#ec4899;
 }
+
 *{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
 body{
   margin:0;
-  font-family:Inter,Arial,sans-serif;
-  background:radial-gradient(circle at top,#172554 0,#080b16 42%);
+  font-family:'Segoe UI',Arial,sans-serif;
   color:var(--text);
+  background:
+    radial-gradient(circle at 15% 10%,rgba(0,212,255,.22),transparent 30%),
+    radial-gradient(circle at 85% 15%,rgba(124,58,237,.28),transparent 35%),
+    radial-gradient(circle at 50% 100%,rgba(236,72,153,.18),transparent 35%),
+    linear-gradient(135deg,#020617,#08111f 45%,#020617);
+  min-height:100vh;
 }
+
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:linear-gradient(to bottom,black,transparent 85%);
+  pointer-events:none;
+}
+
 .hero{
-  padding:34px 16px 26px;
+  padding:34px 18px 22px;
   text-align:center;
+  position:relative;
+}
+
+.logo{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 18px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+  backdrop-filter:blur(18px);
+  box-shadow:0 18px 80px rgba(0,0,0,.45);
+}
+
+.logo-icon{
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));
+  display:grid;
+  place-items:center;
+  box-shadow:0 0 30px rgba(0,212,255,.35);
+}
+
+.logo-icon svg{width:28px;height:28px}
+
+.logo-text{
+  text-align:left;
+  line-height:1;
+}
+
+.logo-text strong{
+  display:block;
+  font-size:23px;
+  letter-spacing:.3px;
+}
+
+.logo-text span{
+  color:var(--cyan);
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+
+.hero h1{
+  margin:26px 0 10px;
+  font-size:clamp(32px,6vw,62px);
+  line-height:1.05;
+}
+
+.hero h1 span{
+  background:linear-gradient(90deg,var(--cyan),#fff,var(--pink));
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.hero p{
+  max-width:780px;
+  margin:0 auto;
+  color:#cbd5e1;
+  font-size:17px;
+}
+
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:30;
+  background:rgba(2,6,23,.78);
+  backdrop-filter:blur(18px);
+  border-top:1px solid var(--line);
   border-bottom:1px solid var(--line);
 }
-.hero h1{margin:0;font-size:clamp(28px,5vw,48px)}
-.hero p{color:var(--muted);margin:10px 0 0}
-.wrap{max-width:1280px;margin:auto;padding:18px}
-.toolbar{
-  position:sticky;top:0;z-index:20;
-  background:rgba(8,11,22,.88);
-  backdrop-filter:blur(14px);
-  border-bottom:1px solid var(--line);
+
+.wrap{
+  width:min(1380px,100%);
+  margin:auto;
+  padding:18px;
 }
+
+.controls{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:14px;
+  align-items:center;
+}
+
 .search{
   width:100%;
-  padding:14px 16px;
-  border-radius:14px;
   border:1px solid var(--line);
-  background:#0f172a;
-  color:#fff;
+  background:rgba(15,23,42,.82);
+  color:white;
+  padding:15px 18px;
+  border-radius:16px;
   font-size:16px;
   outline:none;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.025);
 }
-.cats{
+
+.search:focus{
+  border-color:rgba(0,212,255,.7);
+  box-shadow:0 0 0 4px rgba(0,212,255,.12);
+}
+
+.total{
+  white-space:nowrap;
+  color:#dbeafe;
+  background:rgba(37,99,235,.20);
+  border:1px solid rgba(96,165,250,.25);
+  padding:13px 16px;
+  border-radius:16px;
+}
+
+.categories{
   display:flex;
   gap:10px;
   overflow:auto;
-  padding:14px 0 2px;
+  padding-top:14px;
+  scrollbar-width:none;
 }
+
+.categories::-webkit-scrollbar{display:none}
+
 .cat{
-  white-space:nowrap;
   border:1px solid var(--line);
-  background:#111827;
+  background:rgba(15,23,42,.74);
   color:#dbeafe;
-  padding:10px 14px;
+  padding:10px 16px;
   border-radius:999px;
   cursor:pointer;
+  white-space:nowrap;
+  transition:.25s;
 }
-.cat.active,.cat:hover{background:var(--blue);color:#fff}
-.section{margin:28px 0}
-.section-title{
+
+.cat:hover,.cat.active{
+  background:linear-gradient(135deg,var(--blue),var(--purple));
+  color:#fff;
+  border-color:transparent;
+  box-shadow:0 8px 28px rgba(37,99,235,.35);
+}
+
+.section{
+  margin:30px 0 46px;
+}
+
+.section-head{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:14px;
+  margin-bottom:16px;
+  padding:0 4px;
+}
+
+.section-head h2{
+  margin:0;
+  font-size:25px;
+}
+
+.section-head span{
+  color:var(--muted);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(175px,1fr));
+  gap:18px;
+}
+
+.card{
+  position:relative;
+  overflow:hidden;
+  border-radius:24px;
+  min-height:235px;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.035)),
+    rgba(15,23,42,.76);
+  border:1px solid var(--line);
+  cursor:pointer;
+  transition:.28s ease;
+  box-shadow:0 14px 45px rgba(0,0,0,.28);
+}
+
+.card:before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  background:linear-gradient(135deg,transparent,var(--cyan),var(--purple),transparent);
+  opacity:0;
+  transition:.28s;
+  z-index:0;
+}
+
+.card:hover{
+  transform:translateY(-7px) scale(1.015);
+  box-shadow:0 25px 70px rgba(0,0,0,.45);
+}
+
+.card:hover:before{opacity:.65}
+
+.card-inner{
+  position:absolute;
+  inset:1px;
+  z-index:1;
+  border-radius:23px;
+  background:linear-gradient(180deg,#111827,#07101e);
+  padding:14px;
+  display:flex;
+  flex-direction:column;
+}
+
+.poster{
+  height:128px;
+  border-radius:19px;
+  background:
+    radial-gradient(circle at top,rgba(0,212,255,.16),transparent 55%),
+    #fff;
+  display:grid;
+  place-items:center;
+  padding:14px;
+  overflow:hidden;
+}
+
+.poster img{
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  transition:.3s;
+}
+
+.card:hover .poster img{
+  transform:scale(1.07);
+}
+
+.card h3{
+  margin:13px 0 7px;
+  font-size:16px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.meta{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  margin-bottom:14px;
+  gap:8px;
+  margin-top:auto;
 }
-.section-title h2{margin:0;font-size:22px}
-.count{color:var(--muted);font-size:14px}
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
-  gap:16px;
-}
-.card{
-  background:linear-gradient(180deg,var(--panel2),var(--panel));
-  border:1px solid var(--line);
-  border-radius:20px;
-  padding:14px;
-  cursor:pointer;
-  transition:.2s;
-  min-height:185px;
-}
-.card:hover{
-  transform:translateY(-4px);
-  border-color:#60a5fa;
-  box-shadow:0 16px 40px rgba(37,99,235,.22);
-}
-.logoBox{
-  height:98px;
-  background:#fff;
-  border-radius:16px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:10px;
-}
-.logoBox img{max-width:100%;max-height:100%;object-fit:contain}
-.card h3{
-  font-size:15px;
-  margin:12px 0 7px;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-}
+
 .badge{
-  display:inline-block;
   font-size:12px;
   color:#bfdbfe;
-  background:rgba(37,99,235,.18);
-  padding:5px 9px;
+  background:rgba(37,99,235,.22);
+  border:1px solid rgba(96,165,250,.22);
+  padding:6px 9px;
   border-radius:999px;
+  max-width:115px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
 }
+
+.play{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--cyan),var(--blue));
+  display:grid;
+  place-items:center;
+  box-shadow:0 0 25px rgba(0,212,255,.35);
+}
+
+.play svg{
+  width:18px;
+  height:18px;
+  margin-left:2px;
+}
+
 .modal{
   display:none;
   position:fixed;
   inset:0;
   z-index:9999;
-  background:rgba(0,0,0,.78);
   align-items:center;
   justify-content:center;
-  padding:16px;
+  padding:18px;
+  background:rgba(0,0,0,.82);
+  backdrop-filter:blur(10px);
 }
+
 .modal.active{display:flex}
+
 .modal-box{
-  width:min(900px,96vw);
+  width:min(780px,96vw);
   background:#020617;
-  border:1px solid var(--line);
-  border-radius:18px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:22px;
   overflow:hidden;
-  box-shadow:0 30px 100px rgba(0,0,0,.6);
+  box-shadow:0 30px 120px rgba(0,0,0,.75);
 }
+
 .modal-head{
-  height:50px;
+  height:54px;
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:0 12px 0 16px;
-  background:#111827;
+  gap:12px;
+  padding:0 14px 0 18px;
+  background:linear-gradient(90deg,#0f172a,#111827);
 }
+
+.modal-title{
+  font-weight:700;
+  color:#fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
 .close{
-  width:34px;height:34px;
-  border:0;border-radius:50%;
-  background:#ef4444;color:#fff;
-  font-size:22px;cursor:pointer;
+  border:0;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#ef4444,#b91c1c);
+  color:#fff;
+  font-size:22px;
+  cursor:pointer;
 }
-.player{aspect-ratio:16/9;background:#000}
-.player iframe{width:100%;height:100%;border:0}
-.empty{color:var(--muted);text-align:center;padding:40px}
-footer{text-align:center;color:var(--muted);padding:30px}
-@media(max-width:600px){
-  .wrap{padding:12px}
-  .grid{grid-template-columns:repeat(2,1fr);gap:12px}
-  .card{border-radius:16px;padding:10px;min-height:165px}
-  .logoBox{height:82px}
+
+.player-wrap{
+  position:relative;
+  aspect-ratio:16/9;
+  background:#000;
+}
+
+.player-wrap iframe{
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+.loader{
+  position:absolute;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  background:#000;
+  z-index:2;
+  color:#00d4ff;
+  font-size:18px;
+}
+
+.empty{
+  text-align:center;
+  color:var(--muted);
+  padding:60px 15px;
+}
+
+footer{
+  text-align:center;
+  color:#94a3b8;
+  padding:32px 15px;
+  border-top:1px solid var(--line);
+  background:rgba(2,6,23,.55);
+}
+
+@media(max-width:760px){
+  .controls{grid-template-columns:1fr}
+  .total{text-align:center}
+  .grid{grid-template-columns:repeat(2,1fr);gap:13px}
+  .card{min-height:208px;border-radius:20px}
+  .card-inner{border-radius:19px;padding:11px}
+  .poster{height:104px;border-radius:15px}
+  .hero{padding-top:24px}
+  .logo-text strong{font-size:19px}
   .modal-box{width:96vw}
+}
+
+@media(max-width:390px){
+  .grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -165,14 +440,30 @@ footer{text-align:center;color:var(--muted);padding:30px}
 <body>
 
 <header class="hero">
-  <h1>TV România Live</h1>
-  <p>Hub modern cu toate canalele TV românești, organizate pe categorii.</p>
+  <div class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M4 7.5C4 6.1 5.1 5 6.5 5h11C18.9 5 20 6.1 20 7.5v8c0 1.4-1.1 2.5-2.5 2.5h-11C5.1 18 4 16.9 4 15.5v-8Z" stroke="white" stroke-width="2"/>
+        <path d="M10 9l5 3-5 3V9Z" fill="white"/>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <strong>TV România</strong>
+      <span>Live Hub</span>
+    </div>
+  </div>
+
+  <h1>Toate canalele <span>într-un singur loc</span></h1>
+  <p>Un hub modern pentru canalele românești, organizat pe categorii, cu player rapid în fereastră modală.</p>
 </header>
 
-<div class="toolbar">
+<div class="topbar">
   <div class="wrap">
-    <input id="search" class="search" placeholder="Caută după nume sau categorie...">
-    <div id="categories" class="cats"></div>
+    <div class="controls">
+      <input class="search" id="search" placeholder="Caută un canal, categorie sau nume...">
+      <div class="total" id="total">Se încarcă...</div>
+    </div>
+    <div class="categories" id="categories"></div>
   </div>
 </div>
 
@@ -181,106 +472,150 @@ footer{text-align:center;color:var(--muted);padding:30px}
 <div class="modal" id="modal">
   <div class="modal-box">
     <div class="modal-head">
-      <strong id="modalTitle">Live TV</strong>
+      <div class="modal-title" id="modalTitle">Live TV</div>
       <button class="close" onclick="closePlayer()">×</button>
     </div>
-    <div class="player">
+    <div class="player-wrap">
+      <div class="loader" id="loader">Loading Stream...</div>
       <iframe id="frame" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
   </div>
 </div>
 
-<footer>TV România Live</footer>
+<footer>
+  © 2026 TV România Live Hub — Conținutul aparține deținătorilor legali.
+</footer>
 
 <script>
 const JSON_URL = "canaleromanesti.json";
-let allChannels = [];
+
+let channels = [];
 let activeCategory = "Toate";
 
 fetch(JSON_URL)
 .then(r => r.json())
 .then(data => {
-  allChannels = Array.isArray(data) ? data : data.channels;
+  channels = Array.isArray(data) ? data : data.channels;
   buildCategories();
   render();
+})
+.catch(() => {
+  document.getElementById("content").innerHTML = "<div class='empty'>Nu s-a putut încărca fișierul JSON.</div>";
 });
 
 function buildCategories(){
-  const cats = ["Toate", ...new Set(allChannels.map(c => c.category || "Altele"))];
-  document.getElementById("categories").innerHTML = cats.map(c =>
-    `<button class="cat ${c==="Toate"?"active":""}" onclick="setCategory('${escapeAttr(c)}',this)">${c}</button>`
-  ).join("");
+  const cats = ["Toate", ...new Set(channels.map(c => c.category || "Altele"))];
+  document.getElementById("categories").innerHTML = cats.map(c => `
+    <button class="cat ${c==="Toate"?"active":""}" onclick="selectCategory('${esc(c)}', this)">
+      ${c}
+    </button>
+  `).join("");
 }
 
-function setCategory(cat,btn){
+function selectCategory(cat, btn){
   activeCategory = cat;
-  document.querySelectorAll(".cat").forEach(b=>b.classList.remove("active"));
+  document.querySelectorAll(".cat").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
   render();
 }
 
 function render(){
-  const q = document.getElementById("search").value.toLowerCase();
-  let list = allChannels.filter(c =>
-    (activeCategory==="Toate" || (c.category || "Altele")===activeCategory) &&
-    ((c.name||"").toLowerCase().includes(q) || (c.category||"").toLowerCase().includes(q))
-  );
+  const q = document.getElementById("search").value.toLowerCase().trim();
 
-  const grouped = {};
-  list.forEach(c=>{
-    const cat = c.category || "Altele";
-    if(!grouped[cat]) grouped[cat]=[];
-    grouped[cat].push(c);
+  const filtered = channels.filter(c => {
+    const name = (c.name || "").toLowerCase();
+    const cat = (c.category || "Altele").toLowerCase();
+    return (activeCategory === "Toate" || (c.category || "Altele") === activeCategory)
+      && (name.includes(q) || cat.includes(q));
   });
 
-  const content = document.getElementById("content");
-  if(!list.length){
-    content.innerHTML = `<div class="empty">Nu am găsit niciun canal.</div>`;
+  document.getElementById("total").textContent = filtered.length + " canale afișate";
+
+  if(!filtered.length){
+    document.getElementById("content").innerHTML = "<div class='empty'>Nu există rezultate pentru căutarea ta.</div>";
     return;
   }
 
-  content.innerHTML = Object.keys(grouped).map(cat => `
+  const grouped = {};
+  filtered.forEach(c => {
+    const cat = c.category || "Altele";
+    if(!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(c);
+  });
+
+  document.getElementById("content").innerHTML = Object.keys(grouped).map(cat => `
     <section class="section">
-      <div class="section-title">
+      <div class="section-head">
         <h2>${cat}</h2>
-        <span class="count">${grouped[cat].length} canale</span>
+        <span>${grouped[cat].length} canale</span>
       </div>
       <div class="grid">
-        ${grouped[cat].map(cardHTML).join("")}
+        ${grouped[cat].map(card).join("")}
       </div>
     </section>
   `).join("");
 }
 
-function cardHTML(ch){
-  const name = escapeAttr(ch.name || "Canal TV");
-  const logo = escapeAttr(ch.logo || "");
-  const cat = escapeAttr(ch.category || "TV");
-  const video = escapeAttr(ch.video_link || ch.embed_url || ch.channel_url || "");
+function card(c){
+  const name = esc(c.name || "Canal TV");
+  const logo = esc(c.logo || "");
+  const category = esc(c.category || "TV");
+  const video = esc(c.video_link || c.embed_url || c.channel_url || "");
+
   return `
     <article class="card" onclick="openPlayer('${name}','${video}')">
-      <div class="logoBox"><img src="${logo}" alt="${name}" loading="lazy"></div>
-      <h3>${name}</h3>
-      <span class="badge">${cat}</span>
+      <div class="card-inner">
+        <div class="poster">
+          <img src="${logo}" alt="${name}" loading="lazy">
+        </div>
+        <h3>${name}</h3>
+        <div class="meta">
+          <span class="badge">${category}</span>
+          <span class="play">
+            <svg viewBox="0 0 24 24" fill="white">
+              <path d="M8 5v14l11-7z"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
     </article>
   `;
 }
 
-function openPlayer(name,video){
-  if(!video){alert("Nu există link video.");return;}
+function openPlayer(name, video){
+  if(!video){
+    alert("Nu există link video pentru acest canal.");
+    return;
+  }
+
   document.getElementById("modalTitle").textContent = name;
+  document.getElementById("loader").style.display = "flex";
   document.getElementById("frame").src = video;
   document.getElementById("modal").classList.add("active");
 }
+
+document.getElementById("frame").onload = function(){
+  document.getElementById("loader").style.display = "none";
+};
+
 function closePlayer(){
   document.getElementById("frame").src = "";
   document.getElementById("modal").classList.remove("active");
 }
-document.getElementById("modal").onclick = e => { if(e.target.id==="modal") closePlayer(); };
-document.getElementById("search").oninput = render;
 
-function escapeAttr(s){
-  return String(s).replaceAll("&","&amp;").replaceAll("'","&#39;").replaceAll('"',"&quot;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+document.getElementById("modal").addEventListener("click", e => {
+  if(e.target.id === "modal") closePlayer();
+});
+
+document.getElementById("search").addEventListener("input", render);
+
+function esc(s){
+  return String(s)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#39;");
 }
 </script>
 
