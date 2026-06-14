@@ -3,220 +3,285 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Canale TV România</title>
+<title>TV România Live</title>
 
 <style>
+:root{
+  --bg:#080b16;
+  --panel:#111827;
+  --panel2:#151f32;
+  --text:#f8fafc;
+  --muted:#94a3b8;
+  --blue:#2563eb;
+  --line:rgba(255,255,255,.09);
+}
 *{box-sizing:border-box}
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#0b1020;
-    color:#fff;
+  margin:0;
+  font-family:Inter,Arial,sans-serif;
+  background:radial-gradient(circle at top,#172554 0,#080b16 42%);
+  color:var(--text);
 }
-header{
-    padding:25px 15px;
-    text-align:center;
-    background:linear-gradient(135deg,#111827,#1e40af);
+.hero{
+  padding:34px 16px 26px;
+  text-align:center;
+  border-bottom:1px solid var(--line);
 }
-header h1{margin:0;font-size:28px}
-header p{color:#cbd5e1}
-
-.search-box{
-    max-width:600px;
-    margin:20px auto;
-    padding:0 15px;
+.hero h1{margin:0;font-size:clamp(28px,5vw,48px)}
+.hero p{color:var(--muted);margin:10px 0 0}
+.wrap{max-width:1280px;margin:auto;padding:18px}
+.toolbar{
+  position:sticky;top:0;z-index:20;
+  background:rgba(8,11,22,.88);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
 }
-.search-box input{
-    width:100%;
-    padding:14px 18px;
-    border-radius:12px;
-    border:none;
-    outline:none;
-    font-size:16px;
+.search{
+  width:100%;
+  padding:14px 16px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:#0f172a;
+  color:#fff;
+  font-size:16px;
+  outline:none;
 }
-
+.cats{
+  display:flex;
+  gap:10px;
+  overflow:auto;
+  padding:14px 0 2px;
+}
+.cat{
+  white-space:nowrap;
+  border:1px solid var(--line);
+  background:#111827;
+  color:#dbeafe;
+  padding:10px 14px;
+  border-radius:999px;
+  cursor:pointer;
+}
+.cat.active,.cat:hover{background:var(--blue);color:#fff}
+.section{margin:28px 0}
+.section-title{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:14px;
+}
+.section-title h2{margin:0;font-size:22px}
+.count{color:var(--muted);font-size:14px}
 .grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
-    gap:18px;
-    padding:20px;
-    max-width:1300px;
-    margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+  gap:16px;
 }
 .card{
-    background:#111827;
-    border:1px solid #1f2937;
-    border-radius:16px;
-    padding:15px;
-    text-align:center;
-    cursor:pointer;
-    transition:.25s;
+  background:linear-gradient(180deg,var(--panel2),var(--panel));
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:14px;
+  cursor:pointer;
+  transition:.2s;
+  min-height:185px;
 }
 .card:hover{
-    transform:translateY(-5px);
-    border-color:#3b82f6;
-    box-shadow:0 10px 30px rgba(59,130,246,.25);
+  transform:translateY(-4px);
+  border-color:#60a5fa;
+  box-shadow:0 16px 40px rgba(37,99,235,.22);
 }
-.card img{
-    width:100%;
-    height:90px;
-    object-fit:contain;
-    background:#fff;
-    border-radius:12px;
-    padding:8px;
+.logoBox{
+  height:98px;
+  background:#fff;
+  border-radius:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px;
 }
+.logoBox img{max-width:100%;max-height:100%;object-fit:contain}
 .card h3{
-    font-size:15px;
-    margin:12px 0 5px;
+  font-size:15px;
+  margin:12px 0 7px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
-.card span{
-    font-size:12px;
-    color:#93c5fd;
+.badge{
+  display:inline-block;
+  font-size:12px;
+  color:#bfdbfe;
+  background:rgba(37,99,235,.18);
+  padding:5px 9px;
+  border-radius:999px;
 }
-
 .modal{
-    display:none;
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.85);
-    z-index:9999;
-    align-items:center;
-    justify-content:center;
-    padding:15px;
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  background:rgba(0,0,0,.78);
+  align-items:center;
+  justify-content:center;
+  padding:16px;
 }
 .modal.active{display:flex}
 .modal-box{
-    width:100%;
-    max-width:1000px;
-    background:#000;
-    border-radius:16px;
-    overflow:hidden;
-    position:relative;
+  width:min(900px,96vw);
+  background:#020617;
+  border:1px solid var(--line);
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 30px 100px rgba(0,0,0,.6);
+}
+.modal-head{
+  height:50px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 12px 0 16px;
+  background:#111827;
 }
 .close{
-    position:absolute;
-    top:10px;
-    right:10px;
-    z-index:10;
-    background:#ef4444;
-    color:#fff;
-    border:none;
-    border-radius:50%;
-    width:38px;
-    height:38px;
-    font-size:22px;
-    cursor:pointer;
+  width:34px;height:34px;
+  border:0;border-radius:50%;
+  background:#ef4444;color:#fff;
+  font-size:22px;cursor:pointer;
 }
-.player-wrap{
-    width:100%;
-    aspect-ratio:16/9;
-    background:#000;
-}
-.player-wrap iframe{
-    width:100%;
-    height:100%;
-    border:0;
-}
-.modal-title{
-    padding:12px 15px;
-    background:#111827;
-    font-weight:bold;
+.player{aspect-ratio:16/9;background:#000}
+.player iframe{width:100%;height:100%;border:0}
+.empty{color:var(--muted);text-align:center;padding:40px}
+footer{text-align:center;color:var(--muted);padding:30px}
+@media(max-width:600px){
+  .wrap{padding:12px}
+  .grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .card{border-radius:16px;padding:10px;min-height:165px}
+  .logoBox{height:82px}
+  .modal-box{width:96vw}
 }
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Canale TV România</h1>
-    <p>Toate canalele TV într-o pagină modernă</p>
+<header class="hero">
+  <h1>TV România Live</h1>
+  <p>Hub modern cu toate canalele TV românești, organizate pe categorii.</p>
 </header>
 
-<div class="search-box">
-    <input type="text" id="searchInput" placeholder="Caută canal...">
+<div class="toolbar">
+  <div class="wrap">
+    <input id="search" class="search" placeholder="Caută după nume sau categorie...">
+    <div id="categories" class="cats"></div>
+  </div>
 </div>
 
-<div class="grid" id="channelsGrid"></div>
+<main class="wrap" id="content"></main>
 
-<div class="modal" id="playerModal">
-    <div class="modal-box">
-        <button class="close" onclick="closePlayer()">×</button>
-        <div class="modal-title" id="modalTitle">Live TV</div>
-        <div class="player-wrap">
-            <iframe id="playerFrame" allowfullscreen allow="autoplay; fullscreen"></iframe>
-        </div>
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <strong id="modalTitle">Live TV</strong>
+      <button class="close" onclick="closePlayer()">×</button>
     </div>
+    <div class="player">
+      <iframe id="frame" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
+
+<footer>TV România Live</footer>
 
 <script>
 const JSON_URL = "canaleromanesti.json";
-
-let channels = [];
+let allChannels = [];
+let activeCategory = "Toate";
 
 fetch(JSON_URL)
-.then(res => res.json())
+.then(r => r.json())
 .then(data => {
-    channels = Array.isArray(data) ? data : data.channels;
-    renderChannels(channels);
-})
-.catch(err => {
-    document.getElementById("channelsGrid").innerHTML =
-        "<p style='color:red'>Eroare la încărcarea fișierului JSON.</p>";
-    console.error(err);
+  allChannels = Array.isArray(data) ? data : data.channels;
+  buildCategories();
+  render();
 });
 
-function renderChannels(list){
-    const grid = document.getElementById("channelsGrid");
-    grid.innerHTML = "";
-
-    list.forEach(ch => {
-        const name = ch.name || "Canal TV";
-        const logo = ch.logo || "";
-        const category = ch.category || "TV";
-        const video = ch.video_link || ch.embed_url || ch.channel_url || "";
-
-        const card = document.createElement("div");
-        card.className = "card";
-        card.onclick = () => openPlayer(name, video);
-
-        card.innerHTML = `
-            <img src="${logo}" alt="${name}">
-            <h3>${name}</h3>
-            <span>${category}</span>
-        `;
-
-        grid.appendChild(card);
-    });
+function buildCategories(){
+  const cats = ["Toate", ...new Set(allChannels.map(c => c.category || "Altele"))];
+  document.getElementById("categories").innerHTML = cats.map(c =>
+    `<button class="cat ${c==="Toate"?"active":""}" onclick="setCategory('${escapeAttr(c)}',this)">${c}</button>`
+  ).join("");
 }
 
-function openPlayer(name, video){
-    if(!video){
-        alert("Nu există link video pentru acest canal.");
-        return;
-    }
-
-    document.getElementById("modalTitle").textContent = name;
-    document.getElementById("playerFrame").src = video;
-    document.getElementById("playerModal").classList.add("active");
+function setCategory(cat,btn){
+  activeCategory = cat;
+  document.querySelectorAll(".cat").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  render();
 }
 
+function render(){
+  const q = document.getElementById("search").value.toLowerCase();
+  let list = allChannels.filter(c =>
+    (activeCategory==="Toate" || (c.category || "Altele")===activeCategory) &&
+    ((c.name||"").toLowerCase().includes(q) || (c.category||"").toLowerCase().includes(q))
+  );
+
+  const grouped = {};
+  list.forEach(c=>{
+    const cat = c.category || "Altele";
+    if(!grouped[cat]) grouped[cat]=[];
+    grouped[cat].push(c);
+  });
+
+  const content = document.getElementById("content");
+  if(!list.length){
+    content.innerHTML = `<div class="empty">Nu am găsit niciun canal.</div>`;
+    return;
+  }
+
+  content.innerHTML = Object.keys(grouped).map(cat => `
+    <section class="section">
+      <div class="section-title">
+        <h2>${cat}</h2>
+        <span class="count">${grouped[cat].length} canale</span>
+      </div>
+      <div class="grid">
+        ${grouped[cat].map(cardHTML).join("")}
+      </div>
+    </section>
+  `).join("");
+}
+
+function cardHTML(ch){
+  const name = escapeAttr(ch.name || "Canal TV");
+  const logo = escapeAttr(ch.logo || "");
+  const cat = escapeAttr(ch.category || "TV");
+  const video = escapeAttr(ch.video_link || ch.embed_url || ch.channel_url || "");
+  return `
+    <article class="card" onclick="openPlayer('${name}','${video}')">
+      <div class="logoBox"><img src="${logo}" alt="${name}" loading="lazy"></div>
+      <h3>${name}</h3>
+      <span class="badge">${cat}</span>
+    </article>
+  `;
+}
+
+function openPlayer(name,video){
+  if(!video){alert("Nu există link video.");return;}
+  document.getElementById("modalTitle").textContent = name;
+  document.getElementById("frame").src = video;
+  document.getElementById("modal").classList.add("active");
+}
 function closePlayer(){
-    document.getElementById("playerFrame").src = "";
-    document.getElementById("playerModal").classList.remove("active");
+  document.getElementById("frame").src = "";
+  document.getElementById("modal").classList.remove("active");
 }
+document.getElementById("modal").onclick = e => { if(e.target.id==="modal") closePlayer(); };
+document.getElementById("search").oninput = render;
 
-document.getElementById("playerModal").addEventListener("click", function(e){
-    if(e.target === this) closePlayer();
-});
-
-document.getElementById("searchInput").addEventListener("input", function(){
-    const q = this.value.toLowerCase();
-    const filtered = channels.filter(ch =>
-        (ch.name || "").toLowerCase().includes(q) ||
-        (ch.category || "").toLowerCase().includes(q)
-    );
-    renderChannels(filtered);
-});
+function escapeAttr(s){
+  return String(s).replaceAll("&","&amp;").replaceAll("'","&#39;").replaceAll('"',"&quot;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+}
 </script>
 
 </body>
