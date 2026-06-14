@@ -1,0 +1,2410 @@
+[
+  {
+    "name": "Fm Radio Manele",
+    "slug": "fm-radio-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/fm-radio-manele/list_100.png",
+    "category": "Manele",
+    "stream_url": "https://ssl.servereradio.ro/8054/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Popular",
+    "slug": "radio-popular",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-popular/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://livessl.radiopopular.ro:7777/live",
+    "country_code": "ro"
+  },
+  {
+    "name": "Petrecere - Radio Tequila",
+    "slug": "petrecere-radio-tequila",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-tequila/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://petrecere.radiotequila.ro/7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Bad And Boujee 24/7 - Kiss FM",
+    "slug": "bad-and-boujee-247-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dc.digi.live.kissfm.ro/badandboujee247",
+    "country_code": "ro"
+  },
+  {
+    "name": "Romantic FM",
+    "slug": "romantic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/romantic-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ivm.antenaplay.ro/liveaudio/radiodor/playlist.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Fm",
+    "slug": "magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.magicfm.ro/magicfm.aacp",
+    "country_code": "ro"
+  },
+  {
+    "name": "Alternative - EBS Radio",
+    "slug": "alternative-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8020/alternative128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic 80s Hits - Magic Fm",
+    "slug": "magic-80s-hits-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.kissfm.ro/Magic-80s",
+    "country_code": "ro"
+  },
+  {
+    "name": "Căldura Șemineului - Radio Relax",
+    "slug": "cldura-emineului-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio2.dixi.md/listen/relax_summer_cocktail/relax_summercocktail128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Cântece de petrecere - EBS Radio",
+    "slug": "cntece-de-petrecere-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8170/petrecere128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance - Radio Tequila",
+    "slug": "dance-radio-tequila",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-tequila/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dance.radiotequila.ro/7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic 90s Hits - Magic Fm",
+    "slug": "magic-90s-hits-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.kissfm.ro/Magic-90s",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Jazz - Magic Fm",
+    "slug": "magic-jazz-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-jazz",
+    "country_code": "ro"
+  },
+  {
+    "name": "Anii 2000 - Radio Zum",
+    "slug": "anii-2000-radio-zum",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-zum/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://streams.radiozum.md/listen/zum2/ZUM2",
+    "country_code": "ro"
+  },
+  {
+    "name": "Balade de Dragoste - Radio Relax",
+    "slug": "balade-de-dragoste-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio2.dixi.md/listen/relax_oasis/relaxoasis128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Energy - Radio Boom",
+    "slug": "energy-radio-boom",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-boom/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.radioboom.ro:8520/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Nature - Radio Relax",
+    "slug": "nature-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio8.dixi.md/listen/relax_ice_arena/relaxicearena128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM 90's Hits - HIT FM Moldova",
+    "slug": "hit-fm-90s-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio4.dixi.md/listen/hit_fm_90s_hits/90s_hits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Nostalgie - EBS Radio",
+    "slug": "nostalgie-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8070/nostalgie128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "100% RO - Radio Tequila",
+    "slug": "100-ro-radio-tequila",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-tequila/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://romaneasca.radiotequila.ro/8989/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Digi FM",
+    "slug": "digi-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/digi-fm/list_100.jpg",
+    "category": "Știri",
+    "stream_url": "https://edge76.rcs-rds.ro/digifm/digifm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Tricolor - Radio Relax",
+    "slug": "tricolor-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_tricolor/relaxtricolor128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Blues - EBS Radio",
+    "slug": "blues-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8050/blues128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Funk & Soul - Radio Relax",
+    "slug": "funk-soul-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_funk_soul/relaxfunkandsoul128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "International - Radio Relax",
+    "slug": "international-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_international/relaxinternational128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Gold - Magic Fm",
+    "slug": "magic-gold-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.magicfm.ro/magic.gold.hits",
+    "country_code": "ro"
+  },
+  {
+    "name": "Vintage - Radio Relax",
+    "slug": "vintage-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio2.dixi.md/listen/relax_vintage/relaxvintage128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Antena Satelor",
+    "slug": "antena-satelor",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/antena-satelor/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://stream4.srr.ro:8443/antena-satelor",
+    "country_code": "ro"
+  },
+  {
+    "name": "Contemporan - Radio Relax",
+    "slug": "contemporan-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_contemporan/relaxcontemporan128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Best Hits - HIT FM Moldova",
+    "slug": "hit-fm-best-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio3.dixi.md/listen/hit_fm_best_hits/hitfm_besthits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Jazz&Blues - Radio Relax",
+    "slug": "jazzblues-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio2.dixi.md/listen/relax_jazz__blues/relaxjazzblues128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Petrecere - Radio Taraf",
+    "slug": "petrecere-radio-taraf",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-taraf/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://ssl.radiolautaru.ro/9000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio ZU",
+    "slug": "radio-zu",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-zu/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://ivm.antenaplay.ro/liveaudio/radiozu/playlist.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock - Radio Boom",
+    "slug": "rock-radio-boom",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-boom/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://stream.radioboom.ro:8520/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock FM",
+    "slug": "rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.rockfm.ro/rockfm.aacp",
+    "country_code": "ro"
+  },
+  {
+    "name": "Country - EBS Radio",
+    "slug": "country-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/listen/country/country128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Live is Life - Magic Fm",
+    "slug": "magic-live-is-life-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-livelife",
+    "country_code": "ro"
+  },
+  {
+    "name": "Play 90's - Play Radio 91.6 FM",
+    "slug": "play-90s-play-radio-916-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/play-radio-91-6-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.playradio.org:8443/90HD",
+    "country_code": "ro"
+  },
+  {
+    "name": "Soulful Disco Magic - Magic Fm",
+    "slug": "soulful-disco-magic-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/soulful-disco-magic",
+    "country_code": "ro"
+  },
+  {
+    "name": "Colinde - Radio Romanian",
+    "slug": "colinde-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radioromanian.net/colinde",
+    "country_code": "ro"
+  },
+  {
+    "name": "Colinde de Crăciun Radio",
+    "slug": "colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://christmasfm.cdnstream1.com/2547_128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Deep House Radio",
+    "slug": "deep-house-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/deep-house-radio-dance-music/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming-01.xtservers.com:7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Fun FM",
+    "slug": "fun-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/fun-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://online.funfm.ro:8001/funfm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Hammer - Rock FM",
+    "slug": "hammer-rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.rockfm.ro/rockfm.aacp",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Retro Hits 70-80's - HIT FM Moldova",
+    "slug": "hit-fm-retro-hits-70-80s-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://radio7.dixi.md/listen/retro_hits_70-80s/hitfm_retrohits7080.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss & Chill - Kiss FM",
+    "slug": "kiss-chill-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dc.digi.live.kissfm.ro/kissnchill",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss 4 Love - Kiss FM",
+    "slug": "kiss-4-love-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dc.digi.live.kissfm.ro/kiss4love",
+    "country_code": "ro"
+  },
+  {
+    "name": "Lo fi - Radio Relax",
+    "slug": "lo-fi-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio8.dixi.md/listen/relax_lofi/relax_lofi128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Classic Music - Magic Fm",
+    "slug": "magic-classic-music-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-classic",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Love - Magic Fm",
+    "slug": "magic-love-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magiclove",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Viva Italia - Magic Fm",
+    "slug": "magic-viva-italia-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-viva-italia",
+    "country_code": "ro"
+  },
+  {
+    "name": "Metronom FM",
+    "slug": "metronom-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/metronom-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://metronom-fm.ro/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "One FM",
+    "slug": "one-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/one-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.onefm.ro/onefm.aacp",
+    "country_code": "ro"
+  },
+  {
+    "name": "ProFM",
+    "slug": "profm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/profm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://edge76.rcs-rds.ro/profm/profm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio AS Petrecere",
+    "slug": "radio-as-petrecere",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-as-petrecere/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://stream.zeno.fm/zp999wm4tm0uv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Badita Popular",
+    "slug": "radio-badita-popular",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-badita-popular/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "http://89.39.189.29:8000/;stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Expert Fm",
+    "slug": "radio-expert-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-expert-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://expertfm.zapto.org:8000/;stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Manele Vechi",
+    "slug": "radio-manele-vechi",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-manele-vechi/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://ssl.servereradio.ro/8054/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mynele",
+    "slug": "radio-mynele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mynele/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiomynele.ro/8000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romance 21",
+    "slug": "radio-romance-21",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romance-21/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radioromance21.ro:9950/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Colinde - Radio Hot Style",
+    "slug": "colinde-radio-hot-style",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-hot-style/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://colinde.radiohot.ro:8000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance FM",
+    "slug": "dance-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/dance-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://edge76.rcs-rds.ro/profm/dancefm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance Wave Retro! - Dance Wave!",
+    "slug": "dance-wave-retro-dance-wave",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/dance-wave/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://retro.dancewave.online/retrodance.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance Wave!",
+    "slug": "dance-wave",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/dance-wave/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dancewave.online/dance.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Disco - Radio Romanian",
+    "slug": "disco-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radioromanian.net/disco",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dolce Vita - EBS Radio",
+    "slug": "dolce-vita-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8110/dolcevita128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Ercis FM",
+    "slug": "ercis-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ercis-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.zeno.fm/ehbuv5erws8uv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Etno - Capital FM Romania",
+    "slug": "etno-capital-fm-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/capital-fm-romania/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://radio.sonicpanel.ro/7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Etno - Radio Romance 21",
+    "slug": "etno-radio-romance-21",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romance-21/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://etno.radioromance21.ro:8012/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Extravaganza Radio",
+    "slug": "extravaganza-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/extravaganza-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s3.radio.co/s1492c0564/low",
+    "country_code": "ro"
+  },
+  {
+    "name": "Fresco - EBS Radio",
+    "slug": "fresco-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8120/fresco128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Hip-Hop - Radio Tequila",
+    "slug": "hip-hop-radio-tequila",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-tequila/list_100.jpg",
+    "category": "Hip-Hop",
+    "stream_url": "https://ssl.omegahost.ro/7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "House Music - Radio Boom",
+    "slug": "house-music-radio-boom",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-boom/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.radioboom.ro:8530/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Indie Rock - Radio ROKS",
+    "slug": "indie-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/indie_rock/indie_rock.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Instrumental - Radio Relax",
+    "slug": "instrumental-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_instrumental/relaxinstrumental128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss FM",
+    "slug": "kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.kissfm.ro/kissfm.aacp",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss Hits from the 10s - Kiss FM",
+    "slug": "kiss-hits-from-the-10s-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.kissfm.ro/kiss.hits.from.the.10s",
+    "country_code": "ro"
+  },
+  {
+    "name": "Librarius - Radio Relax",
+    "slug": "librarius-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio2.dixi.md/listen/relax_librarius/relaxlibrarius128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Divas - Magic Fm",
+    "slug": "magic-divas-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-divas",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Duets - Magic Fm",
+    "slug": "magic-duets-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magicduets",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Party Mix - Magic Fm",
+    "slug": "magic-party-mix-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.magicfm.ro/magic.party.mix",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Rainy Days Hits - Magic Fm",
+    "slug": "magic-rainy-days-hits-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.kissfm.ro/magic-dropsofrain",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Relax - Magic Fm",
+    "slug": "magic-relax-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.magicfm.ro/magic.lite?direct=false",
+    "country_code": "ro"
+  },
+  {
+    "name": "Manele - Radio Romanian",
+    "slug": "manele-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://asculta.radioromanian.net/manele",
+    "country_code": "ro"
+  },
+  {
+    "name": "Movie Soundtracks - EBS Radio",
+    "slug": "movie-soundtracks-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8100/movies128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Music - EBS Radio",
+    "slug": "music-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8000/music128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "National FM",
+    "slug": "national-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/national-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.nationalfm.ro:9102/nfm2",
+    "country_code": "ro"
+  },
+  {
+    "name": "Petrecere - Radio HiT FM",
+    "slug": "petrecere-radio-hit-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-hit-fm/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://petrecere.radiohitfm.net/8340/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "R&B - Radio Relax",
+    "slug": "rb-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio1.dixi.md/listen/relax_rnb/relaxrnb128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio 1 Manele",
+    "slug": "radio-1-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-1-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://ssl.omegahost.ro/8000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Cireșarii",
+    "slug": "radio-cirearii",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-ciresarii/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s3.radio.co/s6c0a773ad/listen",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Click Romania",
+    "slug": "radio-click-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-click-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://sonicssl.namehost.ro/8008/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio DA",
+    "slug": "radio-da",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-da/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.radiojar.com/du8khw2d2wzuv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Electro Manele",
+    "slug": "radio-electro-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-electro-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://stream.radioem.ro/8046/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Flo Manele",
+    "slug": "radio-flo-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-flo-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://live.radioflomanele.ro/8084/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Gasca Nebuna",
+    "slug": "radio-gasca-nebuna",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-gasca-nebuna/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.zeno.fm/33t7y7n9gwzuv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Hot Style",
+    "slug": "radio-hot-style",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-hot-style/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiohot.ro/8000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Impuls",
+    "slug": "radio-impuls",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-impuls/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radio-impuls.ro/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Manele",
+    "slug": "radio-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://play.wrhradios.com/8044/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Prahova",
+    "slug": "radio-prahova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-prahova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streamx.rph.ro:8100/relay",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Trapanele",
+    "slug": "radio-trapanele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-trapanele/list_100.jpg",
+    "category": "Hip-Hop",
+    "stream_url": "https://live.radiotrapanele.ro:8132/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Vacanța Nostalgia - Radio Vacanța",
+    "slug": "radio-vacana-nostalgia-radio-vacana",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-vacanta/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/nostalgia_rv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Whiteheaven",
+    "slug": "radio-whiteheaven",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-whiteheaven/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://a3.asurahosting.com:7200/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Realitatea FM",
+    "slug": "realitatea-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/realitatea-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://shout.realitatea.net:8001/mixt",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock 80s & 90s - Rock FM",
+    "slug": "rock-80s-90s-rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.kissfm.ro/rock.8090",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock Ballads - Rock FM",
+    "slug": "rock-ballads-rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.rockfm.ro/ballads.rock?direct=false",
+    "country_code": "ro"
+  },
+  {
+    "name": "Romanian Folk - EBS Radio",
+    "slug": "romanian-folk-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8150/romanianfolk128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Romanian Gold - EBS Radio",
+    "slug": "romanian-gold-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8140/romaniangold128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart AltRO - Smart Radio",
+    "slug": "smart-altro-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartaltro",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart and Groovy - Smart Radio",
+    "slug": "smart-and-groovy-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartgroovy",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart Move - Smart Radio",
+    "slug": "smart-move-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartmove",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart on Soundtrack - Smart Radio",
+    "slug": "smart-on-soundtrack-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartsoundtrack",
+    "country_code": "ro"
+  },
+  {
+    "name": "Super FM",
+    "slug": "super-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/super-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.superfm.ro/stream.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Supravibe Radio",
+    "slug": "supravibe-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/supravibe-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://supraviberadio-radiohosting.radioca.st/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Traditional Radio Dacia - Radio Dacia",
+    "slug": "traditional-radio-dacia-radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia06",
+    "country_code": "ro"
+  },
+  {
+    "name": "Urban FM",
+    "slug": "urban-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/urban-fm/list_100.jpg",
+    "category": "Hip-Hop",
+    "stream_url": "https://urbanfm.ro:8777/live",
+    "country_code": "ro"
+  },
+  {
+    "name": "Vibe FM",
+    "slug": "vibe-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/vibe-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://astreaming.vibefm.ro:8443/vibe_ro64",
+    "country_code": "ro"
+  },
+  {
+    "name": "Virgin Radio",
+    "slug": "virgin-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/virgin-radio/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://astreaming.edi.ro:8443/VirginRadio_aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Work - Radio Zum",
+    "slug": "work-radio-zum",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-zum/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://streams.radiozum.md/listen/zum4/ZUM4",
+    "country_code": "ro"
+  },
+  {
+    "name": "Zalau - Radio Transilvania",
+    "slug": "zalau-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Zalau",
+    "country_code": "ro"
+  },
+  {
+    "name": "Baia Mare - Radio Transilvania",
+    "slug": "baia-mare-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/BaiaMare",
+    "country_code": "ro"
+  },
+  {
+    "name": "București FM",
+    "slug": "bucureti-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/bucuresti-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/bucuresti-fm",
+    "country_code": "ro"
+  },
+  {
+    "name": "Classic Rock - Radio ROKS",
+    "slug": "classic-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio5.dixi.md/listen/classic_rock/roks_classic_rock128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Classical - Colinde de Crăciun Radio",
+    "slug": "classical-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://christmasfm.cdnstream1.com/2549_128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Classics - Colinde de Crăciun Radio",
+    "slug": "classics-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://christmasfm.cdnstream1.com/2550_128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance - Capital FM Romania",
+    "slug": "dance-capital-fm-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/capital-fm-romania/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://radio.sonicpanel.ro/8020/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Dance - Radio HiT FM",
+    "slug": "dance-radio-hit-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-hit-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dance.radiohitfm.net/8989/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "DeepRadio - Moinesti FM",
+    "slug": "deepradio-moinesti-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/moinesti-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://listen.deepradio.ro/radio.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Digi 24 FM",
+    "slug": "digi-24-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/digi-24-fm/list_100.png",
+    "category": "Știri",
+    "stream_url": "https://edge76.rcs-rds.ro/digifm/digi24fm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Disco Mix",
+    "slug": "disco-mix",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/disco-mix/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://play.discomix.ro/8002/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "DJ Radio Romania",
+    "slug": "dj-radio-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/dj-radio-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.djradio.ro/listen/dj_radio_romania/stream.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "EBS Radio",
+    "slug": "ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8010/live128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Electro - EBS Radio",
+    "slug": "electro-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8040/electro128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Europa FM",
+    "slug": "europa-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/europa-fm/list_100.jpg",
+    "category": "Știri",
+    "stream_url": "https://astreaming.edi.ro:8443/EuropaFM_aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Glasul Nordului",
+    "slug": "glasul-nordului",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/glasul-nordului/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ssl.asculta.live/8096/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Gold - Radio Boom",
+    "slug": "gold-radio-boom",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-boom/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://stream.radioboom.ro:8500/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Hip-Hop - Radio Romanian",
+    "slug": "hip-hop-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Hip-Hop",
+    "stream_url": "https://asculta.radioromanian.net/hiphop",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM",
+    "slug": "hit-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio.sonicpanel.ro/8082/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM 2000s HITS - HIT FM Moldova",
+    "slug": "hit-fm-2000s-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio3.dixi.md/listen/hit_fm_2000s_hits/hitfm2000hit128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM 2010's Hits - HIT FM Moldova",
+    "slug": "hit-fm-2010s-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio7.dixi.md/listen/2010s_hits/2010hits.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Acoustic Hits - HIT FM Moldova",
+    "slug": "hit-fm-acoustic-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio7.dixi.md/listen/hit_fm_acoustic_hits/hitfm_acoustichits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Christmas Hits - HIT FM Moldova",
+    "slug": "hit-fm-christmas-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio4.dixi.md/listen/hit_fm_christmas_hits/hitfmchristmashits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Eurovision Hits - HIT FM Moldova",
+    "slug": "hit-fm-eurovision-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio7.dixi.md/listen/hit_fm_eurovision_hits/eurovisionhits.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Latino Hits - HIT FM Moldova",
+    "slug": "hit-fm-latino-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio4.dixi.md/listen/hit_fm_latino_hits/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Moldova",
+    "slug": "hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.dixi.md:9443/HitFM",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Romantic Hits - HIT FM Moldova",
+    "slug": "hit-fm-romantic-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio7.dixi.md/listen/romantic_hits/hitfm_romantichits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Summer Hits - HIT FM Moldova",
+    "slug": "hit-fm-summer-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio4.dixi.md/listen/hit_fm_summer_hits/hitfmsummerhits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Tricolor de Hituri - HIT FM Moldova",
+    "slug": "hit-fm-tricolor-de-hituri-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio3.dixi.md/listen/hit_fm_tricolour/hitfmtricolor128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Русское Хитовое - HIT FM Moldova",
+    "slug": "hit-fm-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio3.dixi.md/listen/hit_fm_russkoe_hitovoe/hitfm_ruhit128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Invitro Diagnostics - Radio Relax",
+    "slug": "invitro-diagnostics-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio8.dixi.md/listen/relax_ice_story/relax_icestory128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Jazz - EBS Radio",
+    "slug": "jazz-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8030/jazz128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Jazz FM",
+    "slug": "jazz-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/jazz-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s4.radio.co/s1e25bf273/listen",
+    "country_code": "ro"
+  },
+  {
+    "name": "Jurnal FM",
+    "slug": "jurnal-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/jurnal-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ssl.radios.show:7009/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kids - Radio Romanian",
+    "slug": "kids-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radioromanian.net/kids",
+    "country_code": "ro"
+  },
+  {
+    "name": "KiMaRo Radio - Magic Fm",
+    "slug": "kimaro-radio-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/kimaroradio",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss FM Chișinău - Kiss FM",
+    "slug": "kiss-fm-chiinu-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dc.digi.live.kissfm.ro/kissfm.chisinau",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss FM MiX",
+    "slug": "kiss-fm-mix",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm-mix/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://radio.sonicpanel.ro/kissfm/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss FM Moldova",
+    "slug": "kiss-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm-moldova/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://dc.digi.live.kissfm.ro/kissfm.chisinau",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss Kiss in the Mix Radio - Kiss FM",
+    "slug": "kiss-kiss-in-the-mix-radio-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.kissfm.ro/kkm.radio",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kiss Millenium Hits - Kiss FM",
+    "slug": "kiss-millenium-hits-kiss-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/kiss-fm/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.kissfm.ro/milleniumhits",
+    "country_code": "ro"
+  },
+  {
+    "name": "Local - EBS Radio",
+    "slug": "local-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8060/local128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic FM 2025 Winter - Magic Fm",
+    "slug": "magic-fm-2025-winter-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/bestmusic",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Groove - Magic Fm",
+    "slug": "magic-groove-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-groove",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magic Promises - Magic Fm",
+    "slug": "magic-promises-magic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/magic-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://dc.digi.live.kissfm.ro/magic-promises",
+    "country_code": "ro"
+  },
+  {
+    "name": "Nomansland Radio - Radio Guerrilla",
+    "slug": "nomansland-radio-radio-guerrilla",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-guerrilla/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.guerrillaradio.ro:8443/playlist.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Nova22",
+    "slug": "nova22",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/nova22/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s2.myradiostream.com/4520/listen.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Oltenia Craiova - Radio România",
+    "slug": "oltenia-craiova-radio-romnia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-oltenia-craiova/list_100.png",
+    "category": "Diverse",
+    "stream_url": "http://stream2.srr.ro:8370/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "One Vibe Radio",
+    "slug": "one-vibe-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/one-vibe-radio/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://live.oneviberadio.eu:8012/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Petrecere - Fm Radio",
+    "slug": "petrecere-fm-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/fm-radio-manele/list_100.png",
+    "category": "Petrecere",
+    "stream_url": "https://ssl.servereradio.ro/8123/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Play Café - Play Radio 91.6 FM",
+    "slug": "play-caf-play-radio-916-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/play-radio-91-6-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.playradio.org:8443/CafeHD",
+    "country_code": "ro"
+  },
+  {
+    "name": "Play Radio 91.6 FM",
+    "slug": "play-radio-916-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/play-radio-91-6-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.playradio.org:8443/FMHD",
+    "country_code": "ro"
+  },
+  {
+    "name": "PlayMusic FM",
+    "slug": "playmusic-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/playmusic-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://free.rcast.net/400",
+    "country_code": "ro"
+  },
+  {
+    "name": "PRO Dj Radio",
+    "slug": "pro-dj-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/pro-dj-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.prodjradio.net:8065/radio",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio 7 - Radio Seven",
+    "slug": "radio-7-radio-seven",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-seven/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radio-seven.ro",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio 90 Hit",
+    "slug": "radio-90-hit",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-90-hit/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.90hit.ro:8000/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Boom",
+    "slug": "radio-boom",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-boom/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.radioboom.ro:8520/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Brașov",
+    "slug": "radio-braov",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-brasov/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiobrasov.ro/stream.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Cafe",
+    "slug": "radio-cafe",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-cafe/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiocafe.ro:8443/",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Constanta AM - Radio România Constanta",
+    "slug": "radio-constanta-am-radio-romnia-constanta",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-constanta/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-constanta-am",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Crazy",
+    "slug": "radio-crazy",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-crazy/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://razvcarp1.radioca.st/;:80/;stream.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Crizantema",
+    "slug": "radio-crizantema",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-crizantema/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://89.39.189.202:9763/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Dacia",
+    "slug": "radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia03",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Doza Colinde - Colinde de Crăciun Radio",
+    "slug": "radio-doza-colinde-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://colinde.radiodoza.eu:8146/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Doza Colinde - Radio Doza Manele",
+    "slug": "radio-doza-colinde-radio-doza-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-doza-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://colinde.radiodoza.eu:8146/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Doza Manele",
+    "slug": "radio-doza-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-doza-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://manele.radiodoza.eu/8100/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Gold FM",
+    "slug": "radio-gold-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-gold-fm/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://live.radiogoldfm.ro:8443/WP.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Guerrilla",
+    "slug": "radio-guerrilla",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-guerrilla/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.guerrillaradio.ro:8443/guerrilla.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio HiT FM",
+    "slug": "radio-hit-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-hit-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiohitfm.net/8989/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Hot Colinde - Colinde de Crăciun Radio",
+    "slug": "radio-hot-colinde-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://colinde.radiohot.ro:8000/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Iaşi",
+    "slug": "radio-iai",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-iasi/list_100.png",
+    "category": "Diverse",
+    "stream_url": "http://89.238.227.6:8202/;stream/1",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Infinit",
+    "slug": "radio-infinit",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-infinit/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://86.127.68.115:18000/infinit64.ogg",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mega-HiT Christmas - Radio Mega-HiT Romania",
+    "slug": "radio-mega-hit-christmas-radio-mega-hit-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mega-hit-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://craciun.radiomegahit.eu:8114/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mega-HiT Lounge - Radio Mega-HiT Romania",
+    "slug": "radio-mega-hit-lounge-radio-mega-hit-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mega-hit-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://lounge.radiomegahit.eu:8014/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mega-HiT Romania",
+    "slug": "radio-mega-hit-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mega-hit-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiomegahit.eu:8080/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Moldova Muzical - Radio Moldova",
+    "slug": "radio-moldova-muzical-radio-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radiolive.trm.md:8001/hls_rmm/muzical.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Moldova Tineret - Radio Moldova",
+    "slug": "radio-moldova-tineret-radio-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radiolive.trm.md:8001/hls_rmt/tineret.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Noroc",
+    "slug": "radio-noroc",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-noroc/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.noroc.tv/radionoroc_128",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Plai",
+    "slug": "radio-plai",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-plai/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.radioplai.md/live",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Pro Manele",
+    "slug": "radio-pro-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-pro-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://sonica.cloudstreaming.eu/8000/stream;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Pro Music 90s",
+    "slug": "radio-pro-music-90s",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-pro-music-90s/list_100.png",
+    "category": "Diverse",
+    "stream_url": "https://stream.adradio.ro/8414",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Pro-B",
+    "slug": "radio-pro-b",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-pro-b/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radioprob.ro/8888/live",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Relax",
+    "slug": "radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.dixi.md:9443/RadioRelax",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio românesc de Crăciun - Colinde de Crăciun Radio",
+    "slug": "radio-romnesc-de-crciun-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live1ag.antenaplay.ro/radioxmas/radioxmas.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Actualităţi",
+    "slug": "radio-romnia-actualiti",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-actualitati/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-actualitati",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romania Cluj",
+    "slug": "radio-romania-cluj",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-cluj/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-cluj",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Constanța Folclor - Radio România Constanta",
+    "slug": "radio-romnia-constana-folclor-radio-romnia-constanta",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-constanta/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "http://89.238.227.6:8336/%7CRadio",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Muzical",
+    "slug": "radio-romnia-muzical",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-muzical/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-muzical",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Taraf",
+    "slug": "radio-taraf",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-taraf/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "http://live.radiotaraf.ro:8181/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Tequila",
+    "slug": "radio-tequila",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-tequila/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ssl.servereradio.ro/7000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Tequila Colinde - Colinde de Crăciun Radio",
+    "slug": "radio-tequila-colinde-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://colinde.radiotequila.ro/8989/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Vacanța",
+    "slug": "radio-vacana",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-vacanta/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/fresh_rv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Vacanța Gold - Radio Vacanța",
+    "slug": "radio-vacana-gold-radio-vacana",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-vacanta/list_100.jpg",
+    "category": "Retro",
+    "stream_url": "https://stream4.srr.ro:8443/gold_rv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio VIP Diaspora",
+    "slug": "radio-vip-diaspora",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-vip-diaspora/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s18.myradiostream.com/13384/listen.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Vocea Speranței",
+    "slug": "radio-vocea-speranei",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-vocea-sperantei/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.rvs.ro/play",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Zum",
+    "slug": "radio-zum",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-zum/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://streams.radiozum.md/listen/zum1/ZUM1",
+    "country_code": "ro"
+  },
+  {
+    "name": "RFI France - RFI România",
+    "slug": "rfi-france-rfi-romnia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rfi-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://rfimonde64.ice.infomaniak.ch/rfimonde-64.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "RFI România",
+    "slug": "rfi-romnia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rfi-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radiorfi.ro/live.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock - Radio Romanian",
+    "slug": "rock-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://asculta.radioromanian.net/rock",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock Ballads - Radio ROKS",
+    "slug": "rock-ballads-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/rock_ballads/rockballads128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "RVE Bucuresti",
+    "slug": "rve-bucuresti",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rve-bucuresti/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://lb01.bpstream.com:8618/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Satu Mare - Radio Transilvania",
+    "slug": "satu-mare-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://stream2.radiotransilvania.ro/SatuMare",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart and Rave - Smart Radio",
+    "slug": "smart-and-rave-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartrave",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart in Lounge - Smart Radio",
+    "slug": "smart-in-lounge-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartlounge",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart N'Roll - Smart Radio",
+    "slug": "smart-nroll-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartnroll",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart on Trend - Smart Radio",
+    "slug": "smart-on-trend-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartontrend",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart Radio",
+    "slug": "smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://live.smartradio.ro:9128/live",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart Street - Smart Radio",
+    "slug": "smart-street-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartstreet",
+    "country_code": "ro"
+  },
+  {
+    "name": "Smart the Fusion - Smart Radio",
+    "slug": "smart-the-fusion-smart-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/smart-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://web.smartradio.ro:8443/smartfusion",
+    "country_code": "ro"
+  },
+  {
+    "name": "Sport Total FM",
+    "slug": "sport-total-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/sport-total-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://livesptfm.com/SPTFM/Audio128/playlist.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "SuperSonic Radio",
+    "slug": "supersonic-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/supersonic-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://s5.radio.co/s08e5c5875/listen",
+    "country_code": "ro"
+  },
+  {
+    "name": "Timișoara AM 630 kHz - Radio Timișoara",
+    "slug": "timioara-am-630-khz-radio-timioara",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-timisoara/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://89.238.227.6:8350/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Timișoara FM 105.9 - Radio Timișoara",
+    "slug": "timioara-fm-1059-radio-timioara",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-timisoara/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://89.238.227.6:8354/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Versiuni Acustice - Radio Relax",
+    "slug": "versiuni-acustice-radio-relax",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-relax/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio8.dixi.md/listen/relax_acoustic_version/relax_acousticversion128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Workout Rock - Radio ROKS",
+    "slug": "workout-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/workout_rock/workout.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Antena Sibiului - Radio Romania Cluj",
+    "slug": "antena-sibiului-radio-romania-cluj",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-cluj/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/antena-sibiului",
+    "country_code": "ro"
+  },
+  {
+    "name": "Beius - Radio Transilvania",
+    "slug": "beius-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Oradea",
+    "country_code": "ro"
+  },
+  {
+    "name": "Bistrita - Radio Transilvania",
+    "slug": "bistrita-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Bistrita",
+    "country_code": "ro"
+  },
+  {
+    "name": "Brasov - HIT FM",
+    "slug": "brasov-hit-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio.sonicpanel.ro/8108/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Calm Radio Dacia - Radio Dacia",
+    "slug": "calm-radio-dacia-radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia04",
+    "country_code": "ro"
+  },
+  {
+    "name": "Capital FM Romania",
+    "slug": "capital-fm-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/capital-fm-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ssl.omegahost.ro/8020/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Chill FM",
+    "slug": "chill-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/chill-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://edge76.rcs-rds.ro/profm/chillfm.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Clasic Mix Radio Dacia - Radio Dacia",
+    "slug": "clasic-mix-radio-dacia-radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia05",
+    "country_code": "ro"
+  },
+  {
+    "name": "Classical - EBS Radio",
+    "slug": "classical-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8090/classical128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Cluj Napoca - Radio Transilvania",
+    "slug": "cluj-napoca-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Cluj",
+    "country_code": "ro"
+  },
+  {
+    "name": "Energie Radio Dacia - Radio Dacia",
+    "slug": "energie-radio-dacia-radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia01",
+    "country_code": "ro"
+  },
+  {
+    "name": "Focus FM",
+    "slug": "focus-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/focus-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://live.focusfm.ro:8000/focusfmhigh.ogg",
+    "country_code": "ro"
+  },
+  {
+    "name": "Glintwine Rock - Radio ROKS",
+    "slug": "glintwine-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://stream.dixi.md:9443/Roks",
+    "country_code": "ro"
+  },
+  {
+    "name": "Hard Rock - Rock FM",
+    "slug": "hard-rock-rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.rockfm.ro/hard.rock?direct=false",
+    "country_code": "ro"
+  },
+  {
+    "name": "Hard'n'Heavy - Radio ROKS",
+    "slug": "hardnheavy-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio5.dixi.md/listen/roks_hardnheavy/roks_hardnheavy.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Dance Hits - HIT FM Moldova",
+    "slug": "hit-fm-dance-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://radio4.dixi.md/listen/hit_fm_dance_hits/hitfmdancehits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Drive Mode - HIT FM Moldova",
+    "slug": "hit-fm-drive-mode-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio7.dixi.md/listen/hit_fm_drive_mode/hitfmdrivemode128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "HIT FM Hot Hits - HIT FM Moldova",
+    "slug": "hit-fm-hot-hits-hit-fm-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/hit-fm-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio3.dixi.md/listen/hit_fm_hot_hits/hitfm_hothits128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "International 2 - Radio Romania International",
+    "slug": "international-2-radio-romania-international",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-international/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-rri2",
+    "country_code": "ro"
+  },
+  {
+    "name": "International 3 - Radio Romania International",
+    "slug": "international-3-radio-romania-international",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-international/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-rri3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Itsy Bitsy",
+    "slug": "itsy-bitsy",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/itsy-bitsy/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://live.itsybitsy.ro:8000/itsybitsy",
+    "country_code": "ro"
+  },
+  {
+    "name": "Kolozsvari - Radio Romania Cluj",
+    "slug": "kolozsvari-radio-romania-cluj",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-cluj/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/kolozsvari-radio",
+    "country_code": "ro"
+  },
+  {
+    "name": "Lounge - EBS Radio",
+    "slug": "lounge-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8180/lounge128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Ludus - Radio Transilvania",
+    "slug": "ludus-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Ludus",
+    "country_code": "ro"
+  },
+  {
+    "name": "Maghiară - Radio Romania Targu-Mures",
+    "slug": "maghiar-radio-romania-targu-mures",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-targu-mures/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-tgmures-mag",
+    "country_code": "ro"
+  },
+  {
+    "name": "Magyar Zene - EBS Radio",
+    "slug": "magyar-zene-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8160/hungarian128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Manele - Radio Romance 21",
+    "slug": "manele-radio-romance-21",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romance-21/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://manele.radioromance21.ro:8014/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Medias - Radio Transilvania",
+    "slug": "medias-radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Medias",
+    "country_code": "ro"
+  },
+  {
+    "name": "Moinesti FM",
+    "slug": "moinesti-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/moinesti-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://listen.moinestifm.ro/radio.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Napoca FM",
+    "slug": "napoca-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/napoca-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://nfm-s1.bit-ns.cloud/stream1",
+    "country_code": "ro"
+  },
+  {
+    "name": "New Rock - Radio ROKS",
+    "slug": "new-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/new_rock/new_rock128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Nouvelle Vague - EBS Radio",
+    "slug": "nouvelle-vague-ebs-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/ebs-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://azura.ebsmedia.ro/radio/8130/nouvelle128.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Paradis Radio Dacia - Radio Dacia",
+    "slug": "paradis-radio-dacia-radio-dacia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-dacia/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://streaming.napocalive.ro/radio-dacia02",
+    "country_code": "ro"
+  },
+  {
+    "name": "Play Urban - Play Radio 91.6 FM",
+    "slug": "play-urban-play-radio-916-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/play-radio-91-6-fm/list_100.jpg",
+    "category": "Hip-Hop",
+    "stream_url": "https://live.playradio.org:8443/UrbanHD",
+    "country_code": "ro"
+  },
+  {
+    "name": "Pop Rock - Radio ROKS",
+    "slug": "pop-rock-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/pop_rock/pop_rock.acc",
+    "country_code": "ro"
+  },
+  {
+    "name": "Popular - Radio Romanian",
+    "slug": "popular-radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://asculta.radioromanian.net/popular",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Accent",
+    "slug": "radio-accent",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-accent/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radioaccent.ro/streams;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Belea Romania Manele",
+    "slug": "radio-belea-romania-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-belea-romania-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://asculta.radiobelea.ro:8000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio DEEA",
+    "slug": "radio-deea",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-deea/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radiocdn.nxthost.com/radio-deea",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio DEEP - Dance & House - Romania",
+    "slug": "radio-deep-dance-house-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-deep/list_100.jpg",
+    "category": "Pop/Dance",
+    "stream_url": "https://stream.radiojar.com/8q8770pucfhvv",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Doza Urban - Radio Doza Manele",
+    "slug": "radio-doza-urban-radio-doza-manele",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-doza-manele/list_100.jpg",
+    "category": "Manele",
+    "stream_url": "https://urban.radiodoza.eu:8016/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Flora TM",
+    "slug": "radio-flora-tm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-flora-tm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://usa10.fastcast4u.com:9520/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Luceafăr",
+    "slug": "radio-luceafr",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-luceafar/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://ssl.radios.show:7018/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Maria România",
+    "slug": "radio-maria-romnia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-maria-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://dreamsiteradiocp2.com/proxy/rmromania2?mp=/;stream.mp3",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mega-HiT Chill - Radio Mega-HiT Romania",
+    "slug": "radio-mega-hit-chill-radio-mega-hit-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mega-hit-romania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://chill.radiomegahit.eu:8004/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Mega-HiT Popular - Radio Mega-HiT Romania",
+    "slug": "radio-mega-hit-popular-radio-mega-hit-romania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-mega-hit-romania/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://popular.radiomegahit.eu:9000/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Moldova",
+    "slug": "radio-moldova",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-moldova/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radiolive.trm.md/hls_rma/actualitati.m3u8",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Pro Popular",
+    "slug": "radio-pro-popular",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-pro-popular/list_100.jpg",
+    "category": "Populară",
+    "stream_url": "https://sonica.cloudstreaming.eu/9998/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Record",
+    "slug": "radio-record",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-record/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://air.radiorecord.md/RecordMD",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Renașterea",
+    "slug": "radio-renaterea",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-renasterea/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://cast1.asurahosting.com/proxy/arhiepis/stream",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio ROKS",
+    "slug": "radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream.dixi.md:9443/Roks",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Brașov FM",
+    "slug": "radio-romnia-braov-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-brasov-fm/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-brasov",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Constanta",
+    "slug": "radio-romnia-constanta",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-constanta/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-constanta-fm",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Cultural",
+    "slug": "radio-romnia-cultural",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-cultural/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-cultural",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romania International",
+    "slug": "radio-romania-international",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-international/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/romania-rri1",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio România Reșița",
+    "slug": "radio-romnia-reia",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-resita/list_100.png",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-resita",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romania Targu-Mures",
+    "slug": "radio-romania-targu-mures",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-targu-mures/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-tgmures-fm",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romanian",
+    "slug": "radio-romanian",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romanian/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radioromanian.net/dance",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Romanian Colinde - Colinde de Crăciun Radio",
+    "slug": "radio-romanian-colinde-colinde-de-crciun-radio",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/colinde-de-craciun-radio/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://asculta.radioromanian.net:8600/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Sighet - Radio Romania Cluj",
+    "slug": "radio-sighet-radio-romania-cluj",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-romania-cluj/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream4.srr.ro:8443/radio-sighet",
+    "country_code": "ro"
+  },
+  {
+    "name": "radio SOMEȘ",
+    "slug": "radio-some",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-somes/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://radio.mediacp.eu/stream/radiosomes",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Timișoara",
+    "slug": "radio-timioara",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-timisoara/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "http://89.238.227.6:8360/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Transilvania",
+    "slug": "radio-transilvania",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-transilvania/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://stream2.radiotransilvania.ro/Oradea",
+    "country_code": "ro"
+  },
+  {
+    "name": "Radio Trinitas",
+    "slug": "radio-trinitas",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-trinitas/list_100.jpg",
+    "category": "Diverse",
+    "stream_url": "https://live.radiotrinitas.ro:8003/;",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock Blues - Rock FM",
+    "slug": "rock-blues-rock-fm",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/rock-fm/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://live.rockfm.ro/blues?direct=false",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock Concert - Radio ROKS",
+    "slug": "rock-concert-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio6.dixi.md/listen/roks_concert/roks_concert128.aac",
+    "country_code": "ro"
+  },
+  {
+    "name": "Rock Tricolor - Radio ROKS",
+    "slug": "rock-tricolor-radio-roks",
+    "logo": "https://myradioonline.ro/public/uploads/radio_img/radio-roks/list_100.jpg",
+    "category": "Rock",
+    "stream_url": "https://radio5.dixi.md/listen/roks_tricolor/roks_tricolor128.aac",
+    "country_code": "ro"
+  }
+]
