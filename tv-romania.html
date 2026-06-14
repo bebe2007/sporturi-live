@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canale TV România</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0b1020;
+    color:#fff;
+}
+header{
+    padding:25px 15px;
+    text-align:center;
+    background:linear-gradient(135deg,#111827,#1e40af);
+}
+header h1{margin:0;font-size:28px}
+header p{color:#cbd5e1}
+
+.search-box{
+    max-width:600px;
+    margin:20px auto;
+    padding:0 15px;
+}
+.search-box input{
+    width:100%;
+    padding:14px 18px;
+    border-radius:12px;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+    gap:18px;
+    padding:20px;
+    max-width:1300px;
+    margin:auto;
+}
+.card{
+    background:#111827;
+    border:1px solid #1f2937;
+    border-radius:16px;
+    padding:15px;
+    text-align:center;
+    cursor:pointer;
+    transition:.25s;
+}
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#3b82f6;
+    box-shadow:0 10px 30px rgba(59,130,246,.25);
+}
+.card img{
+    width:100%;
+    height:90px;
+    object-fit:contain;
+    background:#fff;
+    border-radius:12px;
+    padding:8px;
+}
+.card h3{
+    font-size:15px;
+    margin:12px 0 5px;
+}
+.card span{
+    font-size:12px;
+    color:#93c5fd;
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.85);
+    z-index:9999;
+    align-items:center;
+    justify-content:center;
+    padding:15px;
+}
+.modal.active{display:flex}
+.modal-box{
+    width:100%;
+    max-width:1000px;
+    background:#000;
+    border-radius:16px;
+    overflow:hidden;
+    position:relative;
+}
+.close{
+    position:absolute;
+    top:10px;
+    right:10px;
+    z-index:10;
+    background:#ef4444;
+    color:#fff;
+    border:none;
+    border-radius:50%;
+    width:38px;
+    height:38px;
+    font-size:22px;
+    cursor:pointer;
+}
+.player-wrap{
+    width:100%;
+    aspect-ratio:16/9;
+    background:#000;
+}
+.player-wrap iframe{
+    width:100%;
+    height:100%;
+    border:0;
+}
+.modal-title{
+    padding:12px 15px;
+    background:#111827;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Canale TV România</h1>
+    <p>Toate canalele TV într-o pagină modernă</p>
+</header>
+
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Caută canal...">
+</div>
+
+<div class="grid" id="channelsGrid"></div>
+
+<div class="modal" id="playerModal">
+    <div class="modal-box">
+        <button class="close" onclick="closePlayer()">×</button>
+        <div class="modal-title" id="modalTitle">Live TV</div>
+        <div class="player-wrap">
+            <iframe id="playerFrame" allowfullscreen allow="autoplay; fullscreen"></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+const JSON_URL = "canaleromanesti.json";
+
+let channels = [];
+
+fetch(JSON_URL)
+.then(res => res.json())
+.then(data => {
+    channels = Array.isArray(data) ? data : data.channels;
+    renderChannels(channels);
+})
+.catch(err => {
+    document.getElementById("channelsGrid").innerHTML =
+        "<p style='color:red'>Eroare la încărcarea fișierului JSON.</p>";
+    console.error(err);
+});
+
+function renderChannels(list){
+    const grid = document.getElementById("channelsGrid");
+    grid.innerHTML = "";
+
+    list.forEach(ch => {
+        const name = ch.name || "Canal TV";
+        const logo = ch.logo || "";
+        const category = ch.category || "TV";
+        const video = ch.video_link || ch.embed_url || ch.channel_url || "";
+
+        const card = document.createElement("div");
+        card.className = "card";
+        card.onclick = () => openPlayer(name, video);
+
+        card.innerHTML = `
+            <img src="${logo}" alt="${name}">
+            <h3>${name}</h3>
+            <span>${category}</span>
+        `;
+
+        grid.appendChild(card);
+    });
+}
+
+function openPlayer(name, video){
+    if(!video){
+        alert("Nu există link video pentru acest canal.");
+        return;
+    }
+
+    document.getElementById("modalTitle").textContent = name;
+    document.getElementById("playerFrame").src = video;
+    document.getElementById("playerModal").classList.add("active");
+}
+
+function closePlayer(){
+    document.getElementById("playerFrame").src = "";
+    document.getElementById("playerModal").classList.remove("active");
+}
+
+document.getElementById("playerModal").addEventListener("click", function(e){
+    if(e.target === this) closePlayer();
+});
+
+document.getElementById("searchInput").addEventListener("input", function(){
+    const q = this.value.toLowerCase();
+    const filtered = channels.filter(ch =>
+        (ch.name || "").toLowerCase().includes(q) ||
+        (ch.category || "").toLowerCase().includes(q)
+    );
+    renderChannels(filtered);
+});
+</script>
+
+</body>
+</html>
