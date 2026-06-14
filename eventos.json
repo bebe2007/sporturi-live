@@ -31,9 +31,16 @@
       {
         "channel": "World Cup TV",
         "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "country_code": "us",
+        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/us.svg",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+            {
+        "channel": "Match! Football 1",
+        "country": "Internațional",
+        "country_code": "ru",
+        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/ru.svg",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
       },
       {
         "channel": "FOX Network USA",
