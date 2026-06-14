@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f2f6c">
+<title>Radio România Live</title>
+<meta name="description" content="Ascultă posturi radio românești online, organizate pe categorii, cu player audio modern.">
+<style>
+:root{
+  --bg:#050507;--panel:rgba(18,20,27,.76);--line:rgba(255,255,255,.12);--line2:rgba(255,255,255,.22);
+  --text:#fff;--muted:#a8b0c2;--blue:#2865db;--blue2:#1d4fbd;--cyan:#00d4ff;--green:#22c55e;--red:#ef4444;
+  --radius:18px;--safe-bottom:env(safe-area-inset-bottom,0px)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;min-height:100svh;background:var(--bg);color:var(--text);font-family:Inter,'Segoe UI',system-ui,-apple-system,Arial,sans-serif;overflow-x:hidden;padding-bottom:150px}
+body::before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 15% 5%,rgba(40,101,219,.28),transparent 34%),radial-gradient(circle at 90% 4%,rgba(0,212,255,.13),transparent 30%),linear-gradient(180deg,#050507 0%,#090b12 46%,#050507 100%)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
+a{color:inherit;text-decoration:none}button,input{font:inherit}button{touch-action:manipulation}.wrap{width:min(1500px,100%);margin:auto;padding-inline:clamp(14px,3vw,34px)}
+.header{position:fixed;top:0;left:0;right:0;z-index:100;background:linear-gradient(to bottom,rgba(5,5,7,.94),rgba(5,5,7,.58),transparent);transition:.25s}.header.scrolled{background:rgba(5,5,7,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav{height:76px;display:flex;align-items:center;gap:24px}.brand{display:flex;align-items:center;gap:10px;font-weight:900}.brand-mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--blue),#17a2ff);display:grid;place-items:center;box-shadow:0 0 36px rgba(40,101,219,.38)}.brand span{font-size:20px}.menu{display:flex;gap:18px;color:#d1d5db;font-size:14px}.menu a:hover{color:#fff}.nav-spacer{flex:1}.icon-btn{width:44px;height:44px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.07);color:#fff;cursor:pointer}
+.search-pop{position:absolute;right:clamp(14px,3vw,34px);top:84px;width:min(480px,calc(100vw - 28px));display:none}.search-pop.open{display:block}.search{width:100%;border:1px solid var(--line2);background:rgba(10,12,16,.94);color:#fff;padding:15px 48px 15px 18px;border-radius:999px;outline:none;box-shadow:0 22px 80px rgba(0,0,0,.45)}.clear-search{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;border-radius:999px;background:rgba(255,255,255,.1);color:#fff;display:none;cursor:pointer}.clear-search.show{display:block}
+.hero{position:relative;min-height:clamp(410px,56svh,600px);display:flex;align-items:flex-end;overflow:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,5,7,.95) 0%,rgba(5,5,7,.75) 40%,rgba(5,5,7,.32) 70%,rgba(5,5,7,.66) 100%),linear-gradient(to top,#050507 0%,rgba(5,5,7,.08) 44%,rgba(5,5,7,.46) 100%),url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1800&q=80');background-size:cover;background-position:center;transform:scale(1.03);opacity:.9}
+.hero-content{position:relative;z-index:2;width:100%;padding-top:105px;padding-bottom:clamp(38px,6vw,70px);display:flex;flex-direction:column;align-items:flex-start;text-align:left}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border-radius:999px;background:rgba(40,101,219,.2);border:1px solid rgba(40,101,219,.45);color:#dbeafe;font-size:13px}.eyebrow::before{content:"";width:9px;height:9px;border-radius:999px;background:var(--cyan);box-shadow:0 0 18px var(--cyan)}.hero h1{width:min(1080px,100%);margin:16px 0 12px;font-size:clamp(42px,6.6vw,96px);line-height:.94;letter-spacing:-3px}.hero p{width:min(760px,100%);margin:0 0 22px;color:#d7d9e0;font-size:clamp(15px,1.6vw,19px);line-height:1.55}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{border:1px solid var(--line2);border-radius:999px;padding:13px 20px;background:rgba(255,255,255,.08);color:#fff;cursor:pointer;display:inline-flex;align-items:center;gap:9px}.btn.primary{background:#fff;color:#111;border-color:#fff;font-weight:800}.btn.blue{background:linear-gradient(135deg,var(--blue),#17a2ff);border:0;color:#fff;font-weight:800}.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.stat{padding:10px 13px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.06);color:#d1d5db;font-size:13px}.stat strong{color:#fff}
+.main{position:relative;z-index:3;margin-top:-20px;padding-bottom:38px}.toolbar{position:sticky;top:76px;z-index:60;margin-bottom:20px;background:linear-gradient(to bottom,rgba(5,5,7,.96),rgba(5,5,7,.72));backdrop-filter:blur(14px);border-block:1px solid var(--line)}.toolbar-inner{display:flex;gap:9px;align-items:center;padding-block:12px;flex-wrap:wrap}.cat{white-space:nowrap;border:1px solid var(--line);background:rgba(255,255,255,.06);color:#dce0e8;padding:11px 18px;border-radius:999px;cursor:pointer;font-size:14px}.cat.active,.cat:hover{background:#fff;color:#111;border-color:#fff}
+.row{margin:24px 0 34px}.row-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:14px}.row h2{margin:0;font-size:clamp(20px,2.5vw,28px);letter-spacing:-.4px}.row small{color:var(--muted)}.rail{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;overflow:visible;padding:2px 0 4px}.card{position:relative;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#141821;border:1px solid var(--line);cursor:pointer;box-shadow:0 18px 46px rgba(0,0,0,.34);transition:.25s}.card:hover{transform:translateY(-5px) scale(1.012);border-color:rgba(255,255,255,.32);box-shadow:0 26px 70px rgba(0,0,0,.5)}.thumb{position:absolute;inset:0;background:linear-gradient(135deg,#151922,#090b10)}.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.86),rgba(0,0,0,.12) 55%,rgba(0,0,0,.25))}.thumb img{width:100%;height:100%;object-fit:contain;padding:clamp(16px,2.2vw,28px);background:radial-gradient(circle at 50% 28%,rgba(255,255,255,.92),rgba(255,255,255,.72) 38%,rgba(255,255,255,.03) 70%)}.card:hover .thumb img{transform:scale(1.05);transition:.25s}.card-body{position:absolute;left:12px;right:12px;bottom:11px;z-index:2}.card h3{margin:0 0 7px;font-size:clamp(13px,1.15vw,16px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.badge{font-size:11px;color:#e5e7eb;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.14);padding:4px 7px;border-radius:999px}.live{display:inline-flex;align-items:center;gap:5px;color:#bbf7d0;font-size:11px}.live::before{content:"";width:7px;height:7px;border-radius:999px;background:var(--green);box-shadow:0 0 15px var(--green);animation:pulse 1.35s infinite}@keyframes pulse{50%{opacity:.55;transform:scale(1.35)}}.play{position:absolute;left:50%;top:50%;z-index:3;transform:translate(-50%,-50%) scale(.85);width:50px;height:50px;border-radius:999px;border:0;background:rgba(255,255,255,.95);color:#111;display:grid;place-items:center;opacity:0;transition:.22s}.card:hover .play{opacity:1;transform:translate(-50%,-50%) scale(1)}.fav-btn{position:absolute;right:9px;top:9px;z-index:4;width:34px;height:34px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(0,0,0,.45);color:#fff;cursor:pointer;backdrop-filter:blur(8px)}.fav-btn.active{background:linear-gradient(135deg,#fde68a,#facc15);color:#111;border:0}.empty{color:var(--muted);text-align:center;padding:56px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
+/* RADIO PLAYER CA ÎN MODEL */
+.radio-player{position:fixed;left:0;right:0;bottom:0;z-index:500;background:linear-gradient(105deg,#214571 0%,#2f67df 100%);box-shadow:0 -18px 60px rgba(0,0,0,.42);padding:18px 36px calc(18px + var(--safe-bottom));display:grid;grid-template-columns:minmax(280px,1fr) auto minmax(240px,360px);gap:26px;align-items:center;border-top-left-radius:8px;border-top-right-radius:8px}.rp-info{display:flex;align-items:center;gap:18px;min-width:0}.rp-logo{width:110px;height:110px;border-radius:14px;background:rgba(255,255,255,.12);object-fit:contain;padding:10px;flex:0 0 auto}.rp-text{min-width:0}.rp-title{font-size:28px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rp-subtitle{margin-top:6px;color:rgba(255,255,255,.62);font-size:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rp-controls{display:flex;gap:14px;align-items:center;justify-content:center}.rp-btn{min-width:190px;height:82px;border-radius:12px;border:2px solid rgba(255,255,255,.28);background:rgba(255,255,255,.12);color:rgba(255,255,255,.92);font-size:31px;font-weight:800;cursor:pointer}.rp-btn.play{background:rgba(24,130,108,.78);border-color:rgba(145,255,229,.46)}.rp-btn.stop{background:rgba(130,112,82,.82);border-color:rgba(255,255,255,.35)}.rp-btn.restart{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.28)}.rp-btn:disabled{opacity:.45;cursor:not-allowed}.rp-volume{display:flex;align-items:center;gap:14px;justify-content:flex-end}.rp-volume input{width:230px;accent-color:#fff}.rp-volume span{font-size:25px;font-weight:700;color:#fff;min-width:42px}.rp-error{position:absolute;left:36px;right:36px;bottom:calc(6px + var(--safe-bottom));font-size:12px;color:#fecaca;display:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.back-top{position:fixed;right:18px;bottom:calc(170px + var(--safe-bottom));width:46px;height:46px;border-radius:50%;border:1px solid var(--line2);color:#fff;background:linear-gradient(135deg,var(--blue),#17a2ff);cursor:pointer;box-shadow:0 15px 40px rgba(0,0,0,.38);display:none;z-index:80}.back-top.show{display:block}footer{padding:36px 18px;background:#050507;border-top:1px solid var(--line);color:var(--muted)}.footer-inner{width:min(1500px,100%);margin:auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:1200px){.rail{grid-template-columns:repeat(4,minmax(0,1fr))}.radio-player{grid-template-columns:1fr;gap:14px}.rp-controls{justify-content:flex-start}.rp-volume{justify-content:flex-start}.rp-logo{width:88px;height:88px}.rp-btn{min-width:150px;height:64px;font-size:24px}}@media(max-width:900px){.menu{display:none}.nav{height:68px}.toolbar{top:68px}.hero{min-height:500px}.rail{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){body{padding-bottom:270px}.wrap{padding-inline:14px}.hero h1{letter-spacing:-1.4px;font-size:clamp(34px,12vw,54px)}.actions .btn{width:100%;justify-content:center}.rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.badge{display:none}.radio-player{padding:14px 14px calc(14px + var(--safe-bottom));gap:12px}.rp-info{gap:12px}.rp-logo{width:64px;height:64px;border-radius:10px}.rp-title{font-size:20px}.rp-subtitle{font-size:14px}.rp-controls{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}.rp-btn{min-width:0;width:100%;height:50px;font-size:17px}.rp-volume input{width:100%}.rp-volume{display:grid;grid-template-columns:1fr auto;width:100%}.back-top{bottom:calc(286px + var(--safe-bottom))}}@media(max-width:420px){.brand span{font-size:17px}.rail{grid-template-columns:1fr}.rp-controls{grid-template-columns:1fr}.rp-btn{height:46px}.rp-volume span{font-size:18px}}
+</style>
+</head>
+<body>
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Radio România Live"><span class="brand-mark">♪</span><span>Radio România</span></a>
+    <nav class="menu" aria-label="Meniu principal"><a href="#top">Acasă</a><a href="radio-romania.json" target="_blank">JSON</a><a href="https://github.com/bebe2007/sporturi-live" target="_blank">GitHub</a></nav>
+    <div class="nav-spacer"></div>
+    <button class="icon-btn" id="searchToggle" type="button" aria-label="Caută">⌕</button>
+  </div>
+  <div class="search-pop" id="searchPop"><input class="search" id="search" placeholder="Caută un post radio sau o categorie..."><button class="clear-search" id="clearSearch" type="button">×</button></div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Radio online România</span>
+    <h1>Ascultă radiourile preferate online.</h1>
+    <p>Peste 300 de posturi radio românești, organizate pe categorii și pregătite pentru redare rapidă pe orice dispozitiv.</p>
+    <div class="actions"><button class="btn primary" id="listenNow" type="button">▶ Vezi posturile</button><button class="btn blue" id="openSearch" type="button">⌕ Caută rapid</button><button class="btn" id="favoritesToggle" type="button">★ Favorite</button></div>
+    <div class="stats"><span class="stat"><strong id="totalHero">0</strong> posturi</span><span class="stat"><strong id="catHero">0</strong> categorii</span></div>
+  </div>
+</section>
+
+<main class="main" id="content">
+  <div class="toolbar"><div class="wrap toolbar-inner"><div id="categories" style="display:contents"></div></div></div>
+  <div class="wrap" id="rows"><div class="empty">Se încarcă lista de radio...</div></div>
+</main>
+
+<div class="radio-player" id="radioPlayer">
+  <div class="rp-info">
+    <img class="rp-logo" id="rpLogo" alt="">
+    <div class="rp-text">
+      <div class="rp-title" id="rpTitle">Nicio stație selectată</div>
+      <div class="rp-subtitle" id="rpSubtitle">Selectează o stație pentru a începe</div>
+    </div>
+  </div>
+  <div class="rp-controls">
+    <button class="rp-btn play" id="playBtn" type="button" disabled>Redare</button>
+    <button class="rp-btn stop" id="stopBtn" type="button" disabled>Oprește</button>
+    <button class="rp-btn restart" id="restartBtn" type="button" disabled>Repornește</button>
+  </div>
+  <div class="rp-volume">
+    <input id="volumeRange" type="range" min="0" max="100" value="80" aria-label="Volum">
+    <span id="volumeLabel">80</span>
+  </div>
+  <div class="rp-error" id="rpError"></div>
+  <audio id="audio" preload="none"></audio>
+</div>
+
+<button class="back-top" id="backTop" type="button" aria-label="Înapoi sus">↑</button>
+<footer><div class="footer-inner"><div>© 2026 Radio România Live.</div></div></footer>
+
+<script>
+(()=>{
+  'use strict';
+  const JSON_URL='radio-romania.json';
+  const FALLBACK_LOGO='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360"><rect width="640" height="360" rx="36" fill="#14213d"/><circle cx="320" cy="160" r="64" fill="#2865db"/><text x="320" y="183" fill="white" font-family="Arial" font-size="74" font-weight="700" text-anchor="middle">♪</text><text x="320" y="300" fill="#e5e7eb" font-family="Arial" font-size="34" font-weight="700" text-anchor="middle">Radio Live</text></svg>`);
+  const preferred=['Kiss FM','Magic Fm','Digi FM','ProFM','Virgin Radio','Radio România Actualităţi','Europa FM','Dance FM','Rock FM','Radio Popular','Fm Radio Manele','Radio ZU'];
+  const $=s=>document.querySelector(s);
+  const els={header:$('#header'),searchToggle:$('#searchToggle'),searchPop:$('#searchPop'),search:$('#search'),clearSearch:$('#clearSearch'),listenNow:$('#listenNow'),openSearch:$('#openSearch'),favoritesToggle:$('#favoritesToggle'),categories:$('#categories'),rows:$('#rows'),totalHero:$('#totalHero'),catHero:$('#catHero'),backTop:$('#backTop'),audio:$('#audio'),rpLogo:$('#rpLogo'),rpTitle:$('#rpTitle'),rpSubtitle:$('#rpSubtitle'),playBtn:$('#playBtn'),stopBtn:$('#stopBtn'),restartBtn:$('#restartBtn'),volumeRange:$('#volumeRange'),volumeLabel:$('#volumeLabel'),rpError:$('#rpError')};
+  let stations=[],activeCategory='Pop/Dance',showOnlyFavorites=false,favorites=readStore('radiohub:favorites',[]),current=null;
+  bindShell(); loadStations();
+  function bindShell(){
+    window.addEventListener('scroll',()=>{els.header.classList.toggle('scrolled',window.scrollY>30);els.backTop.classList.toggle('show',window.scrollY>600)});
+    els.searchToggle.addEventListener('click',toggleSearch); els.openSearch.addEventListener('click',openSearch); els.listenNow.addEventListener('click',()=>$('#content').scrollIntoView({behavior:'smooth'}));
+    els.search.addEventListener('input',debounce(()=>{els.clearSearch.classList.toggle('show',!!els.search.value);render();},120));
+    els.clearSearch.addEventListener('click',()=>{els.search.value='';els.clearSearch.classList.remove('show');render();els.search.focus();});
+    els.favoritesToggle.addEventListener('click',()=>{showOnlyFavorites=!showOnlyFavorites;els.favoritesToggle.classList.toggle('active',showOnlyFavorites);render();$('#content').scrollIntoView({behavior:'smooth'});});
+    els.playBtn.addEventListener('click',()=>current && playStation(current));
+    els.stopBtn.addEventListener('click',stopAudio);
+    els.restartBtn.addEventListener('click',()=>current && restartStation());
+    els.volumeRange.addEventListener('input',()=>{const v=Number(els.volumeRange.value);els.audio.volume=v/100;els.volumeLabel.textContent=v;});
+    els.audio.volume=0.8;
+    els.audio.addEventListener('playing',()=>setStatus('Redare în curs'));
+    els.audio.addEventListener('waiting',()=>setStatus('Se încarcă...'));
+    els.audio.addEventListener('error',()=>showError('Stream-ul nu poate fi redat momentan. Încearcă Repornește sau alege alt post.'));
+    els.backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+  }
+  async function loadStations(){
+    try{
+      const res=await fetch(JSON_URL,{cache:'no-store'});
+      if(!res.ok)throw new Error('JSON indisponibil');
+      const data=await res.json();
+      stations=(Array.isArray(data)?data:(data.stations||[])).map((s,i)=>({id:s.slug||slugify(s.name||`radio-${i}`),name:s.name||'Radio',logo:s.logo||FALLBACK_LOGO,category:s.category||s.genre||'Diverse',stream:s.video_link||s.stream_url||s.channel_url||''}));
+      if(!stations.some(s=>s.category===activeCategory)) activeCategory='Toate';
+      buildCategories();render();
+    }catch(e){els.rows.innerHTML='<div class="empty">Nu s-a putut încărca fișierul <strong>radio-romania.json</strong>. Pune-l în același folder cu pagina HTML.</div>';}
+  }
+  function buildCategories(){const counts=stations.reduce((a,c)=>{a[c.category]=(a[c.category]||0)+1;return a;},{});const cats=['Toate',...Object.keys(counts).sort((a,b)=>a.localeCompare(b,'ro'))];els.categories.innerHTML=cats.map(c=>`<button class="cat${c===activeCategory?' active':''}" data-category="${attr(c)}">${html(c)}${c!=='Toate'?` · ${counts[c]}`:''}</button>`).join('');els.categories.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>selectCategory(b.dataset.category)));els.totalHero.textContent=stations.length;els.catHero.textContent=Object.keys(counts).length;}
+  function selectCategory(cat){activeCategory=cat;document.querySelectorAll('[data-category]').forEach(b=>b.classList.toggle('active',b.dataset.category===cat));showOnlyFavorites=false;els.favoritesToggle.classList.remove('active');render();}
+  function render(){const q=fold(els.search.value.trim());let filtered=stations.filter(s=>{const txt=fold(`${s.name} ${s.category}`);return (activeCategory==='Toate'||s.category===activeCategory)&&(!q||txt.includes(q))&&(!showOnlyFavorites||favorites.includes(s.id));});if(!filtered.length){els.rows.innerHTML='<div class="empty">Nu există rezultate pentru selecția ta.</div>';return;}let out='';if(activeCategory==='Toate'&&!q){out+=recommendedHTML();}const groups=groupBy(filtered,'category');out+=Object.keys(groups).sort((a,b)=>a.localeCompare(b,'ro')).map(cat=>rowHTML(cat,`${groups[cat].length} posturi`,groups[cat])).join('');els.rows.innerHTML=out;bindCards();}
+  function recommendedHTML(){const list=[];preferred.forEach(n=>{const f=stations.find(s=>fold(s.name)===fold(n));if(f)list.push(f);});stations.slice(0,30).forEach(s=>{if(!list.some(x=>x.id===s.id))list.push(s);});return rowHTML('Recomandate','Posturi populare pentru pornire rapidă.',list.slice(0,15));}
+  function rowHTML(title,subtitle,list){return `<section class="row"><div class="row-head"><h2>${html(title)}</h2><small>${html(subtitle)}</small></div><div class="rail">${list.map(cardHTML).join('')}</div></section>`}
+  function cardHTML(s){const fav=favorites.includes(s.id);return `<article class="card" data-open="${attr(s.id)}"><div class="thumb"><img src="${attr(s.logo)}" alt="${attr(s.name)}" loading="lazy" onerror="this.src='${FALLBACK_LOGO}'"></div><button class="fav-btn${fav?' active':''}" type="button" data-favorite="${attr(s.id)}" aria-label="Favorite">★</button><span class="play">▶</span><div class="card-body"><h3 title="${attr(s.name)}">${html(s.name)}</h3><div class="meta"><span class="badge">${html(s.category)}</span><span class="live">LIVE RADIO</span></div></div></article>`;}
+  function bindCards(){document.querySelectorAll('[data-open]').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('[data-favorite]'))return;const s=stations.find(x=>x.id===el.dataset.open);if(s)selectStation(s,true);}));document.querySelectorAll('[data-favorite]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();toggleFavorite(btn.dataset.favorite);}));}
+  function selectStation(s,autoplay=false){current=s;els.rpLogo.src=s.logo||FALLBACK_LOGO;els.rpTitle.textContent=s.name;els.rpSubtitle.textContent=s.category;els.playBtn.disabled=false;els.stopBtn.disabled=false;els.restartBtn.disabled=false;hideError();if(autoplay)playStation(s);}
+  function playStation(s){hideError();els.rpSubtitle.textContent='Se încarcă...';els.audio.src=s.stream;els.audio.load();els.audio.play().catch(()=>showError('Browserul a blocat redarea automată. Apasă din nou pe Redare.'));}
+  function stopAudio(){els.audio.pause();els.audio.removeAttribute('src');els.audio.load();setStatus(current?'Oprit':'Selectează o stație pentru a începe');}
+  function restartStation(){if(!current)return;const stream=current.stream;stopAudio();setTimeout(()=>{current.stream=stream;playStation(current)},120);}
+  function setStatus(text){if(current)els.rpSubtitle.textContent=text;else els.rpSubtitle.textContent='Selectează o stație pentru a începe';}
+  function showError(text){els.rpError.textContent=text;els.rpError.style.display='block';if(current)els.rpSubtitle.textContent='Eroare redare';}
+  function hideError(){els.rpError.style.display='none';els.rpError.textContent='';}
+  function toggleFavorite(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[id,...favorites];localStorage.setItem('radiohub:favorites',JSON.stringify(favorites));render();}
+  function toggleSearch(){els.searchPop.classList.toggle('open');if(els.searchPop.classList.contains('open'))els.search.focus();}
+  function openSearch(){els.searchPop.classList.add('open');els.search.focus();}
+  function debounce(fn,ms){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms)}}function groupBy(arr,key){return arr.reduce((a,x)=>{(a[x[key]]||=[]).push(x);return a;},{});}function readStore(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}}function slugify(s){return fold(s).replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'')||String(Date.now())}function fold(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ș/g,'s').replace(/ț/g,'t').replace(/ă/g,'a').replace(/â/g,'a').replace(/î/g,'i').replace(/\s+/g,' ').trim()}function html(s){return String(s??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]))}function attr(s){return html(s)}
+})();
+</script>
+</body>
+</html>
