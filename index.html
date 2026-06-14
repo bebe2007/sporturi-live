@@ -3,3103 +3,1320 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#070914" />
-  <meta name="description" content="Program sportiv live cu evenimente, canale TV, steaguri, ore și transmisiuni disponibile." />
-  <title>Sporturi Live | Program TV Sportiv</title>
-  <link rel="preconnect" href="https://flagcdn.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>Sporturi Live | Program Evenimente Live</title>
+  <meta name="description" content="Program evenimente sportive live, meciuri, canale TV și transmisiuni online." />
+  <meta name="theme-color" content="#08111f" />
+
   <style>
     :root {
-      --bg: #070914; --bg2: #0d1024; --card: rgba(255,255,255,.075);
-      --border: rgba(255,255,255,.14); --text: #f7f9ff; --muted: #aeb7d5;
-      --muted2: #7f89ad; --accent: #7c3cff; --accent2: #00e0ff; --hot: #ff3d81;
-      --green: #30f2a2; --shadow: 0 30px 90px rgba(0,0,0,.45); --radius: 24px;
+      --bg-main: #07111f;
+      --bg-soft: #0d1b2f;
+      --bg-card: rgba(255, 255, 255, 0.08);
+      --bg-card-strong: rgba(255, 255, 255, 0.13);
+      --text-main: #ffffff;
+      --text-muted: #aebbd0;
+      --accent: #22c55e;
+      --accent-blue: #38bdf8;
+      --accent-red: #ef4444;
+      --border: rgba(255, 255, 255, 0.14);
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+      --radius-lg: 24px;
+      --radius-md: 16px;
+      --radius-sm: 10px;
     }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-      margin: 0; min-height: 100vh; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--text);
-      background: radial-gradient(circle at 8% 8%, rgba(124,60,255,.34), transparent 30%),
-        radial-gradient(circle at 88% 12%, rgba(0,224,255,.24), transparent 34%),
-        radial-gradient(circle at 48% 100%, rgba(255,61,129,.18), transparent 35%),
-        linear-gradient(135deg, var(--bg), var(--bg2) 58%, #04050c);
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-main);
+      background:
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.25), transparent 35%),
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.20), transparent 35%),
+        linear-gradient(135deg, #050914 0%, #07111f 45%, #0a1020 100%);
       overflow-x: hidden;
     }
+
     body::before {
-      content: ""; position: fixed; inset: 0; pointer-events: none;
-      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
-      background-size: 54px 54px; mask-image: radial-gradient(circle at 50% 10%, black, transparent 75%);
-      opacity: .45; z-index: -2;
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+      z-index: -1;
     }
-    a { color: inherit; text-decoration: none; }
-    .shell { width: min(1240px, calc(100% - 32px)); margin: 0 auto; }
-    .topbar { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(22px); background: rgba(7,9,20,.72); border-bottom: 1px solid rgba(255,255,255,.09); }
-    .nav { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
-    .brand { display: flex; align-items: center; gap: 13px; min-width: 0; }
-    .brand-mark { width: 46px; height: 46px; border-radius: 16px; display: grid; place-items: center; background: linear-gradient(135deg, rgba(124,60,255,.95), rgba(0,224,255,.88)); box-shadow: 0 12px 35px rgba(0,224,255,.18); font-weight: 900; letter-spacing: -.08em; }
-    .brand h1 { margin: 0; font-size: 1.04rem; letter-spacing: -.03em; white-space: nowrap; }
-    .brand p { margin: 2px 0 0; color: var(--muted); font-size: .78rem; white-space: nowrap; }
-    .nav-actions { display: flex; align-items: center; gap: 10px; }
-    .pill { display: inline-flex; align-items: center; gap: 8px; height: 38px; padding: 0 14px; border: 1px solid var(--border); border-radius: 999px; background: rgba(255,255,255,.07); color: var(--text); font-size: .84rem; font-weight: 700; }
-    .hero { padding: 74px 0 34px; position: relative; }
-    .hero-grid { display: grid; grid-template-columns: 1.14fr .86fr; gap: 28px; align-items: stretch; }
-    .hero-card, .panel { border: 1px solid var(--border); background: linear-gradient(145deg, rgba(255,255,255,.11), rgba(255,255,255,.045)); border-radius: calc(var(--radius) + 10px); box-shadow: var(--shadow); overflow: hidden; position: relative; }
-    .hero-card { padding: clamp(26px, 5vw, 54px); min-height: 470px; display: flex; flex-direction: column; justify-content: space-between; }
-    .hero-card::after { content: ""; position: absolute; inset: auto -10% -42% 20%; height: 360px; background: radial-gradient(circle, rgba(0,224,255,.32), transparent 62%); pointer-events: none; }
-    .eyebrow { width: fit-content; display: inline-flex; align-items: center; gap: 9px; padding: 9px 13px; border-radius: 999px; border: 1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.08); color: #dbe8ff; font-weight: 800; font-size: .8rem; letter-spacing: .02em; text-transform: uppercase; }
-    .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 8px rgba(48,242,162,.12), 0 0 22px rgba(48,242,162,.8); }
-    .hero h2 { margin: 25px 0 16px; font-size: clamp(2.3rem, 6.2vw, 5.65rem); line-height: .91; letter-spacing: -.085em; max-width: 860px; }
-    .gradient-text { background: linear-gradient(90deg, #fff, #b9f6ff 36%, #d9c8ff 68%, #fff); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .hero-text { margin: 0; max-width: 680px; color: var(--muted); font-size: clamp(1rem, 1.7vw, 1.2rem); line-height: 1.7; }
-    .hero-buttons { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 12px; position: relative; z-index: 1; }
-    .btn { border: 0; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 18px; border-radius: 16px; font-weight: 900; color: var(--text); background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.12); transition: transform .18s ease, border-color .18s ease, background .18s ease; }
-    .btn:hover, .stream-link:hover, .match-card:hover { transform: translateY(-3px); }
-    .btn.primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; box-shadow: 0 18px 45px rgba(124,60,255,.32); border-color: transparent; }
-    .live-panel { padding: 22px; min-height: 470px; display: flex; flex-direction: column; }
-    .panel-head { display: flex; justify-content: space-between; align-items: center; gap: 14px; margin-bottom: 18px; }
-    .panel-title { margin: 0; font-size: 1rem; letter-spacing: -.025em; }
-    .next-card { flex: 1; border-radius: 28px; padding: 22px; background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,.055)), radial-gradient(circle at 20% 0%, rgba(124,60,255,.35), transparent 45%); border: 1px solid rgba(255,255,255,.13); display: flex; flex-direction: column; justify-content: space-between; min-height: 360px; }
-    .competition { display: flex; align-items: center; gap: 12px; color: var(--muted); font-weight: 800; font-size: .87rem; }
-    .competition img { width: 42px; height: 42px; object-fit: contain; border-radius: 12px; background: rgba(255,255,255,.08); padding: 5px; }
-    .versus { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px; margin: 26px 0; }
-    .team-mini { text-align: center; min-width: 0; }
-    .team-mini img { width: clamp(58px, 8vw, 86px); height: clamp(58px, 8vw, 86px); object-fit: cover; border-radius: 50%; border: 1px solid rgba(255,255,255,.24); box-shadow: 0 16px 28px rgba(0,0,0,.24); background: rgba(255,255,255,.08); }
-    .team-mini strong { display: block; margin-top: 11px; font-size: .98rem; overflow: hidden; text-overflow: ellipsis; }
-    .vs { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; font-weight: 950; background: rgba(255,255,255,.1); color: #fff; border: 1px solid rgba(255,255,255,.14); }
-    .next-meta { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
-    .meta-box { padding: 12px; border-radius: 16px; border: 1px solid rgba(255,255,255,.11); background: rgba(0,0,0,.16); }
-    .meta-box span { display: block; color: var(--muted2); font-size: .73rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; }
-    .meta-box strong { display: block; margin-top: 4px; font-size: .96rem; }
-    .stats { padding: 18px 0 26px; }
-    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-    .stat { padding: 20px; border-radius: 22px; background: rgba(255,255,255,.065); border: 1px solid rgba(255,255,255,.11); }
-    .stat strong { display: block; font-size: clamp(1.6rem, 3vw, 2.4rem); letter-spacing: -.05em; }
-    .stat span { color: var(--muted); font-size: .86rem; font-weight: 750; }
-    .controls-wrap { position: sticky; top: 74px; z-index: 40; padding: 14px 0; backdrop-filter: blur(18px); background: linear-gradient(180deg, rgba(7,9,20,.88), rgba(7,9,20,.62)); border-block: 1px solid rgba(255,255,255,.07); }
-    .controls { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; align-items: center; }
-    .search input, select { width: 100%; min-height: 50px; border-radius: 16px; border: 1px solid rgba(255,255,255,.13); background: rgba(255,255,255,.08); color: var(--text); outline: none; padding: 0 16px; font-weight: 750; }
-    .search input::placeholder { color: rgba(219,225,255,.5); }
-    select { min-width: 190px; cursor: pointer; }
-    option { color: #111; }
-    .chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px; scrollbar-width: none; }
-    .chips::-webkit-scrollbar { display: none; }
-    .chip { flex: 0 0 auto; border: 1px solid rgba(255,255,255,.13); background: rgba(255,255,255,.07); color: var(--text); border-radius: 999px; height: 42px; padding: 0 14px; font-weight: 850; cursor: pointer; }
-    .chip.active { background: linear-gradient(135deg, rgba(124,60,255,.95), rgba(0,224,255,.82)); border-color: transparent; }
-    main { padding: 34px 0 64px; }
-    .section-title { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin: 0 0 20px; }
-    .section-title h3 { margin: 0; font-size: clamp(1.65rem, 3vw, 2.55rem); letter-spacing: -.06em; }
-    .section-title p { margin: 8px 0 0; color: var(--muted); }
-    .matches { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
-    .match-card { position: relative; border-radius: 28px; overflow: hidden; min-height: 385px; border: 1px solid rgba(255,255,255,.12); background: linear-gradient(180deg, rgba(255,255,255,.105), rgba(255,255,255,.05)); box-shadow: 0 18px 54px rgba(0,0,0,.24); transition: transform .18s ease, border-color .18s ease; }
-    .match-card:hover { border-color: rgba(0,224,255,.38); }
-    .match-top { padding: 18px 18px 0; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
-    .tag { display: inline-flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 999px; background: rgba(0,0,0,.22); border: 1px solid rgba(255,255,255,.1); color: var(--muted); font-size: .76rem; font-weight: 900; }
-    .match-body { padding: 18px; }
-    .teams { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; margin: 16px 0 18px; }
-    .team { min-width: 0; text-align: center; }
-    .team img { width: 66px; height: 66px; border-radius: 50%; object-fit: cover; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); }
-    .team strong { display: block; margin-top: 10px; font-size: .96rem; line-height: 1.22; }
-    .date-line { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
-    .streams { display: grid; gap: 9px; margin-top: 14px; }
-    .stream-link { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-radius: 15px; border: 1px solid rgba(255,255,255,.11); background: rgba(0,0,0,.17); transition: transform .18s ease, background .18s ease; }
-    .stream-link:hover { background: rgba(255,255,255,.1); }
-    .stream-link img { width: 27px; height: 19px; object-fit: cover; border-radius: 4px; background: rgba(255,255,255,.12); }
-    .stream-info { min-width: 0; flex: 1; }
-    .stream-info strong { display: block; font-size: .88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .stream-info span { display: block; margin-top: 2px; font-size: .72rem; color: var(--muted2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .play { width: 33px; height: 33px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--accent), var(--accent2)); font-size: .82rem; font-weight: 950; }
-    .empty { display: none; padding: 38px; border: 1px solid rgba(255,255,255,.11); border-radius: 28px; background: rgba(255,255,255,.06); color: var(--muted); text-align: center; font-weight: 800; }
-    .footer { padding: 30px 0 42px; border-top: 1px solid rgba(255,255,255,.08); color: var(--muted); text-align: center; font-size: .9rem; }
-    .loader { display: grid; place-items: center; min-height: 180px; color: var(--muted); font-weight: 900; }
+
+    a {
+      color: inherit;
+    }
+
+    .page {
+      width: min(1480px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 28px 0 60px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 18px;
+      margin-bottom: 24px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(6, 15, 29, 0.72);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 14px 50px rgba(0,0,0,0.25);
+      position: sticky;
+      top: 12px;
+      z-index: 1000;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(135deg, rgba(34,197,94,0.95), rgba(56,189,248,0.95));
+      box-shadow: 0 0 30px rgba(56,189,248,0.35);
+      font-size: 22px;
+      flex: 0 0 auto;
+    }
+
+    .brand-title {
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-subtitle {
+      color: var(--text-muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 9px 13px;
+      background: rgba(255,255,255,0.07);
+      color: var(--text-muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.6fr);
+      gap: 20px;
+      margin-bottom: 22px;
+    }
+
+    .hero-card,
+    .next-card,
+    .controls,
+    .table-container {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.045));
+      backdrop-filter: blur(22px);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card {
+      position: relative;
+      overflow: hidden;
+      padding: 34px;
+      min-height: 260px;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      right: -120px;
+      top: -160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(56,189,248,0.35), transparent 65%);
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #d9f99d;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 68px);
+      line-height: 0.96;
+      letter-spacing: -0.06em;
+      max-width: 850px;
+    }
+
+    .hero p {
+      margin: 20px 0 0;
+      max-width: 680px;
+      color: var(--text-muted);
+      font-size: clamp(15px, 2vw, 18px);
+      line-height: 1.6;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 26px;
+    }
+
+    .stat {
+      min-width: 130px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(0,0,0,0.18);
+      padding: 14px 16px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 24px;
+      letter-spacing: -0.04em;
+    }
+
+    .stat span {
+      color: var(--text-muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .next-card {
+      padding: 24px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .next-label {
+      color: var(--text-muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .next-match {
+      display: grid;
+      gap: 16px;
+    }
+
+    .next-teams {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .team-mini {
+      text-align: center;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .team-mini img {
+      width: 64px;
+      height: 44px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.1);
+    }
+
+    .team-mini span {
+      display: block;
+      font-size: 13px;
+      margin-top: 8px;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .vs {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #06111f;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--accent), var(--accent-blue));
+      box-shadow: 0 0 32px rgba(34,197,94,0.32);
+      flex: 0 0 auto;
+    }
+
+    .countdown {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .timebox {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 10px 6px;
+      background: rgba(0,0,0,0.22);
+      text-align: center;
+    }
+
+    .timebox strong {
+      display: block;
+      font-size: 19px;
+    }
+
+    .timebox span {
+      color: var(--text-muted);
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .controls {
+      padding: 16px;
+      margin-bottom: 18px;
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) 220px 180px;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .input,
+    .select {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid var(--border);
+      outline: none;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.25);
+      color: var(--text-main);
+      padding: 0 18px;
+      font-size: 15px;
+    }
+
+    .input::placeholder {
+      color: rgba(174,187,208,0.75);
+    }
+
+    .select option {
+      color: #0f172a;
+      background: #ffffff;
+    }
+
+    .btn {
+      min-height: 48px;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      color: #06111f;
+      background: linear-gradient(135deg, var(--accent), var(--accent-blue));
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      box-shadow: 0 16px 35px rgba(34,197,94,0.18);
+      transition: transform .2s ease, filter .2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.08);
+    }
+
+    .table-container {
+      overflow: hidden;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 930px;
+    }
+
+    thead {
+      background: rgba(255,255,255,0.08);
+    }
+
+    th,
+    td {
+      padding: 16px 18px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255,255,255,0.09);
+      vertical-align: middle;
+    }
+
+    th {
+      color: #dbeafe;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .10em;
+      font-weight: 900;
+    }
+
+    .event {
+      cursor: pointer;
+      background: rgba(255,255,255,0.035);
+      transition: background .22s ease, transform .22s ease;
+    }
+
+    .event:hover {
+      background: rgba(56, 189, 248, 0.16);
+    }
+
+    .event.active-row {
+      background: rgba(34, 197, 94, 0.15);
+    }
+
+    .sport-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid var(--border);
+      font-size: 22px;
+    }
+
+    .date-cell {
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .day-cell {
+      color: var(--text-muted);
+      display: block;
+      margin-top: 3px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .hour-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(56,189,248,0.14);
+      border: 1px solid rgba(56,189,248,0.22);
+      color: #e0f2fe;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .competition {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .competition img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      flex: 0 0 auto;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
+    }
+
+    .competition-text {
+      min-width: 0;
+    }
+
+    .competition-name {
+      font-weight: 850;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .stage {
+      color: var(--text-muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .event-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 280px;
+    }
+
+    .flag {
+      width: 34px;
+      height: 24px;
+      border-radius: 6px;
+      object-fit: cover;
+      border: 1px solid rgba(255,255,255,0.20);
+      background: rgba(255,255,255,0.1);
+      flex: 0 0 auto;
+    }
+
+    .team-name {
+      font-weight: 900;
+    }
+
+    .dash {
+      color: var(--text-muted);
+      font-weight: 900;
+    }
+
+    .streams-count {
+      color: #bbf7d0;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .links {
+      display: none;
+      background: rgba(2, 6, 23, 0.55);
+    }
+
+    .links.open {
+      display: table-row;
+    }
+
+    .links-inner {
+      padding: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .stream-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 44px;
+      text-decoration: none;
+      border: 1px solid rgba(56,189,248,0.26);
+      border-radius: 999px;
+      padding: 9px 14px;
+      background: rgba(56,189,248,0.13);
+      color: #e0f2fe;
+      font-weight: 850;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+
+    .stream-btn:hover {
+      transform: translateY(-2px);
+      background: rgba(34,197,94,0.18);
+      border-color: rgba(34,197,94,0.40);
+      color: #dcfce7;
+    }
+
+    .stream-btn img {
+      width: 24px;
+      height: 16px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.20);
+    }
+
+    .empty-state,
+    .error-state {
+      padding: 34px 20px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    .watermark {
+      position: fixed;
+      right: 16px;
+      bottom: 14px;
+      z-index: 900;
+      color: rgba(255,255,255,0.22);
+      font-weight: 900;
+      letter-spacing: .10em;
+      text-transform: uppercase;
+      font-size: 11px;
+      pointer-events: none;
+    }
+
+    /* MODAL PLAYER */
+    .video-modal {
+      display: none;
+      position: fixed;
+      z-index: 99999;
+      inset: 0;
+      width: 100%;
+      height: 100vh;
+      background:
+        radial-gradient(circle at top, rgba(56,189,248,0.18), transparent 45%),
+        rgba(0, 0, 0, 0.90);
+      justify-content: center;
+      align-items: center;
+      padding: 18px;
+    }
+
+    .video-modal.active {
+      display: flex;
+    }
+
+    .video-modal-content {
+      position: relative;
+      width: min(1180px, 96vw);
+      height: min(78vh, 760px);
+      background: #000;
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.16);
+      box-shadow: 0 30px 100px rgba(0,0,0,0.75);
+      animation: modalIn .22s ease both;
+    }
+
+    @keyframes modalIn {
+      from {
+        opacity: 0;
+        transform: scale(.97) translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    .player-header {
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 0 14px 0 18px;
+      background: linear-gradient(90deg, #06111f, #101827);
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .player-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      font-weight: 900;
+    }
+
+    .player-title img {
+      width: 26px;
+      height: 18px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .player-title span {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .close-modal {
+      border: 0;
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      cursor: pointer;
+      background: rgba(255,255,255,0.10);
+      color: white;
+      font-size: 26px;
+      line-height: 1;
+      transition: background .2s ease, transform .2s ease;
+    }
+
+    .close-modal:hover {
+      background: rgba(239,68,68,0.85);
+      transform: rotate(90deg);
+    }
+
+    .video-modal iframe {
+      display: block;
+      width: 100%;
+      height: calc(100% - 56px);
+      border: 0;
+      background: #000;
+    }
+
+    .loading {
+      padding: 26px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
     @media (max-width: 980px) {
-      .hero-grid { grid-template-columns: 1fr; }
-      .matches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .stats-grid { grid-template-columns: repeat(2, 1fr); }
-      .controls { grid-template-columns: 1fr; }
-      .chips { order: 3; }
-      select { min-width: 100%; }
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        border-radius: 24px;
+        flex-direction: column;
+      }
+
+      .top-actions {
+        justify-content: flex-start;
+      }
     }
-    @media (max-width: 640px) {
-      .shell { width: min(100% - 20px, 1240px); }
-      .nav { min-height: 68px; }
-      .brand p { display: none; }
-      .nav-actions .pill { display: none; }
-      .hero { padding-top: 38px; }
-      .hero-card, .live-panel { border-radius: 26px; }
-      .hero-card { min-height: auto; padding: 24px; }
-      .hero h2 { font-size: 3.15rem; }
-      .matches { grid-template-columns: 1fr; }
-      .stats-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-      .stat { padding: 15px; }
-      .controls-wrap { top: 68px; }
-      .next-meta { grid-template-columns: 1fr; }
-      .versus, .teams { gap: 6px; }
-      .vs { width: 40px; height: 40px; font-size: .8rem; }
+
+    @media (max-width: 768px) {
+      .page {
+        width: min(100% - 16px, 1480px);
+        padding-top: 10px;
+      }
+
+      .hero-card,
+      .next-card {
+        padding: 22px;
+        border-radius: 20px;
+      }
+
+      .hero-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .stat {
+        min-width: 0;
+      }
+
+      th,
+      td {
+        padding: 12px 13px;
+        font-size: 14px;
+      }
+
+      .links-inner {
+        padding: 14px;
+      }
+
+      .stream-btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .video-modal {
+        padding: 8px;
+      }
+
+      .video-modal-content {
+        width: 98vw;
+        height: 72vh;
+        border-radius: 16px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <header class="topbar">
-    <div class="shell nav">
-      <a class="brand" href="#">
-        <div class="brand-mark">SL</div>
-        <div><h1>Sporturi Live</h1><p>Program TV sportiv actualizat</p></div>
-      </a>
-      <div class="nav-actions"><span class="pill"><span class="dot"></span> Evenimente live</span><a class="pill" href="#program">Program</a></div>
-    </div>
-  </header>
-  <section class="hero">
-    <div class="shell hero-grid">
-      <div class="hero-card">
+  <main class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-logo">▶</div>
         <div>
-          <div class="eyebrow"><span class="dot"></span> FIFA World Cup 2026</div>
-          <h2><span class="gradient-text">Program sportiv premium, rapid și elegant.</span></h2>
-          <p class="hero-text">Toate meciurile importante într-o singură pagină: ore clare, echipe, grupe, logo-uri, canale disponibile și steaguri pentru țara de origine.</p>
-          <div class="hero-buttons"><a href="#program" class="btn primary">Vezi programul complet</a><button class="btn" type="button" id="todayBtn">Meciurile de azi</button></div>
+          <div class="brand-title">Sporturi Live</div>
+          <div class="brand-subtitle">Program evenimente & canale live</div>
         </div>
       </div>
-      <aside class="panel live-panel">
-        <div class="panel-head"><h3 class="panel-title">Următorul eveniment</h3><span class="tag" id="nextStatus">Actualizat</span></div>
-        <div class="next-card" id="nextMatch"><div class="loader">Se încarcă evenimentele...</div></div>
+
+      <div class="top-actions">
+        <div class="pill">🟢 Actualizat automat din eventos.json</div>
+        <div class="pill" id="todayPill">📅 Astăzi</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <div class="hero-kicker">⚽ Live Sports Schedule</div>
+        <h1>Toate evenimentele sportive într-o pagină rapidă și modernă.</h1>
+        <p>
+          Alege meciul, vezi instant canalele disponibile și deschide player-ul direct în modal, fără să părăsești pagina.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <strong id="totalEvents">0</strong>
+            <span>Evenimente</span>
+          </div>
+          <div class="stat">
+            <strong id="totalStreams">0</strong>
+            <span>Canale</span>
+          </div>
+          <div class="stat">
+            <strong id="totalCompetitions">0</strong>
+            <span>Competiții</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="next-card">
+        <div class="next-label">Următorul eveniment</div>
+        <div id="nextMatch" class="next-match">
+          <div class="loading">Se încarcă...</div>
+        </div>
       </aside>
+    </section>
+
+    <section class="controls">
+      <input id="searchInput" class="input" type="search" placeholder="Caută echipă, competiție sau canal..." />
+      <select id="competitionFilter" class="select">
+        <option value="all">Toate competițiile</option>
+      </select>
+      <button id="resetBtn" class="btn" type="button">Resetează filtrele</button>
+    </section>
+
+    <section class="table-container">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Dată</th>
+              <th>Ora</th>
+              <th>Competiție</th>
+              <th>Eveniment</th>
+              <th>Canale</th>
+            </tr>
+          </thead>
+          <tbody id="eventsBody">
+            <tr>
+              <td colspan="6" class="loading">Se încarcă evenimentele...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div class="watermark">Bratu Marian</div>
+
+  <!-- MODAL PLAYER -->
+  <div class="video-modal" id="videoModal" aria-hidden="true">
+    <div class="video-modal-content">
+      <div class="player-header">
+        <div class="player-title">
+          <img id="playerFlag" src="" alt="" style="display:none;">
+          <span id="playerTitle">Canal Live</span>
+        </div>
+        <button class="close-modal" id="closeModal" type="button" aria-label="Închide player-ul">&times;</button>
+      </div>
+
+      <iframe
+        id="modalIframe"
+        src=""
+        allowfullscreen
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture">
+      </iframe>
     </div>
-  </section>
-  <section class="stats"><div class="shell stats-grid"><div class="stat"><strong id="statEvents">0</strong><span>Evenimente</span></div><div class="stat"><strong id="statDays">0</strong><span>Zile acoperite</span></div><div class="stat"><strong id="statChannels">0</strong><span>Canale TV</span></div><div class="stat"><strong id="statComps">0</strong><span>Competiții</span></div></div></section>
-  <section class="controls-wrap"><div class="shell controls"><label class="search"><input id="searchInput" type="search" placeholder="Caută echipă, competiție, grupă sau canal..." autocomplete="off" /></label><select id="daySelect" aria-label="Filtrează după zi"><option value="all">Toate zilele</option></select><div class="chips" id="chips"></div></div></section>
-  <main id="program" class="shell"><div class="section-title"><div><h3>Program complet</h3><p id="resultInfo">Evenimente disponibile pentru vizionare.</p></div></div><div class="empty" id="emptyState">Nu am găsit evenimente pentru filtrul ales.</div><div class="matches" id="matches"><div class="loader">Se încarcă programul...</div></div></main>
-  <footer class="footer"><div class="shell">© <span id="year"></span> Sporturi Live • Creat pentru GitHub Pages • Bratu Marian</div></footer>
+  </div>
+
   <script>
-    const FALLBACK_EVENTS = [
-  {
-    "id": "match_009",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "14 Iunie 2026",
-    "day": "Duminică",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Germania",
-    "team1_logo": "https://flagcdn.com/w160/de.png",
-    "team2": "Curaçao",
-    "team2_logo": "https://flagcdn.com/w160/cw.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_010",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "14 Iunie 2026",
-    "day": "Duminică",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Olanda",
-    "team1_logo": "https://flagcdn.com/w160/nl.png",
-    "team2": "Japonia",
-    "team2_logo": "https://flagcdn.com/w160/jp.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_011",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "15 Iunie 2026",
-    "day": "Luni",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Coasta de Fildeș",
-    "team1_logo": "https://flagcdn.com/w160/ci.png",
-    "team2": "Ecuador",
-    "team2_logo": "https://flagcdn.com/w160/ec.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_012",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "15 Iunie 2026",
-    "day": "Luni",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Suedia",
-    "team1_logo": "https://flagcdn.com/w160/se.png",
-    "team2": "Tunisia",
-    "team2_logo": "https://flagcdn.com/w160/tn.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_013",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "15 Iunie 2026",
-    "day": "Luni",
-    "time": "19:00",
-    "status": "upcoming",
-    "team1": "Spania",
-    "team1_logo": "https://flagcdn.com/w160/es.png",
-    "team2": "Capul Verde",
-    "team2_logo": "https://flagcdn.com/w160/cv.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_014",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "15 Iunie 2026",
-    "day": "Luni",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Belgia",
-    "team1_logo": "https://flagcdn.com/w160/be.png",
-    "team2": "Egipt",
-    "team2_logo": "https://flagcdn.com/w160/eg.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_015",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "16 Iunie 2026",
-    "day": "Marți",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Arabia Saudită",
-    "team1_logo": "https://flagcdn.com/w160/sa.png",
-    "team2": "Uruguay",
-    "team2_logo": "https://flagcdn.com/w160/uy.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_016",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "16 Iunie 2026",
-    "day": "Marți",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Iran",
-    "team1_logo": "https://flagcdn.com/w160/ir.png",
-    "team2": "Noua Zeelandă",
-    "team2_logo": "https://flagcdn.com/w160/nz.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_017",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "16 Iunie 2026",
-    "day": "Marți",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Franța",
-    "team1_logo": "https://flagcdn.com/w160/fr.png",
-    "team2": "Senegal",
-    "team2_logo": "https://flagcdn.com/w160/sn.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_018",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "17 Iunie 2026",
-    "day": "Miercuri",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Irak",
-    "team1_logo": "https://flagcdn.com/w160/iq.png",
-    "team2": "Norvegia",
-    "team2_logo": "https://flagcdn.com/w160/no.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_019",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "17 Iunie 2026",
-    "day": "Miercuri",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Argentina",
-    "team1_logo": "https://flagcdn.com/w160/ar.png",
-    "team2": "Algeria",
-    "team2_logo": "https://flagcdn.com/w160/dz.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_020",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "17 Iunie 2026",
-    "day": "Miercuri",
-    "time": "07:00",
-    "status": "upcoming",
-    "team1": "Austria",
-    "team1_logo": "https://flagcdn.com/w160/at.png",
-    "team2": "Iordania",
-    "team2_logo": "https://flagcdn.com/w160/jo.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_021",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "17 Iunie 2026",
-    "day": "Miercuri",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Portugalia",
-    "team1_logo": "https://flagcdn.com/w160/pt.png",
-    "team2": "DR Congo",
-    "team2_logo": "https://flagcdn.com/w160/cd.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_022",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "17 Iunie 2026",
-    "day": "Miercuri",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Anglia",
-    "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "team2": "Croația",
-    "team2_logo": "https://flagcdn.com/w160/hr.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_023",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "18 Iunie 2026",
-    "day": "Joi",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Ghana",
-    "team1_logo": "https://flagcdn.com/w160/gh.png",
-    "team2": "Panama",
-    "team2_logo": "https://flagcdn.com/w160/pa.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_024",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "18 Iunie 2026",
-    "day": "Joi",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Uzbekistan",
-    "team1_logo": "https://flagcdn.com/w160/uz.png",
-    "team2": "Columbia",
-    "team2_logo": "https://flagcdn.com/w160/co.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_025",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "18 Iunie 2026",
-    "day": "Joi",
-    "time": "19:00",
-    "status": "upcoming",
-    "team1": "Cehia",
-    "team1_logo": "https://flagcdn.com/w160/cz.png",
-    "team2": "Africa de Sud",
-    "team2_logo": "https://flagcdn.com/w160/za.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_026",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "18 Iunie 2026",
-    "day": "Joi",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Elveția",
-    "team1_logo": "https://flagcdn.com/w160/ch.png",
-    "team2": "Bosnia",
-    "team2_logo": "https://flagcdn.com/w160/ba.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_027",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "19 Iunie 2026",
-    "day": "Vineri",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Canada",
-    "team1_logo": "https://flagcdn.com/w160/ca.png",
-    "team2": "Qatar",
-    "team2_logo": "https://flagcdn.com/w160/qa.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_028",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "19 Iunie 2026",
-    "day": "Vineri",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Mexic",
-    "team1_logo": "https://flagcdn.com/w160/mx.png",
-    "team2": "Coreea de Sud",
-    "team2_logo": "https://flagcdn.com/w160/kr.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_029",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "19 Iunie 2026",
-    "day": "Vineri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "SUA",
-    "team1_logo": "https://flagcdn.com/w160/us.png",
-    "team2": "Australia",
-    "team2_logo": "https://flagcdn.com/w160/au.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_030",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "20 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Scoția",
-    "team1_logo": "https://flagcdn.com/w160/gb-sct.png",
-    "team2": "Maroc",
-    "team2_logo": "https://flagcdn.com/w160/ma.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_031",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "20 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Brazilia",
-    "team1_logo": "https://flagcdn.com/w160/br.png",
-    "team2": "Haiti",
-    "team2_logo": "https://flagcdn.com/w160/ht.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_032",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "20 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "07:00",
-    "status": "upcoming",
-    "team1": "Turcia",
-    "team1_logo": "https://flagcdn.com/w160/tr.png",
-    "team2": "Paraguay",
-    "team2_logo": "https://flagcdn.com/w160/py.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_033",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "20 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Olanda",
-    "team1_logo": "https://flagcdn.com/w160/nl.png",
-    "team2": "Suedia",
-    "team2_logo": "https://flagcdn.com/w160/se.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_034",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "20 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Germania",
-    "team1_logo": "https://flagcdn.com/w160/de.png",
-    "team2": "Coasta de Fildeș",
-    "team2_logo": "https://flagcdn.com/w160/ci.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_035",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Ecuador",
-    "team1_logo": "https://flagcdn.com/w160/ec.png",
-    "team2": "Curaçao",
-    "team2_logo": "https://flagcdn.com/w160/cw.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_036",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "07:00",
-    "status": "upcoming",
-    "team1": "Tunisia",
-    "team1_logo": "https://flagcdn.com/w160/tn.png",
-    "team2": "Japonia",
-    "team2_logo": "https://flagcdn.com/w160/jp.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_037",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "19:00",
-    "status": "upcoming",
-    "team1": "Spania",
-    "team1_logo": "https://flagcdn.com/w160/es.png",
-    "team2": "Arabia Saudită",
-    "team2_logo": "https://flagcdn.com/w160/sa.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_038",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Belgia",
-    "team1_logo": "https://flagcdn.com/w160/be.png",
-    "team2": "Iran",
-    "team2_logo": "https://flagcdn.com/w160/ir.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_039",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "22 Iunie 2026",
-    "day": "Luni",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Uruguay",
-    "team1_logo": "https://flagcdn.com/w160/uy.png",
-    "team2": "Capul Verde",
-    "team2_logo": "https://flagcdn.com/w160/cv.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_040",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "22 Iunie 2026",
-    "day": "Luni",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Noua Zeelandă",
-    "team1_logo": "https://flagcdn.com/w160/nz.png",
-    "team2": "Egipt",
-    "team2_logo": "https://flagcdn.com/w160/eg.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_041",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "22 Iunie 2026",
-    "day": "Luni",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Argentina",
-    "team1_logo": "https://flagcdn.com/w160/ar.png",
-    "team2": "Austria",
-    "team2_logo": "https://flagcdn.com/w160/at.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_042",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Franța",
-    "team1_logo": "https://flagcdn.com/w160/fr.png",
-    "team2": "Irak",
-    "team2_logo": "https://flagcdn.com/w160/iq.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_043",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Norvegia",
-    "team1_logo": "https://flagcdn.com/w160/no.png",
-    "team2": "Senegal",
-    "team2_logo": "https://flagcdn.com/w160/sn.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_044",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Iordania",
-    "team1_logo": "https://flagcdn.com/w160/jo.png",
-    "team2": "Algeria",
-    "team2_logo": "https://flagcdn.com/w160/dz.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_045",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Portugalia",
-    "team1_logo": "https://flagcdn.com/w160/pt.png",
-    "team2": "Uzbekistan",
-    "team2_logo": "https://flagcdn.com/w160/uz.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_046",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Anglia",
-    "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "team2": "Ghana",
-    "team2_logo": "https://flagcdn.com/w160/gh.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_047",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Panama",
-    "team1_logo": "https://flagcdn.com/w160/pa.png",
-    "team2": "Croația",
-    "team2_logo": "https://flagcdn.com/w160/hr.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_048",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Columbia",
-    "team1_logo": "https://flagcdn.com/w160/co.png",
-    "team2": "DR Congo",
-    "team2_logo": "https://flagcdn.com/w160/cd.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_049",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Elveția",
-    "team1_logo": "https://flagcdn.com/w160/ch.png",
-    "team2": "Canada",
-    "team2_logo": "https://flagcdn.com/w160/ca.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_050",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Bosnia",
-    "team1_logo": "https://flagcdn.com/w160/ba.png",
-    "team2": "Qatar",
-    "team2_logo": "https://flagcdn.com/w160/qa.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_051",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Maroc",
-    "team1_logo": "https://flagcdn.com/w160/ma.png",
-    "team2": "Haiti",
-    "team2_logo": "https://flagcdn.com/w160/ht.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_052",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Scoția",
-    "team1_logo": "https://flagcdn.com/w160/gb-sct.png",
-    "team2": "Brazilia",
-    "team2_logo": "https://flagcdn.com/w160/br.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_053",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Cehia",
-    "team1_logo": "https://flagcdn.com/w160/cz.png",
-    "team2": "Mexic",
-    "team2_logo": "https://flagcdn.com/w160/mx.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_054",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Africa de Sud",
-    "team1_logo": "https://flagcdn.com/w160/za.png",
-    "team2": "Coreea de Sud",
-    "team2_logo": "https://flagcdn.com/w160/kr.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_055",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Curaçao",
-    "team1_logo": "https://flagcdn.com/w160/cw.png",
-    "team2": "Coasta de Fildeș",
-    "team2_logo": "https://flagcdn.com/w160/ci.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_056",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Ecuador",
-    "team1_logo": "https://flagcdn.com/w160/ec.png",
-    "team2": "Germania",
-    "team2_logo": "https://flagcdn.com/w160/de.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_057",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Japonia",
-    "team1_logo": "https://flagcdn.com/w160/jp.png",
-    "team2": "Suedia",
-    "team2_logo": "https://flagcdn.com/w160/se.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_058",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Tunisia",
-    "team1_logo": "https://flagcdn.com/w160/tn.png",
-    "team2": "Olanda",
-    "team2_logo": "https://flagcdn.com/w160/nl.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_059",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Turcia",
-    "team1_logo": "https://flagcdn.com/w160/tr.png",
-    "team2": "SUA",
-    "team2_logo": "https://flagcdn.com/w160/us.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_060",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Paraguay",
-    "team1_logo": "https://flagcdn.com/w160/py.png",
-    "team2": "Australia",
-    "team2_logo": "https://flagcdn.com/w160/au.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_061",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Norvegia",
-    "team1_logo": "https://flagcdn.com/w160/no.png",
-    "team2": "Franța",
-    "team2_logo": "https://flagcdn.com/w160/fr.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_062",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Senegal",
-    "team1_logo": "https://flagcdn.com/w160/sn.png",
-    "team2": "Irak",
-    "team2_logo": "https://flagcdn.com/w160/iq.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_063",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Capul Verde",
-    "team1_logo": "https://flagcdn.com/w160/cv.png",
-    "team2": "Arabia Saudită",
-    "team2_logo": "https://flagcdn.com/w160/sa.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_064",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Uruguay",
-    "team1_logo": "https://flagcdn.com/w160/uy.png",
-    "team2": "Spania",
-    "team2_logo": "https://flagcdn.com/w160/es.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_065",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Noua Zeelandă",
-    "team1_logo": "https://flagcdn.com/w160/nz.png",
-    "team2": "Belgia",
-    "team2_logo": "https://flagcdn.com/w160/be.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_066",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Egipt",
-    "team1_logo": "https://flagcdn.com/w160/eg.png",
-    "team2": "Iran",
-    "team2_logo": "https://flagcdn.com/w160/ir.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_067",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Panama",
-    "team1_logo": "https://flagcdn.com/w160/pa.png",
-    "team2": "Anglia",
-    "team2_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_068",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Croația",
-    "team1_logo": "https://flagcdn.com/w160/hr.png",
-    "team2": "Ghana",
-    "team2_logo": "https://flagcdn.com/w160/gh.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_069",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "02:30",
-    "status": "upcoming",
-    "team1": "Columbia",
-    "team1_logo": "https://flagcdn.com/w160/co.png",
-    "team2": "Portugalia",
-    "team2_logo": "https://flagcdn.com/w160/pt.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_070",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "02:30",
-    "status": "upcoming",
-    "team1": "DR Congo",
-    "team1_logo": "https://flagcdn.com/w160/cd.png",
-    "team2": "Uzbekistan",
-    "team2_logo": "https://flagcdn.com/w160/uz.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_071",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Algeria",
-    "team1_logo": "https://flagcdn.com/w160/dz.png",
-    "team2": "Austria",
-    "team2_logo": "https://flagcdn.com/w160/at.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  },
-  {
-    "id": "match_072",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Iordania",
-    "team1_logo": "https://flagcdn.com/w160/jo.png",
-    "team2": "Argentina",
-    "team2_logo": "https://flagcdn.com/w160/ar.png",
-    "streams": [
-      {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
-        "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
-      }
-    ]
-  }
-];
-    const state = { events: [], search: '', day: 'all', stage: 'all' };
-    const roMonths = { 'Ianuarie': 0, 'Februarie': 1, 'Martie': 2, 'Aprilie': 3, 'Mai': 4, 'Iunie': 5, 'Iulie': 6, 'August': 7, 'Septembrie': 8, 'Octombrie': 9, 'Noiembrie': 10, 'Decembrie': 11 };
-    const $ = (selector) => document.querySelector(selector);
-    const normalize = (text = '') => text.toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    function parseDate(event) { const parts = (event.date || '').split(' '); const day = Number(parts[0] || 1); const month = roMonths[parts[1]] ?? 0; const year = Number(parts[2] || new Date().getFullYear()); const [hour, minute] = (event.time || '00:00').split(':').map(Number); return new Date(year, month, day, hour || 0, minute || 0); }
-    function unique(values) { return [...new Set(values.filter(Boolean))]; }
-    async function loadEvents() {
-      try { const response = await fetch('eventos.json', { cache: 'no-store' }); if (!response.ok) throw new Error('Nu pot încărca eventos.json'); const json = await response.json(); state.events = Array.isArray(json) ? json : FALLBACK_EVENTS; }
-      catch (error) { state.events = FALLBACK_EVENTS; }
-      state.events.sort((a, b) => parseDate(a) - parseDate(b)); buildControls(); renderStats(); renderNextMatch(); renderMatches();
+    const EVENTS_JSON_PATH = "eventos.json";
+
+    const eventsBody = document.getElementById("eventsBody");
+    const searchInput = document.getElementById("searchInput");
+    const competitionFilter = document.getElementById("competitionFilter");
+    const resetBtn = document.getElementById("resetBtn");
+
+    const totalEvents = document.getElementById("totalEvents");
+    const totalStreams = document.getElementById("totalStreams");
+    const totalCompetitions = document.getElementById("totalCompetitions");
+    const todayPill = document.getElementById("todayPill");
+    const nextMatch = document.getElementById("nextMatch");
+
+    const modal = document.getElementById("videoModal");
+    const iframe = document.getElementById("modalIframe");
+    const closeModal = document.getElementById("closeModal");
+    const playerTitle = document.getElementById("playerTitle");
+    const playerFlag = document.getElementById("playerFlag");
+
+    let allEvents = [];
+    let activeLinksRow = null;
+    let activeEventRow = null;
+
+    const monthMap = {
+      "ianuarie": 0,
+      "februarie": 1,
+      "martie": 2,
+      "aprilie": 3,
+      "mai": 4,
+      "iunie": 5,
+      "iulie": 6,
+      "august": 7,
+      "septembrie": 8,
+      "octombrie": 9,
+      "noiembrie": 10,
+      "decembrie": 11
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
     }
-    function buildControls() {
-      const days = unique(state.events.map(e => `${e.day}, ${e.date}`));
-      $('#daySelect').innerHTML = '<option value="all">Toate zilele</option>' + days.map(day => `<option value="${day}">${day}</option>`).join('');
-      $('#daySelect').value = state.day;
-      const stages = ['all', ...unique(state.events.map(e => e.stage))];
-      $('#chips').innerHTML = stages.map(stage => `<button type="button" class="chip ${stage === state.stage ? 'active' : ''}" data-stage="${stage}">${stage === 'all' ? 'Toate grupele' : stage}</button>`).join('');
-      document.querySelectorAll('.chip').forEach(chip => chip.addEventListener('click', () => { state.stage = chip.dataset.stage; buildControls(); renderMatches(); }));
+
+    function sportIcon(sport) {
+      const sportText = String(sport || "").toLowerCase();
+
+      if (sportText.includes("fotbal")) return "⚽";
+      if (sportText.includes("hochei")) return "🏒";
+      if (sportText.includes("baschet")) return "🏀";
+      if (sportText.includes("tenis")) return "🎾";
+      if (sportText.includes("handbal")) return "🤾";
+      if (sportText.includes("formula") || sportText.includes("f1")) return "🏎️";
+
+      return "🏆";
     }
-    function renderStats() {
-      const channels = new Set(); state.events.forEach(event => (event.streams || []).forEach(stream => channels.add(stream.channel)));
-      $('#statEvents').textContent = state.events.length; $('#statDays').textContent = unique(state.events.map(e => e.date)).length; $('#statChannels').textContent = channels.size; $('#statComps').textContent = unique(state.events.map(e => e.competition)).length;
+
+    function parseRomanianDate(dateText, timeText) {
+      const parts = String(dateText || "").trim().split(/\s+/);
+      if (parts.length < 3) return null;
+
+      const day = Number(parts[0]);
+      const month = monthMap[String(parts[1]).toLowerCase()];
+      const year = Number(parts[2]);
+
+      const timeParts = String(timeText || "00:00").split(":");
+      const hour = Number(timeParts[0] || 0);
+      const minute = Number(timeParts[1] || 0);
+
+      if (!Number.isFinite(day) || month === undefined || !Number.isFinite(year)) return null;
+
+      return new Date(year, month, day, hour, minute, 0, 0);
     }
-    function renderNextMatch() {
-      const now = new Date(); const next = state.events.find(event => parseDate(event) >= now) || state.events[0]; if (!next) return;
-      $('#nextMatch').innerHTML = `<div class="competition"><img src="${next.competition_logo}" alt="${next.competition}" loading="lazy"><span>${next.competition}</span></div><div class="versus"><div class="team-mini"><img src="${next.team1_logo}" alt="${next.team1}" loading="lazy"><strong>${next.team1}</strong></div><div class="vs">VS</div><div class="team-mini"><img src="${next.team2_logo}" alt="${next.team2}" loading="lazy"><strong>${next.team2}</strong></div></div><div><div class="date-line"><span class="tag">${next.stage}</span><span class="tag">${next.day}</span></div><div class="next-meta"><div class="meta-box"><span>Data</span><strong>${next.date}</strong></div><div class="meta-box"><span>Ora</span><strong>${next.time}</strong></div></div></div>`;
+
+    function getEventTimestamp(event) {
+      const date = parseRomanianDate(event.date, event.time);
+      return date ? date.getTime() : 0;
     }
-    function streamTemplate(stream) { return `<a class="stream-link" href="${stream.url}" target="_blank" rel="noopener"><img src="${stream.country_flag}" alt="${stream.country}" loading="lazy"><div class="stream-info"><strong>${stream.channel}</strong><span>${stream.country}</span></div><span class="play">▶</span></a>`; }
-    function eventSearchText(event) { const streams = (event.streams || []).map(s => `${s.channel} ${s.country}`).join(' '); return normalize(`${event.sport} ${event.competition} ${event.stage} ${event.date} ${event.day} ${event.time} ${event.team1} ${event.team2} ${streams}`); }
-    function filteredEvents() {
-      const q = normalize(state.search);
-      return state.events.filter(event => { const dayValue = `${event.day}, ${event.date}`; return (state.day === 'all' || dayValue === state.day) && (state.stage === 'all' || event.stage === state.stage) && (!q || eventSearchText(event).includes(q)); });
+
+    function normalizeText(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
     }
-    function renderMatches() {
-      const events = filteredEvents(); $('#resultInfo').textContent = `${events.length} din ${state.events.length} evenimente afișate.`; $('#emptyState').style.display = events.length ? 'none' : 'block';
-      $('#matches').innerHTML = events.map(event => `<article class="match-card"><div class="match-top"><span class="tag">${event.stage}</span><span class="tag">${event.time}</span></div><div class="match-body"><div class="competition"><img src="${event.competition_logo}" alt="${event.competition}" loading="lazy"><span>${event.competition}</span></div><div class="teams"><div class="team"><img src="${event.team1_logo}" alt="${event.team1}" loading="lazy"><strong>${event.team1}</strong></div><div class="vs">VS</div><div class="team"><img src="${event.team2_logo}" alt="${event.team2}" loading="lazy"><strong>${event.team2}</strong></div></div><div class="date-line"><span class="tag">${event.day}</span><span class="tag">${event.date}</span><span class="tag">${(event.streams || []).length} canale</span></div><div class="streams">${(event.streams || []).map(streamTemplate).join('')}</div></div></article>`).join('');
+
+    function getSearchText(event) {
+      const streams = Array.isArray(event.streams)
+        ? event.streams.map(stream => `${stream.channel} ${stream.country}`).join(" ")
+        : "";
+
+      return normalizeText(`
+        ${event.sport}
+        ${event.competition}
+        ${event.stage}
+        ${event.date}
+        ${event.day}
+        ${event.time}
+        ${event.team1}
+        ${event.team2}
+        ${streams}
+      `);
     }
-    $('#searchInput').addEventListener('input', (e) => { state.search = e.target.value; renderMatches(); });
-    $('#daySelect').addEventListener('change', (e) => { state.day = e.target.value; renderMatches(); });
-    $('#todayBtn').addEventListener('click', () => {
-      const today = new Date(); const roMonthName = Object.keys(roMonths).find(name => roMonths[name] === today.getMonth());
-      const todayValue = `${today.toLocaleDateString('ro-RO', { weekday: 'long' }).replace(/^./, c => c.toUpperCase())}, ${today.getDate()} ${roMonthName} ${today.getFullYear()}`;
-      const option = [...$('#daySelect').options].find(opt => normalize(opt.value) === normalize(todayValue));
-      if (option) { state.day = option.value; $('#daySelect').value = option.value; } else { state.day = 'all'; $('#daySelect').value = 'all'; state.search = ''; $('#searchInput').value = ''; }
-      document.getElementById('program').scrollIntoView({ behavior: 'smooth' }); renderMatches();
+
+    function buildStreamButtons(streams) {
+      if (!Array.isArray(streams) || streams.length === 0) {
+        return `<span class="pill">Nu există canale disponibile</span>`;
+      }
+
+      return streams.map(stream => `
+        <a
+          href="${escapeHtml(stream.url)}"
+          class="stream-btn open-modal"
+          data-channel="${escapeHtml(stream.channel)}"
+          data-flag="${escapeHtml(stream.country_flag || "")}">
+          ${stream.country_flag ? `<img src="${escapeHtml(stream.country_flag)}" alt="${escapeHtml(stream.country || "")}" loading="lazy">` : ""}
+          <span>${escapeHtml(stream.channel)}</span>
+        </a>
+      `).join("");
+    }
+
+    function renderEvents(events) {
+      if (!events.length) {
+        eventsBody.innerHTML = `
+          <tr>
+            <td colspan="6" class="empty-state">
+              Nu am găsit evenimente pentru filtrul selectat.
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      eventsBody.innerHTML = events.map((event, index) => {
+        const eventId = `event-${index}`;
+        const streamCount = Array.isArray(event.streams) ? event.streams.length : 0;
+
+        return `
+          <tr class="event" data-event="${eventId}">
+            <td>
+              <div class="sport-icon">${sportIcon(event.sport)}</div>
+            </td>
+
+            <td>
+              <span class="date-cell">${escapeHtml(event.date)}</span>
+              <span class="day-cell">${escapeHtml(event.day || "")}</span>
+            </td>
+
+            <td>
+              <span class="hour-badge">🕒 ${escapeHtml(event.time)}</span>
+            </td>
+
+            <td>
+              <div class="competition">
+                ${event.competition_logo ? `<img src="${escapeHtml(event.competition_logo)}" alt="" loading="lazy">` : ""}
+                <div class="competition-text">
+                  <div class="competition-name">${escapeHtml(event.competition)}</div>
+                  <div class="stage">${escapeHtml(event.stage || event.sport || "")}</div>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div class="event-title">
+                ${event.team1_logo ? `<img class="flag" src="${escapeHtml(event.team1_logo)}" alt="" loading="lazy">` : ""}
+                <span class="team-name">${escapeHtml(event.team1)}</span>
+                <span class="dash">vs</span>
+                <span class="team-name">${escapeHtml(event.team2)}</span>
+                ${event.team2_logo ? `<img class="flag" src="${escapeHtml(event.team2_logo)}" alt="" loading="lazy">` : ""}
+              </div>
+            </td>
+
+            <td>
+              <span class="streams-count">${streamCount} canale</span>
+            </td>
+          </tr>
+
+          <tr class="links" id="links-${eventId}">
+            <td colspan="6">
+              <div class="links-inner">
+                ${buildStreamButtons(event.streams)}
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      initializeRows();
+      initializeModalLinks();
+    }
+
+    function initializeRows() {
+      document.querySelectorAll(".event").forEach(row => {
+        row.addEventListener("click", () => {
+          const eventId = row.getAttribute("data-event");
+          const currentLinksRow = document.getElementById(`links-${eventId}`);
+
+          if (activeLinksRow && activeLinksRow !== currentLinksRow) {
+            activeLinksRow.classList.remove("open");
+          }
+
+          if (activeEventRow && activeEventRow !== row) {
+            activeEventRow.classList.remove("active-row");
+          }
+
+          const isOpen = currentLinksRow.classList.contains("open");
+
+          if (isOpen) {
+            currentLinksRow.classList.remove("open");
+            row.classList.remove("active-row");
+            activeLinksRow = null;
+            activeEventRow = null;
+          } else {
+            currentLinksRow.classList.add("open");
+            row.classList.add("active-row");
+            activeLinksRow = currentLinksRow;
+            activeEventRow = row;
+          }
+        });
+      });
+    }
+
+    function initializeModalLinks() {
+      document.querySelectorAll(".open-modal").forEach(link => {
+        link.addEventListener("click", event => {
+          event.preventDefault();
+
+          const url = link.getAttribute("href");
+          const channel = link.getAttribute("data-channel") || "Canal Live";
+          const flag = link.getAttribute("data-flag") || "";
+
+          playerTitle.textContent = channel;
+
+          if (flag) {
+            playerFlag.src = flag;
+            playerFlag.style.display = "block";
+          } else {
+            playerFlag.src = "";
+            playerFlag.style.display = "none";
+          }
+
+          iframe.src = url;
+          modal.classList.add("active");
+          modal.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+        });
+      });
+    }
+
+    function closeVideoModal() {
+      modal.classList.remove("active");
+      modal.setAttribute("aria-hidden", "true");
+      iframe.src = "";
+      document.body.style.overflow = "";
+    }
+
+    closeModal.addEventListener("click", closeVideoModal);
+
+    modal.addEventListener("click", event => {
+      if (event.target === modal) {
+        closeVideoModal();
+      }
     });
-    $('#year').textContent = new Date().getFullYear(); loadEvents();
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        closeVideoModal();
+      }
+    });
+
+    function populateCompetitionFilter(events) {
+      const competitions = [...new Set(events.map(event => event.competition).filter(Boolean))].sort();
+
+      competitionFilter.innerHTML = `
+        <option value="all">Toate competițiile</option>
+        ${competitions.map(competition => `
+          <option value="${escapeHtml(competition)}">${escapeHtml(competition)}</option>
+        `).join("")}
+      `;
+    }
+
+    function applyFilters() {
+      const query = normalizeText(searchInput.value);
+      const selectedCompetition = competitionFilter.value;
+
+      const filtered = allEvents.filter(event => {
+        const matchesSearch = !query || getSearchText(event).includes(query);
+        const matchesCompetition =
+          selectedCompetition === "all" || event.competition === selectedCompetition;
+
+        return matchesSearch && matchesCompetition;
+      });
+
+      renderEvents(filtered);
+    }
+
+    function updateStats(events) {
+      const streamsCount = events.reduce((sum, event) => {
+        return sum + (Array.isArray(event.streams) ? event.streams.length : 0);
+      }, 0);
+
+      const competitionsCount = new Set(events.map(event => event.competition).filter(Boolean)).size;
+
+      totalEvents.textContent = events.length;
+      totalStreams.textContent = streamsCount;
+      totalCompetitions.textContent = competitionsCount;
+    }
+
+    function renderNextMatch(events) {
+      const now = Date.now();
+
+      const sorted = [...events]
+        .map(event => ({ event, time: getEventTimestamp(event) }))
+        .filter(item => item.time && item.time >= now)
+        .sort((a, b) => a.time - b.time);
+
+      const next = sorted[0]?.event || events[0];
+
+      if (!next) {
+        nextMatch.innerHTML = `<div class="empty-state">Nu există evenimente.</div>`;
+        return;
+      }
+
+      nextMatch.innerHTML = `
+        <div class="next-teams">
+          <div class="team-mini">
+            ${next.team1_logo ? `<img src="${escapeHtml(next.team1_logo)}" alt="" loading="lazy">` : ""}
+            <span>${escapeHtml(next.team1)}</span>
+          </div>
+
+          <div class="vs">VS</div>
+
+          <div class="team-mini">
+            ${next.team2_logo ? `<img src="${escapeHtml(next.team2_logo)}" alt="" loading="lazy">` : ""}
+            <span>${escapeHtml(next.team2)}</span>
+          </div>
+        </div>
+
+        <div class="pill">🏆 ${escapeHtml(next.competition)}</div>
+        <div class="pill">📅 ${escapeHtml(next.day || "")}, ${escapeHtml(next.date)} · ${escapeHtml(next.time)}</div>
+
+        <div class="countdown" id="countdown">
+          <div class="timebox"><strong id="days">0</strong><span>Zile</span></div>
+          <div class="timebox"><strong id="hours">0</strong><span>Ore</span></div>
+          <div class="timebox"><strong id="minutes">0</strong><span>Min</span></div>
+          <div class="timebox"><strong id="seconds">0</strong><span>Sec</span></div>
+        </div>
+      `;
+
+      startCountdown(getEventTimestamp(next));
+    }
+
+    let countdownTimer = null;
+
+    function startCountdown(targetTime) {
+      if (countdownTimer) clearInterval(countdownTimer);
+
+      function updateCountdown() {
+        const distance = Math.max(0, targetTime - Date.now());
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((distance / (1000 * 60)) % 60);
+        const seconds = Math.floor((distance / 1000) % 60);
+
+        const daysEl = document.getElementById("days");
+        const hoursEl = document.getElementById("hours");
+        const minutesEl = document.getElementById("minutes");
+        const secondsEl = document.getElementById("seconds");
+
+        if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
+
+        daysEl.textContent = days;
+        hoursEl.textContent = String(hours).padStart(2, "0");
+        minutesEl.textContent = String(minutes).padStart(2, "0");
+        secondsEl.textContent = String(seconds).padStart(2, "0");
+      }
+
+      updateCountdown();
+      countdownTimer = setInterval(updateCountdown, 1000);
+    }
+
+    function setTodayText() {
+      const formatter = new Intl.DateTimeFormat("ro-RO", {
+        weekday: "long",
+        day: "2-digit",
+        month: "long",
+        year: "numeric"
+      });
+
+      todayPill.textContent = `📅 ${formatter.format(new Date())}`;
+    }
+
+    async function loadEvents() {
+      try {
+        const response = await fetch(EVENTS_JSON_PATH, { cache: "no-store" });
+
+        if (!response.ok) {
+          throw new Error(`Nu pot încărca ${EVENTS_JSON_PATH}`);
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+          throw new Error("Fișierul eventos.json trebuie să conțină un array de evenimente.");
+        }
+
+        allEvents = data
+          .filter(event => event && typeof event === "object")
+          .sort((a, b) => getEventTimestamp(a) - getEventTimestamp(b));
+
+        updateStats(allEvents);
+        populateCompetitionFilter(allEvents);
+        renderNextMatch(allEvents);
+        renderEvents(allEvents);
+      } catch (error) {
+        console.error(error);
+
+        eventsBody.innerHTML = `
+          <tr>
+            <td colspan="6" class="error-state">
+              Nu am putut încărca <strong>eventos.json</strong>.<br>
+              Verifică dacă fișierul este în același folder cu această pagină.
+            </td>
+          </tr>
+        `;
+
+        nextMatch.innerHTML = `
+          <div class="error-state">
+            Eroare la încărcarea evenimentelor.
+          </div>
+        `;
+      }
+    }
+
+    searchInput.addEventListener("input", applyFilters);
+    competitionFilter.addEventListener("change", applyFilters);
+
+    resetBtn.addEventListener("click", () => {
+      searchInput.value = "";
+      competitionFilter.value = "all";
+      applyFilters();
+    });
+
+    setTodayText();
+    loadEvents();
   </script>
 </body>
 </html>
