@@ -1,0 +1,345 @@
+```html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canale TV Live</title>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  background:#0f172a;
+  font-family:Arial,sans-serif;
+  color:white;
+  padding:24px;
+}
+
+h1{
+  text-align:center;
+  margin:0 0 28px;
+  font-size:30px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+  gap:16px;
+  max-width:1400px;
+  margin:0 auto;
+}
+
+.card{
+  background:#1e293b;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:16px;
+  padding:16px 12px;
+  text-align:center;
+  cursor:pointer;
+  transition:.25s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  background:#334155;
+  box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.logo-box{
+  height:80px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:12px;
+}
+
+.logo-box img{
+  max-width:130px;
+  max-height:70px;
+  object-fit:contain;
+}
+
+.name{
+  font-size:14px;
+  font-weight:bold;
+  line-height:1.35;
+}
+
+.id{
+  margin-top:5px;
+  font-size:11px;
+  color:#94a3b8;
+  word-break:break-word;
+}
+
+@media(max-width:600px){
+  body{
+    padding:14px;
+  }
+
+  .grid{
+    grid-template-columns:repeat(auto-fill,minmax(135px,1fr));
+    gap:12px;
+  }
+
+  .card{
+    padding:12px 8px;
+  }
+
+  .logo-box{
+    height:65px;
+  }
+
+  .logo-box img{
+    max-width:105px;
+    max-height:55px;
+  }
+
+  .name{
+    font-size:12px;
+  }
+
+  .id{
+    font-size:10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>📺 Canale TV Live</h1>
+
+<div class="grid" id="channelsGrid"></div>
+
+<script>
+const logoBase = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/";
+const playerPage = "channels.html";
+
+const channels = [
+  {
+    id:"fox-sport-1-usa",
+    name:"FOX Sports 1 USA",
+    logo:logoBase+"united-states/fox-sports-1-us.png"
+  },
+  {
+    id:"fox-sport-2-usa",
+    name:"FOX Sports 2 USA",
+    logo:logoBase+"united-states/fox-sports-2-us.png"
+  },
+  {
+    id:"fox-network-usa",
+    name:"FOX Network USA",
+    logo:logoBase+"united-states/fox-us.png"
+  },
+  {
+    id:"world-cup-tv",
+    name:"World Cup TV",
+    logo:logoBase+"philippines/world-cup-tv-ph.png"
+  },
+  {
+    id:"laligatv",
+    name:"LaLiga TV",
+    logo:logoBase+"united-kingdom/laliga-tv-uk.png"
+  },
+  {
+    id:"maxsport1-croatia",
+    name:"MAX Sport 1 Croatia",
+    logo:logoBase+"croatia/max-sport-1-hr.png"
+  },
+  {
+    id:"maxsport2-croatia",
+    name:"MAX Sport 2 Croatia",
+    logo:logoBase+"croatia/max-sport-2-hr.png"
+  },
+  {
+    id:"primasport1",
+    name:"Prima Sport 1",
+    logo:logoBase+"romania/prima-sport-1-ro.png"
+  },
+  {
+    id:"primasport2",
+    name:"Prima Sport 2",
+    logo:logoBase+"romania/prima-sport-2-ro.png"
+  },
+  {
+    id:"primasport3",
+    name:"Prima Sport 3",
+    logo:logoBase+"romania/prima-sport-3-ro.png"
+  },
+  {
+    id:"primasport4",
+    name:"Prima Sport 4",
+    logo:logoBase+"romania/prima-sport-4-ro.png"
+  },
+  {
+    id:"primasport5",
+    name:"Prima Sport 5",
+    logo:logoBase+"romania/prima-sport-5-ro.png"
+  },
+  {
+    id:"premier-sports-1-uk",
+    name:"Premier Sports 1 UK",
+    logo:logoBase+"united-kingdom/premier-sports-1-uk.png"
+  },
+  {
+    id:"premier-sports-2-uk",
+    name:"Premier Sports 2 UK",
+    logo:logoBase+"united-kingdom/premier-sports-2-uk.png"
+  },
+  {
+    id:"universo",
+    name:"NBC Universo",
+    logo:logoBase+"united-states/nbc-universo-us.png"
+  },
+  {
+    id:"telemundo",
+    name:"Telemundo",
+    logo:logoBase+"united-states/telemundo-us.png"
+  },
+  {
+    id:"tve",
+    name:"TVE",
+    logo:logoBase+"spain/tve-es.png"
+  },
+  {
+    id:"sport-1-cehia",
+    name:"Sport 1 Cehia",
+    logo:logoBase+"czechia/sport-1-cz.png"
+  },
+  {
+    id:"sport-2-cehia",
+    name:"Sport 2 Cehia",
+    logo:logoBase+"czechia/sport-2-cz.png"
+  },
+  {
+    id:"tnt-sport-1-uk",
+    name:"TNT Sports 1 UK",
+    logo:logoBase+"united-kingdom/tnt-sports-1-uk.png"
+  },
+  {
+    id:"tnt-sport-2-uk",
+    name:"TNT Sports 2 UK",
+    logo:logoBase+"united-kingdom/tnt-sports-2-uk.png"
+  },
+  {
+    id:"tnt-sport-3-uk",
+    name:"TNT Sports 3 UK",
+    logo:logoBase+"united-kingdom/tnt-sports-3-uk.png"
+  },
+  {
+    id:"tnt-sport-4-uk",
+    name:"TNT Sports 4 UK",
+    logo:logoBase+"united-kingdom/tnt-sports-4-uk.png"
+  },
+  {
+    id:"itv-1-uk",
+    name:"ITV 1 UK",
+    logo:logoBase+"united-kingdom/itv-1-uk.png"
+  },
+  {
+    id:"nova-sport-1_cehia",
+    name:"Nova Sport 1 Cehia",
+    logo:logoBase+"czechia/nova-sport-1-cz.png"
+  },
+  {
+    id:"nova-sport-2_cehia",
+    name:"Nova Sport 2 Cehia",
+    logo:logoBase+"czechia/nova-sport-2-cz.png"
+  },
+  {
+    id:"match_premier",
+    name:"Match Premier",
+    logo:logoBase+"russia/match-premier-ru.png"
+  },
+  {
+    id:"match_football1",
+    name:"Match Football 1",
+    logo:logoBase+"russia/match-football-1-ru.png"
+  },
+  {
+    id:"match_football2",
+    name:"Match Football 2",
+    logo:logoBase+"russia/match-football-2-ru.png"
+  },
+  {
+    id:"match_football3",
+    name:"Match Football 3",
+    logo:logoBase+"russia/match-football-3-ru.png"
+  },
+  {
+    id:"match_arena",
+    name:"Match Arena",
+    logo:logoBase+"russia/match-arena-ru.png"
+  },
+  {
+    id:"match",
+    name:"Match TV",
+    logo:logoBase+"russia/match-tv-ru.png"
+  },
+  {
+    id:"TSN-1",
+    name:"TSN 1 Canada",
+    logo:logoBase+"canada/tsn-1-ca.png"
+  },
+  {
+    id:"TSN-3",
+    name:"TSN 3 Canada",
+    logo:logoBase+"canada/tsn-3-ca.png"
+  },
+  {
+    id:"fancode",
+    name:"FanCode",
+    logo:logoBase+"india/fancode-in.png"
+  },
+  {
+    id:"sky-sport-f1-uk",
+    name:"Sky Sport F1 UK",
+    logo:logoBase+"united-kingdom/sky-sports-f1-uk.png"
+  },
+  {
+    id:"spor-tv-brazilia",
+    name:"SporTV Brazilia",
+    logo:logoBase+"brazil/sportv-br.png"
+  },
+  {
+    id:"default",
+    name:"Default Channel",
+    logo:"https://via.placeholder.com/300x160/1e293b/ffffff?text=TV"
+  }
+];
+
+const grid = document.getElementById("channelsGrid");
+
+channels.forEach(channel => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <div class="logo-box">
+      <img
+        src="${channel.logo}"
+        alt="${channel.name}"
+        loading="lazy"
+        onerror="this.src='https://via.placeholder.com/300x160/1e293b/ffffff?text=TV'">
+    </div>
+    <div class="name">${channel.name}</div>
+    <div class="id">${channel.id}</div>
+  `;
+
+  card.addEventListener("click", () => {
+    window.open(playerPage + "?id=" + encodeURIComponent(channel.id), "_blank");
+  });
+
+  grid.appendChild(card);
+});
+</script>
+
+</body>
+</html>
+```
