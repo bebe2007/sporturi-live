@@ -1,0 +1,1256 @@
+[
+  {
+    "name": "Tvr 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/ae659141e784e0ee.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr1-hd"
+  },
+  {
+    "name": "Tvr 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/de51720b09341994.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-2-hd"
+  },
+  {
+    "name": "Pro TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/6cebc4a9cdbdb3c8.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/protv-hd"
+  },
+  {
+    "name": "Antena 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/152b725afcfd7c88.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/antena-1"
+  },
+  {
+    "name": "Kanal D",
+    "logo": "https://www.tvonline24.net/uploads/logos/9de34b6f1cb94e73.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/canald"
+  },
+  {
+    "name": "Kanal D2",
+    "logo": "https://www.tvonline24.net/uploads/logos/5004b45650125414.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/kanald2"
+  },
+  {
+    "name": "Prima TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/0ce85c5a24a32e22.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-tv"
+  },
+  {
+    "name": "Prima Comedy",
+    "logo": "https://www.tvonline24.net/uploads/logos/baf2f25aa3ae23f5.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-comedy"
+  },
+  {
+    "name": "Acasa Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/f78e9cf3e24ee953.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/acasa-tv"
+  },
+  {
+    "name": "Antena Stars",
+    "logo": "https://www.tvonline24.net/uploads/logos/adb44a00c192e8b5.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/a-stars"
+  },
+  {
+    "name": "Happy Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/c7dded587f2cc030.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/happy-ch"
+  },
+  {
+    "name": "Pro  TV International",
+    "logo": "https://www.tvonline24.net/uploads/logos/1f2dd4497a8ed37a.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/pro-tv-international"
+  },
+  {
+    "name": "Acasa Gold",
+    "logo": "https://www.tvonline24.net/uploads/logos/5fcb4c41f99b671f.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/acasa-gold"
+  },
+  {
+    "name": "Antena International",
+    "logo": "https://www.tvonline24.net/uploads/logos/e4fec86252f08595.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/antena-international"
+  },
+  {
+    "name": "National TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/c407bed30238bd09.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/national-tv"
+  },
+  {
+    "name": "N24 PLUS",
+    "logo": "https://www.tvonline24.net/uploads/logos/06957424148ce41b.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/n24-plus"
+  },
+  {
+    "name": "TVR 3",
+    "logo": "https://www.tvonline24.net/uploads/logos/3214d4da6db10239.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-3"
+  },
+  {
+    "name": "Metropola  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/4208a15dba9b08d2.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/metropola-tv-hd"
+  },
+  {
+    "name": "TVR Cultural",
+    "logo": "https://www.tvonline24.net/uploads/logos/2b6804d500821fcb.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-cultural"
+  },
+  {
+    "name": "TVR International",
+    "logo": "https://www.tvonline24.net/uploads/logos/41285f4330abf5af.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-international"
+  },
+  {
+    "name": "Kapital  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/ca53d5a63de3c86d.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/kapital-tv"
+  },
+  {
+    "name": "Telestar",
+    "logo": "https://www.tvonline24.net/uploads/logos/5167bf1bfc2a8e04.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/telestar"
+  },
+  {
+    "name": "Dotto TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/4e55514ed309aba6.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/dotto-tv"
+  },
+  {
+    "name": "Antena Monden",
+    "logo": "https://www.tvonline24.net/uploads/logos/a89635a4a45dd2a7.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/antena-monden"
+  },
+  {
+    "name": "Comedy Play",
+    "logo": "https://www.tvonline24.net/uploads/logos/b876f29c31e2b5c2.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/comedy-play"
+  },
+  {
+    "name": "Hunedoara  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/d663c07145f0accb.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/hunedoara-tv"
+  },
+  {
+    "name": "Moldova 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/03220d8a00d737cb.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/moldova-1"
+  },
+  {
+    "name": "Moldova 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/4113bf809eb7ccdd.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/moldova-2"
+  },
+  {
+    "name": "Tvr Craiova",
+    "logo": "https://www.tvonline24.net/uploads/logos/fdb710010ed68203.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-craiova"
+  },
+  {
+    "name": "Tvr Iasi",
+    "logo": "https://www.tvonline24.net/uploads/logos/0fd5c9ddef56c93b.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-iasi"
+  },
+  {
+    "name": "Tvr Timisoara",
+    "logo": "https://www.tvonline24.net/uploads/logos/8b3f0558d4a49bd8.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-timisoara"
+  },
+  {
+    "name": "Tvr Targu Mures",
+    "logo": "https://www.tvonline24.net/uploads/logos/5897059f2da0b5f2.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-targu-mures"
+  },
+  {
+    "name": "Tv Arad",
+    "logo": "https://www.tvonline24.net/uploads/logos/4fc74887effcfba4.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/tv-arad"
+  },
+  {
+    "name": "Inedit Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fb769b5fb.webp",
+    "category": "Generale",
+    "video_link": "https://www.tvonline24.net/ro/embed/inedit-tv"
+  },
+  {
+    "name": "Digi24",
+    "logo": "https://www.tvonline24.net/uploads/logos/01e722f3b214df74.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/digi-24"
+  },
+  {
+    "name": "Antena 3",
+    "logo": "https://www.tvonline24.net/uploads/logos/1d38510fbba443f1.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/antena-3full"
+  },
+  {
+    "name": "Romania TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/796725c4e7882e59.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/romania-tv"
+  },
+  {
+    "name": "Realitatea Plus",
+    "logo": "https://www.tvonline24.net/uploads/logos/0ad52e2c3a539a64.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/realitatea-plus"
+  },
+  {
+    "name": "B1",
+    "logo": "https://www.tvonline24.net/uploads/logos/5da6877c170f417e.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/b1-hd"
+  },
+  {
+    "name": "Nasul  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/1c92e622e52d86c6.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/nasul-tv"
+  },
+  {
+    "name": "Prima News",
+    "logo": "https://www.tvonline24.net/uploads/logos/f0f588584d87dabd.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-news"
+  },
+  {
+    "name": "Realitatea Star",
+    "logo": "https://www.tvonline24.net/uploads/logos/58462465198b7c57.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/realitatea-star"
+  },
+  {
+    "name": "Aleph News",
+    "logo": "https://www.tvonline24.net/uploads/logos/3fad2bc682a93297.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/aleph-news-hd"
+  },
+  {
+    "name": "Aleph Business",
+    "logo": "https://www.tvonline24.net/uploads/logos/d891a79d0a85e9ea.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/aleph-business-hd"
+  },
+  {
+    "name": "BBC World News",
+    "logo": "https://sol.solocoo.tv/soliphone/mmchan/channelicons/BBC%20World%20News%20HD_w267.png",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/bbc-world-news-hd"
+  },
+  {
+    "name": "Smart  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/ee0a977928a193c5.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/smart-tv-hd"
+  },
+  {
+    "name": "Euronews",
+    "logo": "https://www.tvonline24.net/uploads/logos/02743ae23c849917.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/euronews-hd"
+  },
+  {
+    "name": "NCN  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/d94a710a0c08c0a2.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/ncn-tv"
+  },
+  {
+    "name": "CNN",
+    "logo": "https://www.tvonline24.net/uploads/logos/86bd85e0fdf88736.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/cnn-hd"
+  },
+  {
+    "name": "Alfa Omega  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/07e70eb4ddc071e8.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/alfa-omega-tv"
+  },
+  {
+    "name": "Agro  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/30f8f27cc57d4724.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/agro-tv"
+  },
+  {
+    "name": "Privesc EU",
+    "logo": "https://www.tvonline24.net/uploads/logos/cab0044bfee774e7.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/privesc-eu"
+  },
+  {
+    "name": "Info HD",
+    "logo": "https://www.tvonline24.net/uploads/logos/7ef0ffc53618750d.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/info-hd"
+  },
+  {
+    "name": "JobTV",
+    "logo": "https://www.tvonline24.net/uploads/logos/4a9978ac865d51e3.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/jobtv"
+  },
+  {
+    "name": "HD 365",
+    "logo": "https://www.tvonline24.net/uploads/logos/5f8fc2653ec849ff.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/hd-365"
+  },
+  {
+    "name": "Tvr Info",
+    "logo": "https://www.tvonline24.net/uploads/logos/563b19911435c847.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-info"
+  },
+  {
+    "name": "Canal 33",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fa3708f2f.webp",
+    "category": "Știri",
+    "video_link": "https://www.tvonline24.net/ro/embed/canal-33"
+  },
+  {
+    "name": "Eurosport 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/09dfa6f337714538.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/eurosport-1-hd"
+  },
+  {
+    "name": "Eurosport 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/3b71afe117791681.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/eurosport-2-hd"
+  },
+  {
+    "name": "Digi Sport 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/ec969e677b3d8921.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/dgi-sport-1"
+  },
+  {
+    "name": "Digi Sport 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/f690b5292911dfe2.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/dgi-sport-2"
+  },
+  {
+    "name": "Digi Sport 3",
+    "logo": "https://www.tvonline24.net/uploads/logos/7386a515b781b25e.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/dgi-sport-3"
+  },
+  {
+    "name": "Digi Sport 4",
+    "logo": "https://www.tvonline24.net/uploads/logos/d750007a99b1d51e.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/dgi-sport-4"
+  },
+  {
+    "name": "Prima Sport 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/91716cac6239b8b3.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-sport-1"
+  },
+  {
+    "name": "Prima PPV 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fbef92b98.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/ppv-1"
+  },
+  {
+    "name": "Prima Sport 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/ce6b9bf845a8ee5b.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-sport2"
+  },
+  {
+    "name": "Prima PPV 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fbf617620.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/ppv-2"
+  },
+  {
+    "name": "Prima Sport 3",
+    "logo": "https://www.tvonline24.net/uploads/logos/e7de19e0cfab39aa.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-sport-3"
+  },
+  {
+    "name": "Prima PPV 3",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fbfcaa04e.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/ppv-3"
+  },
+  {
+    "name": "Prima Sport 4",
+    "logo": "https://www.tvonline24.net/uploads/logos/6a2ebd64fc4ccab6.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-sport-4"
+  },
+  {
+    "name": "Prima PPV 4",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998fbe329d9f.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-ppv-4"
+  },
+  {
+    "name": "Prima Sport 5",
+    "logo": "https://www.tvonline24.net/uploads/logos/61c068a610fb93cc.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-sport-5"
+  },
+  {
+    "name": "Pro Arena",
+    "logo": "https://www.tvonline24.net/uploads/logos/0e255ed5ed04c9ad.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/pro-arena"
+  },
+  {
+    "name": "Tvr Sport",
+    "logo": "https://www.tvonline24.net/uploads/logos/1430740b7faf7e96.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvrsport"
+  },
+  {
+    "name": "Sport Extra",
+    "logo": "https://www.tvonline24.net/uploads/logos/e17a7fdbe436a40a.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/sport-extra"
+  },
+  {
+    "name": "Realitatea Sportiva",
+    "logo": "https://www.tvonline24.net/uploads/logos/beb3c53c03791d8b.webp",
+    "category": "Sport",
+    "video_link": "https://www.tvonline24.net/ro/embed/realitatea-sportiva"
+  },
+  {
+    "name": "David Attenborough",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab0a8bbac93.jpg",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/david-attenborough"
+  },
+  {
+    "name": "Discovery Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/b5a18b16b656c5fa.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/discovery-channel-hd"
+  },
+  {
+    "name": "ID Investigation Discovery",
+    "logo": "https://www.tvonline24.net/uploads/logos/bba5a26897fe5819.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/id-investigation-discovery"
+  },
+  {
+    "name": "Crime & Investigation",
+    "logo": "https://www.tvonline24.net/uploads/logos/b2d914e70ef52559.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/crime-investigation-channel"
+  },
+  {
+    "name": "Prima History",
+    "logo": "https://www.tvonline24.net/uploads/logos/040af498728a87ba.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-history"
+  },
+  {
+    "name": "Digi World",
+    "logo": "https://www.tvonline24.net/uploads/logos/fb4dff3c69026edc.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/digi-world"
+  },
+  {
+    "name": "Digi Life",
+    "logo": "https://www.tvonline24.net/uploads/logos/4aa4c73434e5146d.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/digi-life"
+  },
+  {
+    "name": "Digi Animal World",
+    "logo": "https://www.tvonline24.net/uploads/logos/a206e4bb7fbbc328.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/digi-animal-world"
+  },
+  {
+    "name": "Animal Planet",
+    "logo": "https://www.tvonline24.net/uploads/logos/1de712de7bdaccd0.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/animal-planet-hd"
+  },
+  {
+    "name": "BBC Earth",
+    "logo": "https://www.tvonline24.net/uploads/logos/6234e70db76d38a2.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/bbc-earth-hd"
+  },
+  {
+    "name": "Viasat History",
+    "logo": "https://www.tvonline24.net/uploads/logos/1598bc8a93082965.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/viasat-history-hd"
+  },
+  {
+    "name": "Viasat Explore",
+    "logo": "https://www.tvonline24.net/uploads/logos/2a28f8de32af053d.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/viasat-explore-hd"
+  },
+  {
+    "name": "Viasat Nature",
+    "logo": "https://www.tvonline24.net/uploads/logos/6941b90448c81.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/viasat-nature-hd"
+  },
+  {
+    "name": "Cinethronix",
+    "logo": "https://www.tvonline24.net/uploads/logos/3f31bcdd14d6c704.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/cinethronix"
+  },
+  {
+    "name": "Love Nature",
+    "logo": "https://www.tvonline24.net/uploads/logos/dead73a7531b1a49.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/love-nature-hd"
+  },
+  {
+    "name": "History Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/7db24e69302d33db.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/history-channel"
+  },
+  {
+    "name": "E! Entertainment",
+    "logo": "https://www.tvonline24.net/uploads/logos/597ecdbe97b77c72.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/e-entertainment-hd"
+  },
+  {
+    "name": "TLC",
+    "logo": "https://www.tvonline24.net/uploads/logos/7057c37505fbc39a.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/tlc-hd"
+  },
+  {
+    "name": "National Geographic",
+    "logo": "https://www.tvonline24.net/uploads/logos/a76036c8bb3b566e.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/national-geographic"
+  },
+  {
+    "name": "National Geographic Wild",
+    "logo": "https://www.tvonline24.net/uploads/logos/4a11153d7100058c.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/national-geographic-wild"
+  },
+  {
+    "name": "Nat Geo People",
+    "logo": "https://www.tvonline24.net/uploads/logos/49232e8933b3f6f4.webp",
+    "category": "Documentare",
+    "video_link": "https://www.tvonline24.net/ro/embed/nat-geo-people"
+  },
+  {
+    "name": "Manele",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab0b115dd01.jpg",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/manele"
+  },
+  {
+    "name": "Rapsodia Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999bc7477f5f.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/rapsodia-tv"
+  },
+  {
+    "name": "Mad World",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998f1f15fb8c.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mad-world"
+  },
+  {
+    "name": "Taraf TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/e614b64f896ad45c.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/taraf-tv-hd"
+  },
+  {
+    "name": "Balkanika Music",
+    "logo": "https://www.tvonline24.net/uploads/logos/f7744787db655865.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/balkanika-music"
+  },
+  {
+    "name": "Favorit TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/1b2ccf79c6516679.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/favorit-tv"
+  },
+  {
+    "name": "Party Mix",
+    "logo": "https://www.tvonline24.net/uploads/logos/8f44f1c92aa35c73.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/partymix"
+  },
+  {
+    "name": "Etno TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/093b5e58594f087f.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/etno-tv-hd"
+  },
+  {
+    "name": "Tezaur TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/a364e030b6d720b6.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/tezaur-tv"
+  },
+  {
+    "name": "Orizont TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/7121c7e770b8d737.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/orizont-tv"
+  },
+  {
+    "name": "Mooz Dance",
+    "logo": "https://www.tvonline24.net/uploads/logos/1fbcc811876efbd4.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mooz-dance-hd"
+  },
+  {
+    "name": "Mooz Hits",
+    "logo": "https://www.tvonline24.net/uploads/logos/0593612b4302ab82.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mooz-hits"
+  },
+  {
+    "name": "Mooz Ro",
+    "logo": "https://www.tvonline24.net/uploads/logos/e1719f24d2870b46.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mooz-ro"
+  },
+  {
+    "name": "ZU TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/b0870a7a03559b89.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/zu-tv"
+  },
+  {
+    "name": "Atomic Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/daeea36be27d5638.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/atomic-tv"
+  },
+  {
+    "name": "MTV",
+    "logo": "https://www.tvonline24.net/uploads/logos/07da9295715b87eb.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mtv"
+  },
+  {
+    "name": "Tvr Folclor",
+    "logo": "https://www.tvonline24.net/uploads/logos/d4ddc1b240fa5040.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvr-folclor"
+  },
+  {
+    "name": "Atomic Academy",
+    "logo": "https://www.tvonline24.net/uploads/logos/56a3314b87016c56.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/atomic-academy"
+  },
+  {
+    "name": "Impact TV 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/b9fb7ac913612e26.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/impact-tv-2"
+  },
+  {
+    "name": "Mezzo",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b9789fa06.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/mezzo"
+  },
+  {
+    "name": "Trace Urban",
+    "logo": "https://www.tvonline24.net/uploads/logos/ab8ca69c34d88b78.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/trace-urban-hd"
+  },
+  {
+    "name": "Kiss TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/2a577ed868fd34f8.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/kiss-tv"
+  },
+  {
+    "name": "Rock TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/acdb810ac96d9374.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/rock-tv"
+  },
+  {
+    "name": "H!t Music Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/721991f026d5f21b.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/h-t-music-channel"
+  },
+  {
+    "name": "QUB TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/ee1f5a71c2badd1e.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/qub-tv"
+  },
+  {
+    "name": "U TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/83a1429cbaadcead.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/u-tv"
+  },
+  {
+    "name": "Lira TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/267a95714f6260f0.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/lira-tv"
+  },
+  {
+    "name": "Impact Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/808f0c3f16a76081.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/impact-tv"
+  },
+  {
+    "name": "ImpactTv Dance",
+    "logo": "https://www.tvonline24.net/uploads/logos/c3cccad5d67295ac.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/impact-tv-dance"
+  },
+  {
+    "name": "Balcan Music Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/f041a09945149d4f.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/balcan-music-tv"
+  },
+  {
+    "name": "Traditional Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/55d1db73ed7863d6.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/traditional-tv"
+  },
+  {
+    "name": "EmiTV",
+    "logo": "https://www.tvonline24.net/uploads/logos/52b775122c55794a.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/emitv"
+  },
+  {
+    "name": "TvAS",
+    "logo": "https://www.tvonline24.net/uploads/logos/9615f772abb6d767.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/tvas"
+  },
+  {
+    "name": "BoomTV",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b3a786a00.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/boomtv"
+  },
+  {
+    "name": "Disco Mix",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b7553204c.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/disco-mix"
+  },
+  {
+    "name": "Hora Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b8ec85c4c.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/hora-tv"
+  },
+  {
+    "name": "Music Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b9d850c33.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/music-channel"
+  },
+  {
+    "name": "Magic TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999b7deeb7ac.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/magic-tv"
+  },
+  {
+    "name": "Slager Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/6999beaf5241f.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/slager-tv"
+  },
+  {
+    "name": "RockZone Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/69bc995d6cbdf.webp",
+    "category": "Muzică",
+    "video_link": "https://www.tvonline24.net/ro/embed/rockzone-tv"
+  },
+  {
+    "name": "FilmTV Romanesti",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998f9430ea12.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmtv-romanesti"
+  },
+  {
+    "name": "Game of Thrones",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab09f9f24fc.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/game-of-thrones"
+  },
+  {
+    "name": "CineWow",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998f5f3b7877.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/cinewow"
+  },
+  {
+    "name": "Filme Online",
+    "logo": "https://www.tvonline24.net/uploads/logos/bee6bf3620c59adb.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filme-online"
+  },
+  {
+    "name": "FilmTV Razboi",
+    "logo": "https://www.tvonline24.net/uploads/logos/a202148142fdfd8d.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmtv-razboi"
+  },
+  {
+    "name": "FilmTV Aventura",
+    "logo": "https://www.tvonline24.net/uploads/logos/2e24293326e5883c.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmtv-aventura"
+  },
+  {
+    "name": "Las Fierbinti",
+    "logo": "https://www.tvonline24.net/uploads/logos/1b2b7b647b1feb5d.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/las-fierbinti"
+  },
+  {
+    "name": "FilmTV Marvel DC",
+    "logo": "https://www.tvonline24.net/uploads/logos/4eb9b0a36495fdd2.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/marveldc"
+  },
+  {
+    "name": "FilmTV BollyWood",
+    "logo": "https://www.tvonline24.net/uploads/logos/e4e9d9d911bd31e6.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/bollywood"
+  },
+  {
+    "name": "FilmTV BoxOffice",
+    "logo": "https://www.tvonline24.net/uploads/logos/e515a8d29f8c4ef2.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/boxoffice"
+  },
+  {
+    "name": "FilmTV Istoric",
+    "logo": "https://www.tvonline24.net/uploads/logos/fa0dffbd72f61914.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmtv-istoric"
+  },
+  {
+    "name": "AXN",
+    "logo": "https://www.tvonline24.net/uploads/logos/2cd4580fe5744b8e.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/axn"
+  },
+  {
+    "name": "AXN Black",
+    "logo": "https://www.tvonline24.net/uploads/logos/0db89f236125c5f2.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/axn-black"
+  },
+  {
+    "name": "AXN Spin",
+    "logo": "https://www.tvonline24.net/uploads/logos/827c2a953c99ed63.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/axn-spin"
+  },
+  {
+    "name": "AXN White",
+    "logo": "https://www.tvonline24.net/uploads/logos/d5c3841153a4ee20.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/axn-white"
+  },
+  {
+    "name": "HBO",
+    "logo": "https://www.tvonline24.net/uploads/logos/f3bf07ee89ab144d.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/hbo"
+  },
+  {
+    "name": "HBO2",
+    "logo": "https://www.tvonline24.net/uploads/logos/0290df4613662ed2.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/hbo2-hd"
+  },
+  {
+    "name": "HBO3",
+    "logo": "https://www.tvonline24.net/uploads/logos/eb6bb1eb4bbb5e2b.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/hbo3-hd"
+  },
+  {
+    "name": "Cinemax",
+    "logo": "https://www.tvonline24.net/uploads/logos/0a09d46faa99fe7a.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/cinemax-hd"
+  },
+  {
+    "name": "Cinemax 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/31c8cccf50b10084.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/cinemax-2-hd"
+  },
+  {
+    "name": "Viasat Kino",
+    "logo": "https://www.tvonline24.net/uploads/logos/9a13d17b5a5eedc6.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/viasat-kino"
+  },
+  {
+    "name": "Film Mania",
+    "logo": "https://www.tvonline24.net/uploads/logos/604fc258e47f4e6a.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/film-mania"
+  },
+  {
+    "name": "AMC",
+    "logo": "https://www.tvonline24.net/uploads/logos/ac7b81376df92414.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/amc-hd"
+  },
+  {
+    "name": "Filmbox",
+    "logo": "https://www.tvonline24.net/uploads/logos/ffda98cb99622f42.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmbox"
+  },
+  {
+    "name": "FilmBox Stars",
+    "logo": "https://www.tvonline24.net/uploads/logos/068998bf4467ff29.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmbox-stars"
+  },
+  {
+    "name": "FilmBox Extra",
+    "logo": "https://www.tvonline24.net/uploads/logos/7cf6ba40ac8ad94e.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmbox-extra-hd"
+  },
+  {
+    "name": "FilmBox Premium",
+    "logo": "https://www.tvonline24.net/uploads/logos/c73b86798c4ee33f.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmbox-premium"
+  },
+  {
+    "name": "Filmbox Family",
+    "logo": "https://www.tvonline24.net/uploads/logos/845643a7c00fbf2e.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmbox-family"
+  },
+  {
+    "name": "Bollywood Film",
+    "logo": "https://www.tvonline24.net/uploads/logos/d81fb80af863b025.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/bollywood-film"
+  },
+  {
+    "name": "Bollywood Classic",
+    "logo": "https://www.tvonline24.net/uploads/logos/859c94e509c3826a.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/bollywood-classic"
+  },
+  {
+    "name": "Diva",
+    "logo": "https://www.tvonline24.net/uploads/logos/7940be39d4a3db64.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/diva"
+  },
+  {
+    "name": "Pro Cinema",
+    "logo": "https://www.tvonline24.net/uploads/logos/649b3ee70378d44f.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/pro-cinema-hd"
+  },
+  {
+    "name": "SkyShowTime 1",
+    "logo": "https://www.tvonline24.net/uploads/logos/2349bfaa1dced878.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/skyshowtime-1"
+  },
+  {
+    "name": "SkyShowTime 2",
+    "logo": "https://www.tvonline24.net/uploads/logos/787c149665c8668e.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/skyshowtime-2"
+  },
+  {
+    "name": "Cinemaraton",
+    "logo": "https://www.tvonline24.net/uploads/logos/228bc7e8117f6052.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/cinemaraton-hd"
+  },
+  {
+    "name": "Epic Drama",
+    "logo": "https://www.tvonline24.net/uploads/logos/3c4ace54f0eaa34b.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/epic-drama-hd"
+  },
+  {
+    "name": "Comedy Central",
+    "logo": "https://www.tvonline24.net/uploads/logos/d4f2495856930fc0.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/comedy-central"
+  },
+  {
+    "name": "Warner TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/f5c6d1952c30d039.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/warner-tv"
+  },
+  {
+    "name": "Film Cafe",
+    "logo": "https://www.tvonline24.net/uploads/logos/b1f6b6f601f347d8.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/film-cafe"
+  },
+  {
+    "name": "Dizi Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/ecbd7fcdb7be1009.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/tdc-dizitv"
+  },
+  {
+    "name": "Film Now",
+    "logo": "https://www.tvonline24.net/uploads/logos/86a899b8cdaca119.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/film-now"
+  },
+  {
+    "name": "BBC First",
+    "logo": "https://www.tvonline24.net/uploads/logos/b49df1824fa960d3.webp",
+    "category": "Filme",
+    "video_link": "https://www.tvonline24.net/ro/embed/bbc-first"
+  },
+  {
+    "name": "HGTV",
+    "logo": "https://www.tvonline24.net/uploads/logos/22210d9df82c0da1.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/hgtv"
+  },
+  {
+    "name": "Prima World",
+    "logo": "https://www.tvonline24.net/uploads/logos/a3711ffe8a520117.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/prima-food-travel"
+  },
+  {
+    "name": "ZoomTv",
+    "logo": "https://www.tvonline24.net/uploads/logos/e8e22d2c0bc9f930.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/zoomtv"
+  },
+  {
+    "name": "HelloTaste",
+    "logo": "https://www.tvonline24.net/uploads/logos/b8ad45c9933a8f24.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/hellotaste"
+  },
+  {
+    "name": "MediCOOL TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/fdb4a30485b00f62.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/medicool-tv"
+  },
+  {
+    "name": "DeParinti",
+    "logo": "https://www.tvonline24.net/uploads/logos/e822359a5b5d43fe.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/deparinti"
+  },
+  {
+    "name": "Travel Mix",
+    "logo": "https://www.tvonline24.net/uploads/logos/4a9b4e477a2d5a29.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/travel-mix-hd"
+  },
+  {
+    "name": "TV Paprika",
+    "logo": "https://www.tvonline24.net/uploads/logos/ac5e232d4d3133d8.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/tv-paprika"
+  },
+  {
+    "name": "Fishing and Hunting",
+    "logo": "https://www.tvonline24.net/uploads/logos/d49acead3c3a531f.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/fishing-and-hunting-hd"
+  },
+  {
+    "name": "Trinitas",
+    "logo": "https://www.tvonline24.net/uploads/logos/af0ec486e10d18bf.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/trinitas-hd"
+  },
+  {
+    "name": "Speranta TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/9ff7ab2792b1b032.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/speranta-tv"
+  },
+  {
+    "name": "Credo TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/5ffffb8a879ce67f.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/credo-tv"
+  },
+  {
+    "name": "Exploris",
+    "logo": "https://www.tvonline24.net/uploads/logos/9ac40ddf7acccfc8.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/exploris-hd"
+  },
+  {
+    "name": "Food Network",
+    "logo": "https://www.tvonline24.net/uploads/logos/7e7710b5cd7ad372.webp",
+    "category": "Life Style",
+    "video_link": "https://www.tvonline24.net/ro/embed/food-network"
+  },
+  {
+    "name": "Desene Dora",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab09bcd8022.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/desene-dora"
+  },
+  {
+    "name": "FilmTv Kids",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab08d48d0a3.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/filmtv-kids"
+  },
+  {
+    "name": "Tom and Jerry",
+    "logo": "https://www.tvonline24.net/uploads/logos/69ab08f9d4003.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/tom-and-jerry"
+  },
+  {
+    "name": "TraLaLa Desene",
+    "logo": "https://www.tvonline24.net/uploads/logos/6998f0b97c958.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/tralala-desene"
+  },
+  {
+    "name": "Disney Channel",
+    "logo": "https://www.tvonline24.net/uploads/logos/1d95ef373349b3d3.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/disney-channel"
+  },
+  {
+    "name": "Disney Junior",
+    "logo": "https://www.tvonline24.net/uploads/logos/2213e8969137fa69.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/disney-junior"
+  },
+  {
+    "name": "Nickelodeon",
+    "logo": "https://www.tvonline24.net/uploads/logos/6e841d0566c373a9.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/nickelodeon"
+  },
+  {
+    "name": "Duck  TV",
+    "logo": "https://www.tvonline24.net/uploads/logos/933133f8887394bb.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/duck-tv"
+  },
+  {
+    "name": "Minimax",
+    "logo": "https://www.tvonline24.net/uploads/logos/90b036a2928a5a28.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/minimax"
+  },
+  {
+    "name": "Jimjam",
+    "logo": "https://www.tvonline24.net/uploads/logos/c15e458fa8fddb75.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/jimjam"
+  },
+  {
+    "name": "Nick Jr.",
+    "logo": "https://www.tvonline24.net/uploads/logos/c854ecbf738cd157.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/nick-jr-"
+  },
+  {
+    "name": "Nicktoons",
+    "logo": "https://www.tvonline24.net/uploads/logos/aeb32023b66015fe.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/nicktoons"
+  },
+  {
+    "name": "Cartoon Network",
+    "logo": "https://www.tvonline24.net/uploads/logos/0c7ffdc9fe72d838.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/cartoon-network"
+  },
+  {
+    "name": "Cartoonito",
+    "logo": "https://www.tvonline24.net/uploads/logos/964ea05f3527e597.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/cartoonito"
+  },
+  {
+    "name": "Da Vinci Learning",
+    "logo": "https://www.tvonline24.net/uploads/logos/77c1c182944e7e5e.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/da-vinci-learning"
+  },
+  {
+    "name": "Tralala Tv",
+    "logo": "https://www.tvonline24.net/uploads/logos/75befda8a4d98420.webp",
+    "category": "Desene Animate",
+    "video_link": "https://www.tvonline24.net/ro/embed/tralala-tv"
+  }
+]
