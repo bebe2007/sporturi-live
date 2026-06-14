@@ -295,29 +295,28 @@ var config = {
 if(canal){
 
 var source = {
-    dash: canal.url,
-    drm: {
-        clearkey: []
-    }
+    dash: canal.url
 };
 
-source.drm.clearkey.push({
-    kid: canal.k1,
-    key: canal.k2
-});
+if (id === "maxsport1-croatia") {
 
-if (canal.k3 && canal.k4) {
-    source.drm.clearkey.push({
-        kid: canal.k3,
-        key: canal.k4
-    });
-}
+    source.drm = {
+        clearkey: [
+            { kid: canal.k1, key: canal.k2 },
+            { kid: canal.k3, key: canal.k4 },
+            { kid: canal.k5, key: canal.k6 }
+        ]
+    };
 
-if (canal.k5 && canal.k6) {
-    source.drm.clearkey.push({
-        kid: canal.k5,
-        key: canal.k6
-    });
+} else {
+
+    source.drm = {
+        clearkey: [{
+            key: canal.k1,
+            kid: canal.k2
+        }]
+    };
+
 }
 
 
