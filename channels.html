@@ -102,6 +102,18 @@ var ConfiguracionCanales = {
     k5: "62a80b73cd3d569fbce3b3dc595f51f0",
     k6: "0abdd3c170334b7d944b74075f2bfb95"
 },
+    "maxsport2-croatia": {
+    url: "https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/MAXSport2/default/index.mpd",
+
+    k1: "f69d13ce8e3856cea259774d1276da53",
+    k2: "0c4a9a3ba6680419b9e495f8e6ad5f8a",
+
+    k3: "7b6c599f4fa854929f0f82b2fb845fba",
+    k4: "d03ff127350ba439c122aed8fcc7b69d",
+
+    k5: "627e28eeacd35eb2832fc6da12c47488",
+    k6: "2a3f47f7b90ee19cd1ce566f52ecbd2a"
+},
 
 "primasport1": {
     url: "https://da-88fffe66.id.vtv-prod.vodafone.ro/wp/live.vtv-prod.vodafone.ro/5913/vxfmt=dp/manifest.mpd?device_profile=DASH_AVC_FULLHD",
@@ -298,8 +310,8 @@ var source = {
     dash: canal.url
 };
 
-if (id === "maxsport1-croatia") {
-
+if (id === "maxsport1-croatia" || id === "maxsport2-croatia") {
+    
     source.drm = {
         clearkey: [
             { kid: canal.k1, key: canal.k2 },
