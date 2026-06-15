@@ -15,32 +15,60 @@
     "team2_logo": "https://flagcdn.com/w160/eg.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -60,32 +88,60 @@
     "team2_logo": "https://flagcdn.com/w160/uy.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -105,32 +161,60 @@
     "team2_logo": "https://flagcdn.com/w160/nz.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -150,32 +234,60 @@
     "team2_logo": "https://flagcdn.com/w160/sn.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -195,32 +307,60 @@
     "team2_logo": "https://flagcdn.com/w160/no.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -240,32 +380,60 @@
     "team2_logo": "https://flagcdn.com/w160/dz.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -285,32 +453,60 @@
     "team2_logo": "https://flagcdn.com/w160/jo.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -330,32 +526,60 @@
     "team2_logo": "https://flagcdn.com/w160/cd.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -375,32 +599,60 @@
     "team2_logo": "https://flagcdn.com/w160/hr.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -420,32 +672,60 @@
     "team2_logo": "https://flagcdn.com/w160/pa.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -465,32 +745,60 @@
     "team2_logo": "https://flagcdn.com/w160/co.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -510,32 +818,60 @@
     "team2_logo": "https://flagcdn.com/w160/za.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -555,32 +891,60 @@
     "team2_logo": "https://flagcdn.com/w160/ba.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -600,32 +964,60 @@
     "team2_logo": "https://flagcdn.com/w160/qa.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -645,32 +1037,60 @@
     "team2_logo": "https://flagcdn.com/w160/kr.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -690,32 +1110,60 @@
     "team2_logo": "https://flagcdn.com/w160/au.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -735,32 +1183,60 @@
     "team2_logo": "https://flagcdn.com/w160/ma.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -780,32 +1256,60 @@
     "team2_logo": "https://flagcdn.com/w160/ht.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -825,32 +1329,60 @@
     "team2_logo": "https://flagcdn.com/w160/py.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -870,32 +1402,60 @@
     "team2_logo": "https://flagcdn.com/w160/se.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -915,32 +1475,60 @@
     "team2_logo": "https://flagcdn.com/w160/ci.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -960,32 +1548,60 @@
     "team2_logo": "https://flagcdn.com/w160/cw.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1005,32 +1621,60 @@
     "team2_logo": "https://flagcdn.com/w160/jp.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1050,32 +1694,60 @@
     "team2_logo": "https://flagcdn.com/w160/sa.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1095,32 +1767,60 @@
     "team2_logo": "https://flagcdn.com/w160/ir.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1140,32 +1840,60 @@
     "team2_logo": "https://flagcdn.com/w160/cv.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1185,32 +1913,60 @@
     "team2_logo": "https://flagcdn.com/w160/eg.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1230,32 +1986,60 @@
     "team2_logo": "https://flagcdn.com/w160/at.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1275,32 +2059,60 @@
     "team2_logo": "https://flagcdn.com/w160/iq.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1320,32 +2132,60 @@
     "team2_logo": "https://flagcdn.com/w160/sn.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1365,32 +2205,60 @@
     "team2_logo": "https://flagcdn.com/w160/dz.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1410,32 +2278,60 @@
     "team2_logo": "https://flagcdn.com/w160/uz.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1455,32 +2351,60 @@
     "team2_logo": "https://flagcdn.com/w160/gh.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1500,32 +2424,60 @@
     "team2_logo": "https://flagcdn.com/w160/hr.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1545,32 +2497,60 @@
     "team2_logo": "https://flagcdn.com/w160/cd.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1590,32 +2570,60 @@
     "team2_logo": "https://flagcdn.com/w160/ca.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1635,32 +2643,60 @@
     "team2_logo": "https://flagcdn.com/w160/qa.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1680,32 +2716,60 @@
     "team2_logo": "https://flagcdn.com/w160/ht.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1725,32 +2789,60 @@
     "team2_logo": "https://flagcdn.com/w160/br.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1770,32 +2862,60 @@
     "team2_logo": "https://flagcdn.com/w160/mx.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1815,32 +2935,60 @@
     "team2_logo": "https://flagcdn.com/w160/kr.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1860,32 +3008,60 @@
     "team2_logo": "https://flagcdn.com/w160/ci.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1905,32 +3081,60 @@
     "team2_logo": "https://flagcdn.com/w160/de.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1950,32 +3154,60 @@
     "team2_logo": "https://flagcdn.com/w160/se.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -1995,32 +3227,60 @@
     "team2_logo": "https://flagcdn.com/w160/nl.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2040,32 +3300,60 @@
     "team2_logo": "https://flagcdn.com/w160/us.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2085,32 +3373,60 @@
     "team2_logo": "https://flagcdn.com/w160/au.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2130,32 +3446,60 @@
     "team2_logo": "https://flagcdn.com/w160/fr.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2175,32 +3519,60 @@
     "team2_logo": "https://flagcdn.com/w160/iq.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2220,32 +3592,60 @@
     "team2_logo": "https://flagcdn.com/w160/sa.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2265,32 +3665,60 @@
     "team2_logo": "https://flagcdn.com/w160/es.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2310,32 +3738,60 @@
     "team2_logo": "https://flagcdn.com/w160/be.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2355,32 +3811,60 @@
     "team2_logo": "https://flagcdn.com/w160/ir.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2400,32 +3884,60 @@
     "team2_logo": "https://flagcdn.com/w160/gb-eng.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2445,32 +3957,60 @@
     "team2_logo": "https://flagcdn.com/w160/gh.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2490,32 +4030,60 @@
     "team2_logo": "https://flagcdn.com/w160/pt.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2535,32 +4103,60 @@
     "team2_logo": "https://flagcdn.com/w160/uz.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2580,32 +4176,60 @@
     "team2_logo": "https://flagcdn.com/w160/at.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   },
@@ -2625,32 +4249,60 @@
     "team2_logo": "https://flagcdn.com/w160/ar.png",
     "streams": [
       {
-        "channel": "ITV 1 UK",
-        "country": "Regatul Unit",
-        "country_code": "gb",
-        "country_flag": "https://flagcdn.com/w160/gb.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=itv-1-uk"
-      },
-      {
         "channel": "Telemundo",
-        "country": "Statele Unite ale Americii",
+        "country": "USA",
         "country_code": "us",
         "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "World Cup TV",
-        "country": "Internațional",
-        "country_code": "un",
-        "country_flag": "https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/un.svg",
+        "channel": "TVE",
+        "country": "SPANIA",
+        "country_code": "es",
+        "country_flag": "https://flagcdn.com/w160/es.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+      },
+      {
+        "channel": "JOJ Šport",
+        "country": "SLOVACIA",
+        "country_code": "sk",
+        "country_flag": "https://flagcdn.com/w160/sk.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
+      },
+      {
+        "channel": "Match Football 1",
+        "country": "RUSIA",
+        "country_code": "ru",
+        "country_flag": "https://flagcdn.com/w160/ru.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
+      },
+      {
+        "channel": "Fussball TV 2",
+        "country": "GERMANIA",
+        "country_code": "de",
+        "country_flag": "https://flagcdn.com/w160/de.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
+      },
+      {
+        "channel": "M6",
+        "country": "FRANTA",
+        "country_code": "fr",
+        "country_flag": "https://flagcdn.com/w160/fr.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
       },
       {
-        "channel": "FOX Network USA",
-        "country": "Statele Unite ale Americii",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox-network-usa"
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
       }
     ]
   }
