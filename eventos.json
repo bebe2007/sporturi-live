@@ -474,9 +474,9 @@
     "day": "Sâmbătă",
     "time": "20:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 74",
+    "team1": "Câștigătoarea dintre Brazilia și Japonia",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 75",
+    "team2": "Câștigătoarea dintre Germania și Paraguay",
     "team2_logo": "",
     "streams": [
       {
@@ -505,9 +505,9 @@
     "day": "Duminică",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 76",
+    "team1": "Câștigătoarea dintre Olanda și Maroc",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 77",
+    "team2": "Câștigătoarea dintre Coasta de Fildeș și Norvegia",
     "team2_logo": "",
     "streams": [
       {
@@ -536,9 +536,9 @@
     "day": "Duminică",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 78",
+    "team1": "Câștigătoarea dintre Franța și Suedia",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 79",
+    "team2": "Câștigătoarea dintre Mexic și Ecuador",
     "team2_logo": "",
     "streams": [
       {
@@ -567,9 +567,9 @@
     "day": "Luni",
     "time": "03:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 80",
+    "team1": "Câștigătoarea dintre Anglia și DR Congo",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 81",
+    "team2": "Câștigătoarea dintre Belgia și Senegal",
     "team2_logo": "",
     "streams": [
       {
@@ -598,9 +598,9 @@
     "day": "Luni",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 82",
+    "team1": "Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 83",
+    "team2": "Câștigătoarea dintre Spania și Austria",
     "team2_logo": "",
     "streams": [
       {
@@ -629,9 +629,9 @@
     "day": "Marți",
     "time": "03:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 84",
+    "team1": "Câștigătoarea dintre Portugalia și Croația",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 85",
+    "team2": "Câștigătoarea dintre Elveția și Algeria",
     "team2_logo": "",
     "streams": [
       {
@@ -660,9 +660,9 @@
     "day": "Marți",
     "time": "19:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 86",
+    "team1": "Câștigătoarea dintre Australia și Egipt",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 87",
+    "team2": "Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
@@ -691,7 +691,7 @@
     "day": "Marți",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoare meci 88",
+    "team1": "Câștigătoarea dintre Columbia și Ghana",
     "team1_logo": "",
     "team2": "Câștigătoare meci 73",
     "team2_logo": "",
@@ -722,9 +722,9 @@
     "day": "Joi",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoare optime 1",
+    "team1": "Câștigătoarea dintre câștigătoarele primelor două optimi",
     "team1_logo": "",
-    "team2": "Câștigătoare optime 2",
+    "team2": "Câștigătoarea dintre câștigătoarele optimilor 3 și 4",
     "team2_logo": "",
     "streams": [
       {
@@ -753,9 +753,9 @@
     "day": "Vineri",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoare optime 3",
+    "team1": "Câștigătoarea dintre câștigătoarele optimilor 5 și 6",
     "team1_logo": "",
-    "team2": "Câștigătoare optime 4",
+    "team2": "Câștigătoarea dintre câștigătoarele optimilor 7 și 8",
     "team2_logo": "",
     "streams": [
       {
@@ -784,9 +784,9 @@
     "day": "Sâmbătă",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Câștigătoare optime 5",
+    "team1": "Câștigătoarea dintre câștigătoarele optimilor 9 și 10",
     "team1_logo": "",
-    "team2": "Câștigătoare optime 6",
+    "team2": "Câștigătoarea dintre câștigătoarele optimilor 11 și 12",
     "team2_logo": "",
     "streams": [
       {
@@ -815,9 +815,9 @@
     "day": "Duminică",
     "time": "04:00",
     "status": "upcoming",
-    "team1": "Câștigătoare optime 7",
+    "team1": "Câștigătoarea dintre câștigătoarele optimilor 13 și 14",
     "team1_logo": "",
-    "team2": "Câștigătoare optime 8",
+    "team2": "Câștigătoarea dintre câștigătoarele optimilor 15 și 16",
     "team2_logo": "",
     "streams": [
       {
@@ -846,9 +846,9 @@
     "day": "Marți",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoare sfert 1",
+    "team1": "Câștigătoarea sfert 1",
     "team1_logo": "",
-    "team2": "Câștigătoare sfert 2",
+    "team2": "Câștigătoarea sfert 2",
     "team2_logo": "",
     "streams": [
       {
@@ -877,9 +877,9 @@
     "day": "Miercuri",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoare sfert 3",
+    "team1": "Câștigătoarea sfert 3",
     "team1_logo": "",
-    "team2": "Câștigătoare sfert 4",
+    "team2": "Câștigătoarea sfert 4",
     "team2_logo": "",
     "streams": [
       {
@@ -908,9 +908,9 @@
     "day": "Duminică",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Învinsă semifinala 1",
+    "team1": "Învinsa din semifinala 1",
     "team1_logo": "",
-    "team2": "Învinsă semifinala 2",
+    "team2": "Învinsa din semifinala 2",
     "team2_logo": "",
     "streams": [
       {
@@ -939,9 +939,9 @@
     "day": "Duminică",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoare semifinala 1",
+    "team1": "Câștigătoarea semifinala 1",
     "team1_logo": "",
-    "team2": "Câștigătoare semifinala 2",
+    "team2": "Câștigătoarea semifinala 2",
     "team2_logo": "",
     "streams": [
       {
