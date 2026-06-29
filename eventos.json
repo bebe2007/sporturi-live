@@ -1,310 +1,20 @@
 [
   {
-    "id": "match_037",
+    "id": "match_001",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "19:00",
-    "status": "upcoming",
-    "team1": "Spania",
-    "team1_logo": "https://flagcdn.com/w160/es.png",
-    "team2": "Arabia Saudită",
-    "team2_logo": "https://flagcdn.com/w160/sa.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_038",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "21 Iunie 2026",
-    "day": "Duminică",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Belgia",
-    "team1_logo": "https://flagcdn.com/w160/be.png",
-    "team2": "Iran",
-    "team2_logo": "https://flagcdn.com/w160/ir.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_039",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "22 Iunie 2026",
-    "day": "Luni",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Uruguay",
-    "team1_logo": "https://flagcdn.com/w160/uy.png",
-    "team2": "Capul Verde",
-    "team2_logo": "https://flagcdn.com/w160/cv.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_040",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "22 Iunie 2026",
-    "day": "Luni",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Noua Zeelandă",
-    "team1_logo": "https://flagcdn.com/w160/nz.png",
-    "team2": "Egipt",
-    "team2_logo": "https://flagcdn.com/w160/eg.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_041",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "22 Iunie 2026",
+    "stage": "Round of 32",
+    "date": "29 Iunie 2026",
     "day": "Luni",
     "time": "20:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Argentina",
-    "team1_logo": "https://flagcdn.com/w160/ar.png",
-    "team2": "Austria",
-    "team2_logo": "https://flagcdn.com/w160/at.png",
+    "team1": "Brazilia",
+    "team1_logo": "https://flagcdn.com/w160/br.png",
+    "team2": "Japonia",
+    "team2_logo": "https://flagcdn.com/w160/jp.png",
+    "venue": "NRG Stadium, Houston, Texas",
     "streams": [
       {
         "channel": "Telemundo",
@@ -314,39 +24,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -361,23 +50,299 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_042",
+    "id": "match_002",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "23 Iunie 2026",
+    "stage": "Round of 32",
+    "date": "29 Iunie 2026",
+    "day": "Luni",
+    "time": "23:30",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Germania",
+    "team1_logo": "https://flagcdn.com/w160/de.png",
+    "team2": "Paraguay",
+    "team2_logo": "https://flagcdn.com/w160/py.png",
+    "venue": "Gillette Stadium, Foxborough, Massachusetts",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_003",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "30 Iunie 2026",
     "day": "Marți",
+    "time": "04:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Olanda",
+    "team1_logo": "https://flagcdn.com/w160/nl.png",
+    "team2": "Maroc",
+    "team2_logo": "https://flagcdn.com/w160/ma.png",
+    "venue": "Estadio BBVA, Guadalupe, Mexico",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_004",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "30 Iunie 2026",
+    "day": "Marți",
+    "time": "20:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Coasta de Fildeș",
+    "team1_logo": "https://flagcdn.com/w160/ci.png",
+    "team2": "Norvegia",
+    "team2_logo": "https://flagcdn.com/w160/no.png",
+    "venue": "AT&T Stadium, Arlington, Texas",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_005",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "1 Iulie 2026",
+    "day": "Miercuri",
     "time": "00:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
     "team1": "Franța",
     "team1_logo": "https://flagcdn.com/w160/fr.png",
-    "team2": "Irak",
-    "team2_logo": "https://flagcdn.com/w160/iq.png",
+    "team2": "Suedia",
+    "team2_logo": "https://flagcdn.com/w160/se.png",
+    "venue": "MetLife Stadium, East Rutherford, New Jersey",
     "streams": [
       {
         "channel": "Telemundo",
@@ -387,39 +352,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -434,23 +378,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_043",
+    "id": "match_006",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "03:00",
+    "stage": "Round of 32",
+    "date": "1 Iulie 2026",
+    "day": "Miercuri",
+    "time": "04:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Norvegia",
-    "team1_logo": "https://flagcdn.com/w160/no.png",
-    "team2": "Senegal",
-    "team2_logo": "https://flagcdn.com/w160/sn.png",
+    "team1": "Mexic",
+    "team1_logo": "https://flagcdn.com/w160/mx.png",
+    "team2": "Ecuador",
+    "team2_logo": "https://flagcdn.com/w160/ec.png",
+    "venue": "Estadio Banorte, Mexico City, Mexico",
     "streams": [
       {
         "channel": "Telemundo",
@@ -460,39 +434,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -507,315 +460,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_044",
+    "id": "match_007",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Iordania",
-    "team1_logo": "https://flagcdn.com/w160/jo.png",
-    "team2": "Algeria",
-    "team2_logo": "https://flagcdn.com/w160/dz.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_045",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Portugalia",
-    "team1_logo": "https://flagcdn.com/w160/pt.png",
-    "team2": "Uzbekistan",
-    "team2_logo": "https://flagcdn.com/w160/uz.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_046",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "23 Iunie 2026",
-    "day": "Marți",
-    "time": "23:00",
+    "stage": "Round of 32",
+    "date": "1 Iulie 2026",
+    "day": "Miercuri",
+    "time": "19:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
     "team1": "Anglia",
     "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "team2": "Ghana",
-    "team2_logo": "https://flagcdn.com/w160/gh.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_047",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Panama",
-    "team1_logo": "https://flagcdn.com/w160/pa.png",
-    "team2": "Croația",
-    "team2_logo": "https://flagcdn.com/w160/hr.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_048",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Columbia",
-    "team1_logo": "https://flagcdn.com/w160/co.png",
     "team2": "DR Congo",
     "team2_logo": "https://flagcdn.com/w160/cd.png",
+    "venue": "Mercedes-Benz Stadium, Atlanta, Georgia",
     "streams": [
       {
         "channel": "Telemundo",
@@ -825,39 +516,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -872,23 +542,381 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_049",
+    "id": "match_008",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "24 Iunie 2026",
+    "stage": "Round of 32",
+    "date": "1 Iulie 2026",
     "day": "Miercuri",
+    "time": "23:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Belgia",
+    "team1_logo": "https://flagcdn.com/w160/be.png",
+    "team2": "Senegal",
+    "team2_logo": "https://flagcdn.com/w160/sn.png",
+    "venue": "Lumen Field, Seattle, Washington",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_009",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "2 Iulie 2026",
+    "day": "Joi",
+    "time": "03:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "SUA",
+    "team1_logo": "https://flagcdn.com/w160/us.png",
+    "team2": "Bosnia-Herțegovina",
+    "team2_logo": "https://flagcdn.com/w160/ba.png",
+    "venue": "Levi's Stadium, Santa Clara, California",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_010",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "2 Iulie 2026",
+    "day": "Joi",
     "time": "22:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Spania",
+    "team1_logo": "https://flagcdn.com/w160/es.png",
+    "team2": "Austria",
+    "team2_logo": "https://flagcdn.com/w160/at.png",
+    "venue": "SoFi Stadium, Inglewood, California",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_011",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "3 Iulie 2026",
+    "day": "Vineri",
+    "time": "02:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Portugalia",
+    "team1_logo": "https://flagcdn.com/w160/pt.png",
+    "team2": "Croația",
+    "team2_logo": "https://flagcdn.com/w160/hr.png",
+    "venue": "BMO Field, Toronto, Canada",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_012",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Round of 32",
+    "date": "3 Iulie 2026",
+    "day": "Vineri",
+    "time": "06:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
     "team1": "Elveția",
     "team1_logo": "https://flagcdn.com/w160/ch.png",
-    "team2": "Canada",
-    "team2_logo": "https://flagcdn.com/w160/ca.png",
+    "team2": "Algeria",
+    "team2_logo": "https://flagcdn.com/w160/dz.png",
+    "venue": "BC Place, Vancouver, Canada",
     "streams": [
       {
         "channel": "Telemundo",
@@ -898,39 +926,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -945,23 +952,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_050",
+    "id": "match_013",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa B",
-    "date": "24 Iunie 2026",
-    "day": "Miercuri",
-    "time": "22:00",
+    "stage": "Round of 32",
+    "date": "3 Iulie 2026",
+    "day": "Vineri",
+    "time": "21:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Bosnia",
-    "team1_logo": "https://flagcdn.com/w160/ba.png",
-    "team2": "Qatar",
-    "team2_logo": "https://flagcdn.com/w160/qa.png",
+    "team1": "Australia",
+    "team1_logo": "https://flagcdn.com/w160/au.png",
+    "team2": "Egipt",
+    "team2_logo": "https://flagcdn.com/w160/eg.png",
+    "venue": "AT&T Stadium, Arlington, Texas",
     "streams": [
       {
         "channel": "Telemundo",
@@ -971,39 +1008,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -1018,23 +1034,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_051",
+    "id": "match_014",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
+    "stage": "Round of 32",
+    "date": "4 Iulie 2026",
+    "day": "Sâmbătă",
     "time": "01:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Maroc",
-    "team1_logo": "https://flagcdn.com/w160/ma.png",
-    "team2": "Haiti",
-    "team2_logo": "https://flagcdn.com/w160/ht.png",
+    "team1": "Argentina",
+    "team1_logo": "https://flagcdn.com/w160/ar.png",
+    "team2": "Capul Verde",
+    "team2_logo": "https://flagcdn.com/w160/cv.png",
+    "venue": "Hard Rock Stadium, Miami Gardens, Florida",
     "streams": [
       {
         "channel": "Telemundo",
@@ -1044,39 +1090,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -1091,1264 +1116,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_052",
+    "id": "match_015",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa C",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "01:00",
-    "status": "upcoming",
-    "team1": "Scoția",
-    "team1_logo": "https://flagcdn.com/w160/gb-sct.png",
-    "team2": "Brazilia",
-    "team2_logo": "https://flagcdn.com/w160/br.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_053",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Cehia",
-    "team1_logo": "https://flagcdn.com/w160/cz.png",
-    "team2": "Mexic",
-    "team2_logo": "https://flagcdn.com/w160/mx.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_054",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa A",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Africa de Sud",
-    "team1_logo": "https://flagcdn.com/w160/za.png",
-    "team2": "Coreea de Sud",
-    "team2_logo": "https://flagcdn.com/w160/kr.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_055",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Curaçao",
-    "team1_logo": "https://flagcdn.com/w160/cw.png",
-    "team2": "Coasta de Fildeș",
-    "team2_logo": "https://flagcdn.com/w160/ci.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_056",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa E",
-    "date": "25 Iunie 2026",
-    "day": "Joi",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Ecuador",
-    "team1_logo": "https://flagcdn.com/w160/ec.png",
-    "team2": "Germania",
-    "team2_logo": "https://flagcdn.com/w160/de.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_057",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Japonia",
-    "team1_logo": "https://flagcdn.com/w160/jp.png",
-    "team2": "Suedia",
-    "team2_logo": "https://flagcdn.com/w160/se.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_058",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa F",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Tunisia",
-    "team1_logo": "https://flagcdn.com/w160/tn.png",
-    "team2": "Olanda",
-    "team2_logo": "https://flagcdn.com/w160/nl.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_059",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Turcia",
-    "team1_logo": "https://flagcdn.com/w160/tr.png",
-    "team2": "SUA",
-    "team2_logo": "https://flagcdn.com/w160/us.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_060",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa D",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "05:00",
-    "status": "upcoming",
-    "team1": "Paraguay",
-    "team1_logo": "https://flagcdn.com/w160/py.png",
-    "team2": "Australia",
-    "team2_logo": "https://flagcdn.com/w160/au.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_061",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Norvegia",
-    "team1_logo": "https://flagcdn.com/w160/no.png",
-    "team2": "Franța",
-    "team2_logo": "https://flagcdn.com/w160/fr.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_062",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa I",
-    "date": "26 Iunie 2026",
-    "day": "Vineri",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Senegal",
-    "team1_logo": "https://flagcdn.com/w160/sn.png",
-    "team2": "Irak",
-    "team2_logo": "https://flagcdn.com/w160/iq.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_063",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "27 Iunie 2026",
+    "stage": "Round of 32",
+    "date": "4 Iulie 2026",
     "day": "Sâmbătă",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Capul Verde",
-    "team1_logo": "https://flagcdn.com/w160/cv.png",
-    "team2": "Arabia Saudită",
-    "team2_logo": "https://flagcdn.com/w160/sa.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_064",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa H",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Uruguay",
-    "team1_logo": "https://flagcdn.com/w160/uy.png",
-    "team2": "Spania",
-    "team2_logo": "https://flagcdn.com/w160/es.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_065",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Noua Zeelandă",
-    "team1_logo": "https://flagcdn.com/w160/nz.png",
-    "team2": "Belgia",
-    "team2_logo": "https://flagcdn.com/w160/be.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_066",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa G",
-    "date": "27 Iunie 2026",
-    "day": "Sâmbătă",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Egipt",
-    "team1_logo": "https://flagcdn.com/w160/eg.png",
-    "team2": "Iran",
-    "team2_logo": "https://flagcdn.com/w160/ir.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_067",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Panama",
-    "team1_logo": "https://flagcdn.com/w160/pa.png",
-    "team2": "Anglia",
-    "team2_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_068",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa L",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Croația",
-    "team1_logo": "https://flagcdn.com/w160/hr.png",
-    "team2": "Ghana",
-    "team2_logo": "https://flagcdn.com/w160/gh.png",
-    "streams": [
-      {
-        "channel": "Telemundo",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
-      },
-      {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
-      },
-      {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
-      },
-      {
-        "channel": "WCTV",
-        "country": "USA",
-        "country_code": "us",
-        "country_flag": "https://flagcdn.com/w160/us.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
-      },
-      {
-        "channel": "Cazé TV",
-        "country": "BRAZILIA",
-        "country_code": "br",
-        "country_flag": "https://flagcdn.com/w160/br.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
-      }
-    ]
-  },
-  {
-    "id": "match_069",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "02:30",
+    "time": "04:30",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
     "team1": "Columbia",
     "team1_logo": "https://flagcdn.com/w160/co.png",
-    "team2": "Portugalia",
-    "team2_logo": "https://flagcdn.com/w160/pt.png",
+    "team2": "Ghana",
+    "team2_logo": "https://flagcdn.com/w160/gh.png",
+    "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
     "streams": [
       {
         "channel": "Telemundo",
@@ -2358,39 +1172,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -2405,23 +1198,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_070",
+    "id": "match_016",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa K",
-    "date": "28 Iunie 2026",
-    "day": "Duminică",
-    "time": "02:30",
+    "stage": "Optimi de finală",
+    "date": "4 Iulie 2026",
+    "day": "Sâmbătă",
+    "time": "20:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "DR Congo",
-    "team1_logo": "https://flagcdn.com/w160/cd.png",
-    "team2": "Uzbekistan",
-    "team2_logo": "https://flagcdn.com/w160/uz.png",
+    "team1": "Canada",
+    "team1_logo": "https://flagcdn.com/w160/ca.png",
+    "team2": "Câștigătoarea meciului Brazilia - Japonia",
+    "team2_logo": "",
+    "venue": "NRG Stadium, Houston, Texas",
     "streams": [
       {
         "channel": "Telemundo",
@@ -2431,39 +1254,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -2478,23 +1280,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_071",
+    "id": "match_017",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "28 Iunie 2026",
+    "stage": "Optimi de finală",
+    "date": "5 Iulie 2026",
     "day": "Duminică",
-    "time": "05:00",
+    "time": "00:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Algeria",
-    "team1_logo": "https://flagcdn.com/w160/dz.png",
-    "team2": "Austria",
-    "team2_logo": "https://flagcdn.com/w160/at.png",
+    "team1": "Câștigătoarea meciului Germania - Paraguay",
+    "team1_logo": "",
+    "team2": "Câștigătoarea meciului Franța - Suedia",
+    "team2_logo": "",
+    "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania",
     "streams": [
       {
         "channel": "Telemundo",
@@ -2504,39 +1336,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -2551,23 +1362,53 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   },
   {
-    "id": "match_072",
+    "id": "match_018",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Grupa J",
-    "date": "28 Iunie 2026",
+    "stage": "Optimi de finală",
+    "date": "5 Iulie 2026",
     "day": "Duminică",
-    "time": "05:00",
+    "time": "23:00",
+    "timezone": "Europe/Bucharest",
     "status": "upcoming",
-    "team1": "Iordania",
-    "team1_logo": "https://flagcdn.com/w160/jo.png",
-    "team2": "Argentina",
-    "team2_logo": "https://flagcdn.com/w160/ar.png",
+    "team1": "Câștigătoarea meciului Olanda - Maroc",
+    "team1_logo": "",
+    "team2": "Câștigătoarea meciului Coasta de Fildeș - Norvegia",
+    "team2_logo": "",
+    "venue": "MetLife Stadium, East Rutherford, New Jersey",
     "streams": [
       {
         "channel": "Telemundo",
@@ -2577,39 +1418,18 @@
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
       },
       {
-        "channel": "TVE",
-        "country": "SPANIA",
-        "country_code": "es",
-        "country_flag": "https://flagcdn.com/w160/es.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=tve"
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
       },
       {
-        "channel": "JOJ Šport",
-        "country": "SLOVACIA",
-        "country_code": "sk",
-        "country_flag": "https://flagcdn.com/w160/sk.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=jojsport-slovacia"
-      },
-      {
-        "channel": "Match Football 1",
-        "country": "RUSIA",
-        "country_code": "ru",
-        "country_flag": "https://flagcdn.com/w160/ru.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=match_football1"
-      },
-      {
-        "channel": "Fussball TV 2",
-        "country": "GERMANIA",
-        "country_code": "de",
-        "country_flag": "https://flagcdn.com/w160/de.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fussball-tv2"
-      },
-      {
-        "channel": "M6",
-        "country": "FRANTA",
-        "country_code": "fr",
-        "country_flag": "https://flagcdn.com/w160/fr.png",
-        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=m6"
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
       },
       {
         "channel": "WCTV",
@@ -2624,6 +1444,116 @@
         "country_code": "br",
         "country_flag": "https://flagcdn.com/w160/br.png",
         "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
+      }
+    ]
+  },
+  {
+    "id": "match_019",
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "stage": "Optimi de finală",
+    "date": "6 Iulie 2026",
+    "day": "Luni",
+    "time": "03:00",
+    "timezone": "Europe/Bucharest",
+    "status": "upcoming",
+    "team1": "Câștigătoarea meciului Mexic - Ecuador",
+    "team1_logo": "",
+    "team2": "Câștigătoarea meciului Anglia - DR Congo",
+    "team2_logo": "",
+    "venue": "Estadio Banorte, Mexico City, Mexico",
+    "streams": [
+      {
+        "channel": "Telemundo",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=telemundo"
+      },
+      {
+        "channel": "FOX",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fox"
+      },
+      {
+        "channel": "FS1",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=fs1"
+      },
+      {
+        "channel": "WCTV",
+        "country": "USA",
+        "country_code": "us",
+        "country_flag": "https://flagcdn.com/w160/us.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=world-cup-tv"
+      },
+      {
+        "channel": "Cazé TV",
+        "country": "BRAZILIA",
+        "country_code": "br",
+        "country_flag": "https://flagcdn.com/w160/br.png",
+        "url": "https://bebe2007.github.io/sporturi-live/channels.html?id=cazetv"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline24.net/ro/embed/antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://canale-tv.net/channel/a1.html"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://www.tvonline123.eu/tvlive/?url=antena-1"
+      },
+      {
+        "channel": "Antena 1",
+        "country": "ROMÂNIA",
+        "country_code": "ro",
+        "country_flag": "https://flagcdn.com/w160/ro.png",
+        "url": "https://tvron.ro/embed/95"
       }
     ]
   }
