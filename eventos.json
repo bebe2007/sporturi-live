@@ -474,8 +474,8 @@
     "day": "Sâmbătă",
     "time": "20:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Brazilia și Japonia",
-    "team1_logo": "",
+    "team1": "Canada",
+    "team1_logo": "https://flagcdn.com/w160/ca.png",
     "team2": "Câștigătoarea dintre Germania și Paraguay",
     "team2_logo": "",
     "streams": [
@@ -505,7 +505,7 @@
     "day": "Duminică",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Olanda și Maroc",
+    "team1": "Câștigătoarea dintre Brazilia și Japonia",
     "team1_logo": "",
     "team2": "Câștigătoarea dintre Coasta de Fildeș și Norvegia",
     "team2_logo": "",
@@ -536,9 +536,9 @@
     "day": "Duminică",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Franța și Suedia",
+    "team1": "Câștigătoarea dintre Olanda și Maroc",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Mexic și Ecuador",
+    "team2": "Câștigătoarea dintre Franța și Suedia",
     "team2_logo": "",
     "streams": [
       {
@@ -567,9 +567,9 @@
     "day": "Luni",
     "time": "03:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Anglia și DR Congo",
+    "team1": "Câștigătoarea dintre Mexic și Ecuador",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Belgia și Senegal",
+    "team2": "Câștigătoarea dintre Anglia și DR Congo",
     "team2_logo": "",
     "streams": [
       {
@@ -598,9 +598,9 @@
     "day": "Luni",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
+    "team1": "Câștigătoarea dintre Spania și Austria",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Spania și Austria",
+    "team2": "Câștigătoarea dintre Portugalia și Croația",
     "team2_logo": "",
     "streams": [
       {
@@ -629,9 +629,9 @@
     "day": "Marți",
     "time": "03:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Portugalia și Croația",
+    "team1": "Câștigătoarea dintre Belgia și Senegal",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Elveția și Algeria",
+    "team2": "Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team2_logo": "",
     "streams": [
       {
@@ -662,7 +662,7 @@
     "status": "upcoming",
     "team1": "Câștigătoarea dintre Australia și Egipt",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Argentina și Capul Verde",
+    "team2": "Câștigătoarea dintre Columbia și Ghana",
     "team2_logo": "",
     "streams": [
       {
@@ -691,9 +691,9 @@
     "day": "Marți",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Columbia și Ghana",
+    "team1": "Câștigătoarea dintre Elveția și Algeria",
     "team1_logo": "",
-    "team2": "Câștigătoare meci 73",
+    "team2": "Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
@@ -722,9 +722,9 @@
     "day": "Joi",
     "time": "23:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre câștigătoarele primelor două optimi",
+    "team1": "Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre câștigătoarele optimilor 3 și 4",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia",
     "team2_logo": "",
     "streams": [
       {
@@ -753,9 +753,9 @@
     "day": "Vineri",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre câștigătoarele optimilor 5 și 6",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre câștigătoarele optimilor 7 și 8",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team2_logo": "",
     "streams": [
       {
@@ -784,9 +784,9 @@
     "day": "Sâmbătă",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre câștigătoarele optimilor 9 și 10",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre câștigătoarele optimilor 11 și 12",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo",
     "team2_logo": "",
     "streams": [
       {
@@ -815,9 +815,9 @@
     "day": "Duminică",
     "time": "04:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre câștigătoarele optimilor 13 și 14",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre câștigătoarele optimilor 15 și 16",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
@@ -846,9 +846,9 @@
     "day": "Marți",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea sfert 1",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia",
     "team1_logo": "",
-    "team2": "Câștigătoarea sfert 2",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team2_logo": "",
     "streams": [
       {
@@ -877,9 +877,9 @@
     "day": "Miercuri",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea sfert 3",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo",
     "team1_logo": "",
-    "team2": "Câștigătoarea sfert 4",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
@@ -908,9 +908,9 @@
     "day": "Duminică",
     "time": "00:00",
     "status": "upcoming",
-    "team1": "Învinsa din semifinala 1",
+    "team1": "Învinsa dintre Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team1_logo": "",
-    "team2": "Învinsa din semifinala 2",
+    "team2": "Învinsa dintre Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
@@ -939,9 +939,9 @@
     "day": "Duminică",
     "time": "22:00",
     "status": "upcoming",
-    "team1": "Câștigătoarea semifinala 1",
+    "team1": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
     "team1_logo": "",
-    "team2": "Câștigătoarea semifinala 2",
+    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
     "team2_logo": "",
     "streams": [
       {
