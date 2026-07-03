@@ -1,18 +1,9 @@
 [
   {
-    "id": "match_074",
     "sport": "Fotbal",
     "competition": "FIFA Campionatul Mondial 2026",
     "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "29 Iunie 2026",
-    "day": "Luni",
-    "time": "20:00",
     "status": "upcoming",
-    "team1": "Brazilia",
-    "team1_logo": "https://flagcdn.com/w160/br.png",
-    "team2": "Japonia",
-    "team2_logo": "https://flagcdn.com/w160/jp.png",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -28,363 +19,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
-    "id": "match_075",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "29 Iunie 2026",
-    "day": "Luni",
-    "time": "22:30",
-    "status": "upcoming",
-    "team1": "Germania",
-    "team1_logo": "https://flagcdn.com/w160/de.png",
-    "team2": "Paraguay",
-    "team2_logo": "https://flagcdn.com/w160/py.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_076",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "30 Iunie 2026",
-    "day": "Marți",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Olanda",
-    "team1_logo": "https://flagcdn.com/w160/nl.png",
-    "team2": "Maroc",
-    "team2_logo": "https://flagcdn.com/w160/ma.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_077",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "30 Iunie 2026",
-    "day": "Marți",
-    "time": "20:00",
-    "status": "upcoming",
-    "team1": "Coasta de Fildeș",
-    "team1_logo": "https://flagcdn.com/w160/ci.png",
-    "team2": "Norvegia",
-    "team2_logo": "https://flagcdn.com/w160/no.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_078",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "1 Iulie 2026",
-    "day": "Miercuri",
-    "time": "00:00",
-    "status": "upcoming",
-    "team1": "Franța",
-    "team1_logo": "https://flagcdn.com/w160/fr.png",
-    "team2": "Suedia",
-    "team2_logo": "https://flagcdn.com/w160/se.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_079",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "1 Iulie 2026",
-    "day": "Miercuri",
-    "time": "04:00",
-    "status": "upcoming",
-    "team1": "Mexic",
-    "team1_logo": "https://flagcdn.com/w160/mx.png",
-    "team2": "Ecuador",
-    "team2_logo": "https://flagcdn.com/w160/ec.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_080",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "1 Iulie 2026",
-    "day": "Miercuri",
-    "time": "19:00",
-    "status": "upcoming",
-    "team1": "Anglia",
-    "team1_logo": "https://flagcdn.com/w160/gb-eng.png",
-    "team2": "DR Congo",
-    "team2_logo": "https://flagcdn.com/w160/cd.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_081",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "1 Iulie 2026",
-    "day": "Miercuri",
-    "time": "23:00",
-    "status": "upcoming",
-    "team1": "Belgia",
-    "team1_logo": "https://flagcdn.com/w160/be.png",
-    "team2": "Senegal",
-    "team2_logo": "https://flagcdn.com/w160/sn.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_082",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "2 Iulie 2026",
-    "day": "Joi",
-    "time": "03:00",
-    "status": "upcoming",
-    "team1": "Statele Unite",
-    "team1_logo": "https://flagcdn.com/w160/us.png",
-    "team2": "Bosnia și Herțegovina",
-    "team2_logo": "https://flagcdn.com/w160/ba.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_083",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "2 Iulie 2026",
-    "day": "Joi",
-    "time": "22:00",
-    "status": "upcoming",
-    "team1": "Spania",
-    "team1_logo": "https://flagcdn.com/w160/es.png",
-    "team2": "Austria",
-    "team2_logo": "https://flagcdn.com/w160/at.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_084",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "3 Iulie 2026",
-    "day": "Vineri",
-    "time": "02:00",
-    "status": "upcoming",
-    "team1": "Portugalia",
-    "team1_logo": "https://flagcdn.com/w160/pt.png",
-    "team2": "Croația",
-    "team2_logo": "https://flagcdn.com/w160/hr.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
-    "id": "match_085",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
-    "stage": "Șaisprezecimi",
-    "date": "3 Iulie 2026",
-    "day": "Vineri",
-    "time": "06:00",
-    "status": "upcoming",
-    "team1": "Elveția",
-    "team1_logo": "https://flagcdn.com/w160/ch.png",
-    "team2": "Algeria",
-    "team2_logo": "https://flagcdn.com/w160/dz.png",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
-  },
-  {
+    ],
     "id": "match_086",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Șaisprezecimi",
     "date": "3 Iulie 2026",
     "day": "Vineri",
     "time": "21:00",
-    "status": "upcoming",
     "team1": "Australia",
     "team1_logo": "https://flagcdn.com/w160/au.png",
     "team2": "Egipt",
-    "team2_logo": "https://flagcdn.com/w160/eg.png",
+    "team2_logo": "https://flagcdn.com/w160/eg.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -400,22 +50,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_087",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Șaisprezecimi",
     "date": "4 Iulie 2026",
     "day": "Sâmbătă",
     "time": "01:00",
-    "status": "upcoming",
     "team1": "Argentina",
     "team1_logo": "https://flagcdn.com/w160/ar.png",
     "team2": "Capul Verde",
-    "team2_logo": "https://flagcdn.com/w160/cv.png",
+    "team2_logo": "https://flagcdn.com/w160/cv.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -431,22 +81,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_088",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Șaisprezecimi",
     "date": "4 Iulie 2026",
     "day": "Sâmbătă",
     "time": "04:30",
-    "status": "upcoming",
     "team1": "Columbia",
     "team1_logo": "https://flagcdn.com/w160/co.png",
     "team2": "Ghana",
-    "team2_logo": "https://flagcdn.com/w160/gh.png",
+    "team2_logo": "https://flagcdn.com/w160/gh.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -462,22 +112,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_089",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "4 Iulie 2026",
     "day": "Sâmbătă",
     "time": "20:00",
-    "status": "upcoming",
     "team1": "Canada",
     "team1_logo": "https://flagcdn.com/w160/ca.png",
-    "team2": "Câștigătoarea dintre Germania și Paraguay",
-    "team2_logo": "",
+    "team2": "Paraguay",
+    "team2_logo": "https://flagcdn.com/w160/py.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -493,22 +143,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_090",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "5 Iulie 2026",
     "day": "Duminică",
     "time": "00:00",
+    "team1": "Brazilia",
+    "team1_logo": "https://flagcdn.com/w160/br.png",
+    "team2": "Norvegia",
+    "team2_logo": "https://flagcdn.com/w160/no.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Brazilia și Japonia",
-    "team1_logo": "",
-    "team2": "Câștigătoarea dintre Coasta de Fildeș și Norvegia",
-    "team2_logo": "",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -524,22 +174,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_091",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "5 Iulie 2026",
     "day": "Duminică",
     "time": "23:00",
+    "team1": "Maroc",
+    "team1_logo": "https://flagcdn.com/w160/ma.png",
+    "team2": "Franța",
+    "team2_logo": "https://flagcdn.com/w160/fr.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Olanda și Maroc",
-    "team1_logo": "",
-    "team2": "Câștigătoarea dintre Franța și Suedia",
-    "team2_logo": "",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -555,22 +205,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_092",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "6 Iulie 2026",
     "day": "Luni",
     "time": "03:00",
+    "team1": "Mexic",
+    "team1_logo": "https://flagcdn.com/w160/mx.png",
+    "team2": "Anglia",
+    "team2_logo": "https://flagcdn.com/w160/gb-eng.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Mexic și Ecuador",
-    "team1_logo": "",
-    "team2": "Câștigătoarea dintre Anglia și DR Congo",
-    "team2_logo": "",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -586,22 +236,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_093",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "6 Iulie 2026",
     "day": "Luni",
     "time": "22:00",
+    "team1": "Spania",
+    "team1_logo": "https://flagcdn.com/w160/es.png",
+    "team2": "Portugalia",
+    "team2_logo": "https://flagcdn.com/w160/pt.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Spania și Austria",
-    "team1_logo": "",
-    "team2": "Câștigătoarea dintre Portugalia și Croația",
-    "team2_logo": "",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -617,22 +267,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_094",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "7 Iulie 2026",
     "day": "Marți",
     "time": "03:00",
+    "team1": "Belgia",
+    "team1_logo": "https://flagcdn.com/w160/be.png",
+    "team2": "Statele Unite",
+    "team2_logo": "https://flagcdn.com/w160/us.png"
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "status": "upcoming",
-    "team1": "Câștigătoarea dintre Belgia și Senegal",
-    "team1_logo": "",
-    "team2": "Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
-    "team2_logo": "",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -648,22 +298,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_095",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "7 Iulie 2026",
     "day": "Marți",
     "time": "19:00",
-    "status": "upcoming",
     "team1": "Câștigătoarea dintre Australia și Egipt",
     "team1_logo": "",
     "team2": "Câștigătoarea dintre Columbia și Ghana",
-    "team2_logo": "",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -679,22 +329,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_096",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Optimi de finală",
     "date": "7 Iulie 2026",
     "day": "Marți",
     "time": "23:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Elveția și Algeria",
-    "team1_logo": "",
+    "team1": "Elveția",
+    "team1_logo": "https://flagcdn.com/w160/ch.png",
     "team2": "Câștigătoarea dintre Argentina și Capul Verde",
-    "team2_logo": "",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -710,22 +360,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_097",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Sferturi de finală",
     "date": "9 Iulie 2026",
     "day": "Joi",
     "time": "23:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay",
+    "team1": "Câștigătoarea dintre Canada și Paraguay",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia",
-    "team2_logo": "",
+    "team2": "Câștigătoarea dintre Brazilia și Norvegia",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -741,22 +391,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_098",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Sferturi de finală",
     "date": "10 Iulie 2026",
     "day": "Vineri",
     "time": "22:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația",
+    "team1": "Câștigătoarea dintre Spania și Portugalia",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
-    "team2_logo": "",
+    "team2": "Câștigătoarea dintre Belgia și Statele Unite",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -772,22 +422,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_099",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Sferturi de finală",
     "date": "11 Iulie 2026",
     "day": "Sâmbătă",
     "time": "00:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia",
+    "team1": "Câștigătoarea dintre Maroc și Franța",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo",
-    "team2_logo": "",
+    "team2": "Câștigătoarea dintre Mexic și Anglia",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -803,22 +453,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_100",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Sferturi de finală",
     "date": "12 Iulie 2026",
     "day": "Duminică",
     "time": "04:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana",
+    "team1": "Câștigătoarea meciului Australia/Egipt - Columbia/Ghana",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
-    "team2_logo": "",
+    "team2": "Câștigătoarea meciului Elveția - Argentina/Capul Verde",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -834,22 +484,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_101",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Semifinală",
     "date": "14 Iulie 2026",
     "day": "Marți",
     "time": "22:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia",
+    "team1": "Câștigătoarea sfertului Canada/Paraguay - Brazilia/Norvegia",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
-    "team2_logo": "",
+    "team2": "Câștigătoarea sfertului Spania/Portugalia - Belgia/Statele Unite",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -865,22 +515,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_102",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Semifinală",
     "date": "15 Iulie 2026",
     "day": "Miercuri",
     "time": "22:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo",
+    "team1": "Câștigătoarea sfertului Maroc/Franța - Mexic/Anglia",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
-    "team2_logo": "",
+    "team2": "Câștigătoarea sfertului Australia/Egipt/Columbia/Ghana - Elveția/Argentina/Capul Verde",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -896,22 +546,22 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_103",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Finala mică",
     "date": "19 Iulie 2026",
     "day": "Duminică",
     "time": "00:00",
-    "status": "upcoming",
-    "team1": "Învinsa dintre Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
+    "team1": "Învinsa semifinalei 1",
     "team1_logo": "",
-    "team2": "Învinsa dintre Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
-    "team2_logo": "",
+    "team2": "Învinsa semifinalei 2",
+    "team2_logo": ""
+  },
+  {
+    "sport": "Fotbal",
+    "competition": "FIFA Campionatul Mondial 2026",
+    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
+    "status": "upcoming",
     "streams": [
       {
         "channel": "Antena 1 (Sursă 1)",
@@ -927,37 +577,15 @@
         "country_flag": "https://flagcdn.com/w160/ro.png",
         "url": "https://canale-tv.net/channel/a1.html"
       }
-    ]
-  },
-  {
+    ],
     "id": "match_104",
-    "sport": "Fotbal",
-    "competition": "FIFA Campionatul Mondial 2026",
-    "competition_logo": "https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png",
     "stage": "Finală",
     "date": "19 Iulie 2026",
     "day": "Duminică",
     "time": "22:00",
-    "status": "upcoming",
-    "team1": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Canada și Câștigătoarea dintre Germania și Paraguay și Câștigătoarea dintre Câștigătoarea dintre Brazilia și Japonia și Câștigătoarea dintre Coasta de Fildeș și Norvegia și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Spania și Austria și Câștigătoarea dintre Portugalia și Croația și Câștigătoarea dintre Câștigătoarea dintre Belgia și Senegal și Câștigătoarea dintre Statele Unite și Bosnia și Herțegovina",
+    "team1": "Câștigătoarea semifinalei 1",
     "team1_logo": "",
-    "team2": "Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Olanda și Maroc și Câștigătoarea dintre Franța și Suedia și Câștigătoarea dintre Câștigătoarea dintre Mexic și Ecuador și Câștigătoarea dintre Anglia și DR Congo și Câștigătoarea dintre Câștigătoarea dintre Câștigătoarea dintre Australia și Egipt și Câștigătoarea dintre Columbia și Ghana și Câștigătoarea dintre Câștigătoarea dintre Elveția și Algeria și Câștigătoarea dintre Argentina și Capul Verde",
-    "team2_logo": "",
-    "streams": [
-      {
-        "channel": "Antena 1 (Sursă 1)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://www.tvonline24.net/ro/embed/antena-1"
-      },
-      {
-        "channel": "Antena 1 (Sursă 2)",
-        "country": "ROMÂNIA",
-        "country_code": "ro",
-        "country_flag": "https://flagcdn.com/w160/ro.png",
-        "url": "https://canale-tv.net/channel/a1.html"
-      }
-    ]
+    "team2": "Câștigătoarea semifinalei 2",
+    "team2_logo": ""
   }
 ]
